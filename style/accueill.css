@@ -50,6 +50,33 @@ body {
 	color: #1591ea;
 	font-weight: bold;
 }
+
+.content {
+	padding: 2rem;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.slogan {
+    font-size: 3.75rem;
+    line-height: 1.2; /*Espace entre les lignes */
+}
+
+.blue {
+	color: #1591ea;
+	font-weight: bold;
+}
+
+.image-content{
+	flex: 1;
+}
+
+.image-plongeur {
+    width: 100%;
+}
 .footer {
     position: absolute;
     bottom: 0;
