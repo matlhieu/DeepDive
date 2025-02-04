@@ -1,0 +1,29 @@
+.navibar {
+	padding: 6px 15px;
+	background-color:#587880;
+	color: white;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+
+ }
+ 
+ .menu {
+    display: flex;
+    align-items: center;
+}
+
+ .navi-liens {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navi-lien {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+	transition: color 0.3s;
+
+}
