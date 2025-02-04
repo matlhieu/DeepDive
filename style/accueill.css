@@ -41,6 +41,15 @@ body {
     font-weight: 500;
 }
 
+.slogan {
+    font-size: 3.75rem;
+    line-height: 1.2; /*Espace entre les lignes */
+}
+
+.blue {
+	color: #1591ea;
+	font-weight: bold;
+}
 .footer {
     position: absolute;
     bottom: 0;
