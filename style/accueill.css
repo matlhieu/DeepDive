@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  
 }
 
+/* Barre du site web */
 .navibar {
     padding: 6px 15px;
-   	background-image: url('style/fond hawai.jpg'); 
+   	background-image: url('fond hawai.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed; /* Laisse l'image fixe qd on scrolle */
@@ -41,17 +41,44 @@ body {
     font-weight: 500;
 }
 
-.slogan {
-    font-size: 3.75rem;
-    line-height: 1.2; /*Espace entre les lignes */
+.navi-lien:hover {
+            color: #4052d6;
+            text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.8);
 }
 
-.blue {
-	color: #1591ea;
-	font-weight: bold;
+/* Formulaire */
+form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
 }
 
-.content {
+input {
+    width: 400px;
+    padding: 8px;
+    border: 2px solid #1E90FF;
+    background: transparent;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+button {
+    background: #1E90FF;
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+     border-radius: 5px;
+}
+
+button:hover {
+    background: #00FFFF;
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.6);
+}
+
+/* Information */
+content {
 	padding: 2rem;
     max-width: 1280px;
     margin: 0 auto;
@@ -59,7 +86,6 @@ body {
     align-items: center;
     gap: 2rem;
 }
-
 .slogan {
     font-size: 3.75rem;
     line-height: 1.2; /*Espace entre les lignes */
@@ -77,6 +103,8 @@ body {
 .image-plongeur {
     width: 100%;
 }
+
+/* Footer */
 .footer {
     position: absolute;
     bottom: 0;
