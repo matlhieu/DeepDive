@@ -1,5 +1,5 @@
 # MI2_H_S2
-Name suggest :<br>
+Idées de noms:<br>
 Aqua Odyssey 🌊<br>
 Blue Horizon<br>
 DeepDive Travel<br>
