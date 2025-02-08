@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <title>DeepDive Explorer - Recherche de Plongée</title>
+	<link rel="stylesheet" href="style/nav_footer.css"> <!--lien css-->
+    <style>
+        :root {
+            --bleu-profond: #002635;
+            --bleu-corail: #1C4E6B;
+            --turquoise: #00C1D4;
+            --blanc: #F0F7FA;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', system-ui;
+            background: var(--bleu-profond);
+            color: var(--blanc);
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 70vh;
+            background: linear-gradient(rgba(0, 38, 53, 0.8), rgba(0, 38, 53, 0.9)),
+                        url('https://images.unsplash.com/photo-1587502536575-6dfaba0e4599?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="1" fill="%2300C1D4" opacity="0.5"/></svg>');
+            animation: bubbles 20s linear infinite;
+        }
+
+        @keyframes bubbles {
+            from { transform: translateY(100%); }
+            to { transform: translateY(-100%); }
+        } /* Made by IA */
+
+        .hero h1 {
+            font-size: 3.5rem;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            margin-bottom: 1rem;
+            z-index: 1;
+        }
+
+        /* Barre de recherche */
+        .search-bar {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            padding: 2rem;
+            border-radius: 15px;
+            width: 80%;
+            max-width: 800px;
+            z-index: 1;
+        }
+
+        .search-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .search-card {
+            background: rgba(255,255,255,0.1);
+            padding: 2.5rem;
+            border-radius: 1px;
+            border: 1px solid var(--turquoise);
+            transition: transform 0.3s ease;
+        }
+
+        .search-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .search-card label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            color: var(--turquoise);
+        }
+
+        .search-card input,
+        .search-card select {
+            width: 100%;
+            padding: 0.8rem;
+            background: rgba(255,255,255,0.9);
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .search-button {
+            background: var(--turquoise);
+            color: var(--bleu-profond);
+            padding: 1rem 3rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 0 auto;
+            transition: all 0.3s ease;
+        }
+
+        .search-button:hover {
+            box-shadow: 0 0 20px rgba(0,193,212,0.5);
+            transform: scale(1.05);
+        }
+
+        /* Résultats */
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 3rem 5%;
+        }
+
+        .dive-card {
+            background: var(--bleu-corail);
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .dive-card:hover {
+            transform: translateY(-10px);
+        }
+        .best-plans{
+          text-align: center;
+        }
+
+        .dive-card img {
+            width: 100%;
+            height: 200px;
+            border-bottom: 3px solid var(--turquoise);
+        }
+
+        .dive-info {
+            padding: 1.5rem;
+        }
+
+    </style>
+</head>
+<body>
+	<nav class="navibar">
+		<div class="nav-titre"> 
+			<p>Deep<span>Dive</span>🌊</p>
+		</div>
+		<div class="menu">
+			<ul class="navi-liens">
+            <li><a href="index.html" class="navi-lien">ACCUEIL</a></li>
+            <li><a href="" class="navi-lien">DESTINATIONS</a></li>
+            <li><a href="search.html" class="navi-lien">RECHERCHE</a></li>
+            <li><a href="" class="navi-lien">CONTACT</a></li>
+
+            <li><a href="" class="navi-lien">LOGIN</a></li>
+                
+			</ul>
+		</div>
+	</nav>
+  
+    <section class="hero">
+        <h1>Explorez les Abysses 🌊</h1>
+        <div class="search-bar">
+            <div class="search-grid">
+                <div class="search-card">
+                    <label>📍 Destination</label>
+                    <select>
+                        <option>Parc National de Port-Cros</option>
+                        <option>Porquerolles</option>
+                        <option>Parc National des Calanques à Marseille</option>
+                        <option>Îles Lavezzi en Corse</option>
+                        <option>Malte/île de Gozo</option>
+                        <option>Réserve naturelle marine de Cerbère-Banyuls</option>
+                    </select>
+                </div>
+
+                <div class="search-card">
+                    <label>📅 Date de départ</label>
+                    <input type="date" min="2025-02-16">
+                </div>
+
+                <div class="search-card">
+                    <label>⏳ Durée</label>
+                    <select>
+                        <option>3-5 jours</option>
+                        <option>1 semaine</option>
+                        <option>2 semaines</option>
+                    </select>
+                </div>
+            </div>
+            <button class="search-button">
+                🔍 Recherchez vos spots de plongées
+            </button>
+        </div>
+    </section>
+
+
+    <h2 class="best-plans">Les meilleurs plans !</h2>
+
+   <div class="results-grid">
+    <!-- Spot 1 - Port-Cros -->
+    <div class="dive-card">
+        <img src="https://www.lebaillidesuffren.com/wp-content/uploads/sites/174/2020/06/port-cros.jpg" alt="Port-Cros">
+        <div class="dive-info">
+            <h3>Parc National de Port-Cros</h3>
+            <p>📅 18-25 Février 2025<br>
+            🏷️ À partir de 850€<br>
+            ⭐ Tous niveaux</p>
+        </div>
+    </div>
+
+    <!-- Spot 2 - Calanques de Marseille -->
+    <div class="dive-card">
+        <img src="https://checkyeti.imgix.net/images/optimized/boat-trips-to-calanques-national-park.jpg" alt="Calanques de Marseille">
+        <div class="dive-info">
+            <h3>Calanques de Marseille</h3>
+            <p>📅 1-8 Mars 2025<br>
+            🏷️ À partir de 690€<br>
+            ⭐ Niveau intermédiaire</p>
+        </div>
+    </div>
+
+    <!-- Spot 3 - Banyuls-sur-Mer -->
+    <div class="dive-card">
+        <img src="https://cdt66.media.tourinsoft.eu/upload/DSC-2352.jpg" alt="Réserve Cerbère-Banyuls">
+        <div class="dive-info">
+            <h3>Réserve de Cerbère-Banyuls</h3>
+            <p>📅 10-17 Avril 2025<br>
+            🏷️ À partir de 750€<br>
+            ⭐ Débutants acceptés</p>
+        </div>
+    </div>
+
+    <!-- Spot 4 - Îles Lavezzi -->
+    <div class="dive-card">
+        <img src="https://bonifacio.fr/app/uploads/bonifacio/2023/11/thumbs/archipel-iles-lavezzi-vue-aerienne-bonifacio-1920x960.jpg" alt="Îles Lavezzi">
+        <div class="dive-info">
+            <h3>Îles Lavezzi - Corse</h3>
+            <p>📅 5-12 Mai 2025<br>
+            🏷️ À partir de 980€<br>
+            ⭐ Niveau avancé</p>
+        </div>
+    </div>
+
+    <!-- Spot 5 - Étang de Thau -->
+    <div class="dive-card">
+        <img src="https://www.voyageavecnous.fr/wp-content/uploads/2023/04/aller-a-comino.jpg" alt="Île de Gozo/Malte">
+        <div class="dive-info">
+            <h3>Île de Gozo/Malte</h3>
+            <p>📅 15-22 Juin 2025<br>
+            🏷️ À partir de 550€<br>
+            ⭐ Débutants</p>
+        </div>
+    </div>
+
+
+    <!-- Spot 7 - Lavezzi -->
+    <div class="dive-card">
+        <img src="https://provence-alpes-cotedazur.com/app/uploads/crt-paca/2020/07/thumbs/plage-porquerolles-c-chillio-1920x960.jpg" alt="Porquerolles">
+        <div class="dive-info">
+            <h3>Porquerolles</h3>
+            <p>📅 5-12 Mai 2025<br>
+            🏷️ À partir de 980€<br>
+            ⭐ Niveau avancé</p>
+        </div>
+    </div>
+</div>
+</div>
+
+ <footer>
+		<p> © 2025 DeepDive | All rights reserved </p>
+ </footer>
+ 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
