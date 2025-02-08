@@ -9,37 +9,6 @@ body span{
 	color: #4052d6;
 }
 
-/* Formulaire */
-form {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 10px;
-    border-radius: 10px;
-}
-
-input {
-    width: 400px;
-    padding: 8px;
-    border: 2px solid #1E90FF;
-    background: transparent;
-    color: #FFFFFF;
-    border-radius: 5px;
-}
-
-button {
-    background: #1E90FF;
-    border: none;
-    padding: 8px 15px;
-    color: white;
-    cursor: pointer;
-    transition: 0.3s;
-     border-radius: 5px;
-}
-
-button:hover {
-    background: #00FFFF;
-    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.6);
-}
-
 /* Information */
 
 .home {
@@ -80,18 +49,19 @@ button:hover {
 }
 
 .btn-reservation {
-    color: #29d9d5;
+    color: white;
     font-size: 20px;
-    border: 2px solid #29d9d5;
+    border: 2px solid #4052d6;
     padding: 5px 20px;
     transition: 0.5s;
     font-weight: bolder;
 	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .btn-reservation:hover {
-    background-color: #29d9d5;
-    color: #fff;
+    background-color:#4052d6;
+    color: white;
  
 }
 
@@ -104,7 +74,7 @@ button:hover {
 .hero {
     color: white;
     background-color: black;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,14 +82,32 @@ button:hover {
 	font-size:1.1rem;
 }
 
-.hero p{
+.hero span {
+	color: bold #4052d6;
+}
+
+h2{
+	margin-top:3.5rem;
+	font-size:3.5rem;
+	line-height:0.8rem;
+	text-align: center;
+}
+
+.hero h4{
 	color:bold;
 	padding: 0 4rem 1rem;
 	text-align:center;
 }
-.hero h2{
-	margin-top:3.5rem;
-	font-size:3.5rem;
-	line-height:0.8rem;
+
+/*Les Destinations */
+
+.destinations {
+	background-color: black;
+	color:white;
+	padding: 1rem 1rem;
 }
 
+.box{
+	padding: 1rem 0;
+	display:flex;
+}
