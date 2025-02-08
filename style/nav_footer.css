@@ -1,0 +1,54 @@
+/* Barre du site web */
+.navibar {
+    padding: 0px 15px;
+   	background-color: black; 
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.nav-titre p span {
+    color: #4052d6;
+}
+.nav-titre {
+	margin-left:2rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+	display: flex;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.navi-liens {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+	margin-right:1rem;
+}
+
+.navi-lien {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navi-lien:hover {
+    color: #1591ea;
+    text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.8);
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: #89CFF0; 
+    text-align: center;
+    padding: 10px 0;
+	width: 100%;
+    font-size: 14px;
+}
