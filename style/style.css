@@ -4,22 +4,25 @@ body {
     padding: 0;
 }
 
+body span{
+	color: #4052d6;
+}
 /* Barre du site web */
 .navibar {
-    padding: 6px 15px;
-   	background-image: url('Image/fond hawai.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    background-attachment: fixed; /* Laisse l'image fixe qd on scrolle */
+    padding: 0px 15px;
+   	background-color: black; 
     color: white;
     display: flex;
     justify-content: space-between; 
     align-items: center;
 }
 
-.logo {
+.nav-titre p span {
+    color: #4052d6;
+}
+.nav-titre {
 	margin-left:2rem;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     color: white;
 	display: flex;
@@ -35,6 +38,7 @@ body {
     list-style: none;
     gap: 2rem;
     align-items: center;
+	margin-right:1rem;
 }
 
 .navi-lien {
@@ -44,8 +48,8 @@ body {
 }
 
 .navi-lien:hover {
-            color: #4052d6;
-            text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.8);
+    color: #1591ea;
+    text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.8);
 }
 
 /* Formulaire */
@@ -80,40 +84,94 @@ button:hover {
 }
 
 /* Information */
-content {
+
+.home {
+    background: url("Image/fondstyle.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.titre {
 	padding: 2rem;
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     gap: 2rem;
-	flex: 1;
 }
+
+
+.section-titre{
+	flex: 1;
+	padding-top: 5rem;
+	flex-direction: column; /* Aligne en colonne */
+    align-items: center; /* Centre horizontalement */
+    text-align: center; /* Centre le texte */	
+}
+
 .slogan {
-    font-size: 3.65rem;
+    font-size: 3.7rem;
+	color: #f5f7fa;
     line-height: 1.2; /*Espace entre les lignes */
 }
 
+.btn-reservation {
+    color: #29d9d5;
+    font-size: 20px;
+    border: 2px solid #29d9d5;
+    padding: 5px 20px;
+    transition: 0.5s;
+    font-weight: bolder;
+	text-decoration: none;
+}
+
+.btn-reservation:hover {
+    background-color: #29d9d5;
+    color: #fff;
+ 
+}
+
 .blue {
-	color: #1591ea;
+	color: #4052d6;
 	font-weight: bold;
 }
 
-.image-content{
-	flex: 1;
+/* Introduction */
+.hero {
+    color: white;
+    background-color: black;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	font-size:1.1rem;
 }
 
-.image-plongeur {
-    width: 100%;
+.hero p{
+	color:bold;
+	padding: 0 4rem 1rem;
+	text-align:center;
 }
+.hero h2{
+	margin-top:3.5rem;
+	font-size:3.5rem;
+	line-height:0.8rem;
+}
+
 
 /* Footer */
-.footer {
-    position: absolute;
-    bottom: 0;
+footer {
     width: 100%;
     background-color: #89CFF0; 
-    color: white;
     text-align: center;
     padding: 10px 0;
+	width: 100%;
+    font-size: 14px;
 }
