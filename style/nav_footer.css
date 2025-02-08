@@ -1,7 +1,7 @@
 /* Barre du site web */
 .navibar {
     padding: 0px 15px;
-   	background-color: black; 
+    background-color: #033252; 
     color: white;
     display: flex;
     justify-content: space-between; 
@@ -46,7 +46,7 @@
 /* Footer */
 footer {
     width: 100%;
-    background-color: #89CFF0; 
+    background-color: #033252; 
     text-align: center;
     padding: 10px 0;
 	width: 100%;
