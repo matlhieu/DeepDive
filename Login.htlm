@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Inscription - DeepDive</title>
 	<style>
-    	body {
+body {
          margin: 0; /* Supprime les marges par défaut du corps de la page */
          padding: 0; /* Supprime les espacements intérieurs par défaut */
          font-family: Arial, sans-serif; /* Définit la police d'écriture en Arial ou une alternative sans-serif */
@@ -117,7 +117,7 @@
 
         	<div class="form-group">
             	<label class="required" for="telephone">Numéro de téléphone:</label>
-            	<input type="tel" id="telephone" name="telephone" pattern="[0-9]{10}" title="Veuillez entrer un numéro de téléphone valide (10 chiffres).">
+            	<input type="tel" id="telephone" name="telephone" pattern="[0-9]{10}" required title="Veuillez entrer un numéro de téléphone valide (10 chiffres).">
         	</div>
 
  	 
