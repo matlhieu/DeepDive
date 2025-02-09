@@ -2,7 +2,7 @@ body {
     font-family: 'Segoe UI', system-ui;
     margin: 0;
     padding: 0;
-	color: var(--blanc);
+	color: white;
 }
 
 body span{
@@ -73,7 +73,7 @@ body span{
 /* Introduction */
 .hero {
     color: white;
-    background-color: black;
+    background-color: #001f3f;
     padding: 1rem 1rem;
     display: flex;
     justify-content: center;
@@ -102,12 +102,56 @@ h2{
 /*Les Destinations */
 
 .destinations {
-	background-color: black;
+	background-color: #001f3f;
 	color:white;
-	padding: 1rem 1rem;
+	padding: 2rem 1rem;
+		
+}
+
+.box-content{
+	display:flex;
+	padding:2rem 0;
+	
+	width:100%;
 }
 
 .box{
-	padding: 1rem 0;
-	display:flex;
+	background-color: #1C4E6B;
+	border-radius: 1rem;
+   	margin-top:5rem;	
+	margin-right:1rem;
+	text-align:center;
 }
+
+/*Animation*/
+.box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.box {
+    transform: translateY(0);
+}
+/*----*/
+
+.box img{
+	width: 100%;
+	border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+	height:20rem;
+	
+}
+
+.content{
+	margin-bottom: 25px;
+}
+
+.destinations a{
+	margin-top:8rem;
+    padding: 8px 22px;
+    border: 2px solid #4052d6;
+    color: #4052d6;
+    font-weight: bold;
+	text-decoration:none;
+	
+}
+
