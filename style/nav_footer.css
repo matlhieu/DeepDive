@@ -1,0 +1,71 @@
+/* Barre du site web */
+
+html, body {
+    height: 100%; /* Assure que la page occupe toute la hauteur de l'écran */
+    margin: 0; /* Enlève les marges par défaut */
+    padding: 0; /* Enlève le padding par défaut */
+    display: flex;
+    flex-direction: column; /* Organise les éléments en colonne */
+}
+.navibar {
+    padding: 0px 30px;
+   	background-color: #033252; 
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+	font-family: 'Segoe UI', system-ui;	
+}
+
+.nav-titre p span {
+    color: #00ebf7;
+}
+.nav-titre {
+	margin-left:2rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+	display: flex;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.navi-liens {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+	
+}
+
+.navi-lien {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+	margin-right:1rem;
+}
+
+.navi-lien:hover {
+    color: #1591ea;
+    text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.8);
+}
+
+.navibar img{
+	margin-left:1.3rem;
+	width: 50px;
+    height: 50px;
+    transition: transform 0.3s;
+}
+
+/* Footer */
+footer { 
+    background-color: #033252; 
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 14px;
+	color:white;    
+	font-family: 'Segoe UI', system-ui;	
+}
