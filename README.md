@@ -1,5 +1,6 @@
 # Bienvenue sur DeepDive🌊!
-
+<br>
+Prêt à plonger dans les fonds marins ? DeepDive est un site web pour partir à l'aventure des Abysses !
 Par Mathieu, Marc-Antoine et Lucien 
 
 ## Collaborateurs
