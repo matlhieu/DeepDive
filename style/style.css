@@ -6,7 +6,7 @@ body {
 }
 
 body span{
-	color: #4052d6;
+	color: #00ebf7;
 }
 
 /* Information */
@@ -48,10 +48,10 @@ body span{
     line-height: 1.2; /*Espace entre les lignes */
 }
 
-.btn-reservation {
+.btn-plongez {
     color: white;
     font-size: 20px;
-    border: 2px solid #4052d6;
+    border: 2px solid #00ebf7;
     padding: 5px 20px;
     transition: 0.5s;
     font-weight: bolder;
@@ -59,15 +59,10 @@ body span{
 	background-color: rgba(0, 0, 0, 0.6);
 }
 
-.btn-reservation:hover {
-    background-color:#4052d6;
+.btn-plongez:hover {
+    background-color:#00ebf7;
     color: white;
  
-}
-
-.blue {
-	color: #4052d6;
-	font-weight: bold;
 }
 
 /* Introduction */
@@ -111,22 +106,23 @@ h2{
 .box-content{
 	display:flex;
 	padding:2rem 0;
-	
 	width:100%;
 }
 
 .box{
 	background-color: #1C4E6B;
+	padding-bottom:1.2rem;
 	border-radius: 1rem;
    	margin-top:5rem;	
 	margin-right:1rem;
 	text-align:center;
+	width:100%;
 }
 
 /*Animation*/
 .box:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-10px); 
+	box-shadow: 0 0 10px #29d9d5;
 }
 .box {
     transform: translateY(0);
@@ -138,18 +134,18 @@ h2{
 	border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 	height:20rem;
-	
 }
 
 .content{
 	margin-bottom: 25px;
+	transform: translateX(0);
+	padding: 0 2rem;
 }
 
 .destinations a{
-	margin-top:8rem;
     padding: 8px 22px;
-    border: 2px solid #4052d6;
-    color: #4052d6;
+    border: 2px solid #00ebf7;
+    color: #00ebf7;
     font-weight: bold;
 	text-decoration:none;
 	
