@@ -6,13 +6,17 @@
 	<link rel="stylesheet" href="style/nav_footer.css"> <!--lien css-->
     <style>
         :root {
-            --bleu-profond: #002635;
+            --bleu-profond: #001f3f;
             --bleu-corail: #1C4E6B;
             --turquoise: #00C1D4;
             --blanc: #F0F7FA;
         }
-
-        body {
+		
+		span{
+			color:#00ebf7;
+		}
+		
+		body {
             margin: 0;
             font-family: 'Segoe UI', system-ui;
             background: var(--bleu-profond);
@@ -22,8 +26,7 @@
         /* Hero Section */
         .hero {
             height: 70vh;
-            background: linear-gradient(rgba(0, 38, 53, 0.8), rgba(0, 38, 53, 0.9)),
-                        url('https://images.unsplash.com/photo-1587502536575-6dfaba0e4599?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+            background: url("https://main-api.quotatrip.com/storage/articles/170/neom-xDQKvPjxtxo-unsplash.jpg");
             background-size: cover;
             background-position: center;
             display: flex;
@@ -57,7 +60,7 @@
 
         /* Barre de recherche */
         .search-bar {
-            background: rgba(255,255,255,0.15);
+            background: rgba(255,255,255,0.18);
             backdrop-filter: blur(10px);
             padding: 2rem;
             border-radius: 15px;
@@ -89,10 +92,12 @@
             display: block;
             margin-bottom: 0.5rem;
             font-size: 0.9rem;
-            color: var(--turquoise);
+            color: white;
+			font-size:1.1rem;
+			
         }
 
-        .search-card input,
+     
         .search-card select {
             width: 100%;
             padding: 0.8rem;
@@ -128,6 +133,7 @@
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
             padding: 3rem 5%;
+			
         }
 
         .dive-card {
@@ -143,6 +149,7 @@
         }
         .best-plans{
           text-align: center;
+		  font-size:4rem;
         }
 
         .dive-card img {
@@ -179,7 +186,7 @@
 	</nav>
   
     <section class="hero">
-        <h1>Explorez les Abysses 🌊</h1>
+        <h1>Explorez les <span>Abysses</span> 🌊</h1>
         <div class="search-bar">
             <div class="search-grid">
                 <div class="search-card">
@@ -209,13 +216,13 @@
                 </div>
             </div>
             <button class="search-button">
-                🔍 Recherchez vos spots de plongées
+                Recherchez vos spots de plongées
             </button>
         </div>
     </section>
 
 
-    <h2 class="best-plans">Les meilleurs plans !</h2>
+    <h2 class="best-plans">Les <span><u>meilleurs</span></u> plans !</h2>
 
    <div class="results-grid">
     <!-- Spot 1 - Port-Cros -->
@@ -284,8 +291,18 @@
             ⭐ Niveau avancé</p>
         </div>
     </div>
+	 <!-- Spot 8 - Le Grand Trou Bleu -->
+    <div class="dive-card">
+        <img src="style/Image/belizetrou.jpg" alt="Îles Lavezzi">
+        <div class="dive-info">
+            <h3>Le Grand Trou Bleu - Belize</h3>
+            <p>📅 10-18 Mai 2025<br>
+            🏷️ À partir de 1050€<br>
+            ⭐ Niveau avancé</p>
+        </div>
+    </div>
 </div>
-</div>
+
 
  <footer>
 		<p> © 2025 DeepDive | All rights reserved </p>
