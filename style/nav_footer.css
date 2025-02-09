@@ -4,7 +4,6 @@ html, body {
     height: 100%; /* Assure que la page occupe toute la hauteur de l'écran */
     margin: 0; /* Enlève les marges par défaut */
     padding: 0; /* Enlève le padding par défaut */
-    display: flex;
     flex-direction: column; /* Organise les éléments en colonne */
 }
 .navibar {
