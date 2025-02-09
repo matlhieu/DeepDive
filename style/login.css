@@ -5,8 +5,8 @@
          background-image: url('https://static.vecteezy.com/ti/photos-gratuite/p2/33863268-sous-marin-vue-de-le-rayons-de-soleil-rupture-par-le-l-eau-surface-sous-marin-ocean-bleu-abime-avec-lumiere-du-soleil-plongee-et-scaphandre-autonome-arriere-plan-ai-genere-gratuit-photo.jpg'); /* Définit une image de fond */
          background-size: cover; /* Ajuste l'image pour couvrir toute la surface du fond */
          background-position: center; /* Centre l'image de fond */
-     
-     }
+         display: flex;
+         }
 	
 	.connexion{
 		 display: flex; /* Active le modèle flexbox */
