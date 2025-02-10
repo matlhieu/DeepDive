@@ -1,0 +1,119 @@
+:root{
+	--bleu-profond:#001f3f;
+	--bleu-corail:#1C4E6B;
+	--turquoise:#00C1D4;
+	--blanc:#F0F7FA;
+}
+span{color:#00ebf7;}
+body{
+	margin:0;
+	font-family:'Segoe UI',system-ui;
+	background:var(--bleu-profond);
+	color:var(--blanc);
+}
+.hero{
+	height:70vh;
+	background:url("https://main-api.quotatrip.com/storage/articles/170/neom-xDQKvPjxtxo-unsplash.jpg");
+	background-size:cover;
+	background-position:center;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+	position:relative;
+	overflow:hidden;
+}
+.hero::after{
+	content:'';
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="1" fill="%2300C1D4" opacity="0.5"/></svg>');
+	animation:bubbles 20s linear infinite;
+}
+@keyframes bubbles{
+	from{transform:translateY(100%);}
+	to{transform:translateY(-100%);}
+}
+.hero h1{
+	font-size:3.5rem;
+	text-shadow:0 2px 10px rgba(0,0,0,0.3);
+	margin-bottom:1rem;
+	z-index:1;
+}
+.search-bar{
+	background:rgba(255,255,255,0.18);
+	backdrop-filter:blur(10px);
+	padding:2rem;
+	border-radius:15px;
+	width:80%;
+	max-width:800px;
+	z-index:1;
+}
+.search-grid{
+	display:grid;
+	grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+	gap:1rem;
+	margin-bottom:1.5rem;
+}
+.search-card{
+	background:rgba(255,255,255,0.1);
+	padding:2.5rem;
+	border-radius:1px;
+	border:1px solid var(--turquoise);
+	transition:transform 0.3s ease;
+}
+.search-card:hover{transform:translateY(-5px);}
+.search-card label{
+	display:block;
+	margin-bottom:0.5rem;
+	font-size:1.1rem;
+	color:white;
+}
+.search-card select{
+	width:100%;
+	padding:0.8rem;
+	background:rgba(255,255,255,0.9);
+	border:none;
+	border-radius:5px;
+	font-size:1rem;
+}
+.search-button{
+	background:var(--turquoise);
+	color:var(--bleu-profond);
+	padding:1rem 3rem;
+	border:none;
+	border-radius:50px;
+	font-size:1.1rem;
+	cursor:pointer;
+	display:flex;
+	align-items:center;
+	gap:1rem;
+	margin:0 auto;
+	transition:all 0.3s ease;
+}
+.search-button:hover{
+	box-shadow:0 0 20px rgba(0,193,212,0.5);
+	transform:scale(1.05);
+}
+.results-grid{
+	display:grid;
+	grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+	gap:2rem;
+	padding:3rem 5%;
+}
+.dive-card{
+	background:var(--bleu-corail);
+	border-radius:15px;
+	overflow:hidden;
+	position:relative;
+	transition:transform 0.3s ease;
+}
+.dive-card:hover{transform:translateY(-10px);}
+.best-plans{text-align:center;font-size:4rem;}
+.dive-card img{
+	width:100%;
+	height:200px;
+	border-bottom:3px solid var(--turquoise);
+}
+.dive-info{padding:1.5rem;}

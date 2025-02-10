@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <title>Recherche de Plongée - DeepDive</title>
+	<link rel="stylesheet" href="style/nav_footer.css"> <!--lien css-->
+    <link rel="stylesheet" href="style/search.css">
+</head>
+<body>
+	<nav class="navibar">
+	  <div class="logo-container">
+		<div class="logo"> 
+			<img src="style/Image/logo4.png" alt="logo">
+		</div>
+			<p class="nav-titre">Deep<span>Dive</span></p>
+	  </div>
+		<div class="menu">
+			<ul class="navi-liens">
+            <li><a href="index.html" class="navi-lien">ACCUEIL</a></li>
+            <li><a href="about.html" class="navi-lien">DESTINATIONS</a></li>
+            <li><a href="search.html" class="navi-lien">RECHERCHE</a></li>
+            <li><a href="#" class="navi-lien">QUI SOMMES NOUS ?</a></li>
+                         
+			</ul>
+			<a href="login.html">
+			<img src="style/Image/user.png" alt="User Icon by Md Tanvirul Haque">
+			</a>
+		</div>
+	</nav>
+  
+    <section class="hero">
+        <h1>Explorez les <span>Abysses</span> 🌊</h1>
+        <div class="search-bar">
+            <div class="search-grid">
+                <div class="search-card">
+                    <label>📍 Destination</label>
+                    <select>
+                        <option>Parc National de Port-Cros</option>
+                        <option>Porquerolles</option>
+                        <option>Parc National des Calanques à Marseille</option>
+                        <option>Îles Lavezzi en Corse</option>
+                        <option>Malte/île de Gozo</option>
+                        <option>Réserve naturelle marine de Cerbère-Banyuls</option>
+                    </select>
+                </div>
+
+                <div class="search-card">
+                    <label>📅 Date de départ</label>
+                    <input type="date" min="2025-02-16">
+                </div>
+
+                <div class="search-card">
+                    <label>⏳ Durée</label>
+                    <select>
+                        <option>3-5 jours</option>
+                        <option>1 semaine</option>
+                        <option>2 semaines</option>
+                    </select>
+                </div>
+            </div>
+            <button class="search-button">
+                Recherchez vos spots de plongées
+            </button>
+        </div>
+    </section>
+
+
+    <h2 class="best-plans">Les <span><u>meilleurs</span></u> plans !</h2>
+
+   <div class="results-grid">
+    <!-- Spot 1 - Port-Cros -->
+    <div class="dive-card">
+        <img src="https://www.lebaillidesuffren.com/wp-content/uploads/sites/174/2020/06/port-cros.jpg" alt="Port-Cros">
+        <div class="dive-info">
+            <h3>Parc National de Port-Cros</h3>
+            <p>📅 18-25 Février 2025<br>
+            🏷️ À partir de 850€<br>
+            ⭐ Tous niveaux</p>
+        </div>
+    </div>
+
+    <!-- Spot 2 - Calanques de Marseille -->
+    <div class="dive-card">
+        <img src="https://checkyeti.imgix.net/images/optimized/boat-trips-to-calanques-national-park.jpg" alt="Calanques de Marseille">
+        <div class="dive-info">
+            <h3>Calanques de Marseille</h3>
+            <p>📅 1-8 Mars 2025<br>
+            🏷️ À partir de 690€<br>
+            ⭐ Niveau intermédiaire</p>
+        </div>
+    </div>
+
+    <!-- Spot 3 - Banyuls-sur-Mer -->
+    <div class="dive-card">
+        <img src="https://cdt66.media.tourinsoft.eu/upload/DSC-2352.jpg" alt="Réserve Cerbère-Banyuls">
+        <div class="dive-info">
+            <h3>Réserve de Cerbère-Banyuls</h3>
+            <p>📅 10-17 Avril 2025<br>
+            🏷️ À partir de 750€<br>
+            ⭐ Débutants acceptés</p>
+        </div>
+    </div>
+
+    <!-- Spot 4 - Îles Lavezzi -->
+    <div class="dive-card">
+        <img src="https://bonifacio.fr/app/uploads/bonifacio/2023/11/thumbs/archipel-iles-lavezzi-vue-aerienne-bonifacio-1920x960.jpg" alt="Îles Lavezzi">
+        <div class="dive-info">
+            <h3>Îles Lavezzi - Corse</h3>
+            <p>📅 5-12 Mai 2025<br>
+            🏷️ À partir de 980€<br>
+            ⭐ Niveau avancé</p>
+        </div>
+    </div>
+
+    <!-- Spot 5 - Étang de Thau -->
+    <div class="dive-card">
+        <img src="https://www.voyageavecnous.fr/wp-content/uploads/2023/04/aller-a-comino.jpg" alt="Île de Gozo/Malte">
+        <div class="dive-info">
+            <h3>Île de Gozo/Malte</h3>
+            <p>📅 15-22 Juin 2025<br>
+            🏷️ À partir de 550€<br>
+            ⭐ Débutants</p>
+        </div>
+    </div>
+
+
+    <!-- Spot 7 - Lavezzi -->
+    <div class="dive-card">
+        <img src="https://provence-alpes-cotedazur.com/app/uploads/crt-paca/2020/07/thumbs/plage-porquerolles-c-chillio-1920x960.jpg" alt="Porquerolles">
+        <div class="dive-info">
+            <h3>Porquerolles</h3>
+            <p>📅 5-12 Mai 2025<br>
+            🏷️ À partir de 980€<br>
+            ⭐ Niveau avancé</p>
+        </div>
+    </div>
+	 <!-- Spot 8 - Le Grand Trou Bleu -->
+    <div class="dive-card">
+        <img src="style/Image/belizetrou.jpg" alt="Îles Lavezzi">
+        <div class="dive-info">
+            <h3>Le Grand Trou Bleu - Belize</h3>
+            <p>📅 10-18 Mai 2025<br>
+            🏷️ À partir de 1050€<br>
+            ⭐ Niveau avancé</p>
+        </div>
+    </div>
+</div>
+
+
+ <footer>
+		<p> © 2025 DeepDive | All rights reserved </p>
+ </footer>
+ 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
