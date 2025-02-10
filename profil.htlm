@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Plongeur - DeepDive</title>
+	<link rel="stylesheet" href="style/nav_footer.css">
+</head>
+<body>
+<nav class="navibar">
+		<div class="nav-titre"> 
+			<p>Deep<span>Dive</span>🌊</p>
+		</div>
+		<div class="menu">
+			<ul class="navi-liens">
+            <li><a href="index.html" class="navi-lien">ACCUEIL</a></li>
+            <li><a href="about.html" class="navi-lien">DESTINATIONS</a></li>
+            <li><a href="search.html" class="navi-lien">RECHERCHE</a></li>
+            <li><a href="signup.html" class="navi-lien">INSCRIPTION</a></li>
+
+            <li><a href="login.html" class="navi-lien">LOGIN</a></li>
+                
+			</ul>
+			<a href="">
+			<img src="style/Image/user.png" alt="User Icon by Md Tanvirul Haque">
+			</a>
+		</div>
+	</nav>
+    <div class="tout-profil">
+        <div class="section-profile">
+            <h1>Profil de Jean Dupont</h1>
+            <div class="detail-profile">
+                <span class="detail-ligne">Téléphone :</span>
+                <span class="detail-valeur">06 12 34 56 78</span>
+                <span class="modifier-icone">✏️</span>
+            </div>
+            <div class="detail-profile">
+                <span class="detail-ligne">Email :</span>
+                <span class="detail-valeur">jean.dupont@deepdive.com</span>
+                <span class="modifier-icone">✏️</span>
+            </div>
+            <div class="detail-profile">
+                <span class="detail-ligne">Adresse :</span>
+                <span class="detail-valeur">18 Rue des Océanides</span>
+                <span class="modifier-icone">✏️</span>
+            </div>
+            <div class="detail-profile">
+                <span class="detail-ligne">Code Postal :</span>
+                <span class="detail-valeur">13008</span>
+                <span class="modifier-icone">✏️</span>
+            </div>
+            <div class="detail-profile">
+                <span class="detail-ligne">Ville :</span>
+                <span class="detail-valeur">Marseille</span>
+                <span class="modifier-icone">✏️</span>
+            </div>
+            <div class="detail-profile">
+                <span class="detail-ligne">Âge :</span>
+                <span class="detail-valeur">34 ans</span>
+                <span class="modifier-icone">✏️</span>
+            </div>
+        </div>
+        <div class="section-profile">
+            <h2>Votre meilleure photo</h2>
+            <div class="image-profile">
+	    	<span class="modifier-photo-icone">✏️</span>
+	    </div>
+        </div>
+    </div>
+ 
+ <footer>
+		<p> © 2025 DeepDive | All rights reserved </p>
+ </footer>
+</body>
+</html>
+
 
