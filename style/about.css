@@ -7,18 +7,20 @@ body {
     margin: 0;
     padding: 0;
 }
+
 body span{
-	color: #00ebf7;
+	color: #00ebf7; 
+    font-weight: bolder;   
 }
 
 /* Information */
 
 .home {
-    background: url("Image/fondstyle.jpg");
+    background: url("https://www.actu-environnement.com/images/illustrations/news/39938_large.jpg");
     background-position: center;
     background-size: cover;
 	background-attachment:fixed;
-    min-height: 100vh;
+    
     flex-direction: column;
 }
 
@@ -34,97 +36,63 @@ body span{
 
 .section-titre{
 	flex: 1;
-	padding-top: 5rem;
+	padding-top: 10rem;
 	flex-direction: column; /* Aligne en colonne */
     align-items: center; /* Centre horizontalement */
-    text-align: center; /* Centre le texte */	
+    text-align: center; /* Centre le texte */
+    margin-bottom:8rem;	
 }
 
+
 .slogan {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3.7rem;
 	color: #f5f7fa;
     line-height: 1.2; /*Espace entre les lignes */
+    margin-bottom: 0;
+   
 }
 
-.btn-plongez {
-    color: white;
+.auteur{
+    color:white;
+    margin-top: 10px;
     font-size: 20px;
-    border: 2px solid #00ebf7;
-	border-radius: 20px;
-    padding: 0px 20px;
-    transition: 0.5s;
-    font-weight: bolder;
-	text-decoration: none;
-	background-color: rgba(0, 0, 0, 0.6);
 }
 
-.btn-plongez:hover {
-    background-color:#00ebf7;
-    color: white;
- 
-}
 
 /* Introduction */
-.hero {
+.aboutus {
     color: white;
     background-color: #001f3f;
-    padding: 1rem 1rem;
+    border-radius: 6rem;
+    padding: 1rem 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 	font-size:1.1rem;
+    margin: 2rem 12rem;
+    
 }
 
-.hero span {
+.aboutus span {
 	color: bold #4052d6;
 }
 
 h2{
-	margin-top:3.5rem;
+	margin-top:2rem;
 	font-size:3.5rem;
-	line-height:0.8rem;
+	
 	text-align: center;
 }
-
-.hero h4{
-	color:bold;
-	padding: 0 4rem 1rem;
-	text-align:center;
+.aboutus p {
+    font-size: 19px;
+    line-height: 1.6;
+    color:white;
+    margin-bottom: 1.5rem;
+    padding-left:10rem;
+    padding-right:15rem;
 }
 
-.destinations {
-    padding: 20px;
-    background-color: #f2f2f2; /* Fond clair pour la section destinations */
-	flex:1;
-}
 
-.box {
-    display: flex; /* Utilise flexbox pour disposer l'image et le texte en ligne */
-    align-items: center; /* Aligne verticalement l'image et le texte */
-    background-color: #001f3f; /* Fond sombre pour la boîte */
-    padding: 20px;
-    border-radius: 10px; /* Arrondir les bords de la boîte */
-}
-
-.box img {
-    width: 100%; /* Ajuste la largeur de l'image pour qu'elle soit contenue dans la boîte */
-    max-width: 40%; /* Empêche l'image de dépasser 40% de la largeur de la boîte */
-    height: auto; /* Garde la proportion de l'image */
-    border-radius: 5px;
-}
-
-.box h2{
-	text-align:center;
-	margin-bottom:1rem;
-	color:white;
-}
-.box p {
-    color: white; /* Texte en blanc pour contraster avec le fond sombre */
-    font-size: 16px; /* Taille du texte */
-    line-height: 1.5; /* Espace entre les lignes pour plus de lisibilité */
-    margin: 0;
-    display: flex;
-    align-items: center; /* Centre le texte verticalement par rapport à l'image */
-}
 
