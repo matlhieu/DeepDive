@@ -8,16 +8,16 @@ html, body {
 }
 
 .navibar {
-	z-index:1000;
+    z-index:1000;
     top:0;
-	position:fixed;
-	width:100%;
-   	background-color: #033252; 
+    position:fixed;
+    width:100%;
+    background-color: #033252; 
     color: white;
     display: flex;
     justify-content: space-between; 
     align-items: center;
-	font-family: 'Segoe UI', system-ui;	
+    font-family: 'Segoe UI', system-ui;	
 }
 
 .navibar .logo img {
@@ -85,7 +85,7 @@ html, body {
 /* Footer */
 footer { 
     background-color: #033252; 
-    
+    margin-top:auto;
     text-align: center;
     padding: 1.5rem;
     font-size: 14px;
