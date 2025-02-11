@@ -33,6 +33,7 @@
         <div class="search-bar">
             <div class="search-grid">
                 <div class="search-card">
+                
                     <label>📍 Destination</label>
                     <select>
                         <option>Parc National de Port-Cros</option>
@@ -43,12 +44,19 @@
                         <option>Réserve naturelle marine de Cerbère-Banyuls</option>
                     </select>
                 </div>
-
+		
+		<div class=search-card>
+		<label>🤿Nombre de personnes</label>
+			<input type="number" name="nombre de personnes"
+min="1" max="15" value="1"
+step="1">	
+		</div>
                 <div class="search-card">
                     <label>📅 Date de départ</label>
-                    <input type="date" min="2025-02-16">
+                    <input type="date" name date min="2025-02-16" value="2025-02-16">
+                    
                 </div>
-
+		
                 <div class="search-card">
                     <label>⏳ Durée</label>
                     <select>
@@ -153,7 +161,6 @@
  
 </body>
 </html>
-
 
 
 
