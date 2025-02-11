@@ -5,6 +5,7 @@ html, body {
     margin: 0; /* Enlève les marges par défaut */
     padding: 0; /* Enlève le padding par défaut */
     flex-direction: column; /* Organise les éléments en colonne */
+    display:flex;
 }
 
 .navibar {
