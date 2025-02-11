@@ -33,7 +33,7 @@ html, body {
     	
 }
 
-.nav-titre p span {
+.nav-titre span {
     color: #00ebf7;
 }
 
@@ -63,13 +63,16 @@ html, body {
     text-decoration: none;
     font-weight: 500;
 	margin-right:1rem;
-	
+    padding: 0.7rem;
+	border-radius: 1rem;
+    font-weight: bold;
 }
 
 .navi-lien:hover {
-    background-color: #ffffff;
-    color: black;
-	transition: 0.5s;
+    background-color: #00ebf7;
+    color: white;
+    font-weight: bold;
+	transition: 0.8s;
 }
 
 .menu img{
