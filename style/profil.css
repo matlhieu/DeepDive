@@ -8,7 +8,8 @@ body {
     align-items: center;
     height: 100vh;
     background-position: center center;
-    background-size: cover; 
+    background-size: cover;
+background-image: url('https://www.oleron.fr/wp-content/uploads/plongee-sous-marine.jpg');
     
 }
 
