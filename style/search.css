@@ -56,7 +56,7 @@ body{
 	background:rgba(255,255,255,0.1);
 	padding:1.8rem;
 	border-radius:1px;
-	border:1px solid var(--turquoise);
+	border:1px solid #00C1D4;
 	transition:transform 0.3s ease;
 
 }
@@ -76,8 +76,8 @@ body{
 	font-size:1rem;
 }
 .search-button{
-	background:var(--turquoise);
-	color:var(--bleu-profond);
+	background:#00C1D4;
+	color:#001f3f;
 	padding:1rem 3rem;
 	border:none;
 	border-radius:50px;
@@ -100,7 +100,7 @@ body{
 	padding:3rem 5%;
 }
 .dive-card{
-	background:var(--bleu-corail);
+	background:#1C4E6B;
 	border-radius:15px;
 	overflow:hidden;
 	position:relative;
@@ -116,6 +116,6 @@ body{
 .dive-card img{
 	width:100%;
 	height:200px;
-	border-bottom:3px solid var(--turquoise);
+	border-bottom:3px solid #00C1D4;
 }
 .dive-info{padding:1.5rem;}
