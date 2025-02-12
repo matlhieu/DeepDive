@@ -146,7 +146,7 @@ input[type="submit"]:hover{background-color:#2980b9;}
      /* Style du lien de connexion */
      .login-link a {
         margin-left:0.5rem;
-         color: #f1f1f1; /* Définit la couleur du lien en bleu */
+         color: blue; /* Définit la couleur du lien en bleu */
          text-decoration: none; /* Supprime le soulignement par défaut */
          font-weight: bold; /* Met le texte du lien en gras */
      }
