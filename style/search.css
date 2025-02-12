@@ -1,10 +1,5 @@
-:root{
-	--bleu-profond:#001f3f;
-	--bleu-corail:#1C4E6B;
-	--turquoise:#00C1D4;
-	--blanc:#F0F7FA;
-}
-span{color:#00ebf7;}
+span{
+	color:#00ebf7;}
 body{
 	margin:0;
 	font-family:'Segoe UI',system-ui;
