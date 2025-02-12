@@ -3,8 +3,8 @@ span{
 body{
 	margin:0;
 	font-family:'Segoe UI',system-ui;
-	background:var(--bleu-profond);
-	color:var(--blanc);
+	background:#001f3f;
+	color:#F0F7FA;
 }
 .hero{
 	height:75vh;
