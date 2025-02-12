@@ -37,7 +37,7 @@ body span{
 
 .section-titre{
 	flex: 1;
-	padding-top: 5rem;
+	padding-top: 10rem;
 	flex-direction: column; /* Aligne en colonne */
     align-items: center; /* Centre horizontalement */
     text-align: center; /* Centre le texte */	
@@ -45,7 +45,7 @@ body span{
 
 .slogan {
     font-size: 3.7rem;
-	color: #f5f7fa;
+	color: white;
     line-height: 1.2; /*Espace entre les lignes */
 }
 
@@ -53,8 +53,9 @@ body span{
     color: white;
     font-size: 20px;
     border: 2px solid #00ebf7;
-    padding: 5px 20px;
+    padding: 15px 20px;
     transition: 0.5s;
+    border-radius:2rem;
     font-weight: bolder;
 	text-decoration: none;
 	background-color: rgba(0, 0, 0, 0.6);
@@ -93,6 +94,7 @@ h2{
 	color:bold;
 	padding: 0 4rem 1rem;
 	text-align:center;
+    font-size: 1.5rem;
 }
 
 /*Les Destinations */
@@ -100,13 +102,13 @@ h2{
 .destinations {
 	background-color: #001f3f;
 	color:white;
-	padding: 2rem 1rem;
+	padding: 1rem 1rem;
 		
 }
 
 .box-content{
 	display:flex;
-	padding:2rem 0;
+	padding:0 0 3rem 0;
 	width:100%;
 }
 
