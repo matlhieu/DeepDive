@@ -15,11 +15,11 @@ background-image: url('https://www.oleron.fr/wp-content/uploads/plongee-sous-mar
 
 .box {
    background-color:rgba(255,255,255,0.6);
-	padding:30px;
+	padding:15px;
 	border-radius:10px;
 	box-shadow:0 0 20px rgba(0,0,0,0.2);
 	width:90%;
-	max-width:600px;
+	max-width:400px;
 }
 
 .profile-container h1 {
@@ -27,11 +27,10 @@ background-image: url('https://www.oleron.fr/wp-content/uploads/plongee-sous-mar
 	color:#2c3e50;
 	margin-bottom:20px;
 }
-}
 
 .profile-field {
-     background-color: rgba(255,255,255,0.3  ); /* Définit un fond blanc semi-transparent */
-    padding: 30px; /* Ajoute un espace intérieur de 30px */
+     background-color: rgba(255,255,255,0.3); /* Définit un fond blanc semi-transparent */
+    padding: 10px; /* Ajoute un espace intérieur de 30px */
     border-radius: 10px; /* Arrondit les coins de la boîte */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Ajoute une ombre autour de la boîte */
     width: 90%; /* Définit la largeur à 90% de l'écran */
@@ -161,15 +160,4 @@ html, body {
 	width: 50px;
     height: 50px;
     transition: transform 0.3s;
-}
-
-/* Footer */
-footer { 
-    background-color: #033252; 
-    margin-top:auto;
-    text-align: center;
-    padding: 1.5rem;
-    font-size: 14px;
-	color:white;    
-	font-family: 'Segoe UI', system-ui;	
 }
