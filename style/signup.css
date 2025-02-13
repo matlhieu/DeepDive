@@ -34,7 +34,7 @@ h1{
 label{
 	display:block;
 	margin-bottom:5px;
-	color:#34495e;
+	color:#ffffff;
 	font-weight:bold;
 }
 input{
@@ -55,7 +55,9 @@ input[type="submit"]{
 	font-size:16px;
 	margin-top:10px;
 }
-input[type="submit"]:hover{background-color:#2980b9;}
+input[type="submit"]:hover{
+	background-color:#2980b9;
+}
 .required::after{
 	content:"*";
 	color:red;
@@ -70,4 +72,6 @@ input[type="submit"]:hover{background-color:#2980b9;}
 	text-decoration:none;
 	font-weight:bold;
 }
-.login-link a:hover{text-decoration:underline;}
+.login-link a:hover{
+	text-decoration:underline;
+}
