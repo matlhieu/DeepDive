@@ -1,10 +1,10 @@
 /* Barre du site web */
 
 html, body {
-    height: 100%; /* Assure que la page occupe toute la hauteur de l'écran */
-    margin: 0; /* Enlève les marges par défaut */
-    padding: 0; /* Enlève le padding par défaut */
-    flex-direction: column; /* Organise les éléments en colonne */
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    flex-direction: column; 
    
 }
 
@@ -22,7 +22,7 @@ html, body {
 }
 
 .navibar .logo img {
-    width: 60px; /* Adjust size if needed */
+    width: 60px; 
     height: auto; 
 	margin-left:1.2rem;
     
@@ -84,12 +84,49 @@ html, body {
 }
 
 /* Footer */
-footer { 
+footer{ 
     background-color: #033252; 
     margin-top:auto;
-    text-align: center;
     padding: 1.5rem;
-    font-size: 14px;
+    font-size: 1.1rem;
 	color:white;    
 	font-family: 'Segoe UI', system-ui;	
+	text-align:center;	
+}
+
+.footer-main{
+	display:flex;
+	align-items:flext-start;
+	justify-content: center;
+    flex-wrap: wrap;
+	padding:1rem 3rem;
+	text-align:center;
+	gap:3rem;
+}
+
+.footer-main img{
+	width:25%;
+	height:100%;
+	padding-right:3rem;
+}
+
+.footer-container{
+	padding: 0 2rem;
+	text-align:center;
+	color:white;
+	line-height:10px;
+	font-size:1rem;
+}
+
+.footer-container h3{
+	padding-bottom:14px;
+}
+
+.footer-container a{
+	text-decoration:none;
+	color:white;
+}
+
+.footer-container a:hover{
+	text-decoration:underline;
 }
