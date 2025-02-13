@@ -104,13 +104,11 @@ input[type="submit"]:hover{background-color:#2980b9;}
  
      /* Style des champs de saisie */
      input {
-        width: 100%; /* Définit la largeur du champ à 100% du conteneur */
-        padding: 8px; /* Ajoute un espacement intérieur de 8px */
-        border: 1px solid #bdc3c7; /* Ajoute une bordure grise */
-        border-radius: 4px; /* Arrondit légèrement les coins du champ */
-        box-sizing: border-box; /* Empêche le padding d'affecter la taille du champ */
-        background-color: rgba(255,255,255,0.1);
-        color: white;
+ 	width:100%;
+	padding:8px;
+	border:1px solid #bdc3c7;
+	border-radius:4px;
+	box-sizing:border-box;
         }
  
      /* Style spécifique pour le bouton de soumission */
