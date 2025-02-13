@@ -1,5 +1,6 @@
 span{
-	color:#00ebf7;}
+	color:#00ebf7;
+}
 body{
 	margin:0;
 	font-family:'Segoe UI',system-ui;
@@ -15,8 +16,6 @@ body{
 	align-items:center;
 	justify-content:center;
 	flex-direction:column;
-	position:relative;
-	overflow:hidden;
 	padding:4rem;
 }
 
@@ -27,84 +26,73 @@ body{
 	z-index:1;
 }
 .recherche-tout{
-	background:rgba(255,255,255,0.18);
-	backdrop-filter:blur(10px);
-	padding:2rem;
-	border-radius:15px;
-	width:80%;
-	max-width:800px;
 	z-index:1;
 }
-.search-grid{
-	display:grid;
-	grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-	gap:1rem;
-	margin-bottom:1.5rem;
-}
-.search-card{
+
+.bulle{
 	background:rgba(255,255,255,0.1);
 	padding:1.8rem;
-	border-radius:1px;
+	border-radius:100px;
 	border:1px solid #00C1D4;
 	transition:transform 0.3s ease;
 
 }
-.search-card:hover{transform:translateY(-5px);}
-.search-card label{
+.bulle:hover{
+	transform:translateX(-5px);
+}
+.bulle label{
 	display:block;
 	margin-bottom:0.5rem;
-	font-size:1.1rem;
+	font-size:1.2rem;
 	color:white;
 }
-.search-card select{
-	width:100%;
+.bulle select,input{
+	width:90%;
 	padding:0.8rem;
 	background:rgba(255,255,255,0.9);
 	border:none;
 	border-radius:5px;
 	font-size:1rem;
 }
-.search-button{
+.boutton-recherche{
 	background:#00C1D4;
 	color:#001f3f;
-	padding:1rem 3rem;
+	padding:1rem 2rem;
 	border:none;
 	border-radius:50px;
-	font-size:1.1rem;
+	font-size:1.2rem;
 	cursor:pointer;
 	display:flex;
-	align-items:center;
-	gap:1rem;
 	margin:0 auto;
 	transition:all 0.3s ease;
 }
-.search-button:hover{
-	box-shadow:0 0 20px rgba(0,193,212,0.5);
+.boutton-recherche:hover{
 	transform:scale(1.05);
 }
-.results-grid{
+.ensemble-carré-info{
 	display:grid;
 	grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
 	gap:2rem;
-	padding:3rem 5%;
+	padding:3rem 5rem;
 }
-.dive-card{
+.un-carré-info{
 	background:#1C4E6B;
 	border-radius:15px;
 	overflow:hidden;
-	position:relative;
 	transition:transform 0.3s ease;
 }
-.dive-card:hover{
+.un-carré-info:hover{
 	transform:translateY(-10px);
 	}
-.best-plans{
+.meilleure-plans{
 	text-align:center;
 	font-size:4rem;
 	}
-.dive-card img{
+.un-carré-info img{
 	width:100%;
 	height:200px;
 	border-bottom:3px solid #00C1D4;
 }
-.dive-info{padding:1.5rem;}
+.info-texte{
+	padding:1.5rem;
+}
