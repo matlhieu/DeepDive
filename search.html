@@ -5,6 +5,7 @@
     <title>Recherche - DeepDive</title>
 	<link rel="stylesheet" href="style/nav_footer.css"> 
     <link rel="stylesheet" href="style/search.css">
+
 </head>
 <body>
 	<nav class="navibar">
@@ -31,18 +32,35 @@
     <section class="titre">
         <h1>Explorez les <span>Abysses</span></h1>
         <div class="recherche-tout">
-                <div class="bulle">
-                
-                    <label>📍 Destination</label>
-                    <select>
-                        <option>Parc National de Port-Cros</option>
-                        <option>Porquerolles</option>
-                        <option>Parc National des Calanques à Marseille</option>
-                        <option>Îles Lavezzi en Corse</option>
-                        <option>Malte/île de Gozo</option>
-                        <option>Réserve naturelle marine de Cerbère-Banyuls</option>
-                    </select>
-                </div>
+<div class="bulle">
+    <label>📍 Destination</label>
+    <div class="bulle-destinations">
+        <button class="destination" value="Port-Cros">
+	Port-Cros</button>
+        <button class="destination" value="Porquerolles">
+	Porquerolles</button>
+        <button class="destination" value="Calanques">
+	Calanques</button>
+        <button class="destination" value="Lavezzi">
+	Îles Lavezzi</button>
+        <button class="destination" value="Gozo">Gozo</button>
+        <button class="destination" value="Cerbere">
+	Cerbère-Banyuls</button>
+	<button class="destination" value="Cabo de Palos">
+	Cabo de Palos</button>
+	<button class="destination" value="îles Medes">
+	îles Medes</button>
+	<button class="destination" value="Cabrera aux îles Baléares">
+	Cabrera aux îles Baléares</button>
+	<button class="destination" value="Graciosa aux îles Baléares">
+	Graciosa aux îles Baléares</button>
+	<button class="destination" value="Île de Tabarca">
+	Île de Tabarca</button>
+	<button class="destination" value="Capo di Feno a Ajaccio">
+	Capo di Feno a Ajaccio</button>
+    </div>
+</div>
+
 		
 		<div class="bulle">
 		<label>🤿Nombre de personnes</label>
@@ -67,7 +85,7 @@ step="1">
                 </div>
             </div>
             <button class="boutton-recherche">
-                Recherchez vos spots de plongées
+                Rechercher
             </button>
         </div>
     </section>
@@ -82,7 +100,7 @@ step="1">
         <div class="info-texte">
             <h3>Parc National de Port-Cros</h3>
             <p>📅 18-25 Février 2025<br>
-            💶 À partir de 35€</br></p>
+            💶 À partir de 35€ par personne</br></p>
         </div>
     </div>
 
@@ -92,7 +110,7 @@ step="1">
         <div class="info-texte">
             <h3>Calanques de Marseille</h3>
             <p>📅 1-8 Mars 2025<br>
-            💶 À partir de 40€</br></p>
+            💶 À partir de 40€ par personne</br></p>
         </div>
     </div>
 
@@ -101,7 +119,7 @@ step="1">
         <div class="info-texte">
             <h3>Réserve de Cerbère-Banyuls</h3>
             <p>📅 10-17 Avril 2025<br>
-            💶 À partir de 45€</br></p>
+            💶 À partir de 45€ par personne</br></p>
         </div>
     </div>
 
@@ -111,7 +129,7 @@ step="1">
         <div class="info-texte">
             <h3>Îles Lavezzi - Corse</h3>
             <p>📅 5-12 Mai 2025<br>
-            💶 À partir de 50€</br></p>
+            💶 À partir de 50€ par personne</br></p>
         </div>
     </div>
 
@@ -120,20 +138,20 @@ step="1">
         <div class="info-texte">
             <h3>Île de Gozo/Malte</h3>
             <p>📅 15-22 Mai 2025<br>
-            💶 À partir de 55€</br></p>
+            💶 À partir de 55€ par personne</br></p>
         </div>
     </div>
-	   
+
     <div class="un-carré-info">
         <img src="https://provence-alpes-cotedazur.com/app/uploads/crt-paca/2020/07/thumbs/plage-porquerolles-c-chillio-1920x960.jpg" alt="Porquerolles">
         <div class="info-texte">
             <h3>Porquerolles</h3>
             <p>📅 22-25 Mai 2025<br>
-            💶 À partir de 60€</br></p>
+            💶 À partir de 60€ par personne</br></p>
         </div>
     </div>
 
-         <div class="un-carré-info">
+     <div class="un-carré-info">
         <img src="https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/murcia/costa-calida-murcia-s700755295.jpg">
         <div class="info-texte">
             <h3>La réserve marine de Cabo de Palos en Espagne</h3>
@@ -141,8 +159,8 @@ step="1">
             💶 À partir de 75€ par personne</br></p>
         </div>
     </div>
-
-	        <div class="un-carré-info">
+  
+     <div class="un-carré-info">
         <img src="https://coelacantheplongee.fr/media/2024/11/IMG_3336_v2-scaled.jpg">
         <div class="info-texte">
             <h3>Les îles Medes à l’Estartit en Espagne</h3>
@@ -151,7 +169,7 @@ step="1">
         </div>
     </div>
 
-	       <div class="un-carré-info">
+    <div class="un-carré-info">
         <img src="https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/baleares/velero-mar-mallorca-i525635531.jpg">
         <div class="info-texte">
             <h3>Le parc national de Cabrera aux îles Baléares en Espagne</h3>
@@ -159,8 +177,8 @@ step="1">
             💶 À partir de 72€ par personne</br></p>
         </div>
     </div>
-
-		<div class="un-carré-info">
+    
+	<div class="un-carré-info">
         <img src="https://mojodive.com/wp-content/uploads/2020/02/mojo-dive-lanzarote-ocean-divers-la-graciosa.jpg">
         <div class="info-texte">
             <h3>La réserve marine de la Graciosa aux îles Baléares en Espagne</h3>
@@ -169,7 +187,8 @@ step="1">
         </div>
     </div>
 
-	   	<div class="un-carré-info">
+	
+	<div class="un-carré-info">
         <img src="https://cruceroskontiki.com/wp-content/uploads/2022/03/0.jpg">
         <div class="info-texte">
             <h3>Île de Tabarca en Espagne</h3>
@@ -177,6 +196,7 @@ step="1">
             💶 À partir de 79€ par personne</br></p>
         </div>
     </div>
+
 
 	<div class="un-carré-info">
         <img src="https://ajaccio.media.tourinsoft.eu/upload/Copie-de-Plage-de-Capo-di-Feno-Phototheque-Office-de-Tourisme-d-Ajaccio--c--J.C.-Attard.jpg">
@@ -187,11 +207,11 @@ step="1">
         </div>
     </div>
 
-	   
-  <footer>
- 
 	
-	<div class="footer-main">
+</div>
+
+<footer>
+ 	<div class="footer-main">
 	 <img src="style/Image/logoD.png" alt="logo">
 		<div class="footer-container">
 			<h3>Liens Utiles</h3>
@@ -207,14 +227,37 @@ step="1">
 			<p><a href="about.html">En savoir plus sur nous</a><p>
 			<p>Téléphone : +33 6 45 15 25</p>
 			<p>Adresse : 75421, Varay, 22 Place d'Elden</p>
-			<p>deepdive05@gmail.com</p>
 		</div>
 	</div>
 	<p> © 2025 DeepDive | All rights reserved </p>
  </footer>
- 
-</body>
+	
+ </body>
 </html>
+	
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
