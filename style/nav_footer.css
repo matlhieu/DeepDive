@@ -54,16 +54,15 @@ html, body {
     display: flex;
     list-style: none;
     gap: 0.8rem;
-    align-items: center;
-	
+    align-items: center;	
 }
 
 .navi-lien {
     color: white;
     text-decoration: none;
-	margin-right:2rem;
+	margin-right:1rem;
     padding: 0.7rem;
-	border-radius: 1rem;
+	
     font-weight: bold;
 }
 
@@ -72,14 +71,22 @@ html, body {
     color: white;
     font-weight: bold;
 	transition: 0.8s;
+	border-radius: 1rem;
 }
 
 .menu img{
 	margin-right:1rem;
-	width: 50px;
-    height: 50px;
+	width: 40px;
+    height: 40px;
 }
 
+.menu img:hover{
+	background-color: #00ebf7;
+    color: white;
+    font-weight: bold;
+	transition: 0.8s;
+	border-radius: 1rem;
+}
 /* Footer */
 footer{ 
     background-color: #033252; 
