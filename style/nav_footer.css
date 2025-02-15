@@ -5,7 +5,6 @@ html, body {
     margin: 0; 
     padding: 0; 
     flex-direction: column; 
-   
 }
 
 .navibar {
@@ -89,7 +88,9 @@ footer{
     font-size: 1.1rem;
 	color:white;    
 	font-family: 'Segoe UI', system-ui;	
-	text-align:center;	
+	text-align:center;
+	width:100%;
+	box-sizing: border-box;
 }
 
 .footer-main{
