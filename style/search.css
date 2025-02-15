@@ -16,7 +16,7 @@ body{
 	align-items:center;
 	justify-content:center;
 	flex-direction:column;
-	padding:7rem;
+	padding:8rem;
 }
 
 .titre h1{
@@ -35,6 +35,7 @@ body{
 	border-radius:100px;
 	border:1px solid #00C1D4;
 	transition:transform 0.3s ease;
+	margin:0.5rem;
 	
 }
 
@@ -78,6 +79,7 @@ bulle-destinations = Regroupe uniquement les boutons pour une meilleure */
 	border-radius:5px;
 	font-size:1rem;
 }
+
 .boutton-recherche{
 	background:#00C1D4;
 	color:#001f3f;
@@ -87,7 +89,7 @@ bulle-destinations = Regroupe uniquement les boutons pour une meilleure */
 	font-size:2.3rem;
 	cursor:pointer;
 	display:flex;
-	margin:2.6rem 0 auto;
+	margin:0.5rem auto 0;
 	transition:all 0.3s ease;
 }
 .boutton-recherche:hover{
