@@ -18,90 +18,33 @@ body {
 	flex:1;
 }
 .overlay{
-	background-color:rgba(255,255,255,0.9);
+	background-color: rgba(255,255,255,0.3  ); /* Définit un fond blanc semi-transparent */
 	margin:6rem 0;
 	border-radius:10px;
 	box-shadow:0 0 20px rgba(0,0,0,0.2);
 	width:90%;
 	max-width:600px;
-}
-h1{
-	text-align:center;
-	color:#2c3e50;
-	margin-bottom:20px;
-}
-.form-group{margin-bottom:15px;}
-label{
-	display:block;
-	margin-bottom:5px;
-	color:#34495e;
-	font-weight:bold;
-}
-input{
-	width:100%;
-	padding:8px;
-	border:1px solid #bdc3c7;
-	border-radius:4px;
-	box-sizing:border-box;
-}
-input[type="submit"]{
-	background-color:#3498db;
-	color:white;
-	padding:12px;
-	border:none;
-	border-radius:4px;
-	cursor:pointer;
-	font-size:16px;
-	margin-top:10px;
-}
-input[type="submit"]:hover{background-color:#2980b9;}
-.required::after{
-	content:"*";
-	color:red;
-	margin-left:3px;
-}
-.login-link{
-	text-align:center;
-	margin-top:15px;
-}
-.login-link a{
-	color:#3498db;
-	text-decoration:none;
-	font-weight:bold;
-}
-.login-link a:hover{
-    text-decoration:underline;
+        padding: 30px; 
 }
 
-		 
-     /* Style pour la boîte d'affichage du formulaire */
-.overlay {
-    background-color: rgba(255,255,255,0.3  ); /* Définit un fond blanc semi-transparent */
-    padding: 30px; /* Ajoute un espace intérieur de 30px */
-    border-radius: 10px; /* Arrondit les coins de la boîte */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Ajoute une ombre autour de la boîte */
-    width: 90%; /* Définit la largeur à 90% de l'écran */
-    max-width: 600px; /* Définit une largeur maximale de 600px */
-}
- 
      /* Style du titre principal */
      h1 {
-         text-align: center; /* Centre le texte du titre */
-         color: #2c3e50; /* Définit la couleur du texte en bleu foncé */
-         margin-bottom: 20px; /* Ajoute un espace en dessous du titre */
+         text-align: center;
+         color: #2c3e50; 
+         margin-bottom: 20px; 
      }
  
      /* Style pour les groupes de champs du formulaire */
      .form-group {
-         margin-bottom: 15px; /* Ajoute un espace entre chaque champ */
+         margin-bottom: 15px; 
      }
  
      /* Style pour les étiquettes des champs du formulaire */
      label {
         display: block; /* Affiche l'étiquette sur une ligne entière */
-        margin-bottom: 5px; /* Ajoute un espace sous l'étiquette */
-        color: #ffffff; /* Définit la couleur du texte en bleu-gris */
-        font-weight: bold; /* Met le texte en gras */
+        margin-bottom: 5px; 
+        color: #ffffff; 
+        font-weight: bold; 
      }
  
      /* Style des champs de saisie */
@@ -115,14 +58,14 @@ input[type="submit"]:hover{background-color:#2980b9;}
  
      /* Style spécifique pour le bouton de soumission */
      input[type="submit"] {
-         background-color: #3498db; /* Définit un fond bleu */
-         color: white; /* Définit le texte en blanc */
-         padding: 12px; /* Ajoute un espacement intérieur de 12px */
+         background-color: #3498db; 
+         color: white; 
+         padding: 12px; 
          border: none; /* Supprime les bordures */
          border-radius: 4px; /* Arrondit légèrement les coins du bouton */
          cursor: pointer; /* Change le curseur en main lorsqu'on survole le bouton */
-         font-size: 16px; /* Définit la taille du texte du bouton */
-         margin-top: 10px; /* Ajoute un espace au-dessus du bouton */
+         font-size: 16px; 
+         margin-top: 10px; 
      }
  
      /* Effet de survol pour le bouton de soumission */
@@ -146,7 +89,7 @@ input[type="submit"]:hover{background-color:#2980b9;}
      /* Style du lien de connexion */
      .login-link a {
         margin-left:0.5rem;
-         color: blue; /* Définit la couleur du lien en bleu */
+         color: blue; 
          text-decoration: none; /* Supprime le soulignement par défaut */
          font-weight: bold; /* Met le texte du lien en gras */
      }
