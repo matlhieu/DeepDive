@@ -1,0 +1,104 @@
+/* destinations CSS */
+
+body {
+    font-family: 'Segoe UI', system-ui;
+    margin: 0;
+    padding: 0;
+	color: white;
+}
+
+body span{
+	color: #00ebf7;
+}
+
+/* Information */
+
+.home {
+    background: url("https://images3.alphacoders.com/132/1325254.png");
+    background-position: center;
+    background-size: cover;
+	background-attachment:fixed;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+	
+}
+
+.section-titre{
+	padding: 0 4rem;
+	flex-direction: column; /* Aligne en colonne */
+    align-items: center; /* Centre horizontalement */
+    text-align: center; /* Centre le texte */	
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius:1rem;
+	
+		
+}
+
+.slogan {
+    font-size: 3.7rem;
+	color: white;
+    line-height: 1.2; /*Espace entre les lignes */
+}
+
+
+h2{
+	margin-top:3.5rem;
+	font-size:3.5rem;
+
+	text-align: center;
+	margin-bottom:5rem;
+}
+
+/*Les Destinations */
+
+.destinations {
+	background-color: #001f3f;
+	color:white;
+	padding: 1rem 2rem;	
+}
+
+
+.content h2{
+	text-align:left;
+}
+
+img.box {
+	height:100%;
+	width:100%;
+}
+.box-content{
+	padding:0 0 3rem 0;
+	width:100%;
+}
+
+.box{
+	background-color: #1C4E6B;
+	border-radius: 2rem;
+   	margin:2rem 0;
+	text-align:left;
+	width:100%;
+	display:flex;
+	align-items:center;
+}
+
+.box img{
+	width: 40%;
+	border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+	height:auto;
+	align-content:left;
+	object-fit: cover;
+}
+
+.content{
+	margin:0;
+	padding: 0 2rem;
+	flex:1;
+}
+
+
+
