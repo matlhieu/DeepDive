@@ -31,7 +31,7 @@
 			</a>
 		</div>
 	</nav>
-  
+   <section class="profil">
 	  <div class="box-container">
         <h1>Vos Informations</h1>
         
@@ -79,17 +79,18 @@
         </div>
         
         <div class="profile-field">
-            <label class="required" for="naissance">Date de naissance:</label>
-            <input type="month" name="month" value="2021-01" min="2007-01" max="2021-01" required>
+		<label class="required" for="naissance">Date de naissance:</label>
+            	<input type="date" id="naissance" name="naissance" value="2005-11-04" max="2025-02-16" required>
+		<button class="edit-btn" onclick="editField('address')">Modifier</button>
             
           </div>
       
       </div>
-
+</section>
 
   <footer>
   <div class="footer-text">
-        <p>Aucune modification ? <a href="login.html">retourner a la page de connexion</a></p>
+        <p>Aucune modification ? <a href="signup.html">retourner a la page de connexion</a></p>
     </div>
  	<div class="footer-main">
 	 <img src="style/Image/logoD.png" alt="logo">
@@ -114,5 +115,8 @@
     
 </body>
 </html>
+
+
+
 
 
