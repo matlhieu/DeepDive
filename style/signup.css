@@ -37,7 +37,7 @@ h1{
 label{
 	display:block;
 	margin-bottom:5px;
-	color:#ffffff;
+	color:#2c3e50;
 	font-weight:bold;
 }
 input{
@@ -78,3 +78,4 @@ input[type="submit"]:hover{
 .login-link a:hover{
 	text-decoration:underline;
 }
+
