@@ -2,7 +2,7 @@
 
 body {
     font-family:'Segoe UI', system-ui; /* Définit la police d'écriture en Arial ou une alternative sans-serif */
-    background-image: url('https://static.vecteezy.com/ti/photos-gratuite/p2/33863268-sous-marin-vue-de-le-rayons-de-soleil-rupture-par-le-l-eau-surface-sous-marin-ocean-bleu-abime-avec-lumiere-du-soleil-plongee-et-scaphandre-autonome-arriere-plan-ai-genere-gratuit-photo.jpg'); /* Définit une image de fond */
+    background-image: url('https://images3.alphacoders.com/132/1325254.png'); /* Définit une image de fond */
     background-size: cover; /* Ajuste l'image pour couvrir toute la surface du fond */
     background-position: center; /* Centre l'image de fond */ 
     display: flex;
@@ -43,7 +43,7 @@ body {
      label {
         display: block; /* Affiche l'étiquette sur une ligne entière */
         margin-bottom: 5px; 
-        color: #ffffff; 
+        color: #2c3e50; 
         font-weight: bold; 
      }
  
