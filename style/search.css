@@ -16,7 +16,7 @@ body{
 	align-items:center;
 	justify-content:center;
 	flex-direction:column;
-	padding:4rem;
+	padding:7rem;
 }
 
 .titre h1{
@@ -87,7 +87,7 @@ bulle-destinations = Regroupe uniquement les boutons pour une meilleure */
 	font-size:2.3rem;
 	cursor:pointer;
 	display:flex;
-	margin:0 auto;
+	margin:2.6rem 0 auto;
 	transition:all 0.3s ease;
 }
 .boutton-recherche:hover{
