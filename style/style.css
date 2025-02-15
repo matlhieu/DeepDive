@@ -25,16 +25,6 @@ body span{
 	
 }
 
-.titre {
-	padding: 2rem;
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-}
-
-
 .section-titre{
 	flex: 1;
 	padding-top: 10rem;
