@@ -55,11 +55,11 @@ bulle-destinations = Regroupe uniquement les boutons pour une meilleure */
     cursor: pointer;
     color: black;
     font-size:1rem;
-    transition:all 0.3s ease;
+    transition:all 0.1s ease;
 }
 
 .destination:hover{
-	transform:scale(1.05);
+	transform:translateY(-5px)
 }
 
 .bulle:hover{
@@ -109,6 +109,7 @@ bulle-destinations = Regroupe uniquement les boutons pour une meilleure */
 }
 .un-carré-info:hover{
 	transform:translateY(-10px);
+    	box-shadow: 0 0 10px #00ebf7;
 	}
 .meilleure-plans{
 	text-align:center;
