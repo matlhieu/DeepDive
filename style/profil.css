@@ -83,7 +83,7 @@ body {
 }
 
 .edit-btn:hover {
-    background-color: #00C1D4;
+    transform:translateY(-5px)
 }
 
 .footer-text {
