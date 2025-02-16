@@ -3,7 +3,7 @@
 body{
 	font-family:'Segoe UI',system-ui;
 	background-image:url('https://static.vecteezy.com/ti/photos-gratuite/p2/33863268-sous-marin-vue-de-le-rayons-de-soleil-rupture-par-le-l-eau-surface-sous-marin-ocean-bleu-abime-avec-lumiere-du-soleil-plongee-et-scaphandre-autonome-arriere-plan-ai-genere-gratuit-photo.jpg');
-	background-size:cover;
+	background-size:cover; /* Ajuste l'image pour couvrir toute la surface du fond */
 	background-position:center;
     background-repeat: no-repeat; 
     background-attachment: fixed;
@@ -28,14 +28,18 @@ body{
 	margin-top: 120px;
 	margin-bottom: 25px;
 }
+/* Style du titre principal */
 h1{
 	text-align:center;
 	color:#2c3e50;
 	margin-bottom:20px;
 }
-.form-group{margin-bottom:15px;}
+ /* Style pour les groupes de champs du formulaire */
+.form-group{
+	margin-bottom:15px;
+}
 label{
-	display:block;
+	display:block; /* Affiche l'étiquette sur une ligne entière */
 	margin-bottom:5px;
 	color:#2c3e50;
 	font-weight:bold;
@@ -52,8 +56,8 @@ input[type="submit"]{
 	background-color:#3498db;
 	color:white;
 	padding:12px;
-	border:none;
-	border-radius:4px;
+	border:none;/* Supprime les bordures */
+	border-radius:4px;/* Arrondit légèrement les coins du bouton */
 	cursor:pointer;
 	font-size:16px;
 	margin-top:10px;
@@ -61,10 +65,11 @@ input[type="submit"]{
 input[type="submit"]:hover{
 	background-color:#2980b9;
 }
+ /* Ajoute une étoile rouge aux champs obligatoires */
 .required::after{
-	content:"*";
-	color:red;
-	margin-left:3px;
+	content:"*";/* Ajoute une étoile après le texte de l'étiquette */
+	color:red;/* Définit la couleur de l'étoile en rouge */
+	margin-left:3px;/* Ajoute un petit espace entre le texte et l'étoile */
 }
 .login-link{
 	text-align:center;
@@ -72,10 +77,10 @@ input[type="submit"]:hover{
 }
 .login-link a{
 	color:blue;
-	text-decoration:none;
+	text-decoration:none;/* Supprime le soulignement par défaut */
 	font-weight:bold;
 }
 .login-link a:hover{
-	text-decoration:underline;
+	text-decoration:underline;/* Ajoute un soulignement lors du survol */
 }
 
