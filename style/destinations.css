@@ -34,6 +34,7 @@ body span{
     text-align: center; /* Centre le texte */	
 	background-color: rgba(0, 0, 0, 0.6);
 	border-radius:1rem;
+	position:relative;
 	
 		
 }
@@ -42,13 +43,13 @@ body span{
     font-size: 3.7rem;
 	color: white;
     line-height: 1.2; /*Espace entre les lignes */
+	position:relative;
 }
 
 
 h2{
 	margin-top:3.5rem;
 	font-size:3.5rem;
-
 	text-align: center;
 	margin-bottom:5rem;
 }
@@ -61,44 +62,49 @@ h2{
 	padding: 1rem 2rem;	
 }
 
-
-.content h2{
-	text-align:left;
-}
-
-img.box {
-	height:100%;
-	width:100%;
-}
 .box-content{
-	padding:0 0 3rem 0;
+	padding-bottom: 3rem;
 	width:100%;
 }
 
 .box{
 	background-color: #1C4E6B;
-	border-radius: 2rem;
+	border-radius: 1rem;
    	margin:2rem 0;
 	text-align:left;
 	width:100%;
 	display:flex;
-	align-items:center;
+
+	
 }
 
 .box img{
 	width: 40%;
+	height:auto;
 	border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
-	height:auto;
-	align-content:left;
 	object-fit: cover;
+	border-right-color:2px solid white;
+}
+
+.content h2{
+	text-align:left;
+	margin-bottom:2.6rem;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.content p{
+	font-size:1.1rem;
+	font-weight:430;
 }
 
 .content{
-	margin:0;
-	padding: 0 2rem;
-	flex:1;
+	padding:0 1rem;	
+	margin-bottom:3rem;
 }
+
+
+
 
 
 
