@@ -22,7 +22,6 @@ body span{
     justify-content: center;
     flex-direction: column;
     position: relative;
-	
 }
 
 .section-titre{
@@ -54,7 +53,6 @@ body span{
 .btn-plongez:hover {
     background-color:#00ebf7;
     color: white;
- 
 }
 
 /* Introduction */
@@ -113,13 +111,22 @@ h2{
 }
 
 /*Animation*/
+@keyframes zoom {
+    from {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+    to {
+        transform: scale(1.02);
+        opacity: 1;
+    }
+}
+
 .box:hover {
-    transform:  translateY(-5px); 
+    animation:  zoom 1s forwards; 
 	box-shadow: 0 0 10px #00ebf7;
 }
-.box {
-    transform: translateY(0);
-}
+
 /*----*/
 
 .box img{
@@ -130,17 +137,30 @@ h2{
 }
 
 .content{
-	margin-bottom: 25px;
-	transform: translateX(0);
+	margin-bottom: 1rem;	
 	padding: 0 2rem;
 }
 
-.destinations a{
-    padding: 8px 22px;
+button{
+    padding: 0.6rem 22px;
     border: 2px solid #00ebf7;
+	border-radius:1rem;
     color: #00ebf7;
-    font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.6);
 	text-decoration:none;
-	
+	margin-top:0.1rem;
+	transition: 0.5s;
 }
 
+button:hover{
+	background-color:#00ebf7;
+    color: white;
+
+}
+	
+
+button a{
+    font-weight: bold;
+	color:white;
+	text-decoration:none;
+}
