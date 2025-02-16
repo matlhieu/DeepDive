@@ -51,16 +51,21 @@ tr:nth-child(even) {
 }
 
 .btn-vip {
-  background-color: #dd8d0d;
+  background-color: blue;
 }
 
 .btn-ban {
-  background-color: #dc3545;
+  background-color: red;
 }
 
-.btn:hover {
-  opacity: 0.9;
+.btn-vip:hover{
+	transform:translateY(-5px)
 }
+
+.btn-ban:hover{
+	transform:translateY(-5px)
+}
+
 .connexion{
   padding-bottom: 15px;
 }
