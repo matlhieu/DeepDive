@@ -8,7 +8,6 @@ body{
 	color:#F0F7FA;
 }
 .titre{
-	height:75vh;
 	background:url("https://main-api.quotatrip.com/storage/articles/170/neom-xDQKvPjxtxo-unsplash.jpg");
 	background-size:cover;
 	background-position:center;
@@ -16,7 +15,7 @@ body{
 	align-items:center;
 	justify-content:center;
 	flex-direction:column;
-	padding:8rem;
+	padding:5rem 2rem; /* Met le titre explorez les abysses pas en bas de navibar quand on zoom*/
 }
 
 .titre h1{
