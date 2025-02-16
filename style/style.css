@@ -15,7 +15,7 @@ body span{
     background: url("Image/fondstyle.jpg");
     background-position: center;
     background-size: cover;
-	background-attachment:fixed;
+    background-attachment:fixed;
     min-height: 100vh;
     display: flex;
     align-items: center;
