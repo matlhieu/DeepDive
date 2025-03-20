@@ -7,7 +7,30 @@
 	"mail": "mathieu@deepdive.cy",
 	"mdp" : "calistesunny1234",
 	"tel" : "065152069192",
+	"role": "Admin",
 	}
+
+	"mathieu@deepdive.cy":{
+	"id": 1,
+	"nom":"Ngu",
+	"prenom":"Mathieu",
+	"date": 01-06-2005,
+	"mail": "mathieu@deepdive.cy",
+	"mdp" : "calistesunny1234",
+	"tel" : "065152069192",
+	"role": "Admin",
+	}
+
+	"mathieu@deepdive.cy":{
+	"id": 1,
+	"nom":"Ngu",
+	"prenom":"Mathieu",
+	"date": 01-06-2005,
+	"mail": "mathieu@deepdive.cy",
+	"mdp" : "calistesunny1234",
+	"tel" : "065152069192",
+	"role": "Admin",
+	}	
 
 }
 	
