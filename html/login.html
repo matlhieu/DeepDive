@@ -38,19 +38,13 @@
 
         	<div class="form-group">
             	<label class="required" for="email">Email:</label>
-            	<input type="email" id="email" name="email" required>
+            	<input type="email" id="mail" name="mail" required>
         	</div>
 
         	<div class="form-group">
             	<label class="required" for="password">Mot de passe:</label>
-            	<input type="password" id="password" name="password" required minlength="8" pattern="(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}" title="Le mot de passe doit contenir au moins 8 caractères, incluant au moins une lettre et un chiffre.">
+            	<input type="password" id="mdp" name="mdp" required minlength="8" pattern="(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}" title="Le mot de passe doit contenir au moins 8 caractères, incluant au moins une lettre et un chiffre.">
         	</div>
-
-        	<div class="form-group">
-            	<label class="required" for="telephone">Numéro de téléphone:</label>
-            	<input type="tel" id="telephone" name="telephone" pattern="[0-9]{10}" required title="Veuillez entrer un numéro de téléphone valide (10 chiffres).">
-        	</div>
-
  	 
         	<input type="submit" value="Se connecter">
     	</form>
