@@ -7,8 +7,8 @@
 	"mail": "mathieu@deepdive.cy",
 	"mdp" : "calistesunny1234",
 	"tel" : "065152069192",
-	"role": "Admin",
-	}
+	"role": "Admin"
+	},
 
 	"lucien@deepdive.cy":{
 	"id": 2,
@@ -18,8 +18,8 @@
 	"mail": "lucien@deepdive.cy",
 	"mdp" : "sfth",
 	"tel" : "065152069192",
-	"role": "Admin",
-	}
+	"role": "Admin"
+	},
 
 	"marc@deepdive.cy":{
 	"id": 3,
@@ -29,8 +29,8 @@
 	"mail": "marc@deepdive.cy",
 	"mdp" : "qqsqs",
 	"tel" : "065152069192",
-	"role": "Admin",
-	}
+	"role": "Admin"
+	},
 	
 	"adam@deepdive.cy":{
 	"id": 3,
@@ -40,8 +40,8 @@
 	"mail": "adam@deepdive.cy",
 	"mdp" : "fsfd",
 	"tel" : "065152069192",
-	"role": "Admin",
-	}	
+	"role": "Admin"
+	},
 
 }
 	
