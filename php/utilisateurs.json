@@ -5,7 +5,7 @@
 	"prenom":"Mathieu",
 	"naissance": "2005-06-01",
 	"mail": "mathieu@deepdive.cy",
-	"mdp" : "calistesunny1234",
+	"mdp" : "$2y$10$z5qlD5f.lJ0BZs2N05re7.OkP2W3Fmj9WG1YQ7oaQINQUXEx2l7Ae",
 	"tel" : "065152069192",
 	"role": "Admin"
 	},
@@ -33,15 +33,48 @@
 	},
 	
 	"adam@deepdive.cy":{
-	"id": 3,
+	"id": 4,
 	"nom":"A",
 	"prenom":"Adam",
 	"naissance": "2005-06-01",
 	"mail": "adam@deepdive.cy",
-	"mdp" : "fsfd",
+	"mdp" : "",
 	"tel" : "065152069192",
 	"role": "Admin"
 	},
+
+	"caliste@deepdive.cy":{
+	"id": 5,
+	"nom":"Hebert",
+	"prenom":"Caliste",
+	"naissance": "2006-08-01",
+	"mail": "calistedeepdive.cy",
+	"mdp" : "",
+	"tel" : "06541626260",
+	"role": "client"
+	},
+
+	"zen@deepdive.cy":{
+	"id": 6,
+	"nom":"Kaka",
+	"prenom":"Zen",
+	"naissance": "2006-01-03",
+	"mail": "zen@deepdive.cy",
+	"mdp" : "",
+	"tel" : "061326206311",
+	"role": "client"
+	},
+
+	"messi@deepdive.cy":{
+	"id": 7,
+	"nom":"Lionel",
+	"prenom":"Messi",
+	"naissance": "1995-08-11",
+	"mail": "messi@deepdive.cy",
+	"mdp" : "",
+	"tel" : "06216426426",
+	"role": "client"
+	}
 
 }
 	
