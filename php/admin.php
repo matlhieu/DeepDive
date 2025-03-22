@@ -17,7 +17,7 @@
 	  </div>
 		<div class="menu">
 			<ul class="navi-liens">
-            <li><a href="../index.html" class="navi-lien">ACCUEIL</a></li>
+            <li><a href="index.php" class="navi-lien">ACCUEIL</a></li>
             <li><a href="destinations.php" class="navi-lien">DESTINATIONS</a></li>
             <li><a href="search.php" class="navi-lien">RECHERCHE</a></li>
             <li><a href="about.php" class="navi-lien">QUI SOMMES NOUS ?</a></li>          
@@ -140,4 +140,5 @@
 
 </body>
 </html>
+
 
