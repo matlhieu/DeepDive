@@ -107,7 +107,7 @@
 
  <footer>
  	<div class="footer-main">
-	 <img src="style/Image/logoD.png" alt="logo">
+	 <img src="../style/Image/logoD.png" alt="logo">
 		<div class="footer-container">
 			<h3>Liens Utiles</h3>
 			  <p><a href="index.php">Accueil</a></p>
