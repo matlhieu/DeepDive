@@ -17,7 +17,7 @@
 	  </div>
 		<div class="menu">
 			<ul class="navi-liens">
-            <li><a href="../index.html" class="navi-lien">ACCUEIL</a></li>
+            <li><a href="index.php" class="navi-lien">ACCUEIL</a></li>
             <li><a href="destinations.php" class="navi-lien">DESTINATIONS</a></li>
             <li><a href="search.php" class="navi-lien">RECHERCHE</a></li>
             <li><a href="about.php" class="navi-lien">QUI SOMMES NOUS ?</a></li>          
@@ -245,7 +245,7 @@
 	 <img src="../style/Image/logoD.png" alt="logo">
 		<div class="footer-container">
 			<h3>Liens Utiles</h3>
-			  <p><a href="../index.html">Accueil</a></p>
+			  <p><a href="index.php">Accueil</a></p>
 			  <p><a href="destinations.php">Destinations</a></p>
 			  <p><a href="search.php">Recherche</a></p>
 			  <p><a href="signup.php">Inscription</a></p>
