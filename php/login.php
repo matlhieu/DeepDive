@@ -10,21 +10,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $mail = $_POST['mail'];
     $mdp = $_POST['mdp'];
 
+
     if (isset($users[$mail])) {
+		
         if (password_verify($mdp, $users[$mail]['mdp'])) {
             
             $_SESSION["nom"] = $users[$mail]["nom"];
             $_SESSION["prenom"] = $users[$mail]["prenom"];
 			$_SESSION['mail'] = $mail;
             $_SESSION["naissance"] = $users[$mail]["naissance"];
-            $_SESSION["tel"] = $users[$mails]["tel"];
+            $_SESSION["tel"] = $users[$mail]["tel"];
             $_SESSION["role"] = $users[$mail]["role"];
 
             if ($users[$mail]['role'] === 'Admin') {
-                header('Location: ../html/admin.html');
-                echo 'caca';
+                header('Location: admin.php');
             } else {
-                header('Location: ../html/profil.html');
+                header('Location: profil.php');
             }
             exit();
         } else {
@@ -47,7 +48,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	<link rel="stylesheet" href="../style/login.css">
 </head>
 <body>
-	<nav class="navibar">
+
+<nav class="navibar">
 	  <div class="logo-container">
 		<div class="logo"> 
 			<a href="admin.php"><img src="../style/Image/logo4.png" alt="logo"></a>
@@ -77,17 +79,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     	<form action="" method="POST" autocomplete="off">
 
         <div class="form-group">
-            	<label class="required" for="email">Email:</label>
+            	<label class="required" for="mail">mail:</label>
             	<input type="email" id="mail" name="mail" required>
         	</div>
 
         	<div class="form-group">
-            	<label class="required" for="password">Mot de passe:</label>
-            	<input type="password" id="mdp" name="mdp" required minlength="8" pattern="(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}" title="Le mot de passe doit contenir au moins 8 caractères, incluant au moins une lettre et un chiffre.">
+            	<label class="required" for="mdp">Mot de passe:</label>
+            	<input type="password" id="mdp" name="mdp" required minlength="6" pattern="(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}" title="Le mot de passe doit contenir au moins 6 caractères, incluant au moins une lettre et un chiffre.">
         	</div>
  	 
         	<input type="submit" value="Se connecter">
     	</form>
+
+		<?php if (!empty($error)) : ?>
+            <p style="color:red;"><?php echo htmlspecialchars($error); ?></p>
+        <?php endif; ?>
+		
 	<div class="login-link">
         	<p>Mot de passe oublié ? <a href="reset_mdp_step1.php">Cliquez ici</a></p>
     	</div>
