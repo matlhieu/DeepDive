@@ -5,7 +5,7 @@
 	"prenom":"Mathieu",
 	"naissance": "2005-06-01",
 	"mail": "mathieu@deepdive.cy",
-	"mdp" : "$2y$10$z5qlD5f.lJ0BZs2N05re7.OkP2W3Fmj9WG1YQ7oaQINQUXEx2l7Ae",
+	"mdp" : "$2y$10$KoXd/SNiYtpFNremEUXBWuvuFpvfE30IHeLvMuVuUz5JQAxKpjzh6",
 	"tel" : "065152069192",
 	"role": "Admin"
 	},
@@ -16,29 +16,29 @@
 	"prenom":"Lucien",
 	"naissance": "2005-06-01",
 	"mail": "lucien@deepdive.cy",
-	"mdp" : "sfth",
+	"mdp" : "$2y$10$4fZknNgxn/1lJ58Ex3icbe0ZLTSwglgngjYAM.k5w9TLhFHrjsdqC",
 	"tel" : "065152069192",
 	"role": "Admin"
 	},
 
 	"marc@deepdive.cy":{
 	"id": 3,
-	"nom":"Ngu",
+	"nom":"A",
 	"prenom":"Marc",
 	"naissance": "2005-06-01",
 	"mail": "marc@deepdive.cy",
-	"mdp" : "qqsqs",
+	"mdp" : "$2y$10$EEyPZHgE2hPE/uTO1/RpRukWffJTRJK/h5MfbVhqGso1T64U5ivPO",
 	"tel" : "065152069192",
 	"role": "Admin"
 	},
 	
-	"adam@deepdive.cy":{
+	"ayman@deepdive.cy":{
 	"id": 4,
 	"nom":"A",
-	"prenom":"Adam",
+	"prenom":"Ayman",
 	"naissance": "2005-06-01",
-	"mail": "adam@deepdive.cy",
-	"mdp" : "",
+	"mail": "ayman@deepdive.cy",
+	"mdp" : "$2y$10$9xY68Vh7nv/cZ7FKjfg9t.0OM1w2bZdxhgCzJYNFHgbY0PHv3Eu4K",
 	"tel" : "065152069192",
 	"role": "Admin"
 	},
