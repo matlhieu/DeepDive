@@ -1,3 +1,19 @@
+<?php
+// Chargement des utilisateurs
+$users = json_decode(file_get_contents("utilisateurs.json"), true);
+
+// Pagination
+$usersPerPage = 5;
+$page = isset($_GET['page']) ? intval($_GET['page']) : 1;
+$offset = ($page - 1) * $usersPerPage;
+
+$allUsers = array_values($users); // conversion en tableau indexé
+$paginatedUsers = array_slice($allUsers, $offset, $usersPerPage);
+
+$totalUsers = count($allUsers);
+$totalPages = ceil($totalUsers / $usersPerPage);
+?>
+
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
@@ -7,6 +23,7 @@
 	<link rel="stylesheet" href="../style/login.css">
 	<link rel="stylesheet" href="../style/admin.css">
 </head>
+
 <body>
 	<nav class="navibar">
 	  <div class="logo-container">
@@ -35,107 +52,46 @@
 	<div class="overlayAdmin">
     	<h1>Zone administrateur</h1>
     
-			<body>
+
 				<div class="container">
-					
-					<table>
-							<thead>
-									<tr>
-										<th>Nom</th>
-										<th>Prénom</th>
-										<th>mail</th>
-										<th>VIP</th>
-										<th>Banni</th>
-									</tr>
-								</thead>
-								<tbody>
-										<tr>
-												<td>Dupont</td>
-												<td>Jean</td>
-												<td>abracadabra@gmail.com</td>
-												<td><button class="btn btn-vip">Activer VIP</button></td>
-												<td><button class="btn btn-ban">Bannir</button></td>
-										</tr>
-										<tr>
-												<td>Martin</td>
-												<td>Marie</td>
-												<td>titanfall2@gmail.com</td>
-												<td><button class="btn btn-vip">Activer VIP</button></td>
-												<td><button class="btn btn-ban">Bannir</button></td>
-										</tr>
-										<tr>
-												<td>Durand</td>
-												<td>Luc</td>
-												<td>aphelios00@gmail.com</td>
-												<td><button class="btn btn-vip">Désactiver VIP</button></td>
-												<td><button class="btn btn-ban">Débannir</button></td>
-										</tr>
-									  <tr>
-											<td>Dupont</td>
-											<td>Jean</td>
-											<td>abcdde@gmail.com</td>
-											<td><button class="btn btn-vip">Activer VIP</button></td>
-											<td><button class="btn btn-ban">Bannir</button></td>
-									</tr>
-									<tr>
-										<td>Dupont</td>
-										<td>Jean</td>
-										<td>abcdde@gmail.com</td>
-										<td><button class="btn btn-vip">Activer VIP</button></td>
-										<td><button class="btn btn-ban">Bannir</button></td>
-								</tr>
-								<tr>
-									<td>Dupont</td>
-									<td>Jean</td>
-									<td>abcdde@gmail.com</td>
-									<td><button class="btn btn-vip">Activer VIP</button></td>
-									<td><button class="btn btn-ban">Bannir</button></td>
-							</tr>
-							<tr>
-								<td>Dupont</td>
-								<td>Jean</td>
-								<td>abcdde@gmail.com</td>
-								<td><button class="btn btn-vip">Activer VIP</button></td>
-								<td><button class="btn btn-ban">Bannir</button></td>
-						</tr>
-						<tr>
-							<td>Dupont</td>
-							<td>Jean</td>
-							<td>abcdde@gmail.com</td>
-							<td><button class="btn btn-vip">Activer VIP</button></td>
-							<td><button class="btn btn-ban">Bannir</button></td>
-					</tr>
-					<tr>
-						<td>Dupont</td>
-						<td>Jean</td>
-						<td>abcdde@gmail.com</td>
-						<td><button class="btn btn-vip">Activer VIP</button></td>
-						<td><button class="btn btn-ban">Bannir</button></td>
-				</tr>
+
+
+<table>
+		<thead>
 				<tr>
-					<td>Dupont</td>
-					<td>Jean</td>
-					<td>abcdde@gmail.com</td>
-					<td><button class="btn btn-vip">Activer VIP</button></td>
-					<td><button class="btn btn-ban">Bannir</button></td>
-			</tr>
-			<tr>
-				<td>Dupont</td>
-				<td>Jean</td>
-				<td>abcdde@gmail.com</td>
-				<td><button class="btn btn-vip">Activer VIP</button></td>
-				<td><button class="btn btn-ban">Bannir</button></td>
-			</tr>
-			<tr>
-				<td>Dupont</td>
-				<td>Jean</td>
-				<td>abcdde@gmail.com</td>
-				<td><button class="btn btn-vip">Activer VIP</button></td>
-				<td><button class="btn btn-ban">Bannir</button></td>
-			</tr>
-						</tbody>
-				</table>
-		</div>
+						<th>Nom</th>
+						<th>Prénom</th>
+						<th>Email</th>
+						<th>Rôle</th>
+						<th>VIP</th>
+						<th>Ban</th>
+				</tr>
+		</thead>
+		<tbody>
+				<?php foreach ($paginatedUsers as $user): ?>
+						<tr>
+						
+								<td><?= $user['nom'] ?></td>
+								<td><?= $user['prenom'] ?></td>
+								<td><?= $user['mail']  ?></td>
+								<td><?= $user['role'] ?></td>
+								<td><button type="submit" name="action" value="vip" class="btn btn-vip" >VIP</button>
+                <td><button type="submit" name="action" value="ban"class="btn btn-ban">Bannir</button></td>
+
+						</tr>
+				<?php endforeach; ?>
+		</tbody>
+</table>
+
+<!-- Pagination -->
+<div class="pagination">
+		<?php for ($i = 1; $i <= $totalPages; $i++): ?>
+
+				<a href="?page=<?= $i ?>" class="<?= ($i == $page) ? 'active' : '' ?>"><?= $i ?></a>
+	
+		<?php endfor; ?>
+</div>
+		
 		
 
 </body>
