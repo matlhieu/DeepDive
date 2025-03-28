@@ -70,7 +70,7 @@
 				 <div class="box">
 					<img src="https://www.lebaillidesuffren.com/wp-content/uploads/sites/174/2020/06/port-cros.jpg" alt="Port-Cros">
 					<div class="content">
-					<h2>Plongez-vous dans Parc National de Port-Cros !</h2>
+					<h2>Plongez-vous dans le Parc National de Port-Cros !</h2>
 					<p> Décollez dès le 10/05/2025 pour revenir le 18/05/2025
 					</p>
 					
@@ -91,7 +91,7 @@
 				 <div class="box">
 					<img src="https://checkyeti.imgix.net/images/optimized/boat-trips-to-calanques-national-park.jpg" alt="Calanques de Marseille">
 					<div class="content">
-						<h2>Découvrez les profondeurs Calanques de Marseille</h2>
+						<h2>Découvrez les profondeurs des Calanques de Marseille</h2>
 						<p> Décollez dès le 10/05/2025 pour revenir le 18/05/2025
 					</p>
 					
