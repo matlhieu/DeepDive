@@ -60,6 +60,7 @@
 					<p>Hébergement : Hotel Trivago</p>
 					<p>Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
 					<p>Activité de plages: Plongée, jet skie, se dentendre sur la plage </p>
+					<p>Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
 					</div>
@@ -80,6 +81,7 @@
 					<p>Hébergement : Hotel Trivago</p>
 					<p>Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
 					<p>Activité de plages: Plongée, jet skie, se dentendre sur la plage </p>
+										<p>Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
 
@@ -92,7 +94,7 @@
 					<img src="https://checkyeti.imgix.net/images/optimized/boat-trips-to-calanques-national-park.jpg" alt="Calanques de Marseille">
 					<div class="content">
 						<h2>Découvrez les profondeurs des Calanques de Marseille</h2>
-						<p> Décollez dès le 10/05/2025 pour revenir le 18/05/2025
+					<p> Décollez dès le 10/05/2025 pour revenir le 18/05/2025
 					</p>
 					
 					<y>Nombre de personnes : 4</y>
@@ -101,6 +103,7 @@
 					<p>Hébergement : Hotel Trivago</p>
 					<p>Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
 					<p>Activité de plages: Plongée, jet skie, se dentendre sur la plage </p>
+										<p>Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
 
@@ -122,6 +125,7 @@
 					<p>Hébergement : Hotel Trivago</p>
 					<p>Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
 					<p>Activité de plages: Plongée, jet skie, se dentendre sur la plage </p>
+										<p>Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
 
@@ -142,8 +146,10 @@
 					<p>Hébergement : Hotel Trivago</p>
 					<p>Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
 					<p>Activité de plages: Plongée, jet skie, se dentendre sur la plage </p>
+										<p>Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
+
 					</div>
 				</div>
 				<div class="box">
@@ -159,8 +165,10 @@
 					<p>Hébergement : Hotel Trivago</p>
 					<p>Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
 					<p>Activité de plages: Plongée, jet skie, se dentendre sur la plage </p>
+										<p>Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
+
 					</div>
 				</div>
 				<div class="box">
@@ -176,6 +184,7 @@
 					<p>Hébergement : Hotel Trivago</p>
 					<p>Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
 					<p>Activité de plages: Plongée, jet skie, se dentendre sur la plage </p>
+										<p>Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
 
@@ -194,8 +203,10 @@
 					<p>Hébergement : Hotel Trivago</p>
 					<p>Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
 					<p>Activité de plages: Plongée, jet skie, se dentendre sur la plage </p>
+										<p>Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
+
 					</div>
 				</div>
 				<div class="box">
@@ -211,8 +222,10 @@
 					<p>Hébergement : Hotel Trivago</p>
 					<p>Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
 					<p>Activité de plages: Plongée, jet skie, se dentendre sur la plage </p>
+										<p>Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
+
 
 					</div>
 				</div>
@@ -229,8 +242,10 @@
 					<p>Hébergement : Hotel Trivago</p>
 					<p>Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
 					<p>Activité de plages: Plongée, jet skie, se dentendre sur la plage </p>
+										<p>Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
+
 					</div>
 				</div>
 		
