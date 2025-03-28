@@ -236,6 +236,82 @@
 
 					</div>
 				</div>
+				<div class="box">
+					<img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/23/55/5a/ec/caption.jpg" alt="Iles Canaries">
+					<div class="content">
+					<h2>Iles Canaries</h2>
+					<p>Le site de Capo di Feno, situé à quelques kilomètres d'Ajaccio, est un véritable joyau sous-marin de la Corse. Avec ses eaux cristallines, ses falaises spectaculaires et sa biodiversité marine, c’est un endroit incontournable pour les passionnés de plongée.
+					Explorez un monde fascinant où se mêlent mérous, poissons de roche, gorgones colorées, langoustes et étoiles de mer. Les sites de plongée autour de Capo di Feno offrent une grande variété de paysages sous-marins :
+					Les tombants rocheux, où la vie marine est abondante et où vous pouvez observer des bancs de poissons.
+					Les grottes sous-marines, idéales pour les explorations en toute sécurité.
+					Les fonds sablonneux et les herbiers de posidonie, habitats importants pour la faune locale.
+					Guidé par nos moniteurs expérimentés, vivez une immersion unique dans cet écosystème préservé et profitez de la beauté sauvage de la mer Méditerranée.
+					</p>
+						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (120 avis)</p>
+
+					</div>
+					<div class="box">
+					<img src="https://content.tui.co.uk/adamtui/2023_3/9_15/fbd89920-eea4-4291-bae7-afc001006ccb/LOC_003184_shutterstock_2034226538WebOriginalCompressed.jpg?i10c=img.resize(width:1080);img.crop(width:1080%2Cheight:608)" alt="?=Almyrida">
+					<div class="content">
+					<h2>Almyrida en Grèce</h2>
+					<p>Le site de Capo di Feno, situé à quelques kilomètres d'Ajaccio, est un véritable joyau sous-marin de la Corse. Avec ses eaux cristallines, ses falaises spectaculaires et sa biodiversité marine, c’est un endroit incontournable pour les passionnés de plongée.
+					Explorez un monde fascinant où se mêlent mérous, poissons de roche, gorgones colorées, langoustes et étoiles de mer. Les sites de plongée autour de Capo di Feno offrent une grande variété de paysages sous-marins :
+					Les tombants rocheux, où la vie marine est abondante et où vous pouvez observer des bancs de poissons.
+					Les grottes sous-marines, idéales pour les explorations en toute sécurité.
+					Les fonds sablonneux et les herbiers de posidonie, habitats importants pour la faune locale.
+					Guidé par nos moniteurs expérimentés, vivez une immersion unique dans cet écosystème préservé et profitez de la beauté sauvage de la mer Méditerranée.
+					</p>
+						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (88 avis)</p>
+
+					</div>
+				</div>
+				<div class="box">
+					<img src="https://www.lepetitmaltais.com/wp-content/uploads/2022/10/blue-hole.jpeg" alt="Comino">
+					<div class="content">
+					<h2>Comino à Malte</h2>
+					<p>Le site de Capo di Feno, situé à quelques kilomètres d'Ajaccio, est un véritable joyau sous-marin de la Corse. Avec ses eaux cristallines, ses falaises spectaculaires et sa biodiversité marine, c’est un endroit incontournable pour les passionnés de plongée.
+					Explorez un monde fascinant où se mêlent mérous, poissons de roche, gorgones colorées, langoustes et étoiles de mer. Les sites de plongée autour de Capo di Feno offrent une grande variété de paysages sous-marins :
+					Les tombants rocheux, où la vie marine est abondante et où vous pouvez observer des bancs de poissons.
+					Les grottes sous-marines, idéales pour les explorations en toute sécurité.
+					Les fonds sablonneux et les herbiers de posidonie, habitats importants pour la faune locale.
+					Guidé par nos moniteurs expérimentés, vivez une immersion unique dans cet écosystème préservé et profitez de la beauté sauvage de la mer Méditerranée.
+					</p>
+						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (67 avis)</p>
+
+					</div>
+				</div>
+				<div class="box">
+					<img src="https://www.lustricadiving.it/wp-content/uploads/photo-gallery/httplocalhostlustricadivingwp-contentuploads/Ustica_Torre-Spalmatore.jpg" alt="Ile Ustica">
+					<div class="content">
+					<h2>Ile Ustica en Italie</h2>
+					<p>Le site de Capo di Feno, situé à quelques kilomètres d'Ajaccio, est un véritable joyau sous-marin de la Corse. Avec ses eaux cristallines, ses falaises spectaculaires et sa biodiversité marine, c’est un endroit incontournable pour les passionnés de plongée.
+					Explorez un monde fascinant où se mêlent mérous, poissons de roche, gorgones colorées, langoustes et étoiles de mer. Les sites de plongée autour de Capo di Feno offrent une grande variété de paysages sous-marins :
+					Les tombants rocheux, où la vie marine est abondante et où vous pouvez observer des bancs de poissons.
+					Les grottes sous-marines, idéales pour les explorations en toute sécurité.
+					Les fonds sablonneux et les herbiers de posidonie, habitats importants pour la faune locale.
+					Guidé par nos moniteurs expérimentés, vivez une immersion unique dans cet écosystème préservé et profitez de la beauté sauvage de la mer Méditerranée.
+					</p>
+						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (28 avis)</p>
+
+					</div>
+				</div>
+				<div class="box">
+					<img src="https://cdn.futura-sciences.com/sources/images/diaporama/1592-les-plus-belles-plages-du-monde/fs-535258615.jpg" alt="Oludeniz">
+					<div class="content">
+					<h2>Oludenize en Turquie</h2>
+					<p>Le site de Capo di Feno, situé à quelques kilomètres d'Ajaccio, est un véritable joyau sous-marin de la Corse. Avec ses eaux cristallines, ses falaises spectaculaires et sa biodiversité marine, c’est un endroit incontournable pour les passionnés de plongée.
+					Explorez un monde fascinant où se mêlent mérous, poissons de roche, gorgones colorées, langoustes et étoiles de mer. Les sites de plongée autour de Capo di Feno offrent une grande variété de paysages sous-marins :
+					Les tombants rocheux, où la vie marine est abondante et où vous pouvez observer des bancs de poissons.
+					Les grottes sous-marines, idéales pour les explorations en toute sécurité.
+					Les fonds sablonneux et les herbiers de posidonie, habitats importants pour la faune locale.
+					Guidé par nos moniteurs expérimentés, vivez une immersion unique dans cet écosystème préservé et profitez de la beauté sauvage de la mer Méditerranée.
+					</p>
+						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
+
+					</div>
+				</div>
+
+				</div>
 		
 			</div>
 	</section>
