@@ -1,3 +1,79 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  
+   $name = $_POST['name'] ?? '';
+   $firstname = $_POST['firstname'] ?? '';
+   $email = filter_var($_POST['email'] ?? '', FILTER_VALIDATE_EMAIL); 
+   $password = password_hash($_POST['password'] ?? '', PASSWORD_BCRYPT); 
+   $datedenaissance = $_POST['datedenaissance'] ?? ''; 
+
+
+
+
+
+  
+   function valid($date) {
+       $pattern = '/^(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[0-2])\/\d{4}$|^\d{4}-((0[1-9])|(1[0-2]))-([012][1-9]|3[01])$/';
+
+
+       if (preg_match($pattern, $date)) {
+           if (strpos($date, '/') !== false) {
+               list($day, $month, $year) = explode('/', $date);
+           } elseif (strpos($date, '-') !== false) {
+               list($year, $month, $day) = explode('-', $date);
+           }
+
+
+           if (checkdate($month, $day, $year)) {
+               return true;
+           } else {
+               return false;
+           }
+       } else {
+           return false;
+       }
+   }
+
+
+ 
+   if (!valid($datedenaissance)) {
+       die("La date de naissance est invalide.");
+   }
+
+
+   
+   if (empty($name) || empty($firstname) || empty($email) || empty($password) || empty($datedenaissance)) {
+       die("Veuillez remplir tous les champs."); 
+   }
+
+
+   
+   $userData = [
+       'name' => $name,
+       'firstname' => $firstname,
+       'email' => $email,
+       'password' => $password,
+       'datedenaissance' => $datedenaissance,
+   ];
+
+
+   
+   $file = 'utilisateurs.json';
+
+
+  
+   $utilisateurs = json_decode(file_get_contents($file), true) ?? []; 
+   $utilisateurs[] = $userData; // Correction de la variable $usersData en $userData
+
+
+   
+   file_put_contents($file, json_encode($utilisateurs, JSON_PRETTY_PRINT)); // Ajout de JSON_PRETTY_PRINT pour une meilleure lisibilité
+
+
+   echo "Inscription réussie !";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
