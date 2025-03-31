@@ -108,6 +108,9 @@
 					<p>🚗Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
+						            <button class="boutton-recherche">
+           Réserver
+            </button>
 				</div>
 		</div>
 
@@ -129,6 +132,9 @@
 
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
+						<button class="boutton-recherche">
+              Réserver
+            </button>
 				</div>
 		</div>
 
@@ -149,6 +155,9 @@
 
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
+						<button class="boutton-recherche">
+               Réserver
+            </button>
 				</div>
 		</div>
 
@@ -170,6 +179,9 @@
 
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
+						<button class="boutton-recherche">
+              Réserver
+            </button>
 				</div>
 		</div>
 
@@ -190,6 +202,9 @@
 
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
+						<button class="boutton-recherche">
+                Réserver
+            </button>
 				</div>
 		</div>
 
@@ -210,6 +225,9 @@
 
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
+						<button class="boutton-recherche">
+               Réserver
+            </button>
 				</div>
 		</div>
 
@@ -230,6 +248,9 @@
 
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
+						<button class="boutton-recherche">
+               Réserver
+            </button>
 				</div>
 		</div>
 
@@ -250,6 +271,9 @@
 
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
+						<button class="boutton-recherche">
+               Réserver
+            </button>
 				</div>
 		</div>
 
@@ -271,6 +295,9 @@
 
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
+						<button class="boutton-recherche">
+               Réserver
+            </button>
 				</div>
 		</div>
 
@@ -292,6 +319,9 @@
 
 						<p> 💶Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
+						<button class="boutton-recherche">
+                Réserver
+            </button>
 				</div>
 		</div>
 
@@ -325,4 +355,3 @@
 
  </body>
 </html>
-
