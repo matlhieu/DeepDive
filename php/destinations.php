@@ -250,6 +250,7 @@
 						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (120 avis)</p>
 
 					</div>
+					</div>
 					<div class="box">
 					<img src="https://content.tui.co.uk/adamtui/2023_3/9_15/fbd89920-eea4-4291-bae7-afc001006ccb/LOC_003184_shutterstock_2034226538WebOriginalCompressed.jpg?i10c=img.resize(width:1080);img.crop(width:1080%2Cheight:608)" alt="?=Almyrida">
 					<div class="content">
@@ -266,7 +267,7 @@
 					</div>
 				</div>
 				<div class="box">
-					<img src="https://www.lepetitmaltais.com/wp-content/uploads/2022/10/blue-hole.jpeg" alt="Comino">
+					<img src=https://www.les-covoyageurs.com/ressources/images-lieux/photo-lieu-2045-2.jpg alt="?=Almyrida">
 					<div class="content">
 					<h2>Comino à Malte</h2>
 					<p>Le site de Capo di Feno, situé à quelques kilomètres d'Ajaccio, est un véritable joyau sous-marin de la Corse. Avec ses eaux cristallines, ses falaises spectaculaires et sa biodiversité marine, c’est un endroit incontournable pour les passionnés de plongée.
