@@ -122,6 +122,11 @@ bulle-destinations = Regroupe uniquement les boutons pour une meilleure */
 .info-texte{
 	padding:1.5rem;
 }
+.stars {
+    color: yellow;
+    font-size: 20px;
+}
+
 
 
 
