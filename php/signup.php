@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
            }
 
 
-           if (checkdate($month, $day, $year)) {
+           if (checkdate($day, $month, $year)) {
                return true;
            } else {
                return false;
