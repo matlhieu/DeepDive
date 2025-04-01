@@ -8,7 +8,7 @@
 </head>
 
 <header>
-	<?php include("navbar.php") ?>
+	<?php include("php/navbar.php") ?>
 </header>
   <body>
  <section class="home"> 
@@ -116,7 +116,7 @@
 			</div>
 	</section>
 
-<?php include("footer.php") ?>
+<?php include("php/footer.php") ?>
 	
  </body>
 </html>
