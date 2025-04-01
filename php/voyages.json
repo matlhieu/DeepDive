@@ -1,0 +1,618 @@
+{
+  "voyages": {
+    "1": {
+      "id": 1,
+      "titre": "Porquerolles",
+      "image": "porquerolles.jpg",
+      "date_debut": "2025-06-08",
+      "date_fin": "2025-06-13",
+      "duree": 5,
+      "prix_total": 300,
+      "note": 4.5,
+      "avis": 254,
+      "etapes": [
+        {
+          "titre": "Découverte de Porquerolles",
+          "date_arrivee": "2025-06-08",
+          "date_depart": "2025-06-13",
+          "lieu": "Porquerolles, France",
+          "options": {
+            "hebergement": [
+              "Hôtel 3★",
+              "Camping",
+              "Auberge"
+            ],
+            "restauration": [
+              "Petit déjeuner",
+              "Demi-pension",
+              "Pension complète"
+            ],
+            "activites": [
+              "Plongée libre",
+              "Exploration guidée",
+              "Observation marine"
+            ],
+            "transport": [
+              "Bateau",
+              "Randonnée",
+              "Navette locale"
+            ]
+          }
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "titre": "Parc National de Port-Cros",
+      "image": "portcros.jpg",
+      "date_debut": "2025-06-15",
+      "date_fin": "2025-06-20",
+      "duree": 5,
+      "prix_total": 300,
+      "note": 4.5,
+      "avis": 254,
+      "etapes": [
+        {
+          "titre": "Découverte de Parc National de Port-Cros",
+          "date_arrivee": "2025-06-15",
+          "date_depart": "2025-06-20",
+          "lieu": "Port-Cros, France",
+          "options": {
+            "hebergement": [
+              "Hôtel 3★",
+              "Camping",
+              "Auberge"
+            ],
+            "restauration": [
+              "Petit déjeuner",
+              "Demi-pension",
+              "Pension complète"
+            ],
+            "activites": [
+              "Plongée libre",
+              "Exploration guidée",
+              "Observation marine"
+            ],
+            "transport": [
+              "Bateau",
+              "Randonnée",
+              "Navette locale"
+            ]
+          }
+        }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "titre": "Calanques de Marseille",
+      "date_debut": "2025-06-22",
+      "date_fin": "2025-06-27",
+      "duree": 5,
+      "prix_total": 300,
+      "note": 4.5,
+      "avis": 254,
+      "etapes": [
+        {
+          "titre": "Découverte de Calanques de Marseille",
+          "date_arrivee": "2025-06-22",
+          "date_depart": "2025-06-27",
+          "lieu": "Marseille, France",
+          "options": {
+            "hebergement": [
+              "Hôtel 3★",
+              "testt",
+              "Auberge"
+            ],
+            "restauration": [
+              "Petit déjeuner",
+              "Demi-pension",
+              "Pension complète"
+            ],
+            "activites": [
+              "Plongée libre",
+              "Exploration guidée",
+              "Observation marine"
+            ],
+            "transport": [
+              "Bateau",
+              "Randonnée",
+              "Navette locale"
+            ]
+          }
+        }
+      ]
+    },
+    "4": {
+      "id": 4,
+      "titre": "Réserve de Cerbère-Banyuls",
+      "image": "cerbere.jpg",
+      "date_debut": "2025-06-29",
+      "date_fin": "2025-07-04",
+      "duree": 5,
+      "prix_total": 300,
+      "note": 4.5,
+      "avis": 254,
+      "etapes": [
+        {
+          "titre": "Découverte de Réserve de Cerbère-Banyuls",
+          "date_arrivee": "2025-06-29",
+          "date_depart": "2025-07-04",
+          "lieu": "Cerbère-Banyuls, France",
+          "options": {
+            "hebergement": [
+              "Hôtel 3★",
+              "Camping",
+              "Auberge"
+            ],
+            "restauration": [
+              "Petit déjeuner",
+              "Demi-pension",
+              "Pension complète"
+            ],
+            "activites": [
+              "Plongée libre",
+              "Exploration guidée",
+              "Observation marine"
+            ],
+            "transport": [
+              "Bateau",
+              "Randonnée",
+              "Navette locale"
+            ]
+          }
+        }
+      ]
+    },
+    "5": {
+      "id": 5,
+      "titre": "Îles Lavezzi - Corse",
+      "image": "lavezzi.jpg",
+      "date_debut": "2025-07-06",
+      "date_fin": "2025-07-11",
+      "duree": 5,
+      "prix_total": 300,
+      "note": 4.5,
+      "avis": 254,
+      "etapes": [
+        {
+          "titre": "Découverte de Îles Lavezzi - Corse",
+          "date_arrivee": "2025-07-06",
+          "date_depart": "2025-07-11",
+          "lieu": "Lavezzi, Corse, France",
+          "options": {
+            "hebergement": [
+              "Hôtel 3★",
+              "Camping",
+              "Auberge"
+            ],
+            "restauration": [
+              "Petit déjeuner",
+              "Demi-pension",
+              "Pension complète"
+            ],
+            "activites": [
+              "Plongée libre",
+              "Exploration guidée",
+              "Observation marine"
+            ],
+            "transport": [
+              "Bateau",
+              "Randonnée",
+              "Navette locale"
+            ]
+          }
+        }
+      ]
+    },
+    "6": {
+      "id": 6,
+      "titre": "Île de Gozo/Malte",
+      "image": "gozo.jpg",
+      "date_debut": "2025-07-13",
+      "date_fin": "2025-07-18",
+      "duree": 5,
+      "prix_total": 300,
+      "note": 4.5,
+      "avis": 254,
+      "etapes": [
+        {
+          "titre": "Découverte de Île de Gozo/Malte",
+          "date_arrivee": "2025-07-13",
+          "date_depart": "2025-07-18",
+          "lieu": "Gozo, Malte",
+          "options": {
+            "hebergement": [
+              "Hôtel 3★",
+              "Camping",
+              "Auberge"
+            ],
+            "restauration": [
+              "Petit déjeuner",
+              "Demi-pension",
+              "Pension complète"
+            ],
+            "activites": [
+              "Plongée libre",
+              "Exploration guidée",
+              "Observation marine"
+            ],
+            "transport": [
+              "Bateau",
+              "Randonnée",
+              "Navette locale"
+            ]
+          }
+        }
+      ]
+    },
+    "7": {
+      "id": 7,
+      "titre": "Les îles Medes à l’Estartit",
+      "image": "medes.jpg",
+      "date_debut": "2025-07-20",
+      "date_fin": "2025-07-25",
+      "duree": 5,
+      "prix_total": 300,
+      "note": 4.5,
+      "avis": 254,
+      "etapes": [
+        {
+          "titre": "Découverte de Les îles Medes à l’Estartit",
+          "date_arrivee": "2025-07-20",
+          "date_depart": "2025-07-25",
+          "lieu": "Îles Medes, Espagne",
+          "options": {
+            "hebergement": [
+              "Hôtel 3★",
+              "Camping",
+              "Auberge"
+            ],
+            "restauration": [
+              "Petit déjeuner",
+              "Demi-pension",
+              "Pension complète"
+            ],
+            "activites": [
+              "Plongée libre",
+              "Exploration guidée",
+              "Observation marine"
+            ],
+            "transport": [
+              "Bateau",
+              "Randonnée",
+              "Navette locale"
+            ]
+          }
+        }
+      ]
+    },
+    "8": {
+      "id": 8,
+      "titre": "Parc national de Cabrera",
+      "image": "cabrera.jpg",
+      "date_debut": "2025-07-27",
+      "date_fin": "2025-08-01",
+      "duree": 5,
+      "prix_total": 300,
+      "note": 4.5,
+      "avis": 254,
+      "etapes": [
+        {
+          "titre": "Découverte de Parc national de Cabrera",
+          "date_arrivee": "2025-07-27",
+          "date_depart": "2025-08-01",
+          "lieu": "Cabrera, Espagne",
+          "options": {
+            "hebergement": [
+              "Hôtel 3★",
+              "Camping",
+              "Auberge"
+            ],
+            "restauration": [
+              "Petit déjeuner",
+              "Demi-pension",
+              "Pension complète"
+            ],
+            "activites": [
+              "Plongée libre",
+              "Exploration guidée",
+              "Observation marine"
+            ],
+            "transport": [
+              "Bateau",
+              "Randonnée",
+              "Navette locale"
+            ]
+          }
+        }
+      ]
+    },
+    "9": {
+      "id": 9,
+      "titre": "Île de Tabarca",
+      "image": "tabarca.jpg",
+      "date_debut": "2025-08-03",
+      "date_fin": "2025-08-08",
+      "duree": 5,
+      "prix_total": 300,
+      "note": 4.5,
+      "avis": 254,
+      "etapes": [
+        {
+          "titre": "Découverte de Île de Tabarca",
+          "date_arrivee": "2025-08-03",
+          "date_depart": "2025-08-08",
+          "lieu": "Tabarca, Espagne",
+          "options": {
+            "hebergement": [
+              "Hôtel 3★",
+              "Camping",
+              "Auberge"
+            ],
+            "restauration": [
+              "Petit déjeuner",
+              "Demi-pension",
+              "Pension complète"
+            ],
+            "activites": [
+              "Plongée libre",
+              "Exploration guidée",
+              "Observation marine"
+            ],
+            "transport": [
+              "Bateau",
+              "Randonnée",
+              "Navette locale"
+            ]
+          }
+        }
+      ]
+    },
+    "10": {
+      "id": 10,
+      "titre": "Capo di Feno à Ajaccio",
+      "image": "capo.jpg",
+      "date_debut": "2025-08-10",
+      "date_fin": "2025-08-15",
+      "duree": 5,
+      "prix_total": 300,
+      "note": 4.5,
+      "avis": 254,
+      "etapes": [
+        {
+          "titre": "Découverte de Capo di Feno à Ajaccio",
+          "date_arrivee": "2025-08-10",
+          "date_depart": "2025-08-15",
+          "lieu": "Ajaccio, France",
+          "options": {
+            "hebergement": [
+              "Hôtel 3★",
+              "Camping",
+              "Auberge"
+            ],
+            "restauration": [
+              "Petit déjeuner",
+              "Demi-pension",
+              "Pension complète"
+            ],
+            "activites": [
+              "Plongée libre",
+              "Exploration guidée",
+              "Observation marine"
+            ],
+            "transport": [
+              "Bateau",
+              "Randonnée",
+              "Navette locale"
+            ]
+          }
+        }
+      ]
+    },
+    "11": {
+      "id": 11,
+      "titre": "Iles Canaries",
+      "image": "canaries.jpg",
+      "date_debut": "2025-08-17",
+      "date_fin": "2025-08-22",
+      "duree": 5,
+      "prix_total": 300,
+      "note": 4.5,
+      "avis": 254,
+      "etapes": [
+        {
+          "titre": "Découverte de Iles Canaries",
+          "date_arrivee": "2025-08-17",
+          "date_depart": "2025-08-22",
+          "lieu": "Canaries, Espagne",
+          "options": {
+            "hebergement": [
+              "Hôtel 3★",
+              "Camping",
+              "Auberge"
+            ],
+            "restauration": [
+              "Petit déjeuner",
+              "Demi-pension",
+              "Pension complète"
+            ],
+            "activites": [
+              "Plongée libre",
+              "Exploration guidée",
+              "Observation marine"
+            ],
+            "transport": [
+              "Bateau",
+              "Randonnée",
+              "Navette locale"
+            ]
+          }
+        }
+      ]
+    },
+    "12": {
+      "id": 12,
+      "titre": "Almyrida en Grèce",
+      "image": "almyrida.jpg",
+      "date_debut": "2025-08-24",
+      "date_fin": "2025-08-29",
+      "duree": 5,
+      "prix_total": 300,
+      "note": 4.5,
+      "avis": 254,
+      "etapes": [
+        {
+          "titre": "Découverte de Almyrida en Grèce",
+          "date_arrivee": "2025-08-24",
+          "date_depart": "2025-08-29",
+          "lieu": "Almyrida, Grèce",
+          "options": {
+            "hebergement": [
+              "Hôtel 3★",
+              "Camping",
+              "Auberge"
+            ],
+            "restauration": [
+              "Petit déjeuner",
+              "Demi-pension",
+              "Pension complète"
+            ],
+            "activites": [
+              "Plongée libre",
+              "Exploration guidée",
+              "Observation marine"
+            ],
+            "transport": [
+              "Bateau",
+              "Randonnée",
+              "Navette locale"
+            ]
+          }
+        }
+      ]
+    },
+    "13": {
+      "id": 13,
+      "titre": "Comino à Malte",
+      "image": "comino.jpg",
+      "date_debut": "2025-08-31",
+      "date_fin": "2025-09-05",
+      "duree": 5,
+      "prix_total": 300,
+      "note": 4.5,
+      "avis": 254,
+      "etapes": [
+        {
+          "titre": "Découverte de Comino à Malte",
+          "date_arrivee": "2025-08-31",
+          "date_depart": "2025-09-05",
+          "lieu": "Comino, Malte",
+          "options": {
+            "hebergement": [
+              "Hôtel 3★",
+              "Camping",
+              "Auberge"
+            ],
+            "restauration": [
+              "Petit déjeuner",
+              "Demi-pension",
+              "Pension complète"
+            ],
+            "activites": [
+              "Plongée libre",
+              "Exploration guidée",
+              "Observation marine"
+            ],
+            "transport": [
+              "Bateau",
+              "Randonnée",
+              "Navette locale"
+            ]
+          }
+        }
+      ]
+    },
+    "14": {
+      "id": 14,
+      "titre": "Ile Ustica en Italie",
+      "image": "ustica.jpg",
+      "date_debut": "2025-09-07",
+      "date_fin": "2025-09-12",
+      "duree": 5,
+      "prix_total": 300,
+      "note": 4.5,
+      "avis": 254,
+      "etapes": [
+        {
+          "titre": "Découverte de Ile Ustica en Italie",
+          "date_arrivee": "2025-09-07",
+          "date_depart": "2025-09-12",
+          "lieu": "Ustica, Italie",
+          "options": {
+            "hebergement": [
+              "Hôtel 3★",
+              "Camping",
+              "Auberge"
+            ],
+            "restauration": [
+              "Petit déjeuner",
+              "Demi-pension",
+              "Pension complète"
+            ],
+            "activites": [
+              "Plongée libre",
+              "Exploration guidée",
+              "Observation marine"
+            ],
+            "transport": [
+              "Bateau",
+              "Randonnée",
+              "Navette locale"
+            ]
+          }
+        }
+      ]
+    },
+    "15": {
+      "id": 15,
+      "titre": "Oludenize en Turquie",
+      "image": "oludeniz.jpg",
+      "date_debut": "2025-09-14",
+      "date_fin": "2025-09-19",
+      "duree": 5,
+      "prix_total": 300,
+      "note": 4.5,
+      "avis": 254,
+      "etapes": [
+        {
+          "titre": "Découverte de Oludenize en Turquie",
+          "date_arrivee": "2025-09-14",
+          "date_depart": "2025-09-19",
+          "lieu": "Oludeniz, Turquie",
+          "options": {
+            "hebergement": [
+              "Hôtel 3★",
+              "Camping",
+              "Auberge"
+            ],
+            "restauration": [
+              "Petit déjeuner",
+              "Demi-pension",
+              "Pension complète"
+            ],
+            "activites": [
+              "Plongée libre",
+              "Exploration guidée",
+              "Observation marine"
+            ],
+            "transport": [
+              "Bateau",
+              "Randonnée",
+              "Navette locale"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
