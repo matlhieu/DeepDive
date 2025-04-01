@@ -48,15 +48,26 @@
  </section>
  
 	<section class="destinations">
-		<h2>Nos Destinations les plus <span>Populaires</span></h2>
+		<h2 class="meilleure-plans">Découvrez nos <span>magnifiques voyages</span> en tendance !</h2>
+		
 			<div class="box-content">
 				<!-- box -->
 				<div class="box">
 					<img src="https://www.bateliersdelacotedazur.com/decouvrir/wp-content/uploads/2021/02/ACCESSIBILITE-PMR-PORQUEROLLES.jpg" alt="Grand Trou Belize">
 					<div class="content">
 					<h3>Porquerolles</h3>
-					<p>La douceur de l’eau et la luminosité de Porquerolles font le bonheur des plongeurs, prolongé par des épaves attendant d’être visitées...
+					<p>📅 Décollez dès le 10/05/2025 pour revenir le 18/05/2025
 					</p>
+
+					<y>👨‍👩‍👧‍👦 Nombre de personnes : 4</y>
+					<p>🕒 Durée : 8 jours</p>
+
+					<p>🏨 Hébergement : Hotel Trivago</p>
+					<p>🍝 Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
+					<p>🏖️ Activité de plages: Plongée, jet skie, se détendre sur la plage </p>
+					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
+						<p> 💶 Prix : 300€ </p> 
+						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
 					</div>
 					<button>
 					<a href="php/destinations.php">En Savoir Plus</a>
@@ -67,10 +78,18 @@
 					<img src="https://www.lebaillidesuffren.com/wp-content/uploads/sites/174/2020/06/port-cros.jpg" alt="Port-Cros">
 					<div class="content">
 					<h3>Parc National de Port-Cros</h3>
-					<p>Située entre Banyuls et Cerbère, cette réserve marine 
-					protégée abrite une biodiversité remarquable et des eaux limpides, 
-					idéales pour une plongée inoubliable.
+					<p>📅 Décollez dès le 10/05/2025 pour revenir le 18/05/2025
 					</p>
+
+					<y>👨‍👩‍👧‍👦 Nombre de personnes : 4</y>
+					<p>🕒 Durée : 8 jours</p>
+
+					<p>🏨 Hébergement : Hotel Trivago</p>
+					<p>🍝 Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
+					<p>🏖️ Activité de plages: Plongée, jet skie, se détendre sur la plage </p>
+					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
+						<p> 💶 Prix : 300€ </p> 
+						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
 					</div>
 					<button>
 					<a href="php/destinations.php">En Savoir Plus</a>
@@ -81,9 +100,18 @@
 					<img src="https://checkyeti.imgix.net/images/optimized/boat-trips-to-calanques-national-park.jpg" alt="Calanques de Marseille">
 					<div class="content">
 					<h3>Calanques de Marseille</h3>
-					<p>Les Calanques de Marseille offrent un cadre unique. Un site de plongée exceptionnel 
-					entre falaises, eaux cristallines et une riche biodiversité sous-marine.
+					<p>📅 Décollez dès le 10/05/2025 pour revenir le 18/05/2025
 					</p>
+
+					<y>👨‍👩‍👧‍👦 Nombre de personnes : 4</y>
+					<p>🕒 Durée : 8 jours</p>
+
+					<p>🏨 Hébergement : Hotel Trivago</p>
+					<p>🍝 Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
+					<p>🏖️ Activité de plages: Plongée, jet skie, se détendre sur la plage </p>
+					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
+						<p> 💶 Prix : 300€ </p> 
+						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
 					</div>
 					<button>
 					<a href="php/destinations.php">En Savoir Plus</a>
@@ -94,9 +122,18 @@
 					<img src="https://cdt66.media.tourinsoft.eu/upload/DSC-2352.jpg" alt="Réserve Cerbère-Banyuls">
 					<div class="content">
 					<h3>Réserve de Cerbère-Banyuls</h3>
-					<p>Premier parc marin de France, cette réserve offre des eaux cristallines 
-					et une biodiversité exceptionnelle pour une plongée inoubliable.
+					<p>📅 Décollez dès le 10/05/2025 pour revenir le 18/05/2025
 					</p>
+
+					<y>👨‍👩‍👧‍👦 Nombre de personnes : 4</y>
+					<p>🕒 Durée : 8 jours</p>
+
+					<p>🏨 Hébergement : Hotel Trivago</p>
+					<p>🍝 Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
+					<p>🏖️ Activité de plages: Plongée, jet skie, se détendre sur la plage </p>
+					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
+						<p> 💶 Prix : 300€ </p> 
+						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
 					</div>
 					<button>
 					<a href="php/destinations.php">En Savoir Plus</a>
