@@ -55,13 +55,11 @@
 				<div class="box">
 					<img src="https://www.bateliersdelacotedazur.com/decouvrir/wp-content/uploads/2021/02/ACCESSIBILITE-PMR-PORQUEROLLES.jpg" alt="Grand Trou Belize">
 					<div class="content">
-					<h3>Porquerolles</h3>
-					<p>📅 Décollez dès le 10/05/2025 pour revenir le 18/05/2025
-					</p>
+					<h3>🌊 Réveillez le plongeur en vous : direction Porquerolles !</h3>
+					<p>📅 10-17 Avril 2025</p>
 
 					<y>👨‍👩‍👧‍👦 Nombre de personnes : 4</y>
-					<p>🕒 Durée : 8 jours</p>
-
+		
 					<p>🏨 Hébergement : Hotel Trivago</p>
 					<p>🍝 Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
 					<p>🏖️ Activité de plages: Plongée, jet skie, se détendre sur la plage </p>
@@ -77,12 +75,11 @@
 				<div class="box">
 					<img src="https://www.lebaillidesuffren.com/wp-content/uploads/sites/174/2020/06/port-cros.jpg" alt="Port-Cros">
 					<div class="content">
-					<h3>Parc National de Port-Cros</h3>
-					<p>📅 Décollez dès le 10/05/2025 pour revenir le 18/05/2025
-					</p>
+							<h3>🌊 Plongez-vous dans le Parc National de Port-Cros !</h3>
+					<p>📅 10-17 Avril 2025</p>
 
 					<y>👨‍👩‍👧‍👦 Nombre de personnes : 4</y>
-					<p>🕒 Durée : 8 jours</p>
+
 
 					<p>🏨 Hébergement : Hotel Trivago</p>
 					<p>🍝 Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
@@ -99,12 +96,10 @@
 				<div class="box">
 					<img src="https://checkyeti.imgix.net/images/optimized/boat-trips-to-calanques-national-park.jpg" alt="Calanques de Marseille">
 					<div class="content">
-					<h3>Calanques de Marseille</h3>
-					<p>📅 Décollez dès le 10/05/2025 pour revenir le 18/05/2025
-					</p>
+					<h3>🌊 Découvrez les profondeurs des Calanques de Marseille</h3>
+					<p>📅 10-17 Avril 2025</p>
 
 					<y>👨‍👩‍👧‍👦 Nombre de personnes : 4</y>
-					<p>🕒 Durée : 8 jours</p>
 
 					<p>🏨 Hébergement : Hotel Trivago</p>
 					<p>🍝 Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
@@ -121,12 +116,11 @@
 				<div class="box">
 					<img src="https://cdt66.media.tourinsoft.eu/upload/DSC-2352.jpg" alt="Réserve Cerbère-Banyuls">
 					<div class="content">
-					<h3>Réserve de Cerbère-Banyuls</h3>
-					<p>📅 Décollez dès le 10/05/2025 pour revenir le 18/05/2025
-					</p>
+					<h3>🌊 La Réserve de Cerbère-Banyuls vous appelle !</h3>
+					<p>📅 10-17 Avril 2025</p>
 
 					<y>👨‍👩‍👧‍👦 Nombre de personnes : 4</y>
-					<p>🕒 Durée : 8 jours</p>
+
 
 					<p>🏨 Hébergement : Hotel Trivago</p>
 					<p>🍝 Restaurants : Jour 1 : Pasta,Jour 2 : Pasta, Jour 3 : Pasta, Jour 4 : Pasta, Jour 5 : Pasta, Jour 6 : Pasta, Jour 7 : Pasta </p>
