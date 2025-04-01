@@ -59,7 +59,7 @@
 					les Dalles de Bagaud ou l’épave du Donator, l’une des plus belles de Méditerranée.
 					Nos guides passionnés vous emmènent à la découverte de ce joyau marin, où chaque immersion est une aventure fascinante.
 					</p>
-						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
+						<p> Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
 					</div>
 				 </div>
 				</section>
@@ -80,7 +80,7 @@
 					moniteurs passionnés, partez à la découverte de ces paysages sous-marins 
 					spectaculaires et laissez-vous séduire par la beauté sauvage de Port-Cros.
 					</p>
-					<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
+					<p> Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
 
 					</div>
 				 </div>
@@ -100,7 +100,7 @@
 						Accompagné par nos moniteurs passionnés, partez pour une exploration inoubliable dans un cadre préservé, 
 						où la nature dévoile toute sa splendeur.
 						</p>
-							<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
+							<p> Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
 
 					</div>
 				 </div>
@@ -121,7 +121,7 @@
 						accessible en snorkeling. Nos moniteurs passionnés vous guideront pour une immersion 
 						inoubliable dans cet écosystème unique, classé pour sa richesse et sa beauté.
 						</p>
-							<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
+							<p> Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
 
 					</div>
 				 </div>
@@ -140,7 +140,7 @@
 					Nos guides professionnels vous accompagnent en toute sécurité pour vous faire vivre une expérience 
 					inoubliable dans l’un des plus beaux spots de plongée de la Méditerranée.
 					</p>
-						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
+						<p> Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
 
 					</div>
 				</div>
@@ -159,7 +159,7 @@
 					Les grottes de Santa Maria, où la lumière crée des jeux d’ombres magiques sur les parois rocheuses.
 					Accompagné de nos guides expérimentés, plongez dans un monde sous-marin captivant où chaque immersion révèle une nouvelle merveille.
 					</p>
-						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
+						<p> Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
 
 					</div>
 				</div>
@@ -180,7 +180,7 @@
 					Accompagné de nos guides passionnés, plongez dans ce sanctuaire marin protégé et 
 					laissez-vous émerveiller par la beauté sauvage des Îles Medes.
 					</p>
-						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
+						<p> Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
 
 					</div>
 				</div>
@@ -202,7 +202,7 @@
 					mieux préservés spots de plongée des Baléares, où chaque immersion vous réserve 
 					des découvertes uniques.
 					</p>
-						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
+						<p> Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
 
 					</div>
 				</div>
@@ -217,7 +217,7 @@
 					Les épaves submergées, idéales pour les plongeurs plus expérimentés.
 					Accompagné de nos guides passionnés, plongez au cœur de cet écosystème protégé et vivez une expérience sous-marine inoubliable sur l'une des plus belles îles espagnoles.
 					</p>
-						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
+						<p> Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
 
 					</div>
 				</div>
@@ -232,7 +232,7 @@
 					Les fonds sablonneux et les herbiers de posidonie, habitats importants pour la faune locale.
 					Guidé par nos moniteurs expérimentés, vivez une immersion unique dans cet écosystème préservé et profitez de la beauté sauvage de la mer Méditerranée.
 					</p>
-						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
+						<p> Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
 
 					</div>
 				</div>
@@ -247,7 +247,7 @@
 					Les fonds sablonneux et les herbiers de posidonie, habitats importants pour la faune locale.
 					Guidé par nos moniteurs expérimentés, vivez une immersion unique dans cet écosystème préservé et profitez de la beauté sauvage de la mer Méditerranée.
 					</p>
-						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (120 avis)</p>
+						<p> Avis <o class="stars">★★★★⯨</o> (120 avis)</p>
 
 					</div>
 					</div>
@@ -262,7 +262,7 @@
 					Les fonds sablonneux et les herbiers de posidonie, habitats importants pour la faune locale.
 					Guidé par nos moniteurs expérimentés, vivez une immersion unique dans cet écosystème préservé et profitez de la beauté sauvage de la mer Méditerranée.
 					</p>
-						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (88 avis)</p>
+						<p> Avis <o class="stars">★★★★⯨</o> (88 avis)</p>
 
 					</div>
 				</div>
@@ -277,7 +277,7 @@
 					Les fonds sablonneux et les herbiers de posidonie, habitats importants pour la faune locale.
 					Guidé par nos moniteurs expérimentés, vivez une immersion unique dans cet écosystème préservé et profitez de la beauté sauvage de la mer Méditerranée.
 					</p>
-						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (67 avis)</p>
+						<p> Avis <o class="stars">★★★★⯨</o> (67 avis)</p>
 
 					</div>
 				</div>
@@ -307,7 +307,7 @@
 					Les fonds sablonneux et les herbiers de posidonie, habitats importants pour la faune locale.
 					Guidé par nos moniteurs expérimentés, vivez une immersion unique dans cet écosystème préservé et profitez de la beauté sauvage de la mer Méditerranée.
 					</p>
-						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
+						<p> Avis <o class="stars">★★★★⯨</o> (254 avis)</p>
 
 					</div>
 				</div>
