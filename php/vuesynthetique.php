@@ -61,9 +61,7 @@
 					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶 Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
-						 <button class="boutton-recherche">
-           Réserver
-            </button>
+						 <button class="boutton-recherche"> Vue détaillée </button>
 					</div>
 				 </div>
 				</section>
@@ -84,9 +82,7 @@
 					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶 Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
-												            <button class="boutton-recherche">
-           Réserver
-            </button>
+				<button class="boutton-recherche"> Vue détaillée </button>
 
 
 					</div>
@@ -109,9 +105,7 @@
 					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶 Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
-						 <button class="boutton-recherche">
-           Réserver
-            </button>
+					<button class="boutton-recherche"> Vue détaillée </button>
 					</div>
 				 </div>
 				</section>
@@ -132,9 +126,7 @@
 					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶 Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
-						 <button class="boutton-recherche">
-           Réserver
-            </button>
+				<button class="boutton-recherche"> Vue détaillée </button>
 
 					</div>
 				 </div>
@@ -155,9 +147,7 @@
 					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶 Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
-						 <button class="boutton-recherche">
-           Réserver
-            </button>
+					<button class="boutton-recherche"> Vue détaillée </button>
 
 					</div>
 				</div>
@@ -176,9 +166,7 @@
 					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶 Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
-						 <button class="boutton-recherche">
-           Réserver
-            </button>
+					<button class="boutton-recherche"> Vue détaillée </button>
 
 					</div>
 				</div>
@@ -197,9 +185,7 @@
 					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶 Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
-						 <button class="boutton-recherche">
-           Réserver
-            </button>
+					<button class="boutton-recherche"> Vue détaillée </button>
 
 					</div>
 				</div>
@@ -218,9 +204,7 @@
 					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶 Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
-						 <button class="boutton-recherche">
-           Réserver
-            </button>
+					<button class="boutton-recherche"> Vue détaillée </button>
 
 					</div>
 				</div>
@@ -239,9 +223,7 @@
 					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶 Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
-						 <button class="boutton-recherche">
-           Réserver
-            </button>
+					<button class="boutton-recherche"> Vue détaillée </button>
 
 					</div>
 				</div>
@@ -260,9 +242,7 @@
 					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶 Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
-						 <button class="boutton-recherche">
-           Réserver
-            </button>
+					<button class="boutton-recherche"> Vue détaillée </button>
 
 					</div>
 				</div>
@@ -281,9 +261,7 @@
 					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶 Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
-						 <button class="boutton-recherche">
-           Réserver
-            </button>
+					<button class="boutton-recherche"> Vue détaillée </button>
 					</div>
 					</div>
 					<div class="box">
@@ -301,9 +279,7 @@
 					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶 Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
-						 <button class="boutton-recherche">
-           Réserver
-            </button>
+					<button class="boutton-recherche"> Vue détaillée </button>
 
 					</div>
 				</div>
@@ -322,9 +298,7 @@
 					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶 Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
-						 <button class="boutton-recherche">
-           Réserver
-            </button>
+					<button class="boutton-recherche"> Vue détaillée </button>
 
 					</div>
 				</div>
@@ -343,9 +317,7 @@
 					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶 Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
-						 <button class="boutton-recherche">
-           Réserver
-            </button>
+					<button class="boutton-recherche"> Vue détaillée </button>
 					</div>
 				</div>
 				<div class="box">
@@ -363,9 +335,7 @@
 					<p>🚗 Transport : Voiture déja loué Citroën 206 + carte de bus pour tout le monde </p>
 						<p> 💶 Prix : 300€ </p> 
 						<k>Avis <o class="stars">★★★★⯨</o> (254 avis)</k>
-						 <button class="boutton-recherche">
-           Réserver
-            </button>
+					<button class="boutton-recherche"> Vue détaillée </button>
 					</div>
 				</div>
 
