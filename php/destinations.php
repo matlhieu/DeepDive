@@ -266,9 +266,9 @@ session_start();
 					</div>
 				</div>
 				<div class="box">
-					<img src="https://www.lustricadiving.it/wp-content/uploads/photo-gallery/httplocalhostlustricadivingwp-contentuploads/Ustica_Torre-Spalmatore.jpg" alt="Ile Ustica">
+					<img src="https://d2p1cf6997m1ir.cloudfront.net/media/places/areas/f4/90/85/1df1/sicily.jpg" alt="Sicile">
 					<div class="content">
-					<h2>Ile Ustica en Italie</h2>
+					<h2>Sicile en Italie</h2>
 					<p>Le site de Capo di Feno, situé à quelques kilomètres d'Ajaccio, est un véritable joyau sous-marin de la Corse. Avec ses eaux cristallines, ses falaises spectaculaires et sa biodiversité marine, c’est un endroit incontournable pour les passionnés de plongée.
 					Explorez un monde fascinant où se mêlent mérous, poissons de roche, gorgones colorées, langoustes et étoiles de mer. Les sites de plongée autour de Capo di Feno offrent une grande variété de paysages sous-marins :
 					Les tombants rocheux, où la vie marine est abondante et où vous pouvez observer des bancs de poissons.
