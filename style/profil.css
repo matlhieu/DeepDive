@@ -6,69 +6,68 @@ body {
     background-size: cover;
     background-image: url('https://images3.alphacoders.com/132/1325254.png');
     background-attachment: fixed;
-        background-repeat: no-repeat; 
+    background-repeat: no-repeat; 
 }
 
 .profil{
-	flex:1;
-	display:flex;
-	width:100%;
-	min-height:100vh;
-	justify-content:center;
-	align-items:center;
+    flex:1;
+    display:flex;
+    width:100%;
+    min-height:100vh;
+    justify-content:center;
+    align-items:center;
 }
 
-     /* Style du titre principal */
-     h1 {
-         text-align: center;
-         color: #2c3e50; 
-         margin-bottom: 20px; 
-     }
+h1 {
+    text-align: center;
+    color: #2c3e50; 
+    margin-bottom: 20px; 
+}
 
 .box-container {
-	align-items: center;
-	margin-left:25rem;
-	justify-content:center;
-	background-color:rgba(255,255,255,0.6);
-	padding:15px;
-	border-radius:10px;
-	box-shadow:0 0 20px rgba(0,0,0,0.2);
-	width:90%;
-	max-width:400px;
-	margin: 7rem 0; /* au dessus de 7, la page se dezoom bien */
+    align-items: center;
+    margin-left:25rem;
+    justify-content:center;
+    background-color:rgba(255,255,255,0.6);
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
+    width:90%;
+    max-width:400px;
+    margin: 7rem 0;
 } 
 
 .profile-container h1 {
     text-align:center;
-	color:#2c3e50;
-	margin-bottom:20px;
+    color:#2c3e50;
+    margin-bottom:20px;
 }
 
 .profile-field {
-     background-color: rgba(255,255,255,0.3); /* Définit un fond blanc semi-transparent */
-    padding: 10px; /* Ajoute un espace intérieur de 30px */
-    border-radius: 10px; /* Arrondit les coins de la boîte */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Ajoute une ombre autour de la boîte */
-    width: 90%; /* Définit la largeur à 90% de l'écran */
-    max-width: 600px; /* Définit une largeur maximale de 600px */
+    background-color: rgba(255,255,255,0.3);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
     margin-bottom: 0.5rem;
 }
 
 .profile-field label {
-     display:block;
-	margin-bottom:10px;
-	color:#2c3e50;
-	font-weight:bold;
+    display:block;
+    margin-bottom:10px;
+    color:#2c3e50;
+    font-weight:bold;
 }
 
 .profile-field span {
-    width: 100%; /* Définit la largeur du champ à 100% du conteneur */
-        padding: 8px; /* Ajoute un espacement intérieur de 8px */
-        border: 1px solid #bdc3c7; /* Ajoute une bordure grise */
-        border-radius: 10px; /* Arrondit légèrement les coins du champ */
-        box-sizing: border-box; /* Empêche le padding d'affecter la taille du champ */
-        background-color: white;
-        color: black;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bdc3c7;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
 }
 
 .edit-btn {
@@ -79,7 +78,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
     font-size: 14px;
-	float: right; / met le btn modif a droite
+    float: right;
 }
 
 .edit-btn:hover {
@@ -90,9 +89,26 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center; 
-    
 }
 
 .footer-text a{
-	color:#00ebf7;
+    color:#00ebf7;
+}
+
+.logout-btn {
+    justify-content: center;
+    display: flex;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin: 0rem 6rem;
+    margin-top: 1rem;
+}
+
+.logout-btn:hover {
+    background-color: #c0392b;
 }
