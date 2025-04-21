@@ -1,0 +1,69 @@
+span{
+  color:#00ebf7;
+}
+body{
+  margin:0;
+  font-family:'Segoe UI',system-ui;
+  background:#001f3f;
+  color:#F0F7FA;
+}
+
+.meilleure-plans {
+  margin-top: 6rem; /* ou 2rem, selon l’espacement que tu veux */
+}
+
+.ensemble-carré-info{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:2rem;
+  padding:3rem 5rem;
+}
+.un-carré-info{
+  background:#1C4E6B;
+  border-radius:15px;
+  overflow:hidden;
+  transition:transform 0.3s ease;
+}
+.un-carré-info:hover{
+  transform:translateY(-10px);
+      box-shadow: 0 0 10px #00ebf7;
+  }
+.meilleure-plans{
+  text-align:center;
+  font-size:4rem;
+  }
+.un-carré-info img{
+  width:100%;
+  height:200px;
+  border-bottom:3px solid #00C1D4;
+}
+.info-texte{
+  padding:1.5rem;
+  color:white;
+}
+.stars {
+    color: yellow;
+    font-size: 20px;
+}
+
+.boutton-recherche {
+  display: inline-block;
+  padding: 0.625rem 1.5625rem; /* 10px 25px */
+  border: 0.125rem solid #00ebf7;
+  border-radius: 1rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  margin-top: 0.5rem;
+  transition: 0.5s;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap; /* ✅ empêche le retour à la ligne */
+}
+.boutton-recherche:hover {
+  background-color: #00ebf7;
+  color: #001f3f;
+}
+
+
