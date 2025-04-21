@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    $userData = [
        'name' => $name,
        'firstname' => $firstname,
-       'email' => $email,
+       'mail' => $email,
        'password' => $password,
        'datedenaissance' => $datedenaissance,
    ];
@@ -49,7 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    
    
    foreach ($utilisateurs as $utilisateur) {
-       if ($utilisateur['email'] === $email) {
+       if ($utilisateur['mail'] === $email) {
            die("Cette adresse email est déjà utilisée.");
        }
    }
@@ -62,9 +62,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    
    
    $_SESSION['message'] = "Inscription réussie !";
-  
-   echo "Inscription réussie !";
-   exit;
+   header('Location: profil.php');
+   
+   
 }
 ?>
 <!DOCTYPE html>
