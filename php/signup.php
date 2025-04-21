@@ -8,6 +8,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    $email = filter_var($_POST['mail'] ?? '', FILTER_VALIDATE_EMAIL); 
    $password = password_hash($_POST['mdp'] ?? '', PASSWORD_BCRYPT); 
    $datedenaissance = $_POST['naissance'] ?? ''; 
+   $role = 'client';
+   $carte_nom="";
+   $carte_numero="";
+   $date_expiration="";
+   $cvv ="";
    
   
    function validateDate($date) {
@@ -31,11 +36,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    
    
    $userData = [
-       'name' => $name,
-       'firstname' => $firstname,
+       'nom' => $name,
+       'prenom' => $firstname,
        'mail' => $email,
-       'password' => $password,
+       'mdp' => $password,
        'datedenaissance' => $datedenaissance,
+       'role' => $role,
+       'carte_numero' => $carte_nom,
+       'carte_numero' => $carte_numero,
+       'date_expiration' => $date_expiration,
+       'cvv' => $cvv,
    ];
    
    $file = 'utilisateurs.json';
@@ -55,18 +65,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    }
    
   
-   $utilisateurs[] = $userData;
-   
+   $utilisateurs[$email] = $userData;   
    
    file_put_contents($file, json_encode($utilisateurs, JSON_PRETTY_PRINT));
    
    
-   $_SESSION['message'] = "Inscription réussie !";
-   header('Location: profil.php');
-   
+    $_SESSION["nom"] = $userData["nom"];
+    $_SESSION["prenom"] = $userData["prenom"];
+    $_SESSION["mail"] = $userData["mail"];
+    $_SESSION["naissance"] = $userData["datedenaissance"];
+    $_SESSION["role"] = $userData["role"];
+
+    header('Location: profil.php');
+    exit();
+ 
    
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
