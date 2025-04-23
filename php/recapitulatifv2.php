@@ -75,7 +75,7 @@ $nb_personnes = $_POST['nb_personnes'] ?? 'Non précisé';
     </div>
 </div>
 
-    <!-- Activités -->
+
     <div class="form-section">
         <label>Activité(s) sélectionnée(s) :</label>
         <div class="ensemble-carré-info">
@@ -95,7 +95,7 @@ $nb_personnes = $_POST['nb_personnes'] ?? 'Non précisé';
     </div>
 
 
-<!-- Transport -->
+
 <div class="form-section">
     <label>Transport sélectionné :</label>
     <div class="ensemble-carré-info">
@@ -111,7 +111,7 @@ $nb_personnes = $_POST['nb_personnes'] ?? 'Non précisé';
     </div>
 </div>
 
-    <!-- Prix du voyage -->
+
         <label>Prix du voyage : <?= ($voyage['prix']) ?></label>
     
 <!-- Boutons navigation -->
