@@ -9,7 +9,7 @@ $voyages = json_decode($voyages_json, true);
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Résultats de recherche</title> 
+    <title>Résultats de recherche/vue synthetique</title> 
     <link rel="stylesheet" href="../style/nav_footer.css"> 
     <link rel="stylesheet" href="../style/recherche.css">
 </head>
