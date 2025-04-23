@@ -40,7 +40,7 @@ $nb_personnes = $_POST['nb_personnes'] ?? 'Non précisé';
 <label>Voici votre configuration de voyage : </label>
 <br><br>
 
-<!-- Hébergements -->
+
 <div class="form-section">
     <label>Hébergement sélectionné :</label>
     <div class="ensemble-carré-info">
@@ -56,7 +56,7 @@ $nb_personnes = $_POST['nb_personnes'] ?? 'Non précisé';
     </div>
 </div>
 
-<!-- Restauration -->
+
 <div class="form-section">
     <label>Restauration sélectionnée :</label>
     <div class="ensemble-carré-info">
