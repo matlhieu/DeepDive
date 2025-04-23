@@ -1,5 +1,4 @@
 <?php
-// recapitulatifv2.php
 session_start();
 if (!isset($_SESSION['role'] || isset($_SESSION['role'] === 'ban'){		
 	header('Location: login.php');
