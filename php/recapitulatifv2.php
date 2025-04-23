@@ -1,6 +1,10 @@
 <?php
 // recapitulatifv2.php
-
+session_start();
+if (!isset($_SESSION['role'] || isset($_SESSION['role'] === 'ban'){		
+	header('Location: login.php');
+	exit();
+}
 date_default_timezone_set('Europe/Paris');
 $voyages_json = file_get_contents("voyagesv2.json");
 $voyages = json_decode($voyages_json, true);
