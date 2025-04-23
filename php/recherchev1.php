@@ -32,7 +32,7 @@
 
                 <div class="bulle">
                     <label>🤿 Nombre de personnes</label>
-                    <input type="number" name="nombre_personnes" min="1" max="15" value="1" step="1">  
+                    <input type="number" name="nombre_personnes" min="1" max="20" value="1" step="1">  
                 </div>
 
                 <div class="bulle">
