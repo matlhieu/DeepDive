@@ -50,7 +50,7 @@ session_start();
 				<!-- box -->
 				<section id="parc">
 				 <div class="box">
-					<img src="https://www.lebaillidesuffren.com/wp-content/uploads/sites/174/2020/06/port-cros.jpg" alt="Port-Cros">
+					<img src="https://www.espritparcnational.com/sites/default/files/2020-10/PNPC_006193Ori.jpg" alt="Port-Cros">
 					<div class="content">
 					<h2>Parc National de Port-Cros</h2>
 					<p>Plongez dans un véritable sanctuaire marin, protégé depuis 1963 et reconnu comme 
@@ -236,9 +236,9 @@ session_start();
 					</div>
 					</div>
 					<div class="box">
-					<img src="https://content.tui.co.uk/adamtui/2023_3/9_15/fbd89920-eea4-4291-bae7-afc001006ccb/LOC_003184_shutterstock_2034226538WebOriginalCompressed.jpg?i10c=img.resize(width:1080);img.crop(width:1080%2Cheight:608)" alt="?=Almyrida">
+					<img src="https://lesvoyagespaschersdeleo.fr/wp-content/uploads/2017/08/navagio_bay_greece-wallpaper-1920x1080.jpg" alt="?=Zakynthos/Zante">
 					<div class="content">
-					<h2>Almyrida en Grèce</h2>
+					<h2>Zakynthos/Zante en Grèce</h2>
 					<p>Le site de Capo di Feno, situé à quelques kilomètres d'Ajaccio, est un véritable joyau sous-marin de la Corse. Avec ses eaux cristallines, ses falaises spectaculaires et sa biodiversité marine, c’est un endroit incontournable pour les passionnés de plongée.
 					Explorez un monde fascinant où se mêlent mérous, poissons de roche, gorgones colorées, langoustes et étoiles de mer. Les sites de plongée autour de Capo di Feno offrent une grande variété de paysages sous-marins :
 					Les tombants rocheux, où la vie marine est abondante et où vous pouvez observer des bancs de poissons.
@@ -266,7 +266,7 @@ session_start();
 					</div>
 				</div>
 				<div class="box">
-					<img src="https://d2p1cf6997m1ir.cloudfront.net/media/places/areas/f4/90/85/1df1/sicily.jpg" alt="Sicile">
+					<img src="https://d2p1cf6997m1ir.cloudfront.net/media/places/areas/f4/90/85/1df1/sicily.jpg" alt="La Sicile en Italie">
 					<div class="content">
 					<h2>Sicile en Italie</h2>
 					<p>Le site de Capo di Feno, situé à quelques kilomètres d'Ajaccio, est un véritable joyau sous-marin de la Corse. Avec ses eaux cristallines, ses falaises spectaculaires et sa biodiversité marine, c’est un endroit incontournable pour les passionnés de plongée.
@@ -276,7 +276,7 @@ session_start();
 					Les fonds sablonneux et les herbiers de posidonie, habitats importants pour la faune locale.
 					Guidé par nos moniteurs expérimentés, vivez une immersion unique dans cet écosystème préservé et profitez de la beauté sauvage de la mer Méditerranée.
 					</p>
-						<p> 💶Prix : 300€ - Avis <o class="stars">★★★★⯨</o> (28 avis)</p>
+						<p> Avis <o class="stars">★★★★⯨</o> (28 avis)</p>
 
 					</div>
 				</div>
