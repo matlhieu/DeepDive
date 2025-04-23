@@ -10,7 +10,7 @@
                ?>
 			  <p><a href="../index.php">Accueil</a></p>
 			  <p><a href="destinations.php">Destinations</a></p>
-			  <p><a href="search.php">Recherche</a></p>
+			  <p><a href="recherchev1.php">Recherche</a></p>
 			  <?php 
 			  if(isset($_SESSION['prenom'])){
 			  ?>
