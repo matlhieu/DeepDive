@@ -44,3 +44,4 @@ $voyages = json_decode($voyages_json, true);
 <?php include("footer.php"); ?>
 </body>
 </html>
+
