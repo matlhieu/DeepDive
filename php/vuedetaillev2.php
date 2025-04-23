@@ -79,7 +79,7 @@ $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
     <!-- Nombre de personnes -->
     <div class="form-section">
         <label for="nb_personnes">Nombre de personnes par activité :</label>
-        <input type="number" name="nb_personnes" id="nb_personnes" min="1" max="20" value="1">
+        <input type="number" name="nb_personnes" id="nb_personnes" min="1" max="20" value="1" step="1">
     </div>
     
     <!-- Transport -->
