@@ -1,4 +1,6 @@
 <?php
+
+sessions_start();
 date_default_timezone_set('Europe/Paris');
 $voyages_json = file_get_contents("voyagesv2.json");
 $voyages = json_decode($voyages_json, true);
