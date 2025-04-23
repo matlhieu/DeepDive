@@ -1,9 +1,6 @@
 <?php
-session_start();
-if (!isset($_SESSION['role'] || isset($_SESSION['role'] === 'ban'){		
-	header('Location: login.php');
-	exit();
-}
+
+
 date_default_timezone_set('Europe/Paris');
 $voyages_json = file_get_contents("voyagesv2.json");
 $voyages = json_decode($voyages_json, true);
@@ -113,14 +110,16 @@ $nb_personnes = $_POST['nb_personnes'] ?? 'Non précisé';
 
 
         <label>Prix du voyage : <?= ($voyage['prix']) ?></label>
-    
-<!-- Boutons navigation -->
-<form action="vuedetaillev2.php" method="GET" style="text-align:center; margin-top: 2rem;">
+        <label>Date du voyage : <?= ($voyage['dates']) ?></label>
+        <br><br>
+
+
+<form action="vuedetaillev2.php" method="GET" ">
     <input type="hidden" name="id" value="<?= $id ?>">
     <button type="submit" class="boutton-recherche">Modifier le voyage</button>
 </form>
-
-<form action="paiement.php" method="POST" style="text-align:center; margin-top: 1.5rem;">
+    <br>
+<form action="paiement.php" method="POST"">
     <input type="hidden" name="id" value="<?= $id ?>">
     <input type="hidden" name="hebergement" value="<?= ($hebergement) ?>">
     <input type="hidden" name="restauration" value="<?= ($restauration) ?>">
