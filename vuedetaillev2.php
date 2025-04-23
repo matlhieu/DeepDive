@@ -1,4 +1,10 @@
 <?php
+
+session_start();
+if (!isset($_SESSION['role'])) {
+    header('Location: login.php');
+    exit(); 
+}
 // Charger le fichier JSON
 date_default_timezone_set('Europe/Paris');
 $voyages_json = file_get_contents("voyagesv2.json");
