@@ -105,7 +105,7 @@ $nb_personnes = $_POST['nb_personnes'] ?? 'Non précisé';
                 <label class="un-carré-info inclus">
                     <input type="hidden">
                     <img src="<?= $option['image'] ?>" alt="<?= $option['label'] ?>">
-                    <span><?= htmlspecialchars($option['label']) ?></span>
+                    <span><?= ($option['label']) ?></span>
                 </label>
             <?php endif; ?>
         <?php endforeach; ?>
