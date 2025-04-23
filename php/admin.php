@@ -1,6 +1,10 @@
 <?php
 session_start();
 
+if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'Admin'){		
+	header('Location: login.php');
+	exit();
+}
 // Chargement des utilisateurs
 $users = json_decode(file_get_contents("utilisateurs.json"), true);
 
