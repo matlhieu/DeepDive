@@ -28,7 +28,7 @@ if (!$voyage) {
 </head>
 <body>
 <nav class="navibar">
-    <!-- Barre de navigation -->
+
     <div class="logo-container">
 		<div class="logo"> 
 			<a href="admin.php"><img src="../style/Image/logo4.png" alt="logo"></a>
@@ -75,7 +75,7 @@ if (!$voyage) {
         <button type="submit">Procéder au paiement</button>
     </form>
     <footer>
-    <!-- Pied de page -->
+
     <div class="footer-main">
 	 <img src="../style/Image/logoD.png" alt="logo">
 		<div class="footer-container">
