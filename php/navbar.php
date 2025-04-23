@@ -17,7 +17,7 @@
 			?>
             <li><a href="index.php" class="navi-lien">ACCUEIL</a></li>
 			<li><a href="destinations.php" class="navi-lien">DESTINATIONS</a></li>
-            <li><a href="search.php" class="navi-lien">RECHERCHE</a></li>
+            <li><a href="recherchev1.php" class="navi-lien">RECHERCHE</a></li>
             <li><a href="about.php" class="navi-lien">QUI SOMMES NOUS ?</a></li>          
 			</ul>
 			<?php 
