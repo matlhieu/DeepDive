@@ -26,12 +26,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
    
    if (empty($name) || empty($firstname) || empty($email) || empty($password) || empty($datedenaissance)) {
-       die("Veuillez remplir tous les champs."); 
+       $error = "Veuillez remplir tous les champs."; 
    }
    
    
    if (!validateDate($datedenaissance)) {
-       die("La date de naissance n'est pas valide.");
+       $error = "La date de naissance n'est pas valide.";
    }
    
    
@@ -60,7 +60,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    
    foreach ($utilisateurs as $utilisateur) {
        if ($utilisateur['mail'] === $email) {
-           die("Cette adresse email est déjà utilisée.");
+           $error = "Cette adresse email est déjà utilisée.";
        }
    }
    
@@ -76,8 +76,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $_SESSION["naissance"] = $userData["datedenaissance"];
     $_SESSION["role"] = $userData["role"];
 
-    header('Location: profil.php');
-    exit();
+    if (empty($error)){
+        header('Location: profil.php');
+        exit();
+    }
  
    
 }
@@ -122,8 +124,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                    <label class="required" for="mdp">Mot de passe:</label>
                    <input type="password" id="mdp" name="mdp" required minlength="8" pattern="(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}" title="Le mot de passe doit contenir au moins 8 caractères, incluant au moins une lettre et un chiffre.">
                </div>
+
+            
                <input type="submit" value="Créer mon compte">
            </form>
+
+           <?php if (!empty($error)) : ?>
+             <p style="color:red;"><?php echo htmlspecialchars($error); ?></p>
+            <?php endif; ?>
           
            <div class="login-link">
                <p>Vous avez déjà un compte ? <a href="login.php">Connectez-vous ici</a></p>
