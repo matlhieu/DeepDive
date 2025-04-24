@@ -64,11 +64,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
        }
    }
    
+   if (empty($error)){
   
-   $utilisateurs[$email] = $userData;   
+    $utilisateurs[$email] = $userData;   
    
    file_put_contents($file, json_encode($utilisateurs, JSON_PRETTY_PRINT));
-   
    
     $_SESSION["nom"] = $userData["nom"];
     $_SESSION["prenom"] = $userData["prenom"];
@@ -76,11 +76,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $_SESSION["naissance"] = $userData["datedenaissance"];
     $_SESSION["role"] = $userData["role"];
 
-    if (empty($error)){
-        header('Location: profil.php');
-        exit();
+    header('Location: profil.php');
+    exit();
     }
- 
+    
+  
    
 }
 ?>
