@@ -1,5 +1,6 @@
 <?php
 
+
 date_default_timezone_set('Europe/Paris');
 $voyages_json = file_get_contents("voyagesv2.json");
 $voyages = json_decode($voyages_json, true);
@@ -7,6 +8,7 @@ $voyages = json_decode($voyages_json, true);
 $id = isset($_POST['id']) ? (int)$_POST['id'] : -1;
 $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
 
+$titre = $_POST['titre'] ?? '';
 $hebergement = $_POST['hebergement'] ?? '';
 $restauration = $_POST['restauration'] ?? '';
 $transport = $_POST['transport'] ?? '';
@@ -143,7 +145,7 @@ if (!empty($date_debut) && !empty($date_fin)) {
                 <label class="un-carré-info inclus">
                     <input type="hidden">
                     <img src="<?= $option['image'] ?>" alt="<?= $option['label'] ?>">
-                    <span><?= $multiplicateur . " " . $option['label'] . " - " . $prix_trans ?>€ au total</span>
+                    <span><?= $nb_personnes . " " . $option['label'] . " - " . $prix_trans ?>€ au total</span>
                 </label>
             <?php endif; ?>
         <?php endforeach; ?>
@@ -164,7 +166,7 @@ if (!empty($date_debut) && !empty($date_fin)) {
     <button type="submit" class="boutton-recherche">Modifier le voyage</button>
 </form>
 <br>
-<form action="paiement.php" method="POST">
+    <form action="paiement.php" method="POST">
         <input type="hidden" name="id" value="<?= $id ?>">
         <input type="hidden" name="hebergement" value="<?= $hebergement ?>">
         <input type="hidden" name="restauration" value="<?= $restauration ?>">
@@ -173,12 +175,15 @@ if (!empty($date_debut) && !empty($date_fin)) {
 
         <input type="hidden" name="date_debut" value="<?= $voyage['date_debut'] ?>">
         <input type="hidden" name="date_fin" value="<?= $voyage['date_fin'] ?>">
+        <input type="hidden" name="titre" value="<?= htmlspecialchars($voyage['titre']) ?>">
+
 
         <?php foreach ($activites as $act): ?>
             <input type="hidden" name="activites[]" value="<?= $act ?>">
         <?php endforeach; ?>
         <button type="submit" class="boutton-recherche">Confirmer et passer au paiement</button>
     </form>
+
 
 <?php else: ?>
     <p style="color:red; text-align:center;">Erreur : voyage introuvable.</p>
@@ -187,4 +192,5 @@ if (!empty($date_debut) && !empty($date_fin)) {
 <?php include("footer.php"); ?>
 </body>
 </html>
+
 
