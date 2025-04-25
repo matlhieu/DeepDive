@@ -10,7 +10,7 @@ $voyages = json_decode($voyages_json, true);
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Résultats de recherche/vue synthetique</title> 
+    <title>Résultats de recherche</title> 
     <link rel="stylesheet" href="../style/nav_footer.css"> 
     <link rel="stylesheet" href="../style/recherche.css">
 </head>
@@ -26,8 +26,9 @@ $voyages = json_decode($voyages_json, true);
             <div class="info-texte">
                 <h3><?= $voyage['titre'] ?></h3>
                 <b>
-                    📅 <?= $voyage['dates'] ?><br>
-                    💶 À partir de <?= $voyage['prix'] ?> par personne<br>
+                    📅 Du <?= date('d/m/Y', strtotime($voyage['date_debut'])) ?> au <?= date('d/m/Y', strtotime($voyage['date_fin'])) ?><br>
+
+                    💶 <?= $voyage['prix'] ?> pour tout le voyage déjà préparé pour 1 personne<br>
                     <o class="stars"><?= $voyage['etoiles'] ?></o> (<?= $voyage['avis'] ?> avis)
                 </b>
                 <br><br>
@@ -45,4 +46,5 @@ $voyages = json_decode($voyages_json, true);
 <?php include("footer.php"); ?>
 </body>
 </html>
+
 
