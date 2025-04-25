@@ -1,6 +1,6 @@
 <?php
 session_start();
-date_default_timezone_set('Europe/Paris');
+
 
 // Fonction pour obtenir l'API Key
 function getAPIKey($vendeur)
@@ -11,7 +11,8 @@ function getAPIKey($vendeur)
 	return "zzzz";
 }
 // Récupération des données POST
-$id = $_POST['id'] ?? -1;
+
+$id = $_POST['id'] ;
 $hebergement = $_POST['hebergement'] ?? '';
 $restauration = $_POST['restauration'] ?? '';
 $transport = $_POST['transport'] ?? '';
@@ -42,10 +43,10 @@ $_SESSION['voyage_en_cours'] = [
 ];
 
 // Préparation pour paiement
-$vendeur = "MI-2_B";
+$vendeur = "MI-2_H";
 $transaction = uniqid("TRX");
 $session_id = session_id();
-$retour = "http://localhost:8000/php/retour_paiement.php?session=$session_id"; //!!!!! CHANGER ICI SELON SON  SERVEUR!!!!
+$retour = "http://localhost:8010/php/retour_paiement.php?session=$session_id";//!!!!! CHANGER ICI SELON SON PROPRE SERVEUR!!!!
 
 $api_key = getAPIKey($vendeur);
 if ($api_key == "zzzz") {
@@ -104,3 +105,4 @@ $control = md5($api_key . "#" . $transaction . "#" . $montant . "#" . $vendeur .
 
 </body>
 </html>
+
