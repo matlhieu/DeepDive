@@ -165,16 +165,20 @@ if (!empty($date_debut) && !empty($date_fin)) {
 </form>
 <br>
 <form action="paiement.php" method="POST">
-    <input type="hidden" name="id" value="<?= $id ?>">
-    <input type="hidden" name="hebergement" value="<?= $hebergement ?>">
-    <input type="hidden" name="restauration" value="<?= $restauration ?>">
-    <input type="hidden" name="transport" value="<?= $transport ?>">
-    <input type="hidden" name="nb_personnes" value="<?= $nb_personnes ?>">
-    <?php foreach ($activites as $act): ?>
-        <input type="hidden" name="activites[]" value="<?= $act ?>">
-    <?php endforeach; ?>
-    <button type="submit" class="boutton-recherche">Confirmer et passer au paiement</button>
-</form>
+        <input type="hidden" name="id" value="<?= $id ?>">
+        <input type="hidden" name="hebergement" value="<?= $hebergement ?>">
+        <input type="hidden" name="restauration" value="<?= $restauration ?>">
+        <input type="hidden" name="transport" value="<?= $transport ?>">
+        <input type="hidden" name="nb_personnes" value="<?= $nb_personnes ?>">
+
+        <input type="hidden" name="date_debut" value="<?= $voyage['date_debut'] ?>">
+        <input type="hidden" name="date_fin" value="<?= $voyage['date_fin'] ?>">
+
+        <?php foreach ($activites as $act): ?>
+            <input type="hidden" name="activites[]" value="<?= $act ?>">
+        <?php endforeach; ?>
+        <button type="submit" class="boutton-recherche">Confirmer et passer au paiement</button>
+    </form>
 
 <?php else: ?>
     <p style="color:red; text-align:center;">Erreur : voyage introuvable.</p>
