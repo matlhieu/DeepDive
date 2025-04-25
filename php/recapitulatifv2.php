@@ -1,5 +1,10 @@
 <?php
 
+session_start();
+ if (!isset($_SESSION['role'] || isset($_SESSION['role'] === 'ban'){		
+ 	header('Location: login.php');
+ 	exit();
+ }
 
 date_default_timezone_set('Europe/Paris');
 $voyages_json = file_get_contents("voyagesv2.json");
@@ -175,7 +180,7 @@ if (!empty($date_debut) && !empty($date_fin)) {
 
         <input type="hidden" name="date_debut" value="<?= $voyage['date_debut'] ?>">
         <input type="hidden" name="date_fin" value="<?= $voyage['date_fin'] ?>">
-        <input type="hidden" name="titre" value="<?= htmlspecialchars($voyage['titre']) ?>">
+        <input type="hidden" name="titre" value="<?= $voyage['titre'] ?>">
 
 
         <?php foreach ($activites as $act): ?>
