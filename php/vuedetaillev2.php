@@ -1,6 +1,7 @@
 <?php
 
 sessions_start();
+
 date_default_timezone_set('Europe/Paris');
 $voyages_json = file_get_contents("voyagesv2.json");
 $voyages = json_decode($voyages_json, true);
@@ -8,6 +9,7 @@ $voyages = json_decode($voyages_json, true);
 $id = isset($_GET['id']) ? (int)$_GET['id'] : -1;
 $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
 ?>
+
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -33,7 +35,31 @@ $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
 <form action="recapitulatifv2.php" method="POST">
     <input type="hidden" name="id" value="<?= $id ?>">
 
-    <!-- Hébergements -->
+
+    <div class="form-section">
+        <label for="nb_personnes">Nombre de personnes pour le voyage :</label>
+        <input type="number" name="nb_personnes" id="nb_personnes" min="1" max="20" value="1" step="1">
+    </div>
+
+    <div class="bloc-dates">
+        <label for="date_debut">Date de début du voyage :</label>
+        <input type="date" name="date_debut" id="date_debut" min="2025-04-28" max="2026-04-28"
+               value="<?= isset($voyage['date_debut']) ? ($voyage['date_debut']) : '' ?>" 
+               required>
+    </div>
+
+    <div class="bloc-dates">
+        <label for="date_fin">Date de fin du voyage :</label>
+        <input type="date" name="date_fin" id="date_fin" 
+            min="2025-04-28" max="2026-04-28"
+               value="<?= isset($voyage['date_fin']) ? ($voyage['date_fin']) : '' ?>" 
+               required>
+    </div>
+    <div class="ligne-separation">
+    </div>
+
+
+
     <div class="form-section">
         <label>Choisissez un hébergement :</label>
         <div class="ensemble-carré-info">
@@ -41,13 +67,13 @@ $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
                 <label class="un-carré-info <?= $option['label'] == $voyage['hebergement_inclus']['label'] ? 'inclus' : '' ?>">
                     <input type="radio" name="hebergement" value="<?= $option['label'] ?>" <?= $option['label'] == $voyage['hebergement_inclus']['label'] ? 'checked' : '' ?> required>
                     <img src="<?= $option['image'] ?>" alt="<?= $option['label'] ?>">
-                    <span><?= $option['label'] ?></span>
+                    <span><?= $option['prix'] . "€" .  " pour" . " 2 " . $option['label'] ?></span>
                 </label>
             <?php endforeach; ?>
         </div>
     </div>
+    
 
-    <!-- Restauration -->
     <div class="form-section">
         <label>Choisissez une restauration :</label>
         <div class="ensemble-carré-info">
@@ -55,14 +81,14 @@ $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
                 <label class="un-carré-info <?= $option['label'] == $voyage['restauration_incluse']['label'] ? 'inclus' : '' ?>">
                     <input type="radio" name="restauration" value="<?= $option['label'] ?>" <?= $option['label'] == $voyage['restauration_incluse']['label'] ? 'checked' : '' ?> required>
                     <img src="<?= $option['image'] ?>" alt="<?= $option['label'] ?>">
-                    <span><?= $option['label'] ?></span>
+                    <span><?= $option['prix'] . "€ " .  "pour" . " 1 " . $option['label'] ?></span>
                     <small><?= $option['description'] ?></small>
                 </label>
             <?php endforeach; ?>
         </div>
     </div>
 
-    <!-- Activités -->
+
     <div class="form-section">
         <label>Ajoutez ou modifiez les activités :</label>
         <div class="ensemble-carré-info">
@@ -70,19 +96,13 @@ $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
                 <label class="un-carré-info <?= in_array($option['label'], array_column($voyage['activites_incluses'], 'label')) ? 'inclus' : '' ?>">
                     <input type="checkbox" name="activites[]" value="<?= $option['label'] ?>" <?= in_array($option['label'], array_column($voyage['activites_incluses'], 'label')) ? 'checked' : '' ?>>
                     <img src="<?= $option['image'] ?>" alt="<?= $option['label'] ?>">
-                    <span><?= $option['label'] ?></span>
+                    <span><?= $option['prix'] . "€" .  " par personne pour " . $option['label'] ?></span>
                 </label>
             <?php endforeach; ?>
         </div>
     </div>
-
-    <!-- Nombre de personnes -->
-    <div class="form-section">
-        <label for="nb_personnes">Nombre de personnes par activité :</label>
-        <input type="number" name="nb_personnes" id="nb_personnes" min="1" max="20" value="1" step="1">
-    </div>
     
-    <!-- Transport -->
+
     <div class="form-section">
         <label>Choisissez un mode de transport :</label>
         <div class="ensemble-carré-info">
@@ -90,7 +110,7 @@ $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
                 <label class="un-carré-info <?= $option['label'] == $voyage['transport_inclus']['label'] ? 'inclus' : '' ?>">
                     <input type="radio" name="transport" value="<?= $option['label'] ?>" <?= $option['label'] == $voyage['transport_inclus']['label'] ? 'checked' : '' ?> required>
                     <img src="<?= $option['image'] ?>" alt="<?= $option['label'] ?>">
-                    <span><?= $option['label'] ?></span>
+                    <span><?= $option['prix'] . "€" .  " par personne pour 1 " . $option['label'] ?></span>
                 </label>
             <?php endforeach; ?>
         </div>
