@@ -131,7 +131,7 @@ input[type="checkbox"] {
   height: 160px;
   object-fit: cover;
   border-bottom: 3px solid #00C1D4;
-  background-color: #1C4E6B; /* couleur de fond identique à la carte */
+  background-color: #1C4E6B; 
 }
 
 .un-carré-info:hover {
