@@ -9,7 +9,7 @@ body{
 }
 
 .meilleure-plans {
-  margin-top: 6rem; /* ou 2rem, selon l’espacement que tu veux */
+  margin-top: 6rem; 
 }
 
 .ensemble-carré-info{
@@ -48,7 +48,7 @@ body{
 
 .boutton-recherche {
   display: inline-block;
-  padding: 0.625rem 1.5625rem; /* 10px 25px */
+  padding: 0.625rem 1.5625rem; 
   border: 0.125rem solid #00ebf7;
   border-radius: 1rem;
   color: white;
