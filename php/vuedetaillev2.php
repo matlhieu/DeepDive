@@ -35,7 +35,7 @@ $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
 <form action="recapitulatifv2.php" method="POST">
     <input type="hidden" name="id" value="<?= $id ?>">
 
-
+    <!-- Nombre de personnes -->
     <div class="form-section">
         <label for="nb_personnes">Nombre de personnes pour le voyage :</label>
         <input type="number" name="nb_personnes" id="nb_personnes" min="1" max="20" value="1" step="1">
@@ -59,7 +59,7 @@ $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
     </div>
 
 
-
+    <!-- Hébergements -->
     <div class="form-section">
         <label>Choisissez un hébergement :</label>
         <div class="ensemble-carré-info">
@@ -73,7 +73,7 @@ $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
         </div>
     </div>
     
-
+    <!-- Restauration -->
     <div class="form-section">
         <label>Choisissez une restauration :</label>
         <div class="ensemble-carré-info">
@@ -88,7 +88,7 @@ $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
         </div>
     </div>
 
-
+    <!-- Activités -->
     <div class="form-section">
         <label>Ajoutez ou modifiez les activités :</label>
         <div class="ensemble-carré-info">
@@ -102,7 +102,7 @@ $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
         </div>
     </div>
     
-
+    <!-- Transport -->
     <div class="form-section">
         <label>Choisissez un mode de transport :</label>
         <div class="ensemble-carré-info">
