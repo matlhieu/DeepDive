@@ -2,7 +2,7 @@
 date_default_timezone_set('Europe/Paris');
 
 // Simuler les voyages déjà payés
-$voyages_json = file_get_contents("voyagesv2.json");
+$voyages_json = file_get_contents("../json/voyagesv2.json");
 $voyages = json_decode($voyages_json, true);
 
 // Simule des voyages déjà réservés
