@@ -20,7 +20,7 @@ $voyages_payes_ids = [0, 1, 2];
 <body>
 <?php include("navbar.php"); ?>
 
-<h2 class="meilleure-plans">Vos <span>voyages</span> déjà réservés</h2>
+<h2 class="meilleure-plans">Vos <span>voyages</span> déjà payés</h2>
 
 <div class="ensemble-carré-info">
     <?php foreach ($voyages_payes_ids as $id): ?>
