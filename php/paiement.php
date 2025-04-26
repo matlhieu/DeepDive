@@ -23,7 +23,7 @@ $date_debut = $_POST['date_debut'] ?? '';
 $date_fin = $_POST['date_fin'] ?? '';
 
 // Chargement des voyages
-$voyages_json = file_get_contents("voyagesv2.json");
+$voyages_json = file_get_contents("../json/voyagesv2.json");
 $voyages = json_decode($voyages_json, true);
 
 if (!isset($voyages[$id])) {
