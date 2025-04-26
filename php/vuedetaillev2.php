@@ -6,7 +6,7 @@ if (!isset($_SESSION['role'])) {
     exit(); 
 }
 date_default_timezone_set('Europe/Paris');
-$voyages_json = file_get_contents("voyagesv2.json");
+$voyages_json = file_get_contents("../json/voyagesv2.json");
 $voyages = json_decode($voyages_json, true);
 
 $id = isset($_GET['id']) ? (int)$_GET['id'] : -1;
