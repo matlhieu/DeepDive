@@ -1,10 +1,10 @@
 <?php
 
 session_start();
- if (!isset($_SESSION['role'] || isset($_SESSION['role'] === 'ban'){		
- 	header('Location: login.php');
- 	exit();
- }
+ if (!isset($_SESSION['role']) || $_SESSION['role'] === 'ban') {		
+    header('Location: login.php');
+    exit();
+}
 
 date_default_timezone_set('Europe/Paris');
 $voyages_json = file_get_contents("voyagesv2.json");
