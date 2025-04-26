@@ -3,7 +3,7 @@
 
 session_start();
 
-$voyages = json_decode(file_get_contents("voyages.json"), true)["voyages"];
+$voyages = json_decode(file_get_contents("../json/voyages.json"), true)["voyages"];
 ?>
 <!DOCTYPE html>
 <html lang="fr-FR">
