@@ -1,0 +1,86 @@
+{
+    "mathieu@deepdive.cy": {
+        "nom": "Ngu",
+        "prenom": "Mathieu",
+        "naissance": "2005-06-01",
+        "mail": "mathieu@deepdive.cy",
+        "mdp": "$2y$10$KoXd\/SNiYtpFNremEUXBWuvuFpvfE30IHeLvMuVuUz5JQAxKpjzh6",
+        "role": "Admin",
+        "carte_nom": "",
+        "carte_numero": "",
+        "date_expiration": "",
+        "cvv": ""
+    },
+    "lucien@deepdive.cy": {
+        "nom": "Boy",
+        "prenom": "Lucien",
+        "naissance": "2005-06-01",
+        "mail": "lucien@deepdive.cy",
+        "mdp": "$2y$10$4fZknNgxn\/1lJ58Ex3icbe0ZLTSwglgngjYAM.k5w9TLhFHrjsdqC",
+        "role": "Admin",
+        "carte_nom": "",
+        "carte_numero": "",
+        "date_expiration": "",
+        "cvv": ""
+    },
+    "marc@deepdive.cy": {
+        "nom": "A",
+        "prenom": "Marc",
+        "naissance": "2005-06-01",
+        "mail": "marc@deepdive.cy",
+        "mdp": "$2y$10$EEyPZHgE2hPE\/uTO1\/RpRukWffJTRJK\/h5MfbVhqGso1T64U5ivPO",
+        "role": "Admin",
+        "carte_nom": "",
+        "carte_numero": "",
+        "date_expiration": "",
+        "cvv": ""
+    },
+    "ayman@deepdive.cy": {
+        "nom": "A",
+        "prenom": "Ayman",
+        "naissance": "2005-06-01",
+        "mail": "ayman@deepdive.cy",
+        "mdp": "$2y$10$9xY68Vh7nv\/cZ7FKjfg9t.0OM1w2bZdxhgCzJYNFHgbY0PHv3Eu4K",
+        "role": "Admin",
+        "carte_nom": "",
+        "carte_numero": "",
+        "date_expiration": "",
+        "cvv": ""
+    },
+    "caliste@deepdive.cy": {
+        "nom": "Hebert",
+        "prenom": "Caliste",
+        "naissance": "2006-08-01",
+        "mail": "calistedeepdive.cy",
+        "mdp": "",
+        "role": "client",
+        "carte_nom": "",
+        "carte_numero": "",
+        "date_expiration": "",
+        "cvv": ""
+    },
+    "zen@deepdive.cy": {
+        "nom": "Kaka",
+        "prenom": "Zen",
+        "naissance": "2006-01-03",
+        "mail": "zen@deepdive.cy",
+        "mdp": "",
+        "role": "client",
+        "carte_nom": "",
+        "carte_numero": "",
+        "date_expiration": "",
+        "cvv": ""
+    },
+    "messi@deepdive.cy": {
+        "nom": "Lionel",
+        "prenom": "Messi",
+        "naissance": "1995-08-11",
+        "mail": "messi@deepdive.cy",
+        "mdp": "",
+        "role": "client",
+        "carte_nom": "",
+        "carte_numero": "",
+        "date_expiration": "",
+        "cvv": ""
+    }
+}

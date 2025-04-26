@@ -1,0 +1,2312 @@
+[
+      {
+          "titre": "Porquerolles",
+          "date_debut": "2025-07-06",
+          "date_fin": "2025-07-11",
+          "date_personnalisable": true,
+          "image": "https://www.bateliersdelacotedazur.com/decouvrir/wp-content/uploads/2021/02/ACCESSIBILITE-PMR-PORQUEROLLES.jpg",
+          "prix": "820€",
+          "avis": 254,
+          "etoiles": "★★★★⯨",
+          "activites_incluses": [
+              { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
+              { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
+              { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+          ],
+          "restauration_incluse": {
+              "label": " formule(s) rythme voyageur",
+              "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+              "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique le soir"
+          },
+          "hebergement_inclus": {
+              "label": " place(s) dans un hôtel 3★",
+              "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+          },
+          "transport_inclus": {
+              "label": "place(s) de petit bateau de croisière",
+              "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+          },
+          "restaurations": [
+              {
+                  "label": " formule(s) rythme voyageur",
+                  "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
+                  "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+                  "prix": 40
+              },
+              {
+                  "label": " formule(s) 100% local",
+                  "description": "3 repas par jour dans des restaurants locaux sélectionnés avec soin",
+                  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+                  "prix": 60
+              },
+              {
+                  "label": " formule(s) libre comme l'air",
+                  "description": "Aucun repas inclus totale liberté pour explorer la cuisine locale ou la votre",
+                  "image": "https://static.750g.com/images/1200-630/0fa217fa9300b4fbea5919f9f7f38bdf/adobestock-430086029.jpg",
+                  "prix": 0
+              },
+              {
+                  "label": " formule(s) confort",
+                  "description": "Tout les jours : petit-déjeuner,  dîner dans un restaurant différent chaque jour",
+                  "image": "https://www.mutuellebleue.fr/app/uploads/sites/2/2020/07/petit-dejeuner-complet.jpg",
+                  "prix": 30
+              }
+          ],
+          "hebergements": [
+              {
+                  "label": " place(s) dans un hôtel 3★",
+                  "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                  "prix": 100
+              },
+              {
+                  "label": " place(s) dans un hôtel 4★",
+                  "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+                  "prix": 150
+              },
+              {
+                  "label": " place(s) dans une auberge",
+                  "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                  "prix": 70
+              },
+              {
+                  "label": " place(s) dans un camping",
+                  "image": "https://wallpapers.com/images/featured/beach-camping-yvksnwx1fhs2lti3.jpg",
+                  "prix": 50
+              }
+          ],
+          "activites": [
+              {
+                  "label": "la plongée",
+                  "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le canoë-Kayak de jour",
+                  "image": "https://vertentenatural.com/wp-content/uploads/2020/06/Kayak-12-1.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "le canoë-Kayak de nuit",
+                  "image": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc156b9732e234b60278f8bafe7ae823",
+                  "prix": 35
+              },
+              {
+                  "label": "le jet ski",
+                  "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le paddle",
+                  "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le parachute ascensionnel",
+                  "image": "https://images.unsplash.com/photo-1505738313577-5357ff512f16?fm=jpg&q=60&w=3000",
+                  "prix": 40
+              },
+              {
+                  "label": "le ski nautique",
+                  "image": "https://www.biscagrandslacs.com/sites/default/files/medias/images/ski-nautique-lac-sanguinet-pierre-louis-germain.jpg",
+                  "prix": 40
+              }
+          ],
+          "transports": [
+              {
+                  "label": "place(s) d'avion de Air France",
+                  "image": "https://s1.1zoom.me/b5050/475/Passenger_Airplanes_501163_1920x1080.jpg",
+                  "prix": 100
+              },
+              {
+                  "label": "place(s) d'autocar de FlixBus",
+                  "image": "https://www.ville-sanguinet.fr/var/sanguinet/storage/images/_aliases/landscape_1920/0/5/4/7/67450-1-fre-FR/53cfceca14cb-bus-nouvelle-aquitaine.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "place(s) de Train à Grande Vitesse",
+                  "image": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
+                  "prix": 50
+              },
+              {
+                  "label": "place(s) de petit bateau de croisière",
+                  "image": "https://diapogram.com/upload/2018/04/10/20180410135058-fcd1625a.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "tickets(s) de transports en commun",
+                  "image": "https://www.ivecobus.com/france/-/media/IvecoBus/France/urbain/banner-GX-ok.png",
+                  "prix": 15
+              },
+              {
+                  "label": "voiture de location Citroën",
+                  "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+                  "prix": 70
+              },
+              {
+                  "label": "vélo et une trottinette fournis",
+                  "image": "https://www.neozone.org/blog/wp-content/uploads/2021/10/velo-meilleur-sante-marche-etude-scientifique-001.jpg",
+                  "prix": 10
+              }
+          ],
+          "restauration_selectionnee": " formule(s) rythme voyageur",
+          "hebergement_selectionne": " place(s) dans un hôtel 3★",
+          "activites_selectionnees": [],
+          "transport_selectionne": "place(s) de petit bateau de croisière"
+      },
+  {
+    "titre": "Parc National de Port-Cros",
+        "date_debut": "2025-07-06",
+        "date_fin": "2025-07-11",
+        "date_personnalisable": true,
+    "image": "https://www.espritparcnational.com/sites/default/files/2020-10/PNPC_006193Ori.jpg",
+    "prix": "820€",
+    "avis": 254,
+    "etoiles": "★★★★⯨",
+    "activites_incluses": [
+    { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
+              { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
+              { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+          ],
+          "restauration_incluse": {
+              "label": " formule(s) rythme voyageur",
+              "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+              "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique le soir"
+          },
+          "hebergement_inclus": {
+              "label": " place(s) dans un hôtel 3★",
+              "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+          },
+          "transport_inclus": {
+              "label": "place(s) de petit bateau de croisière",
+              "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+          },
+          "restaurations": [
+              {
+                  "label": " formule(s) rythme voyageur",
+                  "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
+                  "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+                  "prix": 40
+              },
+              {
+                  "label": " formule(s) 100% local",
+                  "description": "3 repas par jour dans des restaurants locaux sélectionnés avec soin",
+                  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+                  "prix": 60
+              },
+              {
+                  "label": " formule(s) libre comme l'air",
+                  "description": "Aucun repas inclus totale liberté pour explorer la cuisine locale ou la votre",
+                  "image": "https://static.750g.com/images/1200-630/0fa217fa9300b4fbea5919f9f7f38bdf/adobestock-430086029.jpg",
+                  "prix": 0
+              },
+              {
+                  "label": " formule(s) confort",
+                  "description": "Tout les jours : petit-déjeuner,  dîner dans un restaurant différent chaque jour",
+                  "image": "https://www.mutuellebleue.fr/app/uploads/sites/2/2020/07/petit-dejeuner-complet.jpg",
+                  "prix": 30
+              }
+          ],
+          "hebergements": [
+              {
+                  "label": " place(s) dans un hôtel 3★",
+                  "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                  "prix": 100
+              },
+              {
+                  "label": " place(s) dans un hôtel 4★",
+                  "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+                  "prix": 150
+              },
+              {
+                  "label": " place(s) dans une auberge",
+                  "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                  "prix": 70
+              },
+              {
+                  "label": " place(s) dans un camping",
+                  "image": "https://wallpapers.com/images/featured/beach-camping-yvksnwx1fhs2lti3.jpg",
+                  "prix": 50
+              }
+          ],
+          "activites": [
+              {
+                  "label": "la plongée",
+                  "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le canoë-Kayak de jour",
+                  "image": "https://vertentenatural.com/wp-content/uploads/2020/06/Kayak-12-1.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "le canoë-Kayak de nuit",
+                  "image": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc156b9732e234b60278f8bafe7ae823",
+                  "prix": 35
+              },
+              {
+                  "label": "le jet ski",
+                  "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le paddle",
+                  "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le parachute ascensionnel",
+                  "image": "https://images.unsplash.com/photo-1505738313577-5357ff512f16?fm=jpg&q=60&w=3000",
+                  "prix": 40
+              },
+              {
+                  "label": "le ski nautique",
+                  "image": "https://www.biscagrandslacs.com/sites/default/files/medias/images/ski-nautique-lac-sanguinet-pierre-louis-germain.jpg",
+                  "prix": 40
+              }
+          ],
+          "transports": [
+              {
+                  "label": "place(s) d'avion de Air France",
+                  "image": "https://s1.1zoom.me/b5050/475/Passenger_Airplanes_501163_1920x1080.jpg",
+                  "prix": 100
+              },
+              {
+                  "label": "place(s) d'autocar de FlixBus",
+                  "image": "https://www.ville-sanguinet.fr/var/sanguinet/storage/images/_aliases/landscape_1920/0/5/4/7/67450-1-fre-FR/53cfceca14cb-bus-nouvelle-aquitaine.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "place(s) de Train à Grande Vitesse",
+                  "image": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
+                  "prix": 50
+              },
+              {
+                  "label": "place(s) de petit bateau de croisière",
+                  "image": "https://diapogram.com/upload/2018/04/10/20180410135058-fcd1625a.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "tickets(s) de transports en commun",
+                  "image": "https://www.ivecobus.com/france/-/media/IvecoBus/France/urbain/banner-GX-ok.png",
+                  "prix": 15
+              },
+              {
+                  "label": "voiture de location Citroën",
+                  "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+                  "prix": 70
+              },
+              {
+                  "label": "vélo et une trottinette fournis",
+                  "image": "https://www.neozone.org/blog/wp-content/uploads/2021/10/velo-meilleur-sante-marche-etude-scientifique-001.jpg",
+                  "prix": 10
+              }
+          ],
+          "restauration_selectionnee": " formule(s) rythme voyageur",
+          "hebergement_selectionne": " place(s) dans un hôtel 3★",
+          "activites_selectionnees": [],
+          "transport_selectionne": "place(s) de petit bateau de croisière"
+      },
+    {
+        "titre": "Calanques de Marseille",
+          "date_debut": "2025-07-06",
+          "date_fin": "2025-07-11",
+          "date_personnalisable": true,
+        "image": "https://checkyeti.imgix.net/images/optimized/boat-trips-to-calanques-national-park.jpg",
+    "prix": "820€",
+        "avis": 254,
+        "etoiles": "★★★★⯨",
+        "activites_incluses": [
+    { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
+              { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
+              { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+          ],
+          "restauration_incluse": {
+              "label": " formule(s) rythme voyageur",
+              "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+              "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique le soir"
+          },
+          "hebergement_inclus": {
+              "label": " place(s) dans un hôtel 3★",
+              "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+          },
+          "transport_inclus": {
+              "label": "place(s) de petit bateau de croisière",
+              "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+          },
+          "restaurations": [
+              {
+                  "label": " formule(s) rythme voyageur",
+                  "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
+                  "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+                  "prix": 40
+              },
+              {
+                  "label": " formule(s) 100% local",
+                  "description": "3 repas par jour dans des restaurants locaux sélectionnés avec soin",
+                  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+                  "prix": 60
+              },
+              {
+                  "label": " formule(s) libre comme l'air",
+                  "description": "Aucun repas inclus totale liberté pour explorer la cuisine locale ou la votre",
+                  "image": "https://static.750g.com/images/1200-630/0fa217fa9300b4fbea5919f9f7f38bdf/adobestock-430086029.jpg",
+                  "prix": 0
+              },
+              {
+                  "label": " formule(s) confort",
+                  "description": "Tout les jours : petit-déjeuner,  dîner dans un restaurant différent chaque jour",
+                  "image": "https://www.mutuellebleue.fr/app/uploads/sites/2/2020/07/petit-dejeuner-complet.jpg",
+                  "prix": 30
+              }
+          ],
+          "hebergements": [
+              {
+                  "label": " place(s) dans un hôtel 3★",
+                  "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                  "prix": 100
+              },
+              {
+                  "label": " place(s) dans un hôtel 4★",
+                  "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+                  "prix": 150
+              },
+              {
+                  "label": " place(s) dans une auberge",
+                  "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                  "prix": 70
+              },
+              {
+                  "label": " place(s) dans un camping",
+                  "image": "https://wallpapers.com/images/featured/beach-camping-yvksnwx1fhs2lti3.jpg",
+                  "prix": 50
+              }
+          ],
+          "activites": [
+              {
+                  "label": "la plongée",
+                  "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le canoë-Kayak de jour",
+                  "image": "https://vertentenatural.com/wp-content/uploads/2020/06/Kayak-12-1.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "le canoë-Kayak de nuit",
+                  "image": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc156b9732e234b60278f8bafe7ae823",
+                  "prix": 35
+              },
+              {
+                  "label": "le jet ski",
+                  "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le paddle",
+                  "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le parachute ascensionnel",
+                  "image": "https://images.unsplash.com/photo-1505738313577-5357ff512f16?fm=jpg&q=60&w=3000",
+                  "prix": 40
+              },
+              {
+                  "label": "le ski nautique",
+                  "image": "https://www.biscagrandslacs.com/sites/default/files/medias/images/ski-nautique-lac-sanguinet-pierre-louis-germain.jpg",
+                  "prix": 40
+              }
+          ],
+          "transports": [
+              {
+                  "label": "place(s) d'avion de Air France",
+                  "image": "https://s1.1zoom.me/b5050/475/Passenger_Airplanes_501163_1920x1080.jpg",
+                  "prix": 100
+              },
+              {
+                  "label": "place(s) d'autocar de FlixBus",
+                  "image": "https://www.ville-sanguinet.fr/var/sanguinet/storage/images/_aliases/landscape_1920/0/5/4/7/67450-1-fre-FR/53cfceca14cb-bus-nouvelle-aquitaine.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "place(s) de Train à Grande Vitesse",
+                  "image": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
+                  "prix": 50
+              },
+              {
+                  "label": "place(s) de petit bateau de croisière",
+                  "image": "https://diapogram.com/upload/2018/04/10/20180410135058-fcd1625a.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "tickets(s) de transports en commun",
+                  "image": "https://www.ivecobus.com/france/-/media/IvecoBus/France/urbain/banner-GX-ok.png",
+                  "prix": 15
+              },
+              {
+                  "label": "voiture de location Citroën",
+                  "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+                  "prix": 70
+              },
+              {
+                  "label": "vélo et une trottinette fournis",
+                  "image": "https://www.neozone.org/blog/wp-content/uploads/2021/10/velo-meilleur-sante-marche-etude-scientifique-001.jpg",
+                  "prix": 10
+              }
+          ],
+          "restauration_selectionnee": " formule(s) rythme voyageur",
+          "hebergement_selectionne": " place(s) dans un hôtel 3★",
+          "activites_selectionnees": [],
+          "transport_selectionne": "place(s) de petit bateau de croisière"
+      },
+  {
+    "titre": "Réserve de Cerbère-Banyuls",
+        "date_debut": "2025-07-06",
+        "date_fin": "2025-07-11",
+        "date_personnalisable": true,
+    "image": "https://cdt66.media.tourinsoft.eu/upload/DSC-2352.jpg",
+    "prix": "820€",
+    "avis": 254,
+    "etoiles": "★★★★⯨",
+    "activites_incluses": [
+    { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
+              { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
+              { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+          ],
+          "restauration_incluse": {
+              "label": " formule(s) rythme voyageur",
+              "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+              "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique le soir"
+          },
+          "hebergement_inclus": {
+              "label": " place(s) dans un hôtel 3★",
+              "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+          },
+          "transport_inclus": {
+              "label": "place(s) de petit bateau de croisière",
+              "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+          },
+          "restaurations": [
+              {
+                  "label": " formule(s) rythme voyageur",
+                  "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
+                  "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+                  "prix": 40
+              },
+              {
+                  "label": " formule(s) 100% local",
+                  "description": "3 repas par jour dans des restaurants locaux sélectionnés avec soin",
+                  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+                  "prix": 60
+              },
+              {
+                  "label": " formule(s) libre comme l'air",
+                  "description": "Aucun repas inclus totale liberté pour explorer la cuisine locale ou la votre",
+                  "image": "https://static.750g.com/images/1200-630/0fa217fa9300b4fbea5919f9f7f38bdf/adobestock-430086029.jpg",
+                  "prix": 0
+              },
+              {
+                  "label": " formule(s) confort",
+                  "description": "Tout les jours : petit-déjeuner,  dîner dans un restaurant différent chaque jour",
+                  "image": "https://www.mutuellebleue.fr/app/uploads/sites/2/2020/07/petit-dejeuner-complet.jpg",
+                  "prix": 30
+              }
+          ],
+          "hebergements": [
+              {
+                  "label": " place(s) dans un hôtel 3★",
+                  "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                  "prix": 100
+              },
+              {
+                  "label": " place(s) dans un hôtel 4★",
+                  "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+                  "prix": 150
+              },
+              {
+                  "label": " place(s) dans une auberge",
+                  "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                  "prix": 70
+              },
+              {
+                  "label": " place(s) dans un camping",
+                  "image": "https://wallpapers.com/images/featured/beach-camping-yvksnwx1fhs2lti3.jpg",
+                  "prix": 50
+              }
+          ],
+          "activites": [
+              {
+                  "label": "la plongée",
+                  "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le canoë-Kayak de jour",
+                  "image": "https://vertentenatural.com/wp-content/uploads/2020/06/Kayak-12-1.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "le canoë-Kayak de nuit",
+                  "image": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc156b9732e234b60278f8bafe7ae823",
+                  "prix": 35
+              },
+              {
+                  "label": "le jet ski",
+                  "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le paddle",
+                  "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le parachute ascensionnel",
+                  "image": "https://images.unsplash.com/photo-1505738313577-5357ff512f16?fm=jpg&q=60&w=3000",
+                  "prix": 40
+              },
+              {
+                  "label": "le ski nautique",
+                  "image": "https://www.biscagrandslacs.com/sites/default/files/medias/images/ski-nautique-lac-sanguinet-pierre-louis-germain.jpg",
+                  "prix": 40
+              }
+          ],
+          "transports": [
+              {
+                  "label": "place(s) d'avion de Air France",
+                  "image": "https://s1.1zoom.me/b5050/475/Passenger_Airplanes_501163_1920x1080.jpg",
+                  "prix": 100
+              },
+              {
+                  "label": "place(s) d'autocar de FlixBus",
+                  "image": "https://www.ville-sanguinet.fr/var/sanguinet/storage/images/_aliases/landscape_1920/0/5/4/7/67450-1-fre-FR/53cfceca14cb-bus-nouvelle-aquitaine.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "place(s) de Train à Grande Vitesse",
+                  "image": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
+                  "prix": 50
+              },
+              {
+                  "label": "place(s) de petit bateau de croisière",
+                  "image": "https://diapogram.com/upload/2018/04/10/20180410135058-fcd1625a.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "tickets(s) de transports en commun",
+                  "image": "https://www.ivecobus.com/france/-/media/IvecoBus/France/urbain/banner-GX-ok.png",
+                  "prix": 15
+              },
+              {
+                  "label": "voiture de location Citroën",
+                  "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+                  "prix": 70
+              },
+              {
+                  "label": "vélo et une trottinette fournis",
+                  "image": "https://www.neozone.org/blog/wp-content/uploads/2021/10/velo-meilleur-sante-marche-etude-scientifique-001.jpg",
+                  "prix": 10
+              }
+          ],
+          "restauration_selectionnee": " formule(s) rythme voyageur",
+          "hebergement_selectionne": " place(s) dans un hôtel 3★",
+          "activites_selectionnees": [],
+          "transport_selectionne": "place(s) de petit bateau de croisière"
+      },
+  {
+    "titre": "Îles Lavezzi - Corse",
+        "date_debut": "2025-07-06",
+        "date_fin": "2025-07-11",
+        "date_personnalisable": true,
+    "image": "https://bonifacio.fr/app/uploads/bonifacio/2023/11/thumbs/archipel-iles-lavezzi-vue-aerienne-bonifacio-1920x960.jpg",
+    "prix": "820€",
+    "avis": 254,
+    "etoiles": "★★★★⯨",
+    "activites_incluses": [
+    { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
+              { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
+              { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+          ],
+          "restauration_incluse": {
+              "label": " formule(s) rythme voyageur",
+              "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+              "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique le soir"
+          },
+          "hebergement_inclus": {
+              "label": " place(s) dans un hôtel 3★",
+              "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+          },
+          "transport_inclus": {
+              "label": "place(s) de petit bateau de croisière",
+              "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+          },
+          "restaurations": [
+              {
+                  "label": " formule(s) rythme voyageur",
+                  "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
+                  "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+                  "prix": 40
+              },
+              {
+                  "label": " formule(s) 100% local",
+                  "description": "3 repas par jour dans des restaurants locaux sélectionnés avec soin",
+                  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+                  "prix": 60
+              },
+              {
+                  "label": " formule(s) libre comme l'air",
+                  "description": "Aucun repas inclus totale liberté pour explorer la cuisine locale ou la votre",
+                  "image": "https://static.750g.com/images/1200-630/0fa217fa9300b4fbea5919f9f7f38bdf/adobestock-430086029.jpg",
+                  "prix": 0
+              },
+              {
+                  "label": " formule(s) confort",
+                  "description": "Tout les jours : petit-déjeuner,  dîner dans un restaurant différent chaque jour",
+                  "image": "https://www.mutuellebleue.fr/app/uploads/sites/2/2020/07/petit-dejeuner-complet.jpg",
+                  "prix": 30
+              }
+          ],
+          "hebergements": [
+              {
+                  "label": " place(s) dans un hôtel 3★",
+                  "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                  "prix": 100
+              },
+              {
+                  "label": " place(s) dans un hôtel 4★",
+                  "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+                  "prix": 150
+              },
+              {
+                  "label": " place(s) dans une auberge",
+                  "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                  "prix": 70
+              },
+              {
+                  "label": " place(s) dans un camping",
+                  "image": "https://wallpapers.com/images/featured/beach-camping-yvksnwx1fhs2lti3.jpg",
+                  "prix": 50
+              }
+          ],
+          "activites": [
+              {
+                  "label": "la plongée",
+                  "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le canoë-Kayak de jour",
+                  "image": "https://vertentenatural.com/wp-content/uploads/2020/06/Kayak-12-1.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "le canoë-Kayak de nuit",
+                  "image": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc156b9732e234b60278f8bafe7ae823",
+                  "prix": 35
+              },
+              {
+                  "label": "le jet ski",
+                  "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le paddle",
+                  "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le parachute ascensionnel",
+                  "image": "https://images.unsplash.com/photo-1505738313577-5357ff512f16?fm=jpg&q=60&w=3000",
+                  "prix": 40
+              },
+              {
+                  "label": "le ski nautique",
+                  "image": "https://www.biscagrandslacs.com/sites/default/files/medias/images/ski-nautique-lac-sanguinet-pierre-louis-germain.jpg",
+                  "prix": 40
+              }
+          ],
+          "transports": [
+              {
+                  "label": "place(s) d'avion de Air France",
+                  "image": "https://s1.1zoom.me/b5050/475/Passenger_Airplanes_501163_1920x1080.jpg",
+                  "prix": 100
+              },
+              {
+                  "label": "place(s) d'autocar de FlixBus",
+                  "image": "https://www.ville-sanguinet.fr/var/sanguinet/storage/images/_aliases/landscape_1920/0/5/4/7/67450-1-fre-FR/53cfceca14cb-bus-nouvelle-aquitaine.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "place(s) de Train à Grande Vitesse",
+                  "image": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
+                  "prix": 50
+              },
+              {
+                  "label": "place(s) de petit bateau de croisière",
+                  "image": "https://diapogram.com/upload/2018/04/10/20180410135058-fcd1625a.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "tickets(s) de transports en commun",
+                  "image": "https://www.ivecobus.com/france/-/media/IvecoBus/France/urbain/banner-GX-ok.png",
+                  "prix": 15
+              },
+              {
+                  "label": "voiture de location Citroën",
+                  "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+                  "prix": 70
+              },
+              {
+                  "label": "vélo et une trottinette fournis",
+                  "image": "https://www.neozone.org/blog/wp-content/uploads/2021/10/velo-meilleur-sante-marche-etude-scientifique-001.jpg",
+                  "prix": 10
+              }
+          ],
+          "restauration_selectionnee": " formule(s) rythme voyageur",
+          "hebergement_selectionne": " place(s) dans un hôtel 3★",
+          "activites_selectionnees": [],
+          "transport_selectionne": "place(s) de petit bateau de croisière"
+      },
+  {
+    "titre": "Île de Gozo/Malte",
+        "date_debut": "2025-07-06",
+        "date_fin": "2025-07-11",
+        "date_personnalisable": true,
+    "image": "https://www.voyageavecnous.fr/wp-content/uploads/2023/04/aller-a-comino.jpg",
+    "prix": "820€",
+    "avis": 254,
+    "etoiles": "★★★★⯨",
+    "activites_incluses": [
+    { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
+              { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
+              { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+          ],
+          "restauration_incluse": {
+              "label": " formule(s) rythme voyageur",
+              "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+              "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique le soir"
+          },
+          "hebergement_inclus": {
+              "label": " place(s) dans un hôtel 3★",
+              "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+          },
+          "transport_inclus": {
+              "label": "place(s) de petit bateau de croisière",
+              "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+          },
+          "restaurations": [
+              {
+                  "label": " formule(s) rythme voyageur",
+                  "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
+                  "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+                  "prix": 40
+              },
+              {
+                  "label": " formule(s) 100% local",
+                  "description": "3 repas par jour dans des restaurants locaux sélectionnés avec soin",
+                  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+                  "prix": 60
+              },
+              {
+                  "label": " formule(s) libre comme l'air",
+                  "description": "Aucun repas inclus totale liberté pour explorer la cuisine locale ou la votre",
+                  "image": "https://static.750g.com/images/1200-630/0fa217fa9300b4fbea5919f9f7f38bdf/adobestock-430086029.jpg",
+                  "prix": 0
+              },
+              {
+                  "label": " formule(s) confort",
+                  "description": "Tout les jours : petit-déjeuner,  dîner dans un restaurant différent chaque jour",
+                  "image": "https://www.mutuellebleue.fr/app/uploads/sites/2/2020/07/petit-dejeuner-complet.jpg",
+                  "prix": 30
+              }
+          ],
+          "hebergements": [
+              {
+                  "label": " place(s) dans un hôtel 3★",
+                  "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                  "prix": 100
+              },
+              {
+                  "label": " place(s) dans un hôtel 4★",
+                  "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+                  "prix": 150
+              },
+              {
+                  "label": " place(s) dans une auberge",
+                  "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                  "prix": 70
+              },
+              {
+                  "label": " place(s) dans un camping",
+                  "image": "https://wallpapers.com/images/featured/beach-camping-yvksnwx1fhs2lti3.jpg",
+                  "prix": 50
+              }
+          ],
+          "activites": [
+              {
+                  "label": "la plongée",
+                  "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le canoë-Kayak de jour",
+                  "image": "https://vertentenatural.com/wp-content/uploads/2020/06/Kayak-12-1.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "le canoë-Kayak de nuit",
+                  "image": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc156b9732e234b60278f8bafe7ae823",
+                  "prix": 35
+              },
+              {
+                  "label": "le jet ski",
+                  "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le paddle",
+                  "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le parachute ascensionnel",
+                  "image": "https://images.unsplash.com/photo-1505738313577-5357ff512f16?fm=jpg&q=60&w=3000",
+                  "prix": 40
+              },
+              {
+                  "label": "le ski nautique",
+                  "image": "https://www.biscagrandslacs.com/sites/default/files/medias/images/ski-nautique-lac-sanguinet-pierre-louis-germain.jpg",
+                  "prix": 40
+              }
+          ],
+          "transports": [
+              {
+                  "label": "place(s) d'avion de Air France",
+                  "image": "https://s1.1zoom.me/b5050/475/Passenger_Airplanes_501163_1920x1080.jpg",
+                  "prix": 100
+              },
+              {
+                  "label": "place(s) d'autocar de FlixBus",
+                  "image": "https://www.ville-sanguinet.fr/var/sanguinet/storage/images/_aliases/landscape_1920/0/5/4/7/67450-1-fre-FR/53cfceca14cb-bus-nouvelle-aquitaine.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "place(s) de Train à Grande Vitesse",
+                  "image": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
+                  "prix": 50
+              },
+              {
+                  "label": "place(s) de petit bateau de croisière",
+                  "image": "https://diapogram.com/upload/2018/04/10/20180410135058-fcd1625a.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "tickets(s) de transports en commun",
+                  "image": "https://www.ivecobus.com/france/-/media/IvecoBus/France/urbain/banner-GX-ok.png",
+                  "prix": 15
+              },
+              {
+                  "label": "voiture de location Citroën",
+                  "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+                  "prix": 70
+              },
+              {
+                  "label": "vélo et une trottinette fournis",
+                  "image": "https://www.neozone.org/blog/wp-content/uploads/2021/10/velo-meilleur-sante-marche-etude-scientifique-001.jpg",
+                  "prix": 10
+              }
+          ],
+          "restauration_selectionnee": " formule(s) rythme voyageur",
+          "hebergement_selectionne": " place(s) dans un hôtel 3★",
+          "activites_selectionnees": [],
+          "transport_selectionne": "place(s) de petit bateau de croisière"
+      },
+  {
+    "titre": "Les îles Medes à l'Estartit en Espagne",
+        "date_debut": "2025-07-06",
+        "date_fin": "2025-07-11",
+        "date_personnalisable": true,
+    "image": "https://coelacantheplongee.fr/media/2024/11/IMG_3336_v2-scaled.jpg",
+    "prix": "820€",
+    "avis": 254,
+    "etoiles": "★★★★⯨",
+    "activites_incluses": [
+    { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
+              { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
+              { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+          ],
+          "restauration_incluse": {
+              "label": " formule(s) rythme voyageur",
+              "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+              "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique le soir"
+          },
+          "hebergement_inclus": {
+              "label": " place(s) dans un hôtel 3★",
+              "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+          },
+          "transport_inclus": {
+              "label": "place(s) de petit bateau de croisière",
+              "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+          },
+          "restaurations": [
+              {
+                  "label": " formule(s) rythme voyageur",
+                  "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
+                  "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+                  "prix": 40
+              },
+              {
+                  "label": " formule(s) 100% local",
+                  "description": "3 repas par jour dans des restaurants locaux sélectionnés avec soin",
+                  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+                  "prix": 60
+              },
+              {
+                  "label": " formule(s) libre comme l'air",
+                  "description": "Aucun repas inclus totale liberté pour explorer la cuisine locale ou la votre",
+                  "image": "https://static.750g.com/images/1200-630/0fa217fa9300b4fbea5919f9f7f38bdf/adobestock-430086029.jpg",
+                  "prix": 0
+              },
+              {
+                  "label": " formule(s) confort",
+                  "description": "Tout les jours : petit-déjeuner,  dîner dans un restaurant différent chaque jour",
+                  "image": "https://www.mutuellebleue.fr/app/uploads/sites/2/2020/07/petit-dejeuner-complet.jpg",
+                  "prix": 30
+              }
+          ],
+          "hebergements": [
+              {
+                  "label": " place(s) dans un hôtel 3★",
+                  "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                  "prix": 100
+              },
+              {
+                  "label": " place(s) dans un hôtel 4★",
+                  "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+                  "prix": 150
+              },
+              {
+                  "label": " place(s) dans une auberge",
+                  "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                  "prix": 70
+              },
+              {
+                  "label": " place(s) dans un camping",
+                  "image": "https://wallpapers.com/images/featured/beach-camping-yvksnwx1fhs2lti3.jpg",
+                  "prix": 50
+              }
+          ],
+          "activites": [
+              {
+                  "label": "la plongée",
+                  "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le canoë-Kayak de jour",
+                  "image": "https://vertentenatural.com/wp-content/uploads/2020/06/Kayak-12-1.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "le canoë-Kayak de nuit",
+                  "image": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc156b9732e234b60278f8bafe7ae823",
+                  "prix": 35
+              },
+              {
+                  "label": "le jet ski",
+                  "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le paddle",
+                  "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le parachute ascensionnel",
+                  "image": "https://images.unsplash.com/photo-1505738313577-5357ff512f16?fm=jpg&q=60&w=3000",
+                  "prix": 40
+              },
+              {
+                  "label": "le ski nautique",
+                  "image": "https://www.biscagrandslacs.com/sites/default/files/medias/images/ski-nautique-lac-sanguinet-pierre-louis-germain.jpg",
+                  "prix": 40
+              }
+          ],
+          "transports": [
+              {
+                  "label": "place(s) d'avion de Air France",
+                  "image": "https://s1.1zoom.me/b5050/475/Passenger_Airplanes_501163_1920x1080.jpg",
+                  "prix": 100
+              },
+              {
+                  "label": "place(s) d'autocar de FlixBus",
+                  "image": "https://www.ville-sanguinet.fr/var/sanguinet/storage/images/_aliases/landscape_1920/0/5/4/7/67450-1-fre-FR/53cfceca14cb-bus-nouvelle-aquitaine.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "place(s) de Train à Grande Vitesse",
+                  "image": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
+                  "prix": 50
+              },
+              {
+                  "label": "place(s) de petit bateau de croisière",
+                  "image": "https://diapogram.com/upload/2018/04/10/20180410135058-fcd1625a.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "tickets(s) de transports en commun",
+                  "image": "https://www.ivecobus.com/france/-/media/IvecoBus/France/urbain/banner-GX-ok.png",
+                  "prix": 15
+              },
+              {
+                  "label": "voiture de location Citroën",
+                  "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+                  "prix": 70
+              },
+              {
+                  "label": "vélo et une trottinette fournis",
+                  "image": "https://www.neozone.org/blog/wp-content/uploads/2021/10/velo-meilleur-sante-marche-etude-scientifique-001.jpg",
+                  "prix": 10
+              }
+          ],
+          "restauration_selectionnee": " formule(s) rythme voyageur",
+          "hebergement_selectionne": " place(s) dans un hôtel 3★",
+          "activites_selectionnees": [],
+          "transport_selectionne": "place(s) de petit bateau de croisière"
+      },
+  {
+    "titre": "Parc national de Cabrera aux Îles Baléares en Espagne",
+        "date_debut": "2025-07-06",
+        "date_fin": "2025-07-11",
+        "date_personnalisable": true,
+    "image": "https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/baleares/velero-mar-mallorca-i525635531.jpg",
+    "prix": "820€",
+    "avis": 254,
+    "etoiles": "★★★★⯨",
+    "activites_incluses": [
+    { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
+              { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
+              { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+          ],
+          "restauration_incluse": {
+              "label": " formule(s) rythme voyageur",
+              "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+              "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique le soir"
+          },
+          "hebergement_inclus": {
+              "label": " place(s) dans un hôtel 3★",
+              "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+          },
+          "transport_inclus": {
+              "label": "place(s) de petit bateau de croisière",
+              "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+          },
+          "restaurations": [
+              {
+                  "label": " formule(s) rythme voyageur",
+                  "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
+                  "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+                  "prix": 40
+              },
+              {
+                  "label": " formule(s) 100% local",
+                  "description": "3 repas par jour dans des restaurants locaux sélectionnés avec soin",
+                  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+                  "prix": 60
+              },
+              {
+                  "label": " formule(s) libre comme l'air",
+                  "description": "Aucun repas inclus totale liberté pour explorer la cuisine locale ou la votre",
+                  "image": "https://static.750g.com/images/1200-630/0fa217fa9300b4fbea5919f9f7f38bdf/adobestock-430086029.jpg",
+                  "prix": 0
+              },
+              {
+                  "label": " formule(s) confort",
+                  "description": "Tout les jours : petit-déjeuner,  dîner dans un restaurant différent chaque jour",
+                  "image": "https://www.mutuellebleue.fr/app/uploads/sites/2/2020/07/petit-dejeuner-complet.jpg",
+                  "prix": 30
+              }
+          ],
+          "hebergements": [
+              {
+                  "label": " place(s) dans un hôtel 3★",
+                  "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                  "prix": 100
+              },
+              {
+                  "label": " place(s) dans un hôtel 4★",
+                  "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+                  "prix": 150
+              },
+              {
+                  "label": " place(s) dans une auberge",
+                  "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                  "prix": 70
+              },
+              {
+                  "label": " place(s) dans un camping",
+                  "image": "https://wallpapers.com/images/featured/beach-camping-yvksnwx1fhs2lti3.jpg",
+                  "prix": 50
+              }
+          ],
+          "activites": [
+              {
+                  "label": "la plongée",
+                  "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le canoë-Kayak de jour",
+                  "image": "https://vertentenatural.com/wp-content/uploads/2020/06/Kayak-12-1.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "le canoë-Kayak de nuit",
+                  "image": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc156b9732e234b60278f8bafe7ae823",
+                  "prix": 35
+              },
+              {
+                  "label": "le jet ski",
+                  "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le paddle",
+                  "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le parachute ascensionnel",
+                  "image": "https://images.unsplash.com/photo-1505738313577-5357ff512f16?fm=jpg&q=60&w=3000",
+                  "prix": 40
+              },
+              {
+                  "label": "le ski nautique",
+                  "image": "https://www.biscagrandslacs.com/sites/default/files/medias/images/ski-nautique-lac-sanguinet-pierre-louis-germain.jpg",
+                  "prix": 40
+              }
+          ],
+          "transports": [
+              {
+                  "label": "place(s) d'avion de Air France",
+                  "image": "https://s1.1zoom.me/b5050/475/Passenger_Airplanes_501163_1920x1080.jpg",
+                  "prix": 100
+              },
+              {
+                  "label": "place(s) d'autocar de FlixBus",
+                  "image": "https://www.ville-sanguinet.fr/var/sanguinet/storage/images/_aliases/landscape_1920/0/5/4/7/67450-1-fre-FR/53cfceca14cb-bus-nouvelle-aquitaine.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "place(s) de Train à Grande Vitesse",
+                  "image": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
+                  "prix": 50
+              },
+              {
+                  "label": "place(s) de petit bateau de croisière",
+                  "image": "https://diapogram.com/upload/2018/04/10/20180410135058-fcd1625a.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "tickets(s) de transports en commun",
+                  "image": "https://www.ivecobus.com/france/-/media/IvecoBus/France/urbain/banner-GX-ok.png",
+                  "prix": 15
+              },
+              {
+                  "label": "voiture de location Citroën",
+                  "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+                  "prix": 70
+              },
+              {
+                  "label": "vélo et une trottinette fournis",
+                  "image": "https://www.neozone.org/blog/wp-content/uploads/2021/10/velo-meilleur-sante-marche-etude-scientifique-001.jpg",
+                  "prix": 10
+              }
+          ],
+          "restauration_selectionnee": " formule(s) rythme voyageur",
+          "hebergement_selectionne": " place(s) dans un hôtel 3★",
+          "activites_selectionnees": [],
+          "transport_selectionne": "place(s) de petit bateau de croisière"
+      },
+  {
+    "titre": "Île de Tabarca en Espagne",
+        "date_debut": "2025-07-06",
+        "date_fin": "2025-07-11",
+        "date_personnalisable": true,
+    "image": "https://cruceroskontiki.com/wp-content/uploads/2022/03/0.jpg",
+    "prix": "820€",
+    "avis": 254,
+    "etoiles": "★★★★⯨",
+    "activites_incluses": [
+    { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
+              { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
+              { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+          ],
+          "restauration_incluse": {
+              "label": " formule(s) rythme voyageur",
+              "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+              "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique le soir"
+          },
+          "hebergement_inclus": {
+              "label": " place(s) dans un hôtel 3★",
+              "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+          },
+          "transport_inclus": {
+              "label": "place(s) de petit bateau de croisière",
+              "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+          },
+          "restaurations": [
+              {
+                  "label": " formule(s) rythme voyageur",
+                  "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
+                  "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+                  "prix": 40
+              },
+              {
+                  "label": " formule(s) 100% local",
+                  "description": "3 repas par jour dans des restaurants locaux sélectionnés avec soin",
+                  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+                  "prix": 60
+              },
+              {
+                  "label": " formule(s) libre comme l'air",
+                  "description": "Aucun repas inclus totale liberté pour explorer la cuisine locale ou la votre",
+                  "image": "https://static.750g.com/images/1200-630/0fa217fa9300b4fbea5919f9f7f38bdf/adobestock-430086029.jpg",
+                  "prix": 0
+              },
+              {
+                  "label": " formule(s) confort",
+                  "description": "Tout les jours : petit-déjeuner,  dîner dans un restaurant différent chaque jour",
+                  "image": "https://www.mutuellebleue.fr/app/uploads/sites/2/2020/07/petit-dejeuner-complet.jpg",
+                  "prix": 30
+              }
+          ],
+          "hebergements": [
+              {
+                  "label": " place(s) dans un hôtel 3★",
+                  "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                  "prix": 100
+              },
+              {
+                  "label": " place(s) dans un hôtel 4★",
+                  "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+                  "prix": 150
+              },
+              {
+                  "label": " place(s) dans une auberge",
+                  "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                  "prix": 70
+              },
+              {
+                  "label": " place(s) dans un camping",
+                  "image": "https://wallpapers.com/images/featured/beach-camping-yvksnwx1fhs2lti3.jpg",
+                  "prix": 50
+              }
+          ],
+          "activites": [
+              {
+                  "label": "la plongée",
+                  "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le canoë-Kayak de jour",
+                  "image": "https://vertentenatural.com/wp-content/uploads/2020/06/Kayak-12-1.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "le canoë-Kayak de nuit",
+                  "image": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc156b9732e234b60278f8bafe7ae823",
+                  "prix": 35
+              },
+              {
+                  "label": "le jet ski",
+                  "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le paddle",
+                  "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le parachute ascensionnel",
+                  "image": "https://images.unsplash.com/photo-1505738313577-5357ff512f16?fm=jpg&q=60&w=3000",
+                  "prix": 40
+              },
+              {
+                  "label": "le ski nautique",
+                  "image": "https://www.biscagrandslacs.com/sites/default/files/medias/images/ski-nautique-lac-sanguinet-pierre-louis-germain.jpg",
+                  "prix": 40
+              }
+          ],
+          "transports": [
+              {
+                  "label": "place(s) d'avion de Air France",
+                  "image": "https://s1.1zoom.me/b5050/475/Passenger_Airplanes_501163_1920x1080.jpg",
+                  "prix": 100
+              },
+              {
+                  "label": "place(s) d'autocar de FlixBus",
+                  "image": "https://www.ville-sanguinet.fr/var/sanguinet/storage/images/_aliases/landscape_1920/0/5/4/7/67450-1-fre-FR/53cfceca14cb-bus-nouvelle-aquitaine.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "place(s) de Train à Grande Vitesse",
+                  "image": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
+                  "prix": 50
+              },
+              {
+                  "label": "place(s) de petit bateau de croisière",
+                  "image": "https://diapogram.com/upload/2018/04/10/20180410135058-fcd1625a.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "tickets(s) de transports en commun",
+                  "image": "https://www.ivecobus.com/france/-/media/IvecoBus/France/urbain/banner-GX-ok.png",
+                  "prix": 15
+              },
+              {
+                  "label": "voiture de location Citroën",
+                  "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+                  "prix": 70
+              },
+              {
+                  "label": "vélo et une trottinette fournis",
+                  "image": "https://www.neozone.org/blog/wp-content/uploads/2021/10/velo-meilleur-sante-marche-etude-scientifique-001.jpg",
+                  "prix": 10
+              }
+          ],
+          "restauration_selectionnee": " formule(s) rythme voyageur",
+          "hebergement_selectionne": " place(s) dans un hôtel 3★",
+          "activites_selectionnees": [],
+          "transport_selectionne": "place(s) de petit bateau de croisière"
+      },
+  {
+    "titre": "Capo di Feno à Ajaccio",
+        "date_debut": "2025-07-06",
+        "date_fin": "2025-07-11",
+        "date_personnalisable": true,
+    "image": "https://ajaccio.media.tourinsoft.eu/upload/Copie-de-Plage-de-Capo-di-Feno-Phototheque-Office-de-Tourisme-d-Ajaccio--c--J.C.-Attard.jpg",
+    "prix": "820€",
+    "avis": 254,
+    "etoiles": "★★★★⯨",
+    "activites_incluses": [
+    { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
+              { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
+              { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+          ],
+          "restauration_incluse": {
+              "label": " formule(s) rythme voyageur",
+              "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+              "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique le soir"
+          },
+          "hebergement_inclus": {
+              "label": " place(s) dans un hôtel 3★",
+              "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+          },
+          "transport_inclus": {
+              "label": "place(s) de petit bateau de croisière",
+              "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+          },
+          "restaurations": [
+              {
+                  "label": " formule(s) rythme voyageur",
+                  "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
+                  "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+                  "prix": 40
+              },
+              {
+                  "label": " formule(s) 100% local",
+                  "description": "3 repas par jour dans des restaurants locaux sélectionnés avec soin",
+                  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+                  "prix": 60
+              },
+              {
+                  "label": " formule(s) libre comme l'air",
+                  "description": "Aucun repas inclus totale liberté pour explorer la cuisine locale ou la votre",
+                  "image": "https://static.750g.com/images/1200-630/0fa217fa9300b4fbea5919f9f7f38bdf/adobestock-430086029.jpg",
+                  "prix": 0
+              },
+              {
+                  "label": " formule(s) confort",
+                  "description": "Tout les jours : petit-déjeuner,  dîner dans un restaurant différent chaque jour",
+                  "image": "https://www.mutuellebleue.fr/app/uploads/sites/2/2020/07/petit-dejeuner-complet.jpg",
+                  "prix": 30
+              }
+          ],
+          "hebergements": [
+              {
+                  "label": " place(s) dans un hôtel 3★",
+                  "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                  "prix": 100
+              },
+              {
+                  "label": " place(s) dans un hôtel 4★",
+                  "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+                  "prix": 150
+              },
+              {
+                  "label": " place(s) dans une auberge",
+                  "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                  "prix": 70
+              },
+              {
+                  "label": " place(s) dans un camping",
+                  "image": "https://wallpapers.com/images/featured/beach-camping-yvksnwx1fhs2lti3.jpg",
+                  "prix": 50
+              }
+          ],
+          "activites": [
+              {
+                  "label": "la plongée",
+                  "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le canoë-Kayak de jour",
+                  "image": "https://vertentenatural.com/wp-content/uploads/2020/06/Kayak-12-1.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "le canoë-Kayak de nuit",
+                  "image": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc156b9732e234b60278f8bafe7ae823",
+                  "prix": 35
+              },
+              {
+                  "label": "le jet ski",
+                  "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le paddle",
+                  "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le parachute ascensionnel",
+                  "image": "https://images.unsplash.com/photo-1505738313577-5357ff512f16?fm=jpg&q=60&w=3000",
+                  "prix": 40
+              },
+              {
+                  "label": "le ski nautique",
+                  "image": "https://www.biscagrandslacs.com/sites/default/files/medias/images/ski-nautique-lac-sanguinet-pierre-louis-germain.jpg",
+                  "prix": 40
+              }
+          ],
+          "transports": [
+              {
+                  "label": "place(s) d'avion de Air France",
+                  "image": "https://s1.1zoom.me/b5050/475/Passenger_Airplanes_501163_1920x1080.jpg",
+                  "prix": 100
+              },
+              {
+                  "label": "place(s) d'autocar de FlixBus",
+                  "image": "https://www.ville-sanguinet.fr/var/sanguinet/storage/images/_aliases/landscape_1920/0/5/4/7/67450-1-fre-FR/53cfceca14cb-bus-nouvelle-aquitaine.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "place(s) de Train à Grande Vitesse",
+                  "image": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
+                  "prix": 50
+              },
+              {
+                  "label": "place(s) de petit bateau de croisière",
+                  "image": "https://diapogram.com/upload/2018/04/10/20180410135058-fcd1625a.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "tickets(s) de transports en commun",
+                  "image": "https://www.ivecobus.com/france/-/media/IvecoBus/France/urbain/banner-GX-ok.png",
+                  "prix": 15
+              },
+              {
+                  "label": "voiture de location Citroën",
+                  "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+                  "prix": 70
+              },
+              {
+                  "label": "vélo et une trottinette fournis",
+                  "image": "https://www.neozone.org/blog/wp-content/uploads/2021/10/velo-meilleur-sante-marche-etude-scientifique-001.jpg",
+                  "prix": 10
+              }
+          ],
+          "restauration_selectionnee": " formule(s) rythme voyageur",
+          "hebergement_selectionne": " place(s) dans un hôtel 3★",
+          "activites_selectionnees": [],
+          "transport_selectionne": "place(s) de petit bateau de croisière"
+      },
+  {
+    "titre": "Iles Canaries en Espagne",
+        "date_debut": "2025-07-06",
+        "date_fin": "2025-07-11",
+        "date_personnalisable": true,
+    "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/23/55/5a/ec/caption.jpg",
+    "prix": "820€",
+    "avis": 254,
+    "etoiles": "★★★★⯨",
+    "activites_incluses": [
+    { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
+              { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
+              { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+          ],
+          "restauration_incluse": {
+              "label": " formule(s) rythme voyageur",
+              "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+              "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique le soir"
+          },
+          "hebergement_inclus": {
+              "label": " place(s) dans un hôtel 3★",
+              "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+          },
+          "transport_inclus": {
+              "label": "place(s) de petit bateau de croisière",
+              "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+          },
+          "restaurations": [
+              {
+                  "label": " formule(s) rythme voyageur",
+                  "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
+                  "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+                  "prix": 40
+              },
+              {
+                  "label": " formule(s) 100% local",
+                  "description": "3 repas par jour dans des restaurants locaux sélectionnés avec soin",
+                  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+                  "prix": 60
+              },
+              {
+                  "label": " formule(s) libre comme l'air",
+                  "description": "Aucun repas inclus totale liberté pour explorer la cuisine locale ou la votre",
+                  "image": "https://static.750g.com/images/1200-630/0fa217fa9300b4fbea5919f9f7f38bdf/adobestock-430086029.jpg",
+                  "prix": 0
+              },
+              {
+                  "label": " formule(s) confort",
+                  "description": "Tout les jours : petit-déjeuner,  dîner dans un restaurant différent chaque jour",
+                  "image": "https://www.mutuellebleue.fr/app/uploads/sites/2/2020/07/petit-dejeuner-complet.jpg",
+                  "prix": 30
+              }
+          ],
+          "hebergements": [
+              {
+                  "label": " place(s) dans un hôtel 3★",
+                  "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                  "prix": 100
+              },
+              {
+                  "label": " place(s) dans un hôtel 4★",
+                  "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+                  "prix": 150
+              },
+              {
+                  "label": " place(s) dans une auberge",
+                  "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                  "prix": 70
+              },
+              {
+                  "label": " place(s) dans un camping",
+                  "image": "https://wallpapers.com/images/featured/beach-camping-yvksnwx1fhs2lti3.jpg",
+                  "prix": 50
+              }
+          ],
+          "activites": [
+              {
+                  "label": "la plongée",
+                  "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le canoë-Kayak de jour",
+                  "image": "https://vertentenatural.com/wp-content/uploads/2020/06/Kayak-12-1.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "le canoë-Kayak de nuit",
+                  "image": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc156b9732e234b60278f8bafe7ae823",
+                  "prix": 35
+              },
+              {
+                  "label": "le jet ski",
+                  "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le paddle",
+                  "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le parachute ascensionnel",
+                  "image": "https://images.unsplash.com/photo-1505738313577-5357ff512f16?fm=jpg&q=60&w=3000",
+                  "prix": 40
+              },
+              {
+                  "label": "le ski nautique",
+                  "image": "https://www.biscagrandslacs.com/sites/default/files/medias/images/ski-nautique-lac-sanguinet-pierre-louis-germain.jpg",
+                  "prix": 40
+              }
+          ],
+          "transports": [
+              {
+                  "label": "place(s) d'avion de Air France",
+                  "image": "https://s1.1zoom.me/b5050/475/Passenger_Airplanes_501163_1920x1080.jpg",
+                  "prix": 100
+              },
+              {
+                  "label": "place(s) d'autocar de FlixBus",
+                  "image": "https://www.ville-sanguinet.fr/var/sanguinet/storage/images/_aliases/landscape_1920/0/5/4/7/67450-1-fre-FR/53cfceca14cb-bus-nouvelle-aquitaine.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "place(s) de Train à Grande Vitesse",
+                  "image": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
+                  "prix": 50
+              },
+              {
+                  "label": "place(s) de petit bateau de croisière",
+                  "image": "https://diapogram.com/upload/2018/04/10/20180410135058-fcd1625a.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "tickets(s) de transports en commun",
+                  "image": "https://www.ivecobus.com/france/-/media/IvecoBus/France/urbain/banner-GX-ok.png",
+                  "prix": 15
+              },
+              {
+                  "label": "voiture de location Citroën",
+                  "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+                  "prix": 70
+              },
+              {
+                  "label": "vélo et une trottinette fournis",
+                  "image": "https://www.neozone.org/blog/wp-content/uploads/2021/10/velo-meilleur-sante-marche-etude-scientifique-001.jpg",
+                  "prix": 10
+              }
+          ],
+          "restauration_selectionnee": " formule(s) rythme voyageur",
+          "hebergement_selectionne": " place(s) dans un hôtel 3★",
+          "activites_selectionnees": [],
+          "transport_selectionne": "place(s) de petit bateau de croisière"
+      },
+  {
+    "titre": "Zakynthos/Zante en Grèce",
+        "date_debut": "2025-07-06",
+        "date_fin": "2025-07-11",
+        "date_personnalisable": true,
+    "image": "https://lesvoyagespaschersdeleo.fr/wp-content/uploads/2017/08/navagio_bay_greece-wallpaper-1920x1080.jpg",
+    "prix": "820€",
+    "avis": 254,
+    "etoiles": "★★★★⯨",
+    "activites_incluses": [
+    { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
+              { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
+              { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+          ],
+          "restauration_incluse": {
+              "label": " formule(s) rythme voyageur",
+              "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+              "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique le soir"
+          },
+          "hebergement_inclus": {
+              "label": " place(s) dans un hôtel 3★",
+              "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+          },
+          "transport_inclus": {
+              "label": "place(s) de petit bateau de croisière",
+              "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+          },
+          "restaurations": [
+              {
+                  "label": " formule(s) rythme voyageur",
+                  "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
+                  "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+                  "prix": 40
+              },
+              {
+                  "label": " formule(s) 100% local",
+                  "description": "3 repas par jour dans des restaurants locaux sélectionnés avec soin",
+                  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+                  "prix": 60
+              },
+              {
+                  "label": " formule(s) libre comme l'air",
+                  "description": "Aucun repas inclus totale liberté pour explorer la cuisine locale ou la votre",
+                  "image": "https://static.750g.com/images/1200-630/0fa217fa9300b4fbea5919f9f7f38bdf/adobestock-430086029.jpg",
+                  "prix": 0
+              },
+              {
+                  "label": " formule(s) confort",
+                  "description": "Tout les jours : petit-déjeuner,  dîner dans un restaurant différent chaque jour",
+                  "image": "https://www.mutuellebleue.fr/app/uploads/sites/2/2020/07/petit-dejeuner-complet.jpg",
+                  "prix": 30
+              }
+          ],
+          "hebergements": [
+              {
+                  "label": " place(s) dans un hôtel 3★",
+                  "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                  "prix": 100
+              },
+              {
+                  "label": " place(s) dans un hôtel 4★",
+                  "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+                  "prix": 150
+              },
+              {
+                  "label": " place(s) dans une auberge",
+                  "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                  "prix": 70
+              },
+              {
+                  "label": " place(s) dans un camping",
+                  "image": "https://wallpapers.com/images/featured/beach-camping-yvksnwx1fhs2lti3.jpg",
+                  "prix": 50
+              }
+          ],
+          "activites": [
+              {
+                  "label": "la plongée",
+                  "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le canoë-Kayak de jour",
+                  "image": "https://vertentenatural.com/wp-content/uploads/2020/06/Kayak-12-1.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "le canoë-Kayak de nuit",
+                  "image": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc156b9732e234b60278f8bafe7ae823",
+                  "prix": 35
+              },
+              {
+                  "label": "le jet ski",
+                  "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le paddle",
+                  "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le parachute ascensionnel",
+                  "image": "https://images.unsplash.com/photo-1505738313577-5357ff512f16?fm=jpg&q=60&w=3000",
+                  "prix": 40
+              },
+              {
+                  "label": "le ski nautique",
+                  "image": "https://www.biscagrandslacs.com/sites/default/files/medias/images/ski-nautique-lac-sanguinet-pierre-louis-germain.jpg",
+                  "prix": 40
+              }
+          ],
+          "transports": [
+              {
+                  "label": "place(s) d'avion de Air France",
+                  "image": "https://s1.1zoom.me/b5050/475/Passenger_Airplanes_501163_1920x1080.jpg",
+                  "prix": 100
+              },
+              {
+                  "label": "place(s) d'autocar de FlixBus",
+                  "image": "https://www.ville-sanguinet.fr/var/sanguinet/storage/images/_aliases/landscape_1920/0/5/4/7/67450-1-fre-FR/53cfceca14cb-bus-nouvelle-aquitaine.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "place(s) de Train à Grande Vitesse",
+                  "image": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
+                  "prix": 50
+              },
+              {
+                  "label": "place(s) de petit bateau de croisière",
+                  "image": "https://diapogram.com/upload/2018/04/10/20180410135058-fcd1625a.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "tickets(s) de transports en commun",
+                  "image": "https://www.ivecobus.com/france/-/media/IvecoBus/France/urbain/banner-GX-ok.png",
+                  "prix": 15
+              },
+              {
+                  "label": "voiture de location Citroën",
+                  "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+                  "prix": 70
+              },
+              {
+                  "label": "vélo et une trottinette fournis",
+                  "image": "https://www.neozone.org/blog/wp-content/uploads/2021/10/velo-meilleur-sante-marche-etude-scientifique-001.jpg",
+                  "prix": 10
+              }
+          ],
+          "restauration_selectionnee": " formule(s) rythme voyageur",
+          "hebergement_selectionne": " place(s) dans un hôtel 3★",
+          "activites_selectionnees": [],
+          "transport_selectionne": "place(s) de petit bateau de croisière"
+      },
+  {
+    "titre": "Comino à Malte",
+        "date_debut": "2025-07-06",
+        "date_fin": "2025-07-11",
+        "date_personnalisable": true,
+    "image": "https://www.les-covoyageurs.com/ressources/images-lieux/photo-lieu-2045-2.jpg",
+    "prix": "820€",
+    "avis": 254,
+    "etoiles": "★★★★⯨",
+    "activites_incluses": [
+    { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
+              { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
+              { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+          ],
+          "restauration_incluse": {
+              "label": " formule(s) rythme voyageur",
+              "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+              "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique le soir"
+          },
+          "hebergement_inclus": {
+              "label": " place(s) dans un hôtel 3★",
+              "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+          },
+          "transport_inclus": {
+              "label": "place(s) de petit bateau de croisière",
+              "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+          },
+          "restaurations": [
+              {
+                  "label": " formule(s) rythme voyageur",
+                  "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
+                  "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+                  "prix": 40
+              },
+              {
+                  "label": " formule(s) 100% local",
+                  "description": "3 repas par jour dans des restaurants locaux sélectionnés avec soin",
+                  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+                  "prix": 60
+              },
+              {
+                  "label": " formule(s) libre comme l'air",
+                  "description": "Aucun repas inclus totale liberté pour explorer la cuisine locale ou la votre",
+                  "image": "https://static.750g.com/images/1200-630/0fa217fa9300b4fbea5919f9f7f38bdf/adobestock-430086029.jpg",
+                  "prix": 0
+              },
+              {
+                  "label": " formule(s) confort",
+                  "description": "Tout les jours : petit-déjeuner,  dîner dans un restaurant différent chaque jour",
+                  "image": "https://www.mutuellebleue.fr/app/uploads/sites/2/2020/07/petit-dejeuner-complet.jpg",
+                  "prix": 30
+              }
+          ],
+          "hebergements": [
+              {
+                  "label": " place(s) dans un hôtel 3★",
+                  "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                  "prix": 100
+              },
+              {
+                  "label": " place(s) dans un hôtel 4★",
+                  "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+                  "prix": 150
+              },
+              {
+                  "label": " place(s) dans une auberge",
+                  "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                  "prix": 70
+              },
+              {
+                  "label": " place(s) dans un camping",
+                  "image": "https://wallpapers.com/images/featured/beach-camping-yvksnwx1fhs2lti3.jpg",
+                  "prix": 50
+              }
+          ],
+          "activites": [
+              {
+                  "label": "la plongée",
+                  "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le canoë-Kayak de jour",
+                  "image": "https://vertentenatural.com/wp-content/uploads/2020/06/Kayak-12-1.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "le canoë-Kayak de nuit",
+                  "image": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc156b9732e234b60278f8bafe7ae823",
+                  "prix": 35
+              },
+              {
+                  "label": "le jet ski",
+                  "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le paddle",
+                  "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le parachute ascensionnel",
+                  "image": "https://images.unsplash.com/photo-1505738313577-5357ff512f16?fm=jpg&q=60&w=3000",
+                  "prix": 40
+              },
+              {
+                  "label": "le ski nautique",
+                  "image": "https://www.biscagrandslacs.com/sites/default/files/medias/images/ski-nautique-lac-sanguinet-pierre-louis-germain.jpg",
+                  "prix": 40
+              }
+          ],
+          "transports": [
+              {
+                  "label": "place(s) d'avion de Air France",
+                  "image": "https://s1.1zoom.me/b5050/475/Passenger_Airplanes_501163_1920x1080.jpg",
+                  "prix": 100
+              },
+              {
+                  "label": "place(s) d'autocar de FlixBus",
+                  "image": "https://www.ville-sanguinet.fr/var/sanguinet/storage/images/_aliases/landscape_1920/0/5/4/7/67450-1-fre-FR/53cfceca14cb-bus-nouvelle-aquitaine.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "place(s) de Train à Grande Vitesse",
+                  "image": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
+                  "prix": 50
+              },
+              {
+                  "label": "place(s) de petit bateau de croisière",
+                  "image": "https://diapogram.com/upload/2018/04/10/20180410135058-fcd1625a.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "tickets(s) de transports en commun",
+                  "image": "https://www.ivecobus.com/france/-/media/IvecoBus/France/urbain/banner-GX-ok.png",
+                  "prix": 15
+              },
+              {
+                  "label": "voiture de location Citroën",
+                  "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+                  "prix": 70
+              },
+              {
+                  "label": "vélo et une trottinette fournis",
+                  "image": "https://www.neozone.org/blog/wp-content/uploads/2021/10/velo-meilleur-sante-marche-etude-scientifique-001.jpg",
+                  "prix": 10
+              }
+          ],
+          "restauration_selectionnee": " formule(s) rythme voyageur",
+          "hebergement_selectionne": " place(s) dans un hôtel 3★",
+          "activites_selectionnees": [],
+          "transport_selectionne": "place(s) de petit bateau de croisière"
+      },
+  {
+    "titre": "Sicile en Italie",
+        "date_debut": "2025-07-06",
+        "date_fin": "2025-07-11",
+        "date_personnalisable": true,
+    "image": "https://d2p1cf6997m1ir.cloudfront.net/media/places/areas/f4/90/85/1df1/sicily.jpg",
+    "prix": "820€",
+    "avis": 254,
+    "etoiles": "★★★★⯨",
+    "activites_incluses": [
+    { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
+              { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
+              { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+          ],
+          "restauration_incluse": {
+              "label": " formule(s) rythme voyageur",
+              "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+              "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique le soir"
+          },
+          "hebergement_inclus": {
+              "label": " place(s) dans un hôtel 3★",
+              "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+          },
+          "transport_inclus": {
+              "label": "place(s) de petit bateau de croisière",
+              "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+          },
+          "restaurations": [
+              {
+                  "label": " formule(s) rythme voyageur",
+                  "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
+                  "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+                  "prix": 40
+              },
+              {
+                  "label": " formule(s) 100% local",
+                  "description": "3 repas par jour dans des restaurants locaux sélectionnés avec soin",
+                  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+                  "prix": 60
+              },
+              {
+                  "label": " formule(s) libre comme l'air",
+                  "description": "Aucun repas inclus totale liberté pour explorer la cuisine locale ou la votre",
+                  "image": "https://static.750g.com/images/1200-630/0fa217fa9300b4fbea5919f9f7f38bdf/adobestock-430086029.jpg",
+                  "prix": 0
+              },
+              {
+                  "label": " formule(s) confort",
+                  "description": "Tout les jours : petit-déjeuner,  dîner dans un restaurant différent chaque jour",
+                  "image": "https://www.mutuellebleue.fr/app/uploads/sites/2/2020/07/petit-dejeuner-complet.jpg",
+                  "prix": 30
+              }
+          ],
+          "hebergements": [
+              {
+                  "label": " place(s) dans un hôtel 3★",
+                  "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                  "prix": 100
+              },
+              {
+                  "label": " place(s) dans un hôtel 4★",
+                  "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+                  "prix": 150
+              },
+              {
+                  "label": " place(s) dans une auberge",
+                  "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                  "prix": 70
+              },
+              {
+                  "label": " place(s) dans un camping",
+                  "image": "https://wallpapers.com/images/featured/beach-camping-yvksnwx1fhs2lti3.jpg",
+                  "prix": 50
+              }
+          ],
+          "activites": [
+              {
+                  "label": "la plongée",
+                  "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le canoë-Kayak de jour",
+                  "image": "https://vertentenatural.com/wp-content/uploads/2020/06/Kayak-12-1.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "le canoë-Kayak de nuit",
+                  "image": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc156b9732e234b60278f8bafe7ae823",
+                  "prix": 35
+              },
+              {
+                  "label": "le jet ski",
+                  "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le paddle",
+                  "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le parachute ascensionnel",
+                  "image": "https://images.unsplash.com/photo-1505738313577-5357ff512f16?fm=jpg&q=60&w=3000",
+                  "prix": 40
+              },
+              {
+                  "label": "le ski nautique",
+                  "image": "https://www.biscagrandslacs.com/sites/default/files/medias/images/ski-nautique-lac-sanguinet-pierre-louis-germain.jpg",
+                  "prix": 40
+              }
+          ],
+          "transports": [
+              {
+                  "label": "place(s) d'avion de Air France",
+                  "image": "https://s1.1zoom.me/b5050/475/Passenger_Airplanes_501163_1920x1080.jpg",
+                  "prix": 100
+              },
+              {
+                  "label": "place(s) d'autocar de FlixBus",
+                  "image": "https://www.ville-sanguinet.fr/var/sanguinet/storage/images/_aliases/landscape_1920/0/5/4/7/67450-1-fre-FR/53cfceca14cb-bus-nouvelle-aquitaine.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "place(s) de Train à Grande Vitesse",
+                  "image": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
+                  "prix": 50
+              },
+              {
+                  "label": "place(s) de petit bateau de croisière",
+                  "image": "https://diapogram.com/upload/2018/04/10/20180410135058-fcd1625a.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "tickets(s) de transports en commun",
+                  "image": "https://www.ivecobus.com/france/-/media/IvecoBus/France/urbain/banner-GX-ok.png",
+                  "prix": 15
+              },
+              {
+                  "label": "voiture de location Citroën",
+                  "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+                  "prix": 70
+              },
+              {
+                  "label": "vélo et une trottinette fournis",
+                  "image": "https://www.neozone.org/blog/wp-content/uploads/2021/10/velo-meilleur-sante-marche-etude-scientifique-001.jpg",
+                  "prix": 10
+              }
+          ],
+          "restauration_selectionnee": " formule(s) rythme voyageur",
+          "hebergement_selectionne": " place(s) dans un hôtel 3★",
+          "activites_selectionnees": [],
+          "transport_selectionne": "place(s) de petit bateau de croisière"
+      },
+  {
+    "titre": "Oludenize en Turquie",
+        "date_debut": "2025-07-06",
+        "date_fin": "2025-07-11",
+        "date_personnalisable": true,
+    "image": "https://cdn.futura-sciences.com/sources/images/diaporama/1592-les-plus-belles-plages-du-monde/fs-535258615.jpg",
+    "prix": "820€",
+    "avis": 254,
+    "etoiles": "★★★★⯨",
+    "activites_incluses": [
+    { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
+              { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
+              { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+          ],
+          "restauration_incluse": {
+              "label": " formule(s) rythme voyageur",
+              "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+              "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique le soir"
+          },
+          "hebergement_inclus": {
+              "label": " place(s) dans un hôtel 3★",
+              "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+          },
+          "transport_inclus": {
+              "label": "place(s) de petit bateau de croisière",
+              "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+          },
+          "restaurations": [
+              {
+                  "label": " formule(s) rythme voyageur",
+                  "description": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
+                  "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+                  "prix": 40
+              },
+              {
+                  "label": " formule(s) 100% local",
+                  "description": "3 repas par jour dans des restaurants locaux sélectionnés avec soin",
+                  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+                  "prix": 60
+              },
+              {
+                  "label": " formule(s) libre comme l'air",
+                  "description": "Aucun repas inclus totale liberté pour explorer la cuisine locale ou la votre",
+                  "image": "https://static.750g.com/images/1200-630/0fa217fa9300b4fbea5919f9f7f38bdf/adobestock-430086029.jpg",
+                  "prix": 0
+              },
+              {
+                  "label": " formule(s) confort",
+                  "description": "Tout les jours : petit-déjeuner,  dîner dans un restaurant différent chaque jour",
+                  "image": "https://www.mutuellebleue.fr/app/uploads/sites/2/2020/07/petit-dejeuner-complet.jpg",
+                  "prix": 30
+              }
+          ],
+          "hebergements": [
+              {
+                  "label": " place(s) dans un hôtel 3★",
+                  "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+                  "prix": 100
+              },
+              {
+                  "label": " place(s) dans un hôtel 4★",
+                  "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+                  "prix": 150
+              },
+              {
+                  "label": " place(s) dans une auberge",
+                  "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+                  "prix": 70
+              },
+              {
+                  "label": " place(s) dans un camping",
+                  "image": "https://wallpapers.com/images/featured/beach-camping-yvksnwx1fhs2lti3.jpg",
+                  "prix": 50
+              }
+          ],
+          "activites": [
+              {
+                  "label": "la plongée",
+                  "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le canoë-Kayak de jour",
+                  "image": "https://vertentenatural.com/wp-content/uploads/2020/06/Kayak-12-1.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "le canoë-Kayak de nuit",
+                  "image": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc156b9732e234b60278f8bafe7ae823",
+                  "prix": 35
+              },
+              {
+                  "label": "le jet ski",
+                  "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le paddle",
+                  "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "le parachute ascensionnel",
+                  "image": "https://images.unsplash.com/photo-1505738313577-5357ff512f16?fm=jpg&q=60&w=3000",
+                  "prix": 40
+              },
+              {
+                  "label": "le ski nautique",
+                  "image": "https://www.biscagrandslacs.com/sites/default/files/medias/images/ski-nautique-lac-sanguinet-pierre-louis-germain.jpg",
+                  "prix": 40
+              }
+          ],
+          "transports": [
+              {
+                  "label": "place(s) d'avion de Air France",
+                  "image": "https://s1.1zoom.me/b5050/475/Passenger_Airplanes_501163_1920x1080.jpg",
+                  "prix": 100
+              },
+              {
+                  "label": "place(s) d'autocar de FlixBus",
+                  "image": "https://www.ville-sanguinet.fr/var/sanguinet/storage/images/_aliases/landscape_1920/0/5/4/7/67450-1-fre-FR/53cfceca14cb-bus-nouvelle-aquitaine.jpg",
+                  "prix": 25
+              },
+              {
+                  "label": "place(s) de Train à Grande Vitesse",
+                  "image": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
+                  "prix": 50
+              },
+              {
+                  "label": "place(s) de petit bateau de croisière",
+                  "image": "https://diapogram.com/upload/2018/04/10/20180410135058-fcd1625a.jpg",
+                  "prix": 30
+              },
+              {
+                  "label": "tickets(s) de transports en commun",
+                  "image": "https://www.ivecobus.com/france/-/media/IvecoBus/France/urbain/banner-GX-ok.png",
+                  "prix": 15
+              },
+              {
+                  "label": "voiture de location Citroën",
+                  "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+                  "prix": 70
+              },
+              {
+                  "label": "vélo et une trottinette fournis",
+                  "image": "https://www.neozone.org/blog/wp-content/uploads/2021/10/velo-meilleur-sante-marche-etude-scientifique-001.jpg",
+                  "prix": 10
+              }
+          ],
+          "restauration_selectionnee": " formule(s) rythme voyageur",
+          "hebergement_selectionne": " place(s) dans un hôtel 3★",
+          "activites_selectionnees": [],
+          "transport_selectionne": "place(s) de petit bateau de croisière"
+      }
+]
