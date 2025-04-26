@@ -1,11 +1,15 @@
 <?php
 session_start();
+
+date_default_timezone_set('Europe/Paris');
+$voyages_json = file_get_contents("voyagesv2.json");
+$voyages = json_decode($voyages_json, true);
 ?>
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
  <meta charset="UTF-8">
- <link rel="stylesheet" href="../style/style.css"> <!--lien css--> 
+ <link rel="stylesheet" href="../style/style.css"> 
  <link rel="stylesheet" href="../style/nav_footer.css">
  <title>Accueil - DeepDive</title>
 </head>
@@ -19,7 +23,7 @@ session_start();
 	 <h1 class="slogan">
 	  <p>Plongée au coeur des<br>océans avec Deep<span>Dive</span> !</p>
 	 </h1>
-	 <a href="search.php" class="btn-plongez">Plongez dès Maintenant</a>
+	 <a href="recherchev1.php" class="btn-plongez">Plongez dès Maintenant</a>
 	</div>
  </section>
  
@@ -31,62 +35,34 @@ session_start();
  </section>
  
 	<section class="destinations">
-		<h2>Nos Destinations les plus <span>Populaires</span></h2>
-			<div class="box-content">
-				<!-- box -->
-				<div class="box">
-					<img src="https://www.bateliersdelacotedazur.com/decouvrir/wp-content/uploads/2021/02/ACCESSIBILITE-PMR-PORQUEROLLES.jpg" alt="Grand Trou Belize">
-					<div class="content">
-					<h3>Porquerolles</h3>
-					<p>La douceur de l’eau et la luminosité de Porquerolles font le bonheur des plongeurs, prolongé par des épaves attendant d’être visitées...
-					</p>
-					</div>
-					<button>
-					<a href="destinations.php#porquerolles">En Savoir Plus</a>
-					</button>
+		<h2>Nos voyages les plus <span>Populaires</span></h2>
+
+				<div class="box-content">
+						<?php if (is_array($voyages)): ?>
+	<?php
+	$voyages = array_slice($voyages, -4);
+	?>
+								<?php foreach ($voyages as $index => $voyage): ?>
+										<div class="box">
+												<img src="<?= ($voyage['image']) ?>" alt="<?= ($voyage['titre']) ?>">
+												<div class="content">
+														<h3><?= ($voyage['titre']) ?></h3>
+														<p>
+																📅 Du <?= date('d/m/Y', strtotime($voyage['date_debut'])) ?> au <?= date('d/m/Y', strtotime($voyage['date_fin'])) ?><br>
+																💶 <?= ($voyage['prix']) ?> pour 1 personne<br>
+																<span class="stars"><?= ($voyage['etoiles']) ?></span> (<?= ($voyage['avis']) ?> avis)
+														</p>
+												</div>
+												<button>
+													<a href="vuedetaillev2.php?id=<?= $index ?>">Réserver</a>
+												</button>
+										</div>
+								<?php endforeach; ?>
+						<?php else: ?>
+								<p style="color: red; text-align: center;">Erreur : impossible de lire les données. Vérifie le fichier <code>voyagesv2.json</code>.</p>
+						<?php endif; ?>
 				</div>
-				<!-- box -->
-				<div class="box">
-					<img src="https://www.lebaillidesuffren.com/wp-content/uploads/sites/174/2020/06/port-cros.jpg" alt="Port-Cros">
-					<div class="content">
-					<h3>Parc National de Port-Cros</h3>
-					<p>Située entre Banyuls et Cerbère, cette réserve marine 
-					protégée abrite une biodiversité remarquable et des eaux limpides, 
-					idéales pour une plongée inoubliable.
-					</p>
-					</div>
-					<button>
-					<a href="destinations.php#parc">En Savoir Plus</a>
-					</button>
-				</div>
-				<!-- box -->
-				<div class="box">
-					<img src="https://checkyeti.imgix.net/images/optimized/boat-trips-to-calanques-national-park.jpg" alt="Calanques de Marseille">
-					<div class="content">
-					<h3>Calanques de Marseille</h3>
-					<p>Les Calanques de Marseille offrent un cadre unique. Un site de plongée exceptionnel 
-					entre falaises, eaux cristallines et une riche biodiversité sous-marine.
-					</p>
-					</div>
-					<button>
-					<a href="destinations.php#calanques">En Savoir Plus</a>
-					</button>
-				</div>
-				<!-- box -->
-				<div class="box">
-					<img src="https://cdt66.media.tourinsoft.eu/upload/DSC-2352.jpg" alt="Réserve Cerbère-Banyuls">
-					<div class="content">
-					<h3>Réserve de Cerbère-Banyuls</h3>
-					<p>Premier parc marin de France, cette réserve offre des eaux cristallines 
-					et une biodiversité exceptionnelle pour une plongée inoubliable.
-					</p>
-					</div>
-					<button>
-					<a href="php/destinations.php#réserve">En Savoir Plus</a>
-					</button>
-				</div>
-			</div>
-	</section>
+		</section>
 
 <?php include("footer.php") ?>
 	
