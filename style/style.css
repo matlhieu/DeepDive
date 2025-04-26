@@ -91,7 +91,7 @@ h2{
 	background-color: #001f3f;
 	color:white;
 	padding: 1rem 2rem;
-		
+    font-size:1.25rem;
 }
 
 .box-content{
@@ -132,7 +132,7 @@ h2{
 .box img{
 	width: 100%;
 	border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+  border-top-right-radius: 1rem;
 	height:20rem;
 }
 
