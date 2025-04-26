@@ -6,7 +6,7 @@ if ($_SESSION['role'] !== 'Admin'){
 	exit();
 }
 // Chargement des utilisateurs
-$users = json_decode(file_get_contents("utilisateurs.json"), true);
+$users = json_decode(file_get_contents("../json/utilisateurs.json"), true);
 
 // Pagination
 $usersPerPage = 5;
