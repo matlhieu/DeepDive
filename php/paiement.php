@@ -17,6 +17,10 @@ $hebergement = $_POST['hebergement'] ?? '';
 $restauration = $_POST['restauration'] ?? '';
 $transport = $_POST['transport'] ?? '';
 $activites = $_POST['activites'] ?? [];
+$titre = $_POST['titre'] ?? '';
+$nb_personnes = $_POST['nb_personnes'] ?? 'Non précisé';
+$date_debut = $_POST['date_debut'] ?? '';
+$date_fin = $_POST['date_fin'] ?? '';
 
 // Chargement des voyages
 $voyages_json = file_get_contents("voyagesv2.json");
@@ -73,9 +77,15 @@ $control = md5($api_key . "#" . $transaction . "#" . $montant . "#" . $vendeur .
 <section class="connexion">
     <div class="overlay">
 
-    <h2>Récapitulatif de votre commande</h2>
+     <h2>Récapitulatif de votre commande</h2>
     <div class="recapitulatif">
+        <p><strong>
+            Date du voyage : </strong>
+            Du <?= !empty($date_debut) ? date('d/m/Y', strtotime($date_debut)) : 'Non précisé' ?>
+            au <?= !empty($date_fin) ? date('d/m/Y', strtotime($date_fin)) : 'Non précisé' ?>
+        </p>
         <p><strong>Voyage :</strong> <?= $voyage['titre']?></p>
+          <p><strong>Nombre de personnes : </strong><?= ($nb_personnes) ?></p>
         <p><strong>Hébergement :</strong> <?= $hebergement ?></p>
         <p><strong>Restauration :</strong> <?= $restauration ?></p>
         <p><strong>Transport :</strong> <?= $transport ?></p>
