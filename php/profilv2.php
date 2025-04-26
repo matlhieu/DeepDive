@@ -15,7 +15,7 @@ $voyages_payes_ids = [0, 1, 2];
     <meta charset="UTF-8">
     <title>Profil utilisateur</title>
     <link rel="stylesheet" href="../style/nav_footer.css">
-    <link rel="stylesheet" href="../style/profilv3.css"> 
+    <link rel="stylesheet" href="../style/recherche.css"> 
 </head>
 <body>
 <?php include("navbar.php"); ?>
