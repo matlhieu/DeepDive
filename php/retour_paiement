@@ -52,7 +52,7 @@ if (empty($erreur) && $statut === "accepted") {
         $commande['montant'] = $montant;
 
         // Enregistrement dans commandes.json
-        $fichier_commandes = "commandes.json";
+        $fichier_commandes = "../json/commandes.json";
         $commandes = file_exists($fichier_commandes) ? json_decode(file_get_contents($fichier_commandes), true) : [];
 
         $commandes[$transaction] = $commande;
