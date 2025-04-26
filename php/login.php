@@ -2,7 +2,7 @@
 
 session_start();
 
-$file = 'utilisateurs.json';
+$file = '../json/utilisateurs.json';
 $users = json_decode(file_get_contents($file), true);
 $error = "";
 
