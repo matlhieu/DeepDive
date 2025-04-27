@@ -22,7 +22,7 @@ $nb_personnes = $_POST['nb_personnes'] ?? 'Non précisé';
 $date_debut = $_POST['date_debut'] ?? '';
 $date_fin = $_POST['date_fin'] ?? '';
 
-// Chargement des voyages
+// Chargement des voyages, PAS OBLIGE
 $voyages_json = file_get_contents("../json/voyagesv2.json");
 $voyages = json_decode($voyages_json, true);
 
