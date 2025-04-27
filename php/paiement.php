@@ -50,7 +50,7 @@ $_SESSION['voyage_en_cours'] = [
 $vendeur = "MI-2_H";
 $transaction = uniqid("TRX");
 $session_id = session_id();
-$retour = "http://localhost:8010/php/retour_paiement.php?session=$session_id";//!!!!! CHANGER ICI SELON SON PROPRE SERVEUR!!!!
+$retour = "http://localhost:8010/php/retour_paiement.php?session=$session_id";//!!!!! CHANGER ICI SELON SON PROPRE SERVEUR!!!! et la page ou on veut renvoyer
 
 $api_key = getAPIKey($vendeur);
 if ($api_key == "zzzz") {
