@@ -156,13 +156,14 @@ if (!empty($date_debut) && !empty($date_fin)) {
         <?php endforeach; ?>
     </div>
 </div>
-
-    <label>Prix total du voyage : <?= $prix_hebergement + $prix_restauration + $prix_act + $prix_trans ?> €</label>
-    <label>Date du voyage : 
-        Du <?= $date_debut ? date('d/m/Y', strtotime($date_debut)) : 'Non précisé' ?> 
-        au <?= $date_fin ? date('d/m/Y', strtotime($date_fin)) : 'Non précisé' ?> 
-    </label>
-
+<?php
+$prix_total = $prix_hebergement + $prix_restauration + $prix_act + $prix_trans;
+?>
+  <label>Prix total du voyage : <?= $prix_total ?> €</label>
+<label>Date du voyage : 
+    Du <?= $date_debut ? date('d/m/Y', strtotime($date_debut)) : 'Non précisé' ?> 
+    au <?= $date_fin ? date('d/m/Y', strtotime($date_fin)) : 'Non précisé' ?>
+</label>
 
 <br><br>
 
@@ -181,6 +182,7 @@ if (!empty($date_debut) && !empty($date_fin)) {
         <input type="hidden" name="date_debut" value="<?= $voyage['date_debut'] ?>">
         <input type="hidden" name="date_fin" value="<?= $voyage['date_fin'] ?>">
         <input type="hidden" name="titre" value="<?= $voyage['titre'] ?>">
+        <input type="hidden" name="prix_total" value="<?= $prix_total ?>">
 
 
         <?php foreach ($activites as $act): ?>
@@ -197,5 +199,7 @@ if (!empty($date_debut) && !empty($date_fin)) {
 <?php include("footer.php"); ?>
 </body>
 </html>
+
+
 
 
