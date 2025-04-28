@@ -98,6 +98,7 @@ input[type="checkbox"] {
   display: block;
   margin: 0 auto;
   transition: transform 0.3s ease;
+  margin-bottom:4rem;
 }
 
 .boutton-recherche:hover {
@@ -109,7 +110,7 @@ input[type="checkbox"] {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 2rem;
-  margin-top: 1.1rem;
+  margin: 2rem 1rem;
 }
 
 .un-carré-info {
@@ -181,6 +182,8 @@ input[type="checkbox"] {
 }
 
 .form-section {
+  padding-left:20rem;
+  padding-right: 20rem;
   margin-bottom: 3rem;
   padding-bottom: 20px;
   border-bottom: 2px solid #007BFF; 
