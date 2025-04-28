@@ -31,7 +31,7 @@ $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
         <h1>Explorez <span><?= $voyage['titre'] ?></span> !</h1>
     </div>
 </section>
-
+<br>
 <label>Les carrés déjà cochés sont les options choisies par le voyage, mais vous pouvez modifier cela.</label>
 <br><br>
 
