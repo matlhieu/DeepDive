@@ -85,8 +85,8 @@ if (empty($erreur) && $statut === "accepted") {
             <a href="recapitulatifv2.php">🔁 Retour au récapitulatif</a>
         <?php elseif ($statut === "accepted"): ?>
             <h1>✅ Paiement accepté !</h1>
-            <p>Merci pour votre réservation, votre commande a bien été enregistrée.</p>
-            <a href="index.php">🏠 Retour à l'accueil</a>
+            <p>Merci pour votre réservation, votre voyage a bien été enregistrée.</p>
+            <a href="index.php">Retour à l'accueil</a>
         <?php else: ?>
             <h1>❌ Paiement refusé</h1>
             <p>Le paiement a été refusé. </p>
