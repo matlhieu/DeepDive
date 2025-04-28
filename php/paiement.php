@@ -21,6 +21,7 @@ $titre = $_POST['titre'] ?? '';
 $nb_personnes = $_POST['nb_personnes'] ?? 'Non précisé';
 $date_debut = $_POST['date_debut'] ?? '';
 $date_fin = $_POST['date_fin'] ?? '';
+$prix_total = $_POST['prix_total'] ?? '';
 
 // Chargement des voyages, PAS OBLIGE
 $voyages_json = file_get_contents("../json/voyagesv2.json");
@@ -30,9 +31,6 @@ if (!isset($voyages[$id])) {
     die("<h1>Erreur : Voyage non trouvé.</h1>");
 }
 $voyage = $voyages[$id];
-
-// Prix de base
-$prix_total = (float) $voyage['prix']; 
 $montant = number_format($prix_total, 2, '.', '');
 
 // Stockage des données de commande dans la session
@@ -50,7 +48,7 @@ $_SESSION['voyage_en_cours'] = [
 $vendeur = "MI-2_H";
 $transaction = uniqid("TRX");
 $session_id = session_id();
-$retour = "http://localhost:8010/php/retour_paiement.php?session=$session_id";//!!!!! CHANGER ICI SELON SON PROPRE SERVEUR!!!! et la page ou on veut renvoyer
+$retour = "http://localhost:8000/php/retour_paiement.php?session=$session_id";//!!!!! CHANGER ICI SELON SON PROPRE SERVEUR!!!! et la page ou on veut renvoyer
 
 $api_key = getAPIKey($vendeur);
 if ($api_key == "zzzz") {
@@ -115,4 +113,5 @@ $control = md5($api_key . "#" . $transaction . "#" . $montant . "#" . $vendeur .
 
 </body>
 </html>
+
 
