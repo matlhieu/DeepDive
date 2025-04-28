@@ -193,7 +193,7 @@ if (!empty($date_debut) && !empty($date_fin)) {
 <?php else: ?>
     <p style="color:red; text-align:center;">Erreur : voyage introuvable.</p>
 <?php endif; ?>
-
+<br>
 <?php include("footer.php"); ?>
 </body>
 </html>
