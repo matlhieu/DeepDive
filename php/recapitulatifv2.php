@@ -44,7 +44,7 @@ if (!empty($date_debut) && !empty($date_fin)) {
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Récapitulatif du voyage personnalisé</title>
+    <title>Récapitulatif Voyage</title>
     <link rel="stylesheet" href="../style/nav_footer.css">
     <link rel="stylesheet" href="../style/recapitulatif.css">
 </head>
@@ -57,9 +57,6 @@ if (!empty($date_debut) && !empty($date_fin)) {
         <h1>Récapitulatif de votre voyage à <span><?= $voyage['titre'] ?></span></h1>
     </div>
 </section>
-
-<label>Voici votre configuration de voyage : </label>
-<br><br>
 
 <div class="form-section">
     <label>Hébergement sélectionné :</label>
@@ -189,6 +186,7 @@ $prix_total = $prix_hebergement + $prix_restauration + $prix_act + $prix_trans;
             <input type="hidden" name="activites[]" value="<?= $act ?>">
         <?php endforeach; ?>
         <button type="submit" class="boutton-recherche">Confirmer et passer au paiement</button>
+        <br>
     </form>
 
 
