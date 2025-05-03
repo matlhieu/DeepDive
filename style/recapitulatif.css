@@ -180,8 +180,11 @@ input[type="checkbox"] {
 }
 
 .form-section {
-  margin-bottom: 3rem;
-  padding-bottom: 20px;
-  border-bottom: 2px solid #007BFF; 
+
+  padding-bottom: 3rem;
+  border-bottom: 6px solid #00ebf7; 
+  border-radius: 25px;
+  width: 75%;
+  margin: 2rem auto;
 }
 
