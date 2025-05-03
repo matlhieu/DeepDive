@@ -39,32 +39,34 @@ $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
     <input type="hidden" name="id" value="<?= $id ?>">
 
 
-    <div class="form-section">
-        <label for="nb_personnes">Nombre de personnes pour le voyage :</label>
+    <div class="form-section1">
+        <label for="nb_personnes">Nombre de personnes pour le voyage :</label><br>
         <input type="number" name="nb_personnes" id="nb_personnes" min="1" max="20" value="1" step="1">
     </div>
 
+    <div class="ligne-separation">
+    </div>
+
     <div class="bloc-dates">
-        <label for="date_debut">Date de début du voyage :</label>
+        <label for="date_debut">Date de début du voyage :</label><br>
         <input type="date" name="date_debut" id="date_debut" min="2025-04-28" max="2026-04-28"
                value="<?= isset($voyage['date_debut']) ? ($voyage['date_debut']) : '' ?>" 
                required>
     </div>
 
     <div class="bloc-dates">
-        <label for="date_fin">Date de fin du voyage :</label>
+        <label for="date_fin">Date de fin du voyage :</label><br>
         <input type="date" name="date_fin" id="date_fin" 
             min="2025-04-28" max="2026-04-28"
                value="<?= isset($voyage['date_fin']) ? ($voyage['date_fin']) : '' ?>" 
                required>
     </div>
+    
     <div class="ligne-separation">
     </div>
 
-
-
     <div class="form-section">
-        <label>Choisissez un hébergement :</label>
+        <label>Choisissez un hébergement :</label><br>
         <div class="ensemble-carré-info">
             <?php foreach ($voyage['hebergements'] as $option): ?>
                 <label class="un-carré-info <?= $option['label'] == $voyage['hebergement_inclus']['label'] ? 'inclus' : '' ?>">
@@ -76,9 +78,11 @@ $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
         </div>
     </div>
     
+    <div class="ligne-separation">
+    </div>
 
     <div class="form-section">
-        <label>Choisissez une restauration :</label>
+        <label>Choisissez une restauration :</label><br>
         <div class="ensemble-carré-info">
             <?php foreach ($voyage['restaurations'] as $option): ?>
                 <label class="un-carré-info <?= $option['label'] == $voyage['restauration_incluse']['label'] ? 'inclus' : '' ?>">
@@ -90,10 +94,12 @@ $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
             <?php endforeach; ?>
         </div>
     </div>
-
+    
+    <div class="ligne-separation">
+    </div>
 
     <div class="form-section">
-        <label>Ajoutez ou modifiez les activités :</label>
+        <label>Ajoutez ou modifiez les activités :</label><br>
         <div class="ensemble-carré-info">
             <?php foreach ($voyage['activites'] as $option): ?>
                 <label class="un-carré-info <?= in_array($option['label'], array_column($voyage['activites_incluses'], 'label')) ? 'inclus' : '' ?>">
@@ -105,9 +111,11 @@ $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
         </div>
     </div>
     
+    <div class="ligne-separation">
+    </div>
 
     <div class="form-section">
-        <label>Choisissez un mode de transport :</label>
+        <label>Choisissez un mode de transport :</label><br>
         <div class="ensemble-carré-info">
             <?php foreach ($voyage['transports'] as $option): ?>
                 <label class="un-carré-info <?= $option['label'] == $voyage['transport_inclus']['label'] ? 'inclus' : '' ?>">
