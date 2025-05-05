@@ -11,8 +11,10 @@ function getAPIKey($vendeur)
 	return "zzzz";
 }
 // Récupération des données POST
-
-$id = $_POST['id'] ;
+$id = $_POST['id'];
+if (!$id) {
+    die("ID non défini dans POST");
+}
 $hebergement = $_POST['hebergement'] ?? '';
 $restauration = $_POST['restauration'] ?? '';
 $transport = $_POST['transport'] ?? '';
@@ -23,7 +25,7 @@ $date_debut = $_POST['date_debut'] ?? '';
 $date_fin = $_POST['date_fin'] ?? '';
 $prix_total = $_POST['prix_total'] ?? '';
 
-// Chargement des voyages, PAS OBLIGE
+// Chargement des voyages
 $voyages_json = file_get_contents("../json/voyagesv2.json");
 $voyages = json_decode($voyages_json, true);
 
@@ -33,7 +35,7 @@ if (!isset($voyages[$id])) {
 $voyage = $voyages[$id];
 $montant = number_format($prix_total, 2, '.', '');
 
-// Stockage des données de commande dans la session
+// Stockage en session
 $_SESSION['voyage_en_cours'] = [
     'id' => $id,
     'titre' => $voyage['titre'],
@@ -41,21 +43,24 @@ $_SESSION['voyage_en_cours'] = [
     'restauration' => $restauration,
     'transport' => $transport,
     'activites' => $activites,
-    'prix' => $prix_total
+    'prix' => $prix_total,
+    'nb_personnes' => $nb_personnes ,
+    'date_debut' => $date_debut,
+    'date_fin' => $date_fin 
 ];
 
-// Préparation pour paiement
+// Préparation paiement
 $vendeur = "MI-2_H";
 $transaction = uniqid("TRX");
 $session_id = session_id();
-$retour = "http://localhost:8000/php/retour_paiement.php?session=$session_id";//!!!!! CHANGER ICI SELON SON PROPRE SERVEUR!!!! et la page ou on veut renvoyer
+$retour = "http://localhost:8000/php/retour_paiement.php?session=$session_id"; // à adapter selon serveur réel
 
 $api_key = getAPIKey($vendeur);
 if ($api_key == "zzzz") {
     die("<h1>Erreur API Key.</h1>");
 }
-
 $control = md5($api_key . "#" . $transaction . "#" . $montant . "#" . $vendeur . "#" . $retour . "#");
+
 ?>
 
 <!DOCTYPE html>
@@ -74,44 +79,38 @@ $control = md5($api_key . "#" . $transaction . "#" . $montant . "#" . $vendeur .
 
 <section class="connexion">
     <div class="overlay">
+        <h2>Récapitulatif de votre commande</h2>
+        <div class="recapitulatif">
+            <p><strong>Date du voyage :</strong> Du <?= date('d/m/Y', strtotime($date_debut)) ?> au <?= date('d/m/Y', strtotime($date_fin)) ?></p>
+            <p><strong>Voyage :</strong> <?= $voyage['titre'] ?></p>
+            <p><strong>Nombre de personnes :</strong> <?= $nb_personnes ?></p>
+            <p><strong>Hébergement :</strong> <?= $hebergement ?></p>
+            <p><strong>Restauration :</strong> <?= $restauration ?></p>
+            <p><strong>Transport :</strong> <?= $transport ?></p>
+            <p><strong>Activités :</strong></p>
+            <ul>
+                <?php foreach ($activites as $act): ?>
+                    <li><?= $act ?></li>
+                <?php endforeach; ?>
+            </ul>
+            <p><strong>Montant à payer :</strong> <?= $montant ?> €</p>
+        </div>
 
-     <h2>Récapitulatif de votre commande</h2>
-    <div class="recapitulatif">
-        <p><strong>
-            Date du voyage : </strong>
-            Du <?= !empty($date_debut) ? date('d/m/Y', strtotime($date_debut)) : 'Non précisé' ?>
-            au <?= !empty($date_fin) ? date('d/m/Y', strtotime($date_fin)) : 'Non précisé' ?>
-        </p>
-        <p><strong>Voyage :</strong> <?= $voyage['titre']?></p>
-          <p><strong>Nombre de personnes : </strong><?= ($nb_personnes) ?></p>
-        <p><strong>Hébergement :</strong> <?= $hebergement ?></p>
-        <p><strong>Restauration :</strong> <?= $restauration ?></p>
-        <p><strong>Transport :</strong> <?= $transport ?></p>
-        <p><strong>Activités :</strong></p>
-        <ul>
-            <?php foreach ($activites as $act): ?>
-                <li><?= $act ?></li>
-            <?php endforeach; ?>
-        </ul>
-        <p><strong>Montant à payer :</strong> <?= $montant ?> €</p>
-    </div>
-
-    <h2>Procéder au paiement</h2>
-    <form action="https://www.plateforme-smc.fr/cybank/index.php" method="POST">
-        <input type="hidden" name="transaction" value="<?= $transaction ?>">
-        <input type="hidden" name="montant" value="<?= $montant?>">
-        <input type="hidden" name="vendeur" value="<?= $vendeur ?>">
-        <input type="hidden" name="retour" value="<?= $retour ?>">
-        <input type="hidden" name="control" value="<?= $control?>">
-        <input type="submit" value="Payer maintenant">
-    </form>
-
+        <h2>Procéder au paiement</h2>
+        <form action="https://www.plateforme-smc.fr/cybank/index.php" method="POST">
+            <input type="hidden" name="transaction" value="<?= $transaction ?>">
+            <input type="hidden" name="montant" value="<?= $montant ?>">
+            <input type="hidden" name="vendeur" value="<?= $vendeur ?>">
+            <input type="hidden" name="retour" value="<?= $retour ?>">
+            <input type="hidden" name="control" value="<?= $control ?>">
+            <input type="submit" value="Payer maintenant">
+        </form>
     </div>
 </section>
 
 <?php include("footer.php"); ?>
-
 </body>
 </html>
+
 
 
