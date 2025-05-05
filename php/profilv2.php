@@ -22,6 +22,11 @@ $voyages_payes_ids = [0, 1, 2];
 
 <h2 class="meilleure-plans">Vos <span>voyages</span> déjà payés</h2>
 
+        <div class="side">
+            <button onclick="window.location.href='profil.php'">Mes infos</button>
+            <button onclick="window.location.href='profilv2.php'">Mes réservations</button>
+        </div>
+    
 <div class="ensemble-carré-info">
     <?php foreach ($voyages_payes_ids as $id): ?>
         <?php if (isset($voyages[$id])): ?>
