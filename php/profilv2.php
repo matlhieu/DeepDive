@@ -58,7 +58,7 @@ if (file_exists("../json/commandes.json")) {
                     🧾 Transaction : <?= htmlspecialchars($commande['transaction']) ?>
                 </b>
                 <br><br>
-                <a href="voyage_payed.php?transaction=<?=$commande['transaction'] ?>" class="boutton-recherche">Voir les détails</a>
+                <a href="commande_payee.php?transaction=<?=$commande['transaction'] ?>" class="boutton-recherche">Voir les détails</a>
             </div>
         </div>
     <?php endforeach; ?>
