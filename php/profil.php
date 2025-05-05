@@ -23,7 +23,12 @@ if (!isset($_SESSION['role'])){
 <section class="profil">
     <div class="box-container">
         <h1>Vos Informations</h1>
-
+	    
+        <div class="side">
+            <button onclick="window.location.href='profil.php'">Mes infos</button>
+            <button onclick="window.location.href='profilv2.php'">Mes réservations</button>
+        </div>
+	    
         <div class="profile-field">
             <label for="nom">Nom :</label>
             <span id="nom"><?php echo htmlspecialchars($_SESSION['nom']); ?></span>
