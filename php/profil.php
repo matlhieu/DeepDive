@@ -4,7 +4,6 @@ if (!isset($_SESSION['role'])){
 	header('Location: login.php');
 	exit();
 }
-    
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -15,11 +14,11 @@ if (!isset($_SESSION['role'])){
     <link rel="stylesheet" href="../style/nav_footer.css">
     <link rel="stylesheet" href="../style/profil.css">
 </head>
+<body>
 <header>
     <?php include("navbar.php") ?>
 </header>
 
-<body>
 <section class="profil">
     <div class="box-container">
         <h1>Vos Informations</h1>
@@ -28,7 +27,7 @@ if (!isset($_SESSION['role'])){
             <button onclick="window.location.href='profil.php'">Mes infos</button>
             <button onclick="window.location.href='profilv2.php'">Mes réservations</button>
         </div>
-	    
+
         <div class="profile-field">
             <label for="nom">Nom :</label>
             <span id="nom"><?php echo htmlspecialchars($_SESSION['nom']); ?></span>
@@ -48,17 +47,22 @@ if (!isset($_SESSION['role'])){
         </div>
 
         <div class="profile-field">
-            <label class="required" for="naissance">Date de naissance:</label>
-            <input type="date" id="naissance" name="naissance" 
-                   value="<?php echo isset($_SESSION['naissance']) ? htmlspecialchars($_SESSION['naissance']) : ''; ?>" 
-                   max="<?php echo date('Y-m-d'); ?>" required>
+            <label for="naissance">Date de naissance:</label>
+            <span id="naissance"><?php echo htmlspecialchars($_SESSION['naissance']); ?></span>
             <button class="edit-btn" onclick="editField('naissance')">Modifier</button>
         </div>
-       
+
+        <div class="profile-field">
+            <label for="role">Statut :</label>
+            <span id="role"><?php echo htmlspecialchars($_SESSION['role']); ?></span>
+            <button class="edit-btn" onclick="editField('role')">Modifier</button>
+        </div>
+
         <a href="logout.php" class="logout-btn">Déconnexion</a>
-        
     </div>
 </section>
+
+<script src="../js/profil.js"></script>
 <?php include("footer.php") ?>
 </body>
 </html>
