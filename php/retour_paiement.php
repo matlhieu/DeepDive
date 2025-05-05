@@ -97,7 +97,7 @@ if (empty($erreur) && $statut === "accepted") {
     <?php endif; ?>
     <input type="hidden" name="titre" value="<?= $_SESSION['voyage_en_cours']['titre'] ?? '' ?>">
     <input type="hidden" name="prix_total" value="<?= $_SESSION['voyage_en_cours']['prix'] ?? '' ?>">
-    <input type="submit" value="✏️ Modifier votre voyage">
+    <input type="submit" value="Revenir dans la page de paiement">
 </form>
 
             <?php endif; ?>
