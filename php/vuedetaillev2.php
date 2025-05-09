@@ -1,10 +1,5 @@
 <?php
-
 session_start();
-if (!isset($_SESSION['role'])) {
-    header('Location: login.php');
-    exit(); 
-}
 date_default_timezone_set('Europe/Paris');
 $voyages_json = file_get_contents("../json/voyagesv2.json");
 $voyages = json_decode($voyages_json, true);
@@ -127,13 +122,24 @@ $voyage = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
         </div>
     </div>
 
-    <button type="submit" class="boutton-recherche">Valider et voir le récapitulatif</button>
+    <button id="button" type="submit" class="boutton-recherche">Valider et voir le récapitulatif</button>
 </form>
 
 <?php else: ?>
     <p style="color:red; text-align:center;">Erreur : voyage introuvable.</p>
 <?php endif; ?>
-
+<script>
+    document.getElementById("button").addEventListener("click", function(e) {
+        <?php if (!isset($_SESSION['role'])): ?>
+            e.preventDefault();
+            alert("Veuillez vous connecter");
+            window.location.href = "login.php";
+        <?php elseif ($_SESSION['role'] == 'Banned'): ?>
+            e.preventDefault();
+            alert("Vous n'êtes pas autorisé(e).\nRaison : Banni");
+        <?php endif; ?>
+    });
+</script>
 <?php include("footer.php"); ?>
 </body>
 </html>
