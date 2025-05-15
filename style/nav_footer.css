@@ -108,26 +108,25 @@ html, body {
 }
 
 .right {
-    margin-right: 1.2rem;
+    margin-right: 1.4rem;
     display: flex;
     align-items: center;
 }
 .dark-mode-toggle {
-  color: var(--foreground);
-  border: 2px solid currentColor;
-  padding: 4px;
-  background: transparent;
-  cursor: pointer;
-  border-radius: 5px;
-  width: 35px;
-  height: 35px;
+    margin-right:0.6rem;
+    color: var(--foreground);
+    border: 2px solid currentColor;
+    padding: 4px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
 }
 
 .button-login{
-    margin-left: 0.7rem;
     color: var(--nav-text);
     text-decoration: none;
-    margin-right: 1rem;
     padding: 0.7rem;
     font-weight: bold;
     background-color: var(--nav-button);
