@@ -69,3 +69,36 @@ tr:nth-child(even) {
 .connexion{
   padding-bottom: 15px;
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 6px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.pagination a:hover {
+  background-color: #033252;
+  color: #fff;
+}
+
+.pagination a.active {
+  background-color: #033252;
+  color: white;
+  pointer-events: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
