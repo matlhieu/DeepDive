@@ -61,15 +61,31 @@ $totalPages = ceil($totalUsers / $usersPerPage);
 								<td><?= $user['prenom'] ?></td>
 								<td><?= $user['mail']  ?></td>
 								<td><?= $user['role'] ?></td>
-								<td><button type="submit" name="action" value="vip" class="btn btn-vip" >VIP</button>
-                <td><button type="submit" name="action" value="ban"class="btn btn-ban">Bannir</button></td>
+								
+								<td>
+  <button type="button"
+          class="btn btn-vip action-btn"
+          data-type="vip"
+          data-email="<?= $user['mail'] ?>"
+  >
+    <?= ($user['VIP'] === 'VIP') ? 'VIP' : 'non VIP' ?>
+  </button>
+</td>
+<td>
+  <button type="button"
+          class="btn btn-ban action-btn"
+          data-type="ban"
+          data-email="<?= $user['mail'] ?>"
+  >
+    <?= ($user['bannissement'] === 'BANNI') ? 'Débannir' : 'Bannir' ?>
+  </button>
+</td>
 
-						</tr>
-				<?php endforeach; ?>
+</tr>
+<?php endforeach; ?>
 		</tbody>
 </table>
 
-<!-- Pagination -->
 <div class="pagination">
 		<?php for ($i = 1; $i <= $totalPages; $i++): ?>
 
@@ -77,10 +93,15 @@ $totalPages = ceil($totalUsers / $usersPerPage);
 	
 		<?php endfor; ?>
 </div>
+</div>
 		
 		
 
 </body>
+<script src = "../js/admin.js">
+
+
+</script>
 </html>
 
 
