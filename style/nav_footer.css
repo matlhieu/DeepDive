@@ -30,6 +30,12 @@ html, body {
     flex-direction: column; 
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 /* Barre de Navigation */
 .navibar {
     z-index: 1000;
