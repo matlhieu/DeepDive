@@ -37,6 +37,9 @@ h1{
  /* Style pour les groupes de champs du formulaire */
 .form-group{
 	margin-bottom:15px;
+    	position: relative;
+   	
+}
 }
 label{
 	display:block; /* Affiche l'étiquette sur une ligne entière */
@@ -84,3 +87,71 @@ input[type="submit"]:hover{
 	text-decoration:underline;/* Ajoute un soulignement lors du survol */
 }
 
+.error-message {
+    margin-top: 5px;
+    font-size: 0.8em;
+    color: #ff6b6b;
+}
+
+.password-toggle {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.character-counter {
+    font-size: 0.8em;
+    text-align: right;
+    margin-top: 5px;
+    color: #666;
+}
+
+/* Animation pour les messages d'erreur */
+.error-message, .error-summary {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.error-summary {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.7);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.error-summary h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.error-summary ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+/* Ajustement pour l'icône de mot de passe */
+input[type="password"], 
+input[type="text"]#mdp {
+    padding-right: 35px; /* Pour laisser de la place à l'icône */
+}
+
+input.invalid {
+    border: 2px solid #ff6b6b !important;
+    background-color: #fff0f0;
+}
