@@ -1,13 +1,13 @@
 [
       {
           "titre": "Porquerolles",
-          "date_debut": "2025-07-06",
-          "date_fin": "2025-07-11",
+          "date_debut": "2025-07-07",
+          "date_fin": "2025-07-12",
             "destination": "Porquerolles",
             "nb_personnes": 2,
           "date_personnalisable": true,
           "image": "https://www.bateliersdelacotedazur.com/decouvrir/wp-content/uploads/2021/02/ACCESSIBILITE-PMR-PORQUEROLLES.jpg",
-          "prix": "940€",
+          "prix": "920€",
           "avis": 254,
           "etoiles": "★★★★⯨",
           "date_debut_incluses" : "2025-07-06",
@@ -147,7 +147,7 @@
                   "prix": 70
               },
               {
-                  "label": "vélo et une trottinette fournis",
+                  "label": "vélo(s) et trottinette(s) fournis",
                   "image": "https://www.neozone.org/blog/wp-content/uploads/2021/10/velo-meilleur-sante-marche-etude-scientifique-001.jpg",
                   "prix": 10
               }
@@ -159,7 +159,7 @@
       },
   {
     "titre": "Parc National de Port-Cros",
-        "date_debut": "2025-07-06",
+        "date_debut": "2025-07-08",
         "date_fin": "2025-07-11",
         "date_personnalisable": true,
         "destination": "Parc National de Port-Cros",
@@ -169,7 +169,7 @@
     "avis": 254,
     "etoiles": "★★★★⯨",
         "date_debut_incluses" : "2025-07-06",
-        "date_fin_incluses" : "2025-07-11",
+        "date_fin_incluses" : "2025-07-13",
     "activites_incluses": [
     { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
               { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
@@ -318,12 +318,12 @@
     {
         "titre": "Calanques de Marseille",
          "destination": "Calanques de Marseille",
-          "date_debut": "2025-07-06",
-          "date_fin": "2025-07-11",
+          "date_debut": "2025-07-09",
+          "date_fin": "2025-07-10",
         "nb_personnes": 2,
           "date_personnalisable": true,
         "image": "https://checkyeti.imgix.net/images/optimized/boat-trips-to-calanques-national-park.jpg",
-    "prix": "940€",
+    "prix": "1000€",
         "avis": 254,
         "etoiles": "★★★★⯨",
           "date_debut_incluses" : "2025-07-06",
