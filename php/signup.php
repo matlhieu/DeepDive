@@ -136,7 +136,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    </section>
    <?php include("footer.php") ?>
 
-<script src="js/verification.js"></script>
+<script src="js/vérification.js"></script>
 
 </body>
 </html>
