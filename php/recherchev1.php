@@ -3,7 +3,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Recherche - DeepDive</title>
+    <title>Recherche de voyage</title>
     <link rel="stylesheet" href="../style/nav_footer.css"> 
     <link rel="stylesheet" href="../style/search.css">
       <script>
