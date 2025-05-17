@@ -7,7 +7,7 @@ session_start();
 }
 
 date_default_timezone_set('Europe/Paris');
-$voyages_json = file_get_contents("../json/voyagesv2.json");
+$voyages_json = file_get_contents("voyagesv2.json");
 $voyages = json_decode($voyages_json, true);
 
 $id = isset($_POST['id']) ? (int)$_POST['id'] : -1;
@@ -49,6 +49,7 @@ if (!empty($date_debut) && !empty($date_fin)) {
     <link rel="stylesheet" href="../style/recapitulatif.css">
 </head>
 <body>
+     <main class="meilleure-plans-wrapper">
 <?php include("navbar.php"); ?>
 
 <?php if ($voyage): ?>
@@ -73,10 +74,11 @@ if (!empty($date_debut) && !empty($date_fin)) {
                     <input type="hidden">
                     <img src="<?= $option['image'] ?>" alt="<?= $option['label'] ?>">
                     <span>
-                        <?= $multiplicateur ?> chambre(s) pour <?= $nb_nuits ?> nuit(s)
+                        <?= $multiplicateur ?> chambre(s) pour <?= $nb_nuits ?> nuit<?= $nb_nuits > 1 ? 's' : '' ?>
+                        
                         - <?= $prix_hebergement ?> € au total
                     </span>
-                </label>
+                </label> 
             <?php endif; ?>
         <?php endforeach; ?>
     </div>
@@ -88,14 +90,17 @@ if (!empty($date_debut) && !empty($date_fin)) {
             <?php foreach ($voyage['restaurations'] as $option): ?>
                 <?php if ($option['label'] === $restauration): ?>
     <?php 
+    $nb_jours = $nb_nuits + 1;
         $personnes = is_numeric($nb_personnes) ? (int)$nb_personnes : 1;
         $prix_unitaire = $option['prix'];
-        $prix_restauration += $prix_unitaire * $personnes * $nb_nuits;
+        $prix_restauration += $prix_unitaire * $personnes * $nb_jours;
     ?>
                     <label class="un-carré-info inclus">
                         <input type="hidden">
                         <img src="<?= $option['image'] ?>" alt="<?= $option['label'] ?>">
-                        <span><?= $nb_personnes . $option['label'] . " pour " . $nb_nuits . " jours " . " - " . $prix_restauration ?>€ au total</span>
+                        <span>    <?= $nb_personnes ?> <?= $option['label'] ?>
+                            pour <?= $nb_jours ?> jour<?= $nb_nuits > 1 ? 's' : '' ?>
+                            — <?= $prix_restauration ?> € au total</span>
                         <?php if (isset($option['description'])): ?>
                             <small><?= $option['description'] ?></small>
                         <?php endif; ?>
@@ -104,8 +109,6 @@ if (!empty($date_debut) && !empty($date_fin)) {
             <?php endforeach; ?>
         </div>
     </div>
-
-
 
     
     <div class="form-section">
@@ -134,25 +137,31 @@ if (!empty($date_debut) && !empty($date_fin)) {
     <div class="ensemble-carré-info">
         <?php foreach ($voyage['transports'] as $option): ?>
             <?php if ($option['label'] === $transport): ?>
-      <?php 
+      <?php $nb_jours = $nb_nuits + 1;
                 if ($option['label'] === "voiture de location Citroën" && is_numeric($nb_personnes)) {
                     $personnes = (int)$nb_personnes;
                     $transport_prix = $option['prix'];
                     $multiplicateur = ceil($personnes / 5);
-                    $prix_trans += $transport_prix * $multiplicateur;
+                    $prix_trans += $transport_prix * $multiplicateur *  $nb_jours;
                 } else {
-                    $prix_trans += $option['prix'] * (is_numeric($nb_personnes) ? (int)$nb_personnes : 1);
+                    $prix_trans += $option['prix'] * (is_numeric($nb_personnes) ? (int)$nb_personnes : 1) * $nb_jours;
                 }
             ?>
                 <label class="un-carré-info inclus">
                     <input type="hidden">
                     <img src="<?= $option['image'] ?>" alt="<?= $option['label'] ?>">
-                    <span><?= $nb_personnes . " " . $option['label'] . " - " . $prix_trans ?>€ au total</span>
+                    <span>
+                        <?= $nb_personnes ?> <?= $option['label'] ?>
+                        pour <?= $nb_nuits+1 ?> jour<?= $nb_nuits > 1 ? 's' : '' ?>
+                        - <?= $prix_trans ?> € au total
+                    </span>
                 </label>
             <?php endif; ?>
         <?php endforeach; ?>
     </div>
 </div>
+
+    
 <?php
 $prix_total = $prix_hebergement + $prix_restauration + $prix_act + $prix_trans;
 ?>
@@ -195,9 +204,9 @@ $prix_total = $prix_hebergement + $prix_restauration + $prix_act + $prix_trans;
 <?php endif; ?>
 <br>
 <?php include("footer.php"); ?>
+          </main>
 </body>
 </html>
-
 
 
 
