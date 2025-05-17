@@ -44,5 +44,5 @@
 			</div>
 		</div>
 
-		
+		<script href="../js/lightmode.js"></script>
 	</nav>
