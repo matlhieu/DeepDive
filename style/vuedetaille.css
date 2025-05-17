@@ -57,7 +57,6 @@ body {
 }
 
 .form-section {
-  margin-top: 4rem;
   margin-bottom: 2rem;
 }
 
@@ -99,7 +98,6 @@ input[type="checkbox"] {
   display: block;
   margin: 0 auto;
   transition: transform 0.3s ease;
-  margin-bottom:3rem;
 }
 
 .boutton-recherche:hover {
@@ -111,7 +109,7 @@ input[type="checkbox"] {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 2rem;
-  margin: 2rem 1rem;
+  margin-top: 1.1rem;
 }
 
 .un-carré-info {
@@ -133,13 +131,16 @@ input[type="checkbox"] {
   height: 160px;
   object-fit: cover;
   border-bottom: 3px solid #00C1D4;
-  background-color: #1C4E6B; 
+  background-color: #1C4E6B; /* couleur de fond identique à la carte */
 }
 
 .un-carré-info:hover {
   transform: translateY(-5px);
   box-shadow: 0 0 10px #00ebf7;
 }
+
+
+
 
 .un-carré-info input[type="checkbox"] {
   position: absolute;
@@ -170,23 +171,12 @@ input[type="checkbox"] {
   line-height: 1.2;
 }
 
-.section-divider {
-  margin: 40px auto;
-  border: none;
-  height: 2px;
-  background-color: #3197eb; 
-  width: 80%;
-  opacity: 0.5;
-}
 
 .form-section {
-  margin-bottom: 1rem;
-  padding-bottom: 2rem;
-}
-
-.form-section1 {
-  margin-bottom: 1rem;
-  width:50%;
+  padding-bottom: 3rem;
+  border-bottom: 6px solid #00ebf7; 
+  border-radius: 25px;
+  width: 75%;
   margin: 2rem auto;
 }
 
@@ -202,6 +192,7 @@ input[type="checkbox"] {
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  
 }
 
 .bloc-dates label {
@@ -223,9 +214,9 @@ input[type="checkbox"] {
 
 
 .ligne-separation {
-    border: none;
-    border-bottom: 6px solid #00ebf7; 
-    border-radius: 10px;
-    width:85%;
-    margin: 2rem auto;
+  padding-bottom: 1rem;
+  border-bottom: 6px solid #00ebf7; 
+  border-radius: 25px;
+  width: 75%;
+  margin: 2rem auto;
 }
