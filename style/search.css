@@ -8,7 +8,7 @@ body{
 	color:#F0F7FA;
 }
 .titre{
-	background:url("https://main-api.quotatrip.com/storage/articles/170/neom-xDQKvPjxtxo-unsplash.jpg");
+	background:url("https://wallpapercat.com/w/full/d/3/6/17244-3840x2160-desktop-4k-ocean-background-image.jpg");
 	background-size:cover;
 	background-position:center;
 	display:flex;
@@ -60,6 +60,12 @@ bulle-destinations = Regroupe uniquement les boutons pour une meilleure */
 .destination:hover{
 	transform:translateY(-5px)
 }
+
+.destination.active {
+	background-color: #00ebf7;
+	color: #001f3f;
+}
+
 
 .bulle:hover{
 	transform:translateX(-5px);
