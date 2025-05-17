@@ -6,10 +6,8 @@
         "mail": "mathieu@deepdive.cy",
         "mdp": "$2y$10$KoXd\/SNiYtpFNremEUXBWuvuFpvfE30IHeLvMuVuUz5JQAxKpjzh6",
         "role": "Admin",
-        "carte_nom": "",
-        "carte_numero": "",
-        "date_expiration": "",
-        "cvv": ""
+        "bannissement": "non BANNI",
+        "VIP": "non VIP"
     },
     "lucien@deepdive.cy": {
         "nom": "Boy",
@@ -18,10 +16,8 @@
         "mail": "lucien@deepdive.cy",
         "mdp": "$2y$10$4fZknNgxn\/1lJ58Ex3icbe0ZLTSwglgngjYAM.k5w9TLhFHrjsdqC",
         "role": "Admin",
-        "carte_nom": "",
-        "carte_numero": "",
-        "date_expiration": "",
-        "cvv": ""
+        "bannissement": "non BANNI",
+        "VIP": "non VIP"
     },
     "marc@deepdive.cy": {
         "nom": "A",
@@ -30,10 +26,8 @@
         "mail": "marc@deepdive.cy",
         "mdp": "$2y$10$EEyPZHgE2hPE\/uTO1\/RpRukWffJTRJK\/h5MfbVhqGso1T64U5ivPO",
         "role": "Admin",
-        "carte_nom": "",
-        "carte_numero": "",
-        "date_expiration": "",
-        "cvv": ""
+        "bannissement": "non BANNI",
+        "VIP": "non VIP"
     },
     "ayman@deepdive.cy": {
         "nom": "A",
@@ -42,10 +36,8 @@
         "mail": "ayman@deepdive.cy",
         "mdp": "$2y$10$9xY68Vh7nv\/cZ7FKjfg9t.0OM1w2bZdxhgCzJYNFHgbY0PHv3Eu4K",
         "role": "Admin",
-        "carte_nom": "",
-        "carte_numero": "",
-        "date_expiration": "",
-        "cvv": ""
+        "bannissement": "non BANNI",
+        "VIP": "non VIP"
     },
     "caliste@deepdive.cy": {
         "nom": "Hebert",
@@ -54,10 +46,8 @@
         "mail": "calistedeepdive.cy",
         "mdp": "",
         "role": "client",
-        "carte_nom": "",
-        "carte_numero": "",
-        "date_expiration": "",
-        "cvv": ""
+        "bannissement": "non BANNI",
+        "VIP": "non VIP"
     },
     "zen@deepdive.cy": {
         "nom": "Kaka",
@@ -66,10 +56,8 @@
         "mail": "zen@deepdive.cy",
         "mdp": "",
         "role": "client",
-        "carte_nom": "",
-        "carte_numero": "",
-        "date_expiration": "",
-        "cvv": ""
+        "bannissement": "non BANNI",
+        "VIP": "non VIP"
     },
     "messi@deepdive.cy": {
         "nom": "Lionel",
@@ -78,9 +66,37 @@
         "mail": "messi@deepdive.cy",
         "mdp": "",
         "role": "client",
-        "carte_nom": "",
-        "carte_numero": "",
-        "date_expiration": "",
-        "cvv": ""
+        "bannissement": "non BANNI",
+        "VIP": "non VIP"
+    },
+    "aymandzfr@gmail.com": {
+        "nom": "GHOMARI",
+        "prenom": "Ayman",
+        "mail": "aymandzfr@gmail.com",
+        "mdp": "$2y$12$EGhiK2VQQsp3zuG\/TpxQ9u5BJ0.dbMPGz6PQD1ojAm1KGs8gW0CeG",
+        "datedenaissance": "2005-05-26",
+        "role": "client",
+        "bannissement": "non BANNI",
+        "VIP": "non VIP"
+    },
+    "aymanfr@gmail.com": {
+        "nom": "GHOMARI",
+        "prenom": "Ayman",
+        "mail": "aymanfr@gmail.com",
+        "mdp": "$2y$12$lIkfATeW3XeSjeo4aWjRu.qIhh8ahCRYi0PweiuO.lYcNUQT3oimu",
+        "datedenaissance": "2000-05-26",
+        "role": "Admin",
+        "bannissement": "non BANNI",
+        "VIP": "non VIP"
+    },
+    "dzfr@gmail.com": {
+        "nom": "GHOMARI",
+        "prenom": "Ayman",
+        "mail": "dzfr@gmail.com",
+        "mdp": "$2y$12$a14VBVuO8gmdEglvieQy4..\/k6wAYzY.T9pKg4iiOILsZGqKrOAcC",
+        "datedenaissance": "2000-05-26",
+        "role": "Admin",
+        "bannissement": "non BANNI",
+        "VIP": "non VIP"
     }
 }
