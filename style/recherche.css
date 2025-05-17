@@ -67,3 +67,26 @@ body{
 }
 
 
+.tri-bar {
+  margin: 3rem ;
+  text-align: center;
+}
+.tri-bar label {
+  font-size: 2rem;
+  margin-right: 1.5rem;
+}
+.tri-bar select {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Styles pour les messages d’erreur sur la page de résultats */
+.erreur {
+  max-width: 1000px;        
+  margin: 1px auto;      
+  font-size: 1.25rem;     
+  text-align: center;    
+  color: #e74c3c;         
+}
