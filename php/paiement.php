@@ -12,9 +12,6 @@ function getAPIKey($vendeur)
 }
 // Récupération des données POST
 $id = $_POST['id'];
-if (!$id) {
-    die("ID non défini dans POST");
-}
 $hebergement = $_POST['hebergement'] ?? '';
 $restauration = $_POST['restauration'] ?? '';
 $transport = $_POST['transport'] ?? '';
