@@ -3,7 +3,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Recherche de voyage</title>
+    <title>Recherche - DeepDive</title>
     <link rel="stylesheet" href="../style/nav_footer.css"> 
     <link rel="stylesheet" href="../style/search.css">
       <script>
@@ -82,11 +82,6 @@
                     </div>
                 </div>
 
-                        
-                <div class="bulle">
-                    <label>🤿 Nombre de personnes</label>
-                    <input type="number" name="nombre_personnes" min="1" max="20" value="1" step="1">  
-                </div>
 
                 <div class="bulle">
                     <label>📅 Date de départ</label>
@@ -122,4 +117,6 @@
       });
     </script>
 </html>
+
+
 
