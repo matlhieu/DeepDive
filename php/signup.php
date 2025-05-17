@@ -9,10 +9,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    $password = password_hash($_POST['mdp'] ?? '', PASSWORD_BCRYPT); 
    $datedenaissance = $_POST['naissance'] ?? ''; 
    $role = 'client';
-   $carte_nom="";
-   $carte_numero="";
-   $date_expiration="";
-   $cvv ="";
+   
+ 
    
   
    function validateDate($date) {
@@ -42,10 +40,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
        'mdp' => $password,
        'datedenaissance' => $datedenaissance,
        'role' => $role,
-       'carte_numero' => $carte_nom,
-       'carte_numero' => $carte_numero,
-       'date_expiration' => $date_expiration,
-       'cvv' => $cvv,
+       'bannissement' => 'non BANNI',
+       'VIP' => 'non VIP'
    ];
    
    $file = '../json/utilisateurs.json';
@@ -141,3 +137,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    <?php include("footer.php") ?>
 </body>
 </html>
+
