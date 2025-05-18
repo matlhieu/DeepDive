@@ -96,7 +96,7 @@ $destRefusees = array_diff($destinations, $destTrouvees);
                  data-duree="<?= $duree ?>">
                 <img src="<?= ($voyage['image']) ?>" alt="<?= ($voyage['titre']) ?>">
                 <div class="info-texte">
-                    <h3><?= ($voyage['titre']) ?> et <?= ($voyage['titre2']) ?> </h3>
+                    <h3> Étape 1 : <?= ($voyage['titre']) ?> <br>Étape 2 : <?= ($voyage['titre2']) ?> </h3>
                     <b>Voici les options du voyage :
                         <br>
                         <br>
