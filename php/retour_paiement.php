@@ -82,23 +82,43 @@ if (empty($erreur) && $statut === "accepted") {
             <?php else: ?>
                 <h1>❌ Paiement refusé</h1>
                 <p>Le paiement a été refusé. </p>
-<form action="paiement.php" method="POST">
-    <input type="hidden" name="id" value="<?= $_SESSION['voyage_en_cours']['id'] ?? '' ?>">
-    <input type="hidden" name="hebergement" value="<?= $_SESSION['voyage_en_cours']['hebergement'] ?? '' ?>">
-    <input type="hidden" name="restauration" value="<?= $_SESSION['voyage_en_cours']['restauration'] ?? '' ?>">
-    <input type="hidden" name="transport" value="<?= $_SESSION['voyage_en_cours']['transport'] ?? '' ?>">
-    <input type="hidden" name="date_debut" value="<?= $_SESSION['voyage_en_cours']['date_debut'] ?? '' ?>">
-    <input type="hidden" name="date_fin" value="<?= $_SESSION['voyage_en_cours']['date_fin'] ?? '' ?>">
-    <input type="hidden" name="nb_personnes" value="<?= $_SESSION['voyage_en_cours']['nb_personnes'] ?? '' ?>">
-    <?php if (!empty($_SESSION['voyage_en_cours']['activites'])): ?>
-        <?php foreach ($_SESSION['voyage_en_cours']['activites'] as $act): ?>
-            <input type="hidden" name="activites[]" value="<?= $act ?>">
-        <?php endforeach; ?>
-    <?php endif; ?>
-    <input type="hidden" name="titre" value="<?= $_SESSION['voyage_en_cours']['titre'] ?? '' ?>">
-    <input type="hidden" name="prix_total" value="<?= $_SESSION['voyage_en_cours']['prix'] ?? '' ?>">
-    <input type="submit" value="Revenir dans la page de paiement">
-</form>
+    <form action="paiement.php" method="POST">
+        <input type="hidden" name="id"            value="<?= $_SESSION['voyage_en_cours']['id']           ?? '' ?>">
+        <input type="hidden" name="titre"         value="<?= $_SESSION['voyage_en_cours']['titre']        ?? '' ?>">
+        <input type="hidden" name="titre2"        value="<?= $_SESSION['voyage_en_cours']['titre2']       ?? '' ?>">
+        <input type="hidden" name="nb_personnes"  value="<?= $_SESSION['voyage_en_cours']['nb_personnes'] ?? '' ?>">
+
+        <input type="hidden" name="date_debut"    value="<?= $_SESSION['voyage_en_cours']['date_debut']  ?? '' ?>">
+        <input type="hidden" name="date_fin"      value="<?= $_SESSION['voyage_en_cours']['date_fin']    ?? '' ?>">
+        <input type="hidden" name="date_debut2"   value="<?= $_SESSION['voyage_en_cours']['date_debut2'] ?? '' ?>">
+        <input type="hidden" name="date_fin2"     value="<?= $_SESSION['voyage_en_cours']['date_fin2']   ?? '' ?>">
+
+        <input type="hidden" name="hebergement"   value="<?= $_SESSION['voyage_en_cours']['hebergement']  ?? '' ?>">
+        <input type="hidden" name="hebergement2"  value="<?= $_SESSION['voyage_en_cours']['hebergement2'] ?? '' ?>">
+
+        <input type="hidden" name="restauration"  value="<?= $_SESSION['voyage_en_cours']['restauration']  ?? '' ?>">
+        <input type="hidden" name="restauration2" value="<?= $_SESSION['voyage_en_cours']['restauration2'] ?? '' ?>">
+
+        <input type="hidden" name="transport"     value="<?= $_SESSION['voyage_en_cours']['transport']     ?? '' ?>">
+        <input type="hidden" name="transport2"    value="<?= $_SESSION['voyage_en_cours']['transport2']    ?? '' ?>">
+        <input type="hidden" name="transport3"    value="<?= $_SESSION['voyage_en_cours']['transport3']    ?? '' ?>">
+
+        <?php if (!empty($_SESSION['voyage_en_cours']['activites'])): ?>
+            <?php foreach ($_SESSION['voyage_en_cours']['activites'] as $act): ?>
+                <input type="hidden" name="activites[]"  value="<?= htmlspecialchars($act) ?>">
+            <?php endforeach; ?>
+        <?php endif; ?>
+
+        <?php if (!empty($_SESSION['voyage_en_cours']['activites2'])): ?>
+            <?php foreach ($_SESSION['voyage_en_cours']['activites2'] as $act): ?>
+                <input type="hidden" name="activites2[]" value="<?= htmlspecialchars($act) ?>">
+            <?php endforeach; ?>
+        <?php endif; ?>
+
+        <input type="hidden" name="prix_total"    value="<?= $_SESSION['voyage_en_cours']['prix_total'] ?? '' ?>">
+        <input type="submit" value="Revenir dans la page de paiement">
+    </form>
+
 
             <?php endif; ?>
         </div>
