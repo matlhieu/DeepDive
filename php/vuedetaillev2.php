@@ -5,6 +5,7 @@ $voyages_json = file_get_contents("../json/voyagesv2.json");
 $voyages = json_decode(file_get_contents("voyagesv2.json"), true);
 $id      = isset($_GET['id']) ? (int)$_GET['id'] : -1;
 $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
+
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -54,12 +55,12 @@ $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
         <div class="form-section">
         
         <div class="bloc-dates">
-            <label for="date_debut">Date de début du voyage :</label>
+            <label for="date_debut">Date de début de l'étape 1 du voyage :</label>
             <input type="date" name="date_debut" id="date_debut" min="2025-04-28" max="2026-04-28" value="<?= $voyage['date_debut'] ?>" required>
         </div>
 
         <div class="bloc-dates">
-            <label for="date_fin">Date de fin du voyage :</label>
+            <label for="date_fin">Date de fin de l'étape 1 du voyage :</label>
             <input type="date" name="date_fin" id="date_fin" min="2025-04-28" max="2026-04-28" value="<?= $voyage['date_fin'] ?>" required>
         </div>
         </div>
@@ -123,13 +124,13 @@ $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
         <div class="form-section">
         
         <div class="bloc-dates">
-            <label for="date_debut">Date de début du voyage :</label>
-            <input type="date" name="date_debut2" id="date_debut2" min="2025-04-28" max="2026-04-28" value="<?= $voyage['date_debut'] ?>" required>
+            <label for="date_debut">Date de début de l'étape 2 du voyage :</label>
+            <input type="date" name="date_debut2" id="date_debut2" min="2025-04-28" max="2026-04-28" value="<?= $voyage['date_debut2'] ?>" required>
         </div>
 
         <div class="bloc-dates">
             <label for="date_fin">Date de fin du voyage :</label>
-            <input type="date" name="date_fin2" id="date_fin2" min="2025-04-28" max="2026-04-28" value="<?= $voyage['date_fin'] ?>" required>
+            <input type="date" name="date_fin2" id="date_fin2" min="2025-04-28" max="2026-04-28" value="<?= $voyage['date_fin2'] ?>" required>
         </div>
         </div>
         
