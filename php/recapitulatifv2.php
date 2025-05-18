@@ -14,6 +14,7 @@ if (!$voyage) {
     exit;
 }
 // Récupération des choix utilisateur
+
 $nb_personnes  = max(1, (int)($_POST['nb_personnes'] ?? 1));
 
 $titre = $_POST['titre'] ?? '';
@@ -166,7 +167,7 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
                 <div class="form-section">
 
                     <div class="bloc-dates">
-                      <label>Date de début du voyage :</label>
+                      <label>Date de début du voyage de l'étape 1 du voyage:</label>
                       <input type="date"
                              readonly
                              class="input-date-texte"
@@ -174,7 +175,7 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
                     </div>
 
                     <div class="bloc-dates">
-                      <label>Date de fin du voyage :</label>
+                      <label>Date de fin de l'étape 1 du voyage :</label>
                       <input type="date"
                              readonly
                              class="input-date-texte"
@@ -185,34 +186,35 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
 
         
       <div class="form-section">
-        <h2>Hébergement (1)</h2>
+        <h2>Hébergement pour <?= ($voyage['titre']) ?></h2>
+        
         <label class="un-carré-info inclus">
           <img src="<?php foreach($voyage['hebergements'] as $o) if($o['label']===$heberg1) echo $o['image']; ?>" alt>
-          <span><?= htmlspecialchars($heberg1) ?> — <?= $prix_heberg1 ?> €</span>
+          <span><?= htmlspecialchars($heberg1) ?> - <?= $prix_heberg1 ?> € pour <?=$nb_personnes?> personnes</span>
         </label>
       </div>
       <div class="form-section">
-        <h2>Restauration (1)</h2>
+        <h2>Restauration pour <?= ($voyage['titre']) ?></h2>
         <label class="un-carré-info inclus">
           <img src="<?php foreach($voyage['restaurations'] as $o) if($o['label']===$restau1) echo $o['image']; ?>" alt>
-          <span><?= htmlspecialchars($restau1) ?> — <?= $prix_restau1 ?> €</span>
+          <span><?= htmlspecialchars($restau1) ?> - <?= $prix_restau1 ?> € pour <?=$nb_personnes?> personnes</span>
         </label>
       </div>
       <div class="form-section">
-        <h2>Activités (1)</h2>
+        <h2>Activités pour <?= ($voyage['titre']) ?></h2>
         <?php foreach($activ1 as $a): ?>
           <?php foreach($voyage['activites'] as $o) if($o['label']===$a): ?>
             <label class="un-carré-info inclus">
               <img src="<?= htmlspecialchars($o['image']) ?>" alt>
-              <span><?= htmlspecialchars($a) ?> — <?= $o['prix']*$nb_personnes ?> €</span>
+              <span><?= htmlspecialchars($a) ?> - <?= $o['prix']*$nb_personnes ?> € pour <?=$nb_personnes?> personnes</span>
             </label>
           <?php endif; endforeach; ?>
       </div>
       <div class="form-section">
-        <h2>Transport (1)</h2>
+        <h2>Transport pour <?= ($voyage['titre']) ?></h2>
         <label class="un-carré-info inclus">
           <img src="<?php foreach($voyage['transports'] as $o) if($o['label']===$transp1) echo $o['image']; ?>" alt>
-          <span><?= htmlspecialchars($transp1) ?> — <?= $prix_transp1 ?> €</span>
+          <span><?= htmlspecialchars($transp1) ?> - <?= $prix_transp1 ?> € pour <?=$nb_personnes?> personnes</span>
         </label>
       </div>
     </div>
@@ -222,7 +224,7 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
         <div class="form-section">
 
             <div class="bloc-dates">
-              <label>Date de début du voyage :</label>
+              <label>Date de début de l'étape 2 du voyage :</label>
               <input type="date"
                      readonly
                      class="input-date-texte"
@@ -230,7 +232,7 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
             </div>
 
             <div class="bloc-dates">
-              <label>Date de fin du voyage :</label>
+              <label>Date de fin de l'étape 2 du voyage :</label>
               <input type="date"
                      readonly
                      class="input-date-texte"
@@ -240,44 +242,44 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
 </div>
         
       <div class="form-section">
-        <h2>Hébergement (2)</h2>
+        <h2>Hébergement pour <?= ($voyage['titre2']) ?></h2>
         <label class="un-carré-info inclus">
           <img src="<?php foreach($voyage['hebergements2'] as $o) if($o['label2']===$heberg2) echo $o['image2']; ?>" alt>
-          <span><?= htmlspecialchars($heberg2) ?> — <?= $prix_heberg2 ?> €</span>
+          <span><?= htmlspecialchars($heberg2) ?> - <?= $prix_heberg2 ?> € pour <?=$nb_personnes?> personnes</span>
         </label>
       </div>
       <div class="form-section">
-        <h2>Restauration (2)</h2>
+        <h2>Restauration pour <?= ($voyage['titre2']) ?></h2>
         <label class="un-carré-info inclus">
           <img src="<?php foreach($voyage['restaurations2'] as $o) if($o['label2']===$restau2) echo $o['image2']; ?>" alt>
-          <span><?= htmlspecialchars($restau2) ?> — <?= $prix_restau2 ?> €</span>
+          <span><?= htmlspecialchars($restau2) ?> - <?= $prix_restau2 ?> € pour <?=$nb_personnes?> personnes</span>
         </label>
       </div>
       <div class="form-section">
-        <h2>Activités (2)</h2>
+        <h2>Activités pour <?= ($voyage['titre2']) ?></h2>
         <?php foreach($activ2 as $a): ?>
           <?php foreach($voyage['activites2'] as $o) if($o['label2']===$a): ?>
             <label class="un-carré-info inclus">
               <img src="<?= htmlspecialchars($o['image2']) ?>" alt>
-              <span><?= htmlspecialchars($a) ?> — <?= $o['prix2']*$nb_personnes ?> €</span>
+              <span><?= htmlspecialchars($a) ?> - <?= $o['prix2']*$nb_personnes ?> € pour <?=$nb_personnes?> personnes</span>
             </label>
           <?php endif; endforeach; ?>
       </div>
       <div class="form-section">
-        <h2>Transport (2)</h2>
+        <h2>Transport pour <?= ($voyage['titre2']) ?></h2>
         <label class="un-carré-info inclus">
           <img src="<?php foreach($voyage['transports2'] as $o) if($o['label2']===$transp2) echo $o['image2']; ?>" alt>
-          <span><?= htmlspecialchars($transp2) ?> — <?= $prix_transp2 ?> €</span>
+          <span><?= htmlspecialchars($transp2) ?> - <?= $prix_transp2 ?> € pour <?=$nb_personnes?> personnes</span>
         </label>
       </div>
     </div>
   </div>
 
         <div class="form-section">
-          <h2>Mode de transport pour la prochaine étape</h2>
+          <h2>Mode de transport pour passer à la prochaine étape : <?= ($voyage['titre']) ?></h2>
           <label class="un-carré-info inclus">
             <img src="<?php foreach($voyage['transports3'] as $o) if($o['label3']===$transp3) echo $o['image3']; ?>" alt>
-            <span><?= htmlspecialchars($transp3) ?> — <?= $prix_transp3 ?> €</span>
+            <span><?= htmlspecialchars($transp3) ?> - <?= $prix_transp3 ?> € pour <?=$nb_personnes?> personnes</span>
           </label>
         </div>
       </div>
@@ -318,4 +320,5 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
 <?php include("footer.php"); ?>
 </body>
 </html>
+
 
