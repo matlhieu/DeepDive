@@ -5,7 +5,6 @@ $voyages_json = file_get_contents("../json/voyagesv2.json");
 $voyages = json_decode(file_get_contents("voyagesv2.json"), true);
 $id      = isset($_GET['id']) ? (int)$_GET['id'] : -1;
 $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
-
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -35,8 +34,9 @@ $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
     <h1>Explorez <span><?= htmlspecialchars($voyage['titre']) ?></span> et <span><?= htmlspecialchars($voyage['titre2']) ?></span> !</h1>
   </div>
 </section>
-
-    
+<br>
+    <label>Les options, déjà prédéfinis cochés sont les options choisies par le voyage, mais vous pouvez modifier cela.</label>
+    <br><br>
 
 <!-- Formulaire deux colonnes pour les choix -->
 <form id="dualForm" action="recapitulatifv2.php" method="POST">
