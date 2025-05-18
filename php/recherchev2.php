@@ -7,7 +7,6 @@ date_default_timezone_set('Europe/Paris');
 $contenuJson = file_get_contents("../json/voyagesv2.json");
 $listeVoyages = json_decode($contenuJson, true);
 
-
 $dateDepartChaine  = $_POST['date_depart'] ?? '';
 $dateFinChaine     = $_POST['date_fin']    ?? '';
 
@@ -96,7 +95,7 @@ $destRefusees = array_diff($destinations, $destTrouvees);
                  data-duree="<?= $duree ?>">
                 <img src="<?= ($voyage['image']) ?>" alt="<?= ($voyage['titre']) ?>">
                 <div class="info-texte">
-                    <h3><?= ($voyage['titre']) ?></h3>
+                    <h3><?= ($voyage['titre']) ?> et <?= ($voyage['titre2']) ?> </h3>
                     <b>Voici les options du voyage :
                         <br>
                         <br>
