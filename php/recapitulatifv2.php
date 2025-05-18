@@ -13,7 +13,6 @@ if (!$voyage) {
     echo "<p style='color:red;text-align:center;margin:2rem;'>Voyage introuvable.</p>";
     exit;
 }
-
 // Récupération des choix utilisateur
 $nb_personnes  = max(1, (int)($_POST['nb_personnes'] ?? 1));
 
@@ -319,3 +318,4 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
 <?php include("footer.php"); ?>
 </body>
 </html>
+
