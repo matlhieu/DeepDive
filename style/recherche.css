@@ -84,9 +84,9 @@ body{
 
 /* Styles pour les messages d’erreur sur la page de résultats */
 .erreur {
-  max-width: 1000px;        /* Limite la largeur pour une lecture confortable */
-  margin: 1px auto;       /* Centre horizontalement et espace autour */
-  font-size: 1.25rem;      /* Texte plus grand */
-  text-align: center;      /* Centre le texte */
-  color: #e74c3c;          /* Rouge corail pour bien marquer l’erreur */
+  max-width: 1000px;        
+  margin: 1px auto;     
+  font-size: 1.25rem;      
+  text-align: center;     
+  color: #e74c3c;          
 }
