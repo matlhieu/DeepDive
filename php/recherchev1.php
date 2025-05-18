@@ -49,36 +49,36 @@
                     <div class="bulle-destinations">
                         <input type="hidden" name="destination" id="destination-input" value="">
 
-                        <button type="button" class="destination" value="Parc National de Port-Cros">
-                            Parc National de Port-Cros</button>
+                        <button type="button" class="destination" value="Tulum">
+                            Tulum</button>
                         <button type="button" class="destination" value="Porquerolles">
                     Porquerolles</button>
-                        <button type="button" class="destination" value="Calanques de Marseille">
-                            Calanques de Marseille</button>
-                        <button type="button" class="destination" value="Îles Lavezzi">
-                    Îles Lavezzi</button>
-                        <button type="button" class="destination" value="Île de Gozo">Île de Gozo</button>
-                        <button type="button" class="destination" value="Réserve de Cerbère-Banyuls">
-                            Réserve de Cerbère-Banyuls</button>
-                        <button type="button" class="destination" value="Îles Medes">
-                            Îles Medes</button>
-                        <button type="button" class="destination" value="Parc national de Cabrera aux Îles Baléares">
-                        Parc national de Cabrera aux Îles Baléares</button>
-                        <button type="button" class="destination" value="Île de Tabarca">
-                    Île de Tabarca</button>
-                        <button type="button" class="destination" value="Capo di Feno à Ajaccio">
-                    Capo di Feno à Ajaccio</button>
+                        <button type="button" class="destination" value="WHitsunday island">
+                            WHitsunday island</button>
+                        <button type="button" class="destination" value="Palawan">
+                            Palawan</button>
+                        <button type="button" class="destination" value="Bahamas">Bahamas</button>
+                        <button type="button" class="destination" value="Bali">
+                        Bali</button>
+                        <button type="button" class="destination" value="Malé Atoll">
+                            Malé Atoll</button>
+                        <button type="button" class="destination" value="Phuket">
+                            Phuket</button>
+                        <button type="button" class="destination" value="Boracay">
+                            Boracay</button>
+                        <button type="button" class="destination" value="Cancùn">
+                            Cancùn</button>
                         <button type="button" class="destination" value="Îles Canaries">
                             Îles Canaries</button>
                         
                         <button type="button" class="destination" value="Zakynthos/Zante">
                             Zakynthos/Zante</button>
-                        <button type="button" class="destination" value="Comino">
-                            Comino</button>
+                        <button type="button" class="destination" value="Paihia">
+                            Paihia</button>
                         <button type="button" class="destination" value="Sicile">
                             Sicile</button>
-                        <button type="button" class="destination" value="Oludenize">
-                            Oludenize</button>
+                        <button type="button" class="destination" value="Manuel Antonio">
+                            Manuel Antonio</button>
                     </div>
                 </div>
 
@@ -117,6 +117,8 @@
       });
     </script>
 </html>
+
+
 
 
 
