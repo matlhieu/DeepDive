@@ -178,10 +178,7 @@ input[type="checkbox"] {
   border-radius: 25px;
   width: 75%;
   margin: 2rem auto;
-}
-
-.form-section:last-of-type {
-  border-bottom: none; /* Supprime la ligne sur la dernière section */
+  text-align: center;
 }
 
 .bloc-dates {
@@ -192,7 +189,7 @@ input[type="checkbox"] {
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-  
+
 }
 
 .bloc-dates label {
@@ -219,4 +216,36 @@ input[type="checkbox"] {
     border-radius: 25px;
     width: 75%;
     margin: 2rem auto;
+}
+
+.dual-step-container {
+  display: flex;
+  gap: 2%;            
+  padding: 2rem;      
+}
+
+/* Chaque colonne prend 49% pour être parfaitement symétrique */
+.dual-step {
+  width: 49%;
+}
+
+/* Facultatif : titre de section centré au-dessus de chaque colonne */
+.dual-step > .form-section:first-child label {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Ajustement de la grille interne (si besoin) */
+.dual-step .ensemble-carré-info {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+/* Responsive : passe en une colonne sous 800px */
+@media (max-width: 800px) {
+  .dual-step-container {
+    flex-direction: column;
+  }
+  .dual-step {
+    width: 100%;
+  }
 }
