@@ -4,9 +4,9 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] === 'ban') {
     header('Location: login.php');
     exit;
 }
-
 date_default_timezone_set('Europe/Paris');
-$voyages = json_decode(file_get_contents("voyagesv2.json"), true);
+$voyages_json = file_get_contents("../json/voyagesv2.json");
+$voyages = json_decode($voyages_json, true);
 $id      = isset($_POST['id']) ? (int)$_POST['id'] : -1;
 $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
 if (!$voyage) {
