@@ -31,6 +31,7 @@ if (is_array($listeVoyages)) {
         if (validerVoyage($voyage, $timestampDepart, $timestampFin, $destinations)) {
             $voyage['timestamp_debut'] = strtotime($voyage['date_debut']);
             $voyage['timestamp_fin']   = strtotime($voyage['date_fin']);
+            $voyage['timestamp_fin2']   = strtotime($voyage['date_fin2']);
             $voyage['prix_num']        = floatval(str_replace(['€',' '], '', $voyage['prix']));
             $resultats[$indice]        = $voyage;
         }
@@ -90,7 +91,7 @@ $destRefusees = array_diff($destinations, $destTrouvees);
             ?>
             <div class="un-carré-info" 
                  data-debut="<?= $voyage['timestamp_debut'] ?>"
-                 data-fin="<?= $voyage['timestamp_fin'] ?>"
+                 data-fin="<?= $voyage['timestamp_fin2'] ?>"
                  data-prix="<?= $voyage['prix_num'] ?>"
                  data-duree="<?= $duree ?>">
                 <img src="<?= ($voyage['image']) ?>" alt="<?= ($voyage['titre']) ?>">
@@ -99,7 +100,7 @@ $destRefusees = array_diff($destinations, $destTrouvees);
                     <b>Voici les options du voyage :
                         <br>
                         <br>
-                      📅 Du <?= date('d/m/Y', $voyage['timestamp_debut']) ?> au <?= date('d/m/Y', $voyage['timestamp_fin']) ?><br>
+                      📅 Du <?= date('d/m/Y', $voyage['timestamp_debut']) ?> au <?= date('d/m/Y', $voyage['timestamp_fin2']) ?><br>
                       💶 <?= ($voyage['prix']) ?> pour <?= $voyage['nb_personnes'] ?> personne(s)<br>
                       <span class="stars"><?= ($voyage['etoiles']) ?></span> (<?= $voyage['avis'] ?> avis)
                         <br> <br>
