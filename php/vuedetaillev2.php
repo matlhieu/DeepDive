@@ -85,7 +85,7 @@ $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
                     <label class="un-carré-info <?= $option['label'] == $voyage['restauration_incluse']['label'] ? 'inclus' : '' ?>">
                         <input type="radio" name="restauration" value="<?= $option['label'] ?>" <?= $option['label'] == $voyage['restauration_incluse']['label'] ? 'checked' : '' ?> required>
                         <img src="<?= $option['image'] ?>" alt="<?= $option['label'] ?>">
-                        <span><?= $option['prix'] . "€ par jour : " . $option['label'] ?></span>
+                        <span><?= $option['prix'] . "€ par jour : "?></span><span><?=$option['label'] ?></span>
                     </label>
                 <?php endforeach; ?>
             </div>
@@ -111,7 +111,18 @@ $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
                     <label class="un-carré-info <?= $option['label'] == $voyage['transport_inclus']['label'] ? 'inclus' : '' ?>">
                         <input type="radio" name="transport" value="<?= $option['label'] ?>" <?= $option['label'] == $voyage['transport_inclus']['label'] ? 'checked' : '' ?> required>
                         <img src="<?= $option['image'] ?>" alt="<?= $option['label'] ?>">
-                        <span><?= $option['prix'] . "€ par personne pour 1 " . $option['label'] ?></span>
+                        <?php if ($option['label'] === 'voiture de location Citroën'): ?>
+                            <span>
+                                <?= htmlspecialchars($option['prix']) ?> € 
+                                pour 1 <?= htmlspecialchars($option['label']) ?> 
+                                de 5 places
+                            </span>
+                        <?php else: ?>
+                            <span>
+                                <?= htmlspecialchars($option['prix']) ?> € par personne 
+                                pour 1 <?= htmlspecialchars($option['label']) ?>
+                            </span>
+                        <?php endif; ?>
                     </label>
                 <?php endforeach; ?>
             </div>
@@ -154,7 +165,7 @@ $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
                     <label class="un-carré-info <?= $option['label2'] == $voyage['restauration_incluse2']['label2'] ? 'inclus2' : '' ?>">
                         <input type="radio" name="restauration2" value="<?= $option['label2'] ?>" <?= $option['label2'] == $voyage['restauration_incluse2']['label2'] ? 'checked' : '' ?> required>
                         <img src="<?= $option['image2'] ?>" alt="<?= $option['label2'] ?>">
-                        <span><?= $option['prix2'] . "€ par jour : " . $option['label2'] ?></span>
+                        <span><?= $option['prix2'] . "€ par jour : "?></span><span><?=$option['label2'] ?></span>
                     </label>
                 <?php endforeach; ?>
             </div>
@@ -180,7 +191,18 @@ $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
                     <label class="un-carré-info <?= $option['label2'] == $voyage['transport_inclus2']['label2'] ? 'inclus2' : '' ?>">
                         <input type="radio" name="transport2" value="<?= $option['label2'] ?>" <?= $option['label2'] == $voyage['transport_inclus2']['label2'] ? 'checked' : '' ?> required>
                         <img src="<?= $option['image2'] ?>" alt="<?= $option['label2'] ?>">
-                        <span><?= $option['prix2'] . "€ par personne pour 1 " . $option['label2'] ?></span>
+                        <?php if ($option['label2'] === 'voiture de location Citroën'): ?>
+                            <span>
+                                <?= htmlspecialchars($option['prix2']) ?> € 
+                                pour 1 <?= htmlspecialchars($option['label2']) ?> 
+                                de 5 places
+                            </span>
+                        <?php else: ?>
+                            <span>
+                                <?= htmlspecialchars($option['prix2']) ?> € par personne 
+                                pour 1 <?= htmlspecialchars($option['label2']) ?>
+                            </span>
+                        <?php endif; ?>
                     </label>
                 <?php endforeach; ?>
             </div>
