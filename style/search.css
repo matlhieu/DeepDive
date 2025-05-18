@@ -16,7 +16,7 @@ body{
 	justify-content:center;
 	flex-direction:column;
 	padding:5rem 2rem; /* Met le titre explorez les abysses pas en bas de navibar quand on zoom*/
-		min-height: calc(100vh - 60px); /*pour quand dezoom image normal*/
+		min-height: calc(100vh - 60px); pour quand dezoom image normal
 
 }
 
