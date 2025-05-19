@@ -17,7 +17,6 @@ $voyages = json_decode($voyages_json, true);
 	<?php include("navbar.php") ?>
 </header>
   <body>
-	
  <section class="home"> 
 	<div class="section-titre">
 	 <h1 class="slogan">
@@ -53,7 +52,7 @@ $voyages = json_decode($voyages_json, true);
 																<span class="stars"><?= ($voyage['etoiles']) ?></span> (<?= ($voyage['avis']) ?> avis)
 														</p>
 												</div>
-												<button>
+												<button class="btn">
 													<a href="vuedetaillev2.php?id=<?= $index ?>">Réserver</a>
 												</button>
 										</div>
