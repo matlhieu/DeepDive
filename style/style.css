@@ -1,170 +1,171 @@
+:root {
+  --color-accent: #00ebf7;
+  --color-text: white;
+  --slogan: white; 
+  --color-dark-bg: #001f3f;
+  --color-box-bg: #1C4E6B;
+  --color-title: bold #4052d6;
+  --color-btn: black;
+  --color-stars: yellow;
+}
+
+.lightmode {
+  --color-accent: #00ebf7;
+  --color-text: black;
+  --color-dark-bg: white;
+  --color-box-bg: #41c0ff;
+  --color-title: bold #4052d6;
+  --color-btn: white;
+  --color-stars: yellow;
+}
+
 body {
-    font-family: 'Segoe UI', system-ui;
-    margin: 0;
-    padding: 0;
-	color: white;
+  font-family: 'Segoe UI', system-ui;
+  margin: 0;
+  padding: 0;
+  color: var(--color-text);
 }
 
-body span{
-	color: #00ebf7;
+body span {
+  color: var(--color-accent);
 }
-
-/* Information */
 
 .home {
-    background: url("Image/fondstyle.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment:fixed;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
+  background: url("Image/fondstyle.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
 }
 
-.section-titre{
-	flex: 1;
-	padding-top: 10rem;
-	flex-direction: column; /* Aligne en colonne */
-    align-items: center; /* Centre horizontalement */
-    text-align: center; /* Centre le texte */	
+.section-titre {
+  flex: 1;
+  padding-top: 10rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .slogan {
-    font-size: 3.7rem;
-	color: white;
-    line-height: 1.2; /*Espace entre les lignes */
+  font-size: 3.7rem;
+  color: var(--slogan);
+  line-height: 1.2;
 }
 
 .btn-plongez {
-    color: white;
-    font-size: 20px;
-    border: 2px solid #00ebf7;
-    padding: 15px 20px;
-    transition: 0.5s;
-    border-radius:2rem;
-    font-weight: bolder;
-	text-decoration: none;
-	background-color: rgba(0, 0, 0, 0.6);
+  color: var(--slogan);
+  font-size: 20px;
+  border: 2px solid var(--color-accent);
+  padding: 15px 20px;
+  transition: 0.5s;
+  border-radius: 2rem;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .btn-plongez:hover {
-    background-color:#00ebf7;
-    color: white;
+  background-color: var(--color-accent);
+  color: var(--slogan);
 }
 
-/* Introduction */
 .hero {
-    color: white;
-    background-color: #001f3f;
-    padding: 1rem 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-	font-size:1.1rem;
+  color: var(--color-text);
+  background-color: var(--color-dark-bg);
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.1rem;
 }
 
 .hero span {
-	color: bold #4052d6;
+  color: var(--color-title);
 }
 
-h2{
-	margin-top:3.5rem;
-	font-size:3.5rem;
-	line-height:0.8rem;
-	text-align: center;
+h2 {
+  margin-top: 3.5rem;
+  font-size: 3.5rem;
+  line-height: 0.8rem;
+  text-align: center;
 }
 
-.hero h4{
-	color:bold;
-	padding: 0 4rem 1rem;
-	text-align:center;
-    font-size: 1.5rem;
+.hero h4 {
+  color: var(--color-text);
+  padding: 0 4rem 1rem;
+  text-align: center;
+  font-size: 1.5rem;
 }
-
-/*Les Destinations */
 
 .destinations {
-	background-color: #001f3f;
-	color:white;
-	padding: 1rem 2rem;
-    font-size:1.25rem;
+  background-color: var(--color-dark-bg);
+  color: var(--color-text);
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
 }
 
-.box-content{
-	display:flex;
-	padding:0 0 3rem 0;
-	width:100%;
+.box-content {
+  display: flex;
+  padding: 0 0 3rem 0;
+  width: 100%;
 }
 
-.box{
-	background-color: #1C4E6B;
-	padding-bottom:1.2rem;
-	border-radius: 1rem;
-   	margin-top:5rem;	
-	margin-right:1rem;
-	text-align:center;
-	width:100%;
-}
-
-/*Animation*/
-@keyframes zoom {
-    from {
-        transform: scale(1);
-        opacity: 0.5;
-    }
-    to {
-        transform: scale(1.02);
-        opacity: 1;
-    }
+.box {
+  background-color: var(--color-box-bg);
+  padding-bottom: 1.2rem;
+  border-radius: 1rem;
+  margin-top: 5rem;
+  margin-right: 1rem;
+  text-align: center;
+  width: 100%;
 }
 
 .box:hover {
-    animation:  zoom 1s forwards; 
-	box-shadow: 0 0 10px #00ebf7;
+  animation: zoom 1s forwards;
+  box-shadow: 0 0 10px var(--color-accent);
 }
 
-/*----*/
-
-.box img{
-	width: 100%;
-	border-top-left-radius: 1rem;
+.box img {
+  width: 100%;
+  border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
-	height:20rem;
+  height: 20rem;
 }
 
-.content{
-	margin-bottom: 1rem;	
-	padding: 0 2rem;
+.content {
+  margin-bottom: 1rem;
+  padding: 0 2rem;
 }
 
-button{
-    padding: 0.6rem 22px;
-    border: 2px solid #00ebf7;
-	border-radius:1rem;
-    color: #00ebf7;
-	background-color: rgba(0, 0, 0, 0.6);
-	text-decoration:none;
-	margin-top:0.1rem;
-	transition: 0.5s;
+.btn {
+  padding: 0.6rem 22px;
+  border: 2px solid var(--color-accent);
+  border-radius: 1rem;
+  color: var(--color-accent);
+  background-color: var(--color-btn);
+  text-decoration: none;
+  margin-top: 0.1rem;
+  transition: 0.5s;
 }
 
-button:hover{
-	background-color:#00ebf7;
-    color: white;
-
+.btn:hover {
+  background-color: var(--color-accent);
+  color: var(--color-text);
 }
-	
 
-button a{
-    font-weight: bold;
-	color:white;
-	text-decoration:none;
+.btn a {
+  font-weight: bold;
+  color: var(--color-text);
+  text-decoration: none;
 }
+
 .stars {
-    color: yellow;
-    font-size: 20px;
+  color: var(--color-stars);
+  font-size: 20px;
 }
