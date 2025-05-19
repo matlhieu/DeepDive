@@ -1,113 +1,114 @@
-/* destinations CSS */
+:root {
+    --color-text: white;
+    --color-highlight: #00ebf7;
+    --color-dark-bg: #001f3f;
+    --color-box-bg: #1C4E6B;
+    --color-stars: yellow;
+}
+
+.lightmode {
+    --color-text: rgb(0, 0, 0);
+    --color-highlight: #00ebf7;
+    --color-dark-bg: #ffffff;
+    --color-box-bg: #41c0ff;
+    --color-stars: yellow;
+}
 
 body {
     font-family: 'Segoe UI', system-ui;
     margin: 0;
     padding: 0;
-	color: white;
+    color: var(--color-text);
 }
 
-body span{
-	color: #00ebf7;
+body span {
+    color: var(--color-highlight);
 }
-
-/* Information */
 
 .home {
     background: url("https://images3.alphacoders.com/132/1325254.png");
     background-position: center;
     background-size: cover;
-	background-attachment:fixed;
+    background-attachment: fixed;
     min-height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     position: relative;
-	
 }
 
-.section-titre{
-	padding: 0 4rem;
-	flex-direction: column; /* Aligne en colonne */
-    align-items: center; /* Centre horizontalement */
-    text-align: center; /* Centre le texte */	
-	background-color: rgba(0, 0, 0, 0.6);
-	border-radius:1rem;
-	position:relative;
-	
-		
+.section-titre {
+    padding: 0 4rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 1rem;
+    position: relative;
 }
 
 .slogan {
     font-size: 3.7rem;
-	color: white;
-    line-height: 1.2; /*Espace entre les lignes */
-	position:relative;
+    color: white;
+    line-height: 1.2;
+    position: relative;
 }
 
+h2 {
 
-h2{
-	margin-top:3.5rem;
-	font-size:3.5rem;
-	text-align: center;
-	margin-bottom:5rem;
+    margin-top: 3.5rem;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 5rem;
 }
-
-/*Les Destinations */
 
 .destinations {
-	background-color: #001f3f;
-	color:white;
-	padding: 1rem 2rem;	
+    background-color: var(--color-dark-bg);
+    color: var(--color-text);
+    padding: 1rem 2rem;
 }
 
-.box-content{
-	padding-bottom: 3rem;
-	width:100%;
+.box-content {
+    padding-bottom: 3rem;
+    width: 100%;
 }
 
-.box{
-	background-color: #1C4E6B;
-	border-radius: 1rem;
-   	margin:2rem 0;
-	text-align:left;
-	width:100%;
-	display:flex;
-
-	
+.box {
+    background-color: var(--color-box-bg);
+    border-radius: 1rem;
+    margin: 2rem 0;
+    text-align: left;
+    width: 100%;
+    display: flex;
 }
 
-.box img{
-	width: 40rem;
-	height:auto;
-	border-top-left-radius: 1rem;
+.box img {
+    width: 40rem;
+    height: auto;
+    border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
-	object-fit: cover;
-	border-right-color:2px solid white;
+    object-fit: cover;
+    border-right-color: 2px solid var(--color-text);
 }
 
-.content h2{
-	text-align:left;
-	margin-bottom:2.6rem;
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+.content h2 {
+    text-align: left;
+    margin-bottom: 2.6rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.content p{
-	font-size:1.1rem;
-	font-weight:430;
+.content p {
+    font-size: 1.1rem;
+    font-weight: 430;
 }
 
-.content{
-	padding:0 1rem;	
-	margin-bottom:3rem;
+.content {
+    padding: 0 1rem;
+    margin-bottom: 3rem;
 }
 
 .stars {
-    color: yellow;
+    color: var(--color-stars);
     font-size: 20px;
 }
-
-
-
-
