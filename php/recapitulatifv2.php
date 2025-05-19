@@ -321,4 +321,3 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
 </body>
 </html>
 
-
