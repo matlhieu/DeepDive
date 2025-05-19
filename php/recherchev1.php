@@ -53,8 +53,8 @@
                             Tulum</button>
                         <button type="button" class="destination" value="Porquerolles">
                     Porquerolles</button>
-                        <button type="button" class="destination" value="WHitsunday island">
-                            WHitsunday island</button>
+                        <button type="button" class="destination" value="Whitsunday island">
+                            Whitsunday island</button>
                         <button type="button" class="destination" value="Palawan">
                             Palawan</button>
                         <button type="button" class="destination" value="Bahamas">Bahamas</button>
