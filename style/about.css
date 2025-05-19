@@ -1,31 +1,55 @@
-/* CSS about */
+:root {
+    --color-quote: white;
+    --color-blue-accent: #00ebf7;
+    --color-text-white: white;
+    --color-dark-bg: #001f3f;
+    --color-highlight: #4052d6;
+    --color-title: #f5f7fa;
+}
+
+.lightmode {
+    --color-blue-accent: #00ebf7;
+    --color-text-white: rgb(0, 0, 0);
+    --color-dark-bg: #c6e3ff;
+    --color-highlight: #4052d6;
+}
 
 body {
     display: flex;
     font-family: 'Segoe UI', system-ui;
-    flex-direction: column; /* Assure que le corps de la page est disposé en colonne */
+    flex-direction: column;
     margin: 0;
     padding: 0;
 }
 
-body span{
-	color: #00ebf7; 
-    font-weight: bolder;   
+.slogan {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.7rem;
+    color: var(--color-title);
+    line-height: 1.2;
+    margin-bottom: 0;
 }
 
-/* Information */
+.auteur {
+    color: var(--color-quote);
+    margin-top: 10px;
+    font-size: 20px;
+}
+h1 span {
+    color: var(--color-blue-accent);
+    font-weight: bolder;
+}
 
 .home {
     background: url("https://www.actu-environnement.com/images/illustrations/news/39938_large.jpg");
     background-position: center;
     background-size: cover;
-	background-attachment:fixed;
-    
+    background-attachment: fixed;
     flex-direction: column;
 }
 
 .titre {
-	padding: 2rem;
+    padding: 2rem;
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
@@ -33,66 +57,44 @@ body span{
     gap: 2rem;
 }
 
-
-.section-titre{
-	flex: 1;
-	padding-top: 10rem;
-	flex-direction: column; /* Aligne en colonne */
-    align-items: center; /* Centre horizontalement */
-    text-align: center; /* Centre le texte */
-    margin-bottom:8rem;	
+.section-titre {
+    flex: 1;
+    padding-top: 10rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8rem;
 }
 
 
-.slogan {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 3.7rem;
-	color: #f5f7fa;
-    line-height: 1.2; /*Espace entre les lignes */
-    margin-bottom: 0;
-   
-}
-
-.auteur{
-    color:white;
-    margin-top: 10px;
-    font-size: 20px;
-}
-
-
-/* Introduction */
 .aboutus {
-    color: white;
-    background-color: #001f3f;
+    color: var(--color-text-white);
+    background-color: var(--color-dark-bg);
     border-radius: 6rem;
-    padding: 1rem 0px;
+    padding: 1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-	font-size:1.1rem;
+    font-size: 1.1rem;
     margin: 2rem 12rem;
-    
 }
 
 .aboutus span {
-	color: bold #4052d6;
+    color: var(--color-highlight);
 }
 
-h2{
-	margin-top:2rem;
-	font-size:3.5rem;
-	
-	text-align: center;
+h2 {
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    text-align: center;
 }
+
 .aboutus p {
     font-size: 19px;
     line-height: 1.6;
-    color:white;
+    color: var(--color-text-white);
     margin-bottom: 1.5rem;
-    padding-left:10rem;
-    padding-right:15rem;
+    padding-left: 10rem;
+    padding-right: 15rem;
 }
-
-
-
