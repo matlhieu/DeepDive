@@ -149,7 +149,7 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
               background-repeat: no-repeat, no-repeat;">
 
             <div class="overlay">
-              <h1>Récapitulatif du voyage de <span><?= htmlspecialchars($voyage['titre']) ?></span> et <span><?= htmlspecialchars($voyage['titre2']) ?></span> !</h1>
+              <h1>Récapitulatif du voyage de <span><?= ($voyage['titre']) ?></span> et <span><?= ($voyage['titre2']) ?></span> !</h1>
             </div>
           </section>
 
@@ -171,7 +171,7 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
                       <input type="date"
                              readonly
                              class="input-date-texte"
-                             value="<?= htmlspecialchars(date('Y-m-d', strtotime($date_debut1))) ?>">
+                             value="<?= (date('Y-m-d', strtotime($date_debut1))) ?>">
                     </div>
 
                     <div class="bloc-dates">
@@ -179,7 +179,7 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
                       <input type="date"
                              readonly
                              class="input-date-texte"
-                             value="<?= htmlspecialchars(date('Y-m-d', strtotime($date_fin1))) ?>">
+                             value="<?= (date('Y-m-d', strtotime($date_fin1))) ?>">
                     </div>
 
         </div>
@@ -190,7 +190,7 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
         
         <label class="un-carré-info inclus">
           <img src="<?php foreach($voyage['hebergements'] as $o) if($o['label']===$heberg1) echo $o['image']; ?>" alt>
-          <span><?= htmlspecialchars($heberg1) ?> - <?= $prix_heberg1 ?> € pour <?=$nb_personnes?> personnes</span>
+          <span><?= ($heberg1) ?> - <?= $prix_heberg1 ?> € pour <?=$nb_personnes?> personnes</span>
         </label>
       </div>
       <div class="form-section">
