@@ -197,7 +197,7 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
         <h2>Restauration pour <?= ($voyage['titre']) ?></h2>
         <label class="un-carré-info inclus">
           <img src="<?php foreach($voyage['restaurations'] as $o) if($o['label']===$restau1) echo $o['image']; ?>" alt>
-          <span><?= htmlspecialchars($restau1) ?> - <?= $prix_restau1 ?> € pour <?=$nb_personnes?> personnes</span>
+          <span><?= ($restau1) ?> - <?= $prix_restau1 ?> € pour <?=$nb_personnes?> personnes</span>
         </label>
       </div>
       <div class="form-section">
@@ -205,8 +205,8 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
         <?php foreach($activ1 as $a): ?>
           <?php foreach($voyage['activites'] as $o) if($o['label']===$a): ?>
             <label class="un-carré-info inclus">
-              <img src="<?= htmlspecialchars($o['image']) ?>" alt>
-              <span><?= htmlspecialchars($a) ?> - <?= $o['prix']*$nb_personnes ?> € pour <?=$nb_personnes?> personnes</span>
+              <img src="<?= ($o['image']) ?>" alt>
+              <span><?= ($a) ?> - <?= $o['prix']*$nb_personnes ?> € pour <?=$nb_personnes?> personnes</span>
             </label>
           <?php endif; endforeach; ?>
       </div>
@@ -214,7 +214,7 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
         <h2>Transport pour <?= ($voyage['titre']) ?></h2>
         <label class="un-carré-info inclus">
           <img src="<?php foreach($voyage['transports'] as $o) if($o['label']===$transp1) echo $o['image']; ?>" alt>
-          <span><?= htmlspecialchars($transp1) ?> - <?= $prix_transp1 ?> € pour <?=$nb_personnes?> personnes</span>
+          <span><?= ($transp1) ?> - <?= $prix_transp1 ?> € pour <?=$nb_personnes?> personnes</span>
         </label>
       </div>
     </div>
@@ -228,7 +228,7 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
               <input type="date"
                      readonly
                      class="input-date-texte"
-                     value="<?= htmlspecialchars(date('Y-m-d', strtotime($date_debut2))) ?>">
+                     value="<?= (date('Y-m-d', strtotime($date_debut2))) ?>">
             </div>
 
             <div class="bloc-dates">
