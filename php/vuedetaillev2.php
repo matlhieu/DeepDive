@@ -30,7 +30,7 @@ $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
     background-repeat: no-repeat, no-repeat;">
     
   <div class="overlay">
-    <h1>Explorez <span><?= htmlspecialchars($voyage['titre']) ?></span> et <span><?= htmlspecialchars($voyage['titre2']) ?></span> !</h1>
+    <h1>Explorez <span><?= ($voyage['titre']) ?></span> et <span><?= ($voyage['titre2']) ?></span> !</h1>
   </div>
 </section>
 <br>
@@ -112,14 +112,14 @@ $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
                         <img src="<?= $option['image'] ?>" alt="<?= $option['label'] ?>">
                         <?php if ($option['label'] === 'voiture de location Citroën'): ?>
                             <span>
-                                <?= htmlspecialchars($option['prix']) ?> € 
-                                pour 1 <?= htmlspecialchars($option['label']) ?> 
+                                <?= ($option['prix']) ?> € 
+                                pour 1 <?= ($option['label']) ?> 
                                 de 5 places
                             </span>
                         <?php else: ?>
                             <span>
-                                <?= htmlspecialchars($option['prix']) ?> € par personne 
-                                pour 1 <?= htmlspecialchars($option['label']) ?>
+                                <?= ($option['prix']) ?> € par personne 
+                                pour 1 <?= ($option['label']) ?>
                             </span>
                         <?php endif; ?>
                     </label>
@@ -192,14 +192,14 @@ $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
                         <img src="<?= $option['image2'] ?>" alt="<?= $option['label2'] ?>">
                         <?php if ($option['label2'] === 'voiture de location Citroën'): ?>
                             <span>
-                                <?= htmlspecialchars($option['prix2']) ?> € 
-                                pour 1 <?= htmlspecialchars($option['label2']) ?> 
+                                <?= ($option['prix2']) ?> € 
+                                pour 1 <?= ($option['label2']) ?> 
                                 de 5 places
                             </span>
                         <?php else: ?>
                             <span>
-                                <?= htmlspecialchars($option['prix2']) ?> € par personne 
-                                pour 1 <?= htmlspecialchars($option['label2']) ?>
+                                <?= ($option['prix2']) ?> € par personne 
+                                pour 1 <?= ($option['label2']) ?>
                             </span>
                         <?php endif; ?>
                     </label>
