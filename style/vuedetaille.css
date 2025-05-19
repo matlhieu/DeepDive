@@ -20,6 +20,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 3rem;
   border-radius: 10px;
+  color: white;
 }
 
 .hero h1 {
