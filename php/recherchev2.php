@@ -4,8 +4,8 @@ session_start();
 
 date_default_timezone_set('Europe/Paris');
 
-$contenuJson = file_get_contents("../json/voyagesv2.json");
-$listeVoyages = json_decode($contenuJson, true);
+$contenuJson   = file_get_contents("voyagesv2.json");
+$listeVoyages  = json_decode($contenuJson, true);
 
 $dateDepartChaine  = $_POST['date_depart'] ?? '';
 $dateFinChaine     = $_POST['date_fin']    ?? '';
@@ -113,24 +113,12 @@ $destRefusees = array_diff($destinations, $destTrouvees);
         <?php endforeach; ?>
     </div>
 
-            <script>
-              const container = document.getElementById('resultats-box');
-              const select    = document.getElementById('triage-selection');
-
-              select.addEventListener('change', () => {
-                const [key, order] = select.value.split('_');
-                const cards = Array.from(container.querySelectorAll('.un-carré-info'));
-                cards.sort((a, b) => (parseFloat(a.dataset[key]) - parseFloat(b.dataset[key])) * (order === 'asc' ? 1 : -1));
-                container.innerHTML = '';
-                cards.forEach(c => container.appendChild(c));
-              });
-            </script>
-
-    
         <?php endif; ?>
 
     <?php endif; ?>
 
     <?php include("footer.php"); ?>
+
+      <script src="../js/recherchev2.js"></script>
 </body>
 </html>
