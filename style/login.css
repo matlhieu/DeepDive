@@ -2,11 +2,11 @@
 
 body {
     font-family:'Segoe UI', system-ui; /* Définit la police d'écriture en Arial ou une alternative sans-serif */
-    background-image: url('https://images3.alphacoders.com/132/1325254.png'); /* Définit une image de fond */
-    background-size: cover; /* Ajuste l'image pour couvrir toute la surface du fond */
-    background-position: center; /* Centre l'image de fond */ 
+    background-image: url('https://images3.alphacoders.com/132/1325254.png'); 
+    background-size: cover; 
+    background-position: center; 
     display: flex;
-    background-repeat: no-repeat; /* Empêche la répétition */
+    background-repeat: no-repeat; 
     background-attachment: fixed;
 }
 	
@@ -62,7 +62,7 @@ body {
          background-color: #3498db; 
          color: white; 
          padding: 12px; 
-         border: none; /* Supprime les bordures */
+         border: none; 
          border-radius: 4px; /* Arrondit légèrement les coins du bouton */
          cursor: pointer; /* Change le curseur en main lorsqu'on survole le bouton */
          font-size: 16px; 
@@ -71,7 +71,7 @@ body {
  
      /* Effet de survol pour le bouton de soumission */
      input[type="submit"]:hover {
-         background-color: #2980b9; /* Change la couleur de fond en bleu foncé lors du survol */
+         background-color: #2980b9; 
      }
  
      /* Ajoute une étoile rouge aux champs obligatoires */
@@ -83,8 +83,8 @@ body {
  
      /* Style pour le lien vers la connexion */
      .login-link {
-         text-align: center; /* Centre le texte */
-         margin-top: 15px; /* Ajoute un espace au-dessus du lien */
+         text-align: center; 
+         margin-top: 15px; 
      }
  
      /* Style du lien de connexion */
@@ -92,7 +92,7 @@ body {
         margin-left:0.5rem;
          color: blue; 
          text-decoration: none; /* Supprime le soulignement par défaut */
-         font-weight: bold; /* Met le texte du lien en gras */
+         font-weight: bold; 
      }
  
      /* Effet de survol pour le lien de connexion */
