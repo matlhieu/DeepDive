@@ -30,31 +30,31 @@ if (!isset($_SESSION['role'])){
 
         <div class="profile-field">
             <label for="nom">Nom :</label>
-            <span id="nom"><?php echo htmlspecialchars($_SESSION['nom']); ?></span>
+            <span id="nom"><?php echo ($_SESSION['nom']); ?></span>
             <button class="edit-btn" onclick="editField('nom')">Modifier</button>
         </div>
 
         <div class="profile-field">
             <label for="prenom">Prénom :</label>
-            <span id="prenom"><?php echo htmlspecialchars($_SESSION['prenom']); ?></span>
+            <span id="prenom"><?php echo ($_SESSION['prenom']); ?></span>
             <button class="edit-btn" onclick="editField('prenom')">Modifier</button>
         </div>
 
         <div class="profile-field">
             <label for="email">Email:</label>
-            <span id="email"><?php echo htmlspecialchars($_SESSION['mail']); ?></span>
+            <span id="email"><?php echo ($_SESSION['mail']); ?></span>
             <button class="edit-btn" onclick="editField('email')">Modifier</button>
         </div>
 
         <div class="profile-field">
             <label for="naissance">Date de naissance:</label>
-            <span id="naissance"><?php echo htmlspecialchars($_SESSION['naissance']); ?></span>
+            <span id="naissance"><?php echo ($_SESSION['naissance']); ?></span>
             <button class="edit-btn" onclick="editField('naissance')">Modifier</button>
         </div>
 
         <div class="profile-field">
             <label for="role">Statut :</label>
-            <span id="role"><?php echo htmlspecialchars($_SESSION['role']); ?></span>
+            <span id="role"><?php echo ($_SESSION['role']); ?></span>
             <button class="edit-btn" onclick="editField('role')">Modifier</button>
         </div>
 
