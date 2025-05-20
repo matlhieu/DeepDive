@@ -61,30 +61,6 @@ body {
   color: #00ebf7;
 }
 
-.btn-scroll {
-  background-color: #00C1D4;
-  color: #001f3f;
-  padding: 0.8rem 1.5rem;
-  border-radius: 30px;
-  text-decoration: none;
-  font-size: 1.1rem;
-  transition: background 0.3s ease;
-}
-
-.btn-scroll:hover {
-  background-color: #00a3b8;
-}
-
-.details {
-  padding: 3rem 5rem;
-}
-
-.details h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-}
-
 .form-section {
   margin-bottom: 2rem;
 }
