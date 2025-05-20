@@ -55,7 +55,7 @@ if (file_exists("../json/commandes.json")) {
                     <b>Voici les options du voyage :
                         <br>
                         <br>
-                      📅 Du <?= date('d/m/Y', $commande['date_debut']) ?> au <?= date('d/m/Y', $voyage['date_fin2']) ?><br>
+                      📅 Du <?= date('d/m/Y', $commande['date_debut']) ?> au <?= date('d/m/Y', $commande['date_fin2']) ?><br>
                       💶 <?= ($commande['montant']) ?> € payés pour <?= $commande['nb_personnes'] ?> personne(s)<br>
                         <br> <br>
                     🧾 Transaction : <?= ($commande['transaction']) ?>
