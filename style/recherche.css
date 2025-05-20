@@ -20,10 +20,6 @@ span{
   color:#00ebf7;
 } 
 
-.meilleure-plans {
-  margin-top: 6rem; 
-}
-
 .ensemble-carré-info{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
@@ -43,6 +39,7 @@ span{
       box-shadow: 0 0 10px #00ebf7;
   }
 .meilleure-plans{
+    margin-top: 6rem; 
   text-align:center;
   font-size:4rem;
   }
