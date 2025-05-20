@@ -75,10 +75,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		<?php if (!empty($error)) : ?>
             <p style="color:red;"><?php echo htmlspecialchars($error); ?></p>
         <?php endif; ?>
-		
-	<div class="login-link">
-        	<p>Mot de passe oublié ? <a href="reset_mdp_step1.php">Cliquez ici</a></p>
-    	</div>
 
     	<div class="login-link">
         	<p>Pas encore membre ? <a href="signup.php">Inscrivez-vous ici</a></p>
