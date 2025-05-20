@@ -137,7 +137,7 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
   <meta charset="UTF-8">
   <title>Récapitulatif Voyage</title>
   <link rel="stylesheet" href="../style/nav_footer.css">
-  <link rel="stylesheet" href="../style/vuedetaille.css">
+  <link rel="stylesheet" href="../style/recapitulatif.css">
 </head>
 <body>
 <?php include("navbar.php"); ?>
