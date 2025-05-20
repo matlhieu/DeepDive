@@ -145,6 +145,26 @@ input.too-long {
     }
 }
 
+.boutton-recherche {
+  display: inline-block;
+  padding: 0.625rem 1.5625rem; 
+  border: 0.125rem solid #00ebf7;
+  border-radius: 1rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  margin-top: 0.5rem;
+  transition: 0.5s;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap; /* ✅ empêche le retour à la ligne */
+}
+.boutton-recherche:hover {
+  background-color: #00ebf7;
+  color: #001f3f;
+}
+
 /* Style pour le résumé des erreurs */
 .error-summary {
     color: white;
