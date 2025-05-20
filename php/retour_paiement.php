@@ -105,13 +105,13 @@ if (empty($erreur) && $statut === "accepted") {
 
         <?php if (!empty($_SESSION['voyage_en_cours']['activites'])): ?>
             <?php foreach ($_SESSION['voyage_en_cours']['activites'] as $act): ?>
-                <input type="hidden" name="activites[]"  value="<?= htmlspecialchars($act) ?>">
+                <input type="hidden" name="activites[]"  value="<?= ($act) ?>">
             <?php endforeach; ?>
         <?php endif; ?>
 
         <?php if (!empty($_SESSION['voyage_en_cours']['activites2'])): ?>
             <?php foreach ($_SESSION['voyage_en_cours']['activites2'] as $act): ?>
-                <input type="hidden" name="activites2[]" value="<?= htmlspecialchars($act) ?>">
+                <input type="hidden" name="activites2[]" value="<?= ($act) ?>">
             <?php endforeach; ?>
         <?php endif; ?>
 
