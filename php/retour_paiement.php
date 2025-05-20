@@ -86,6 +86,7 @@ if (empty($erreur) && $statut === "accepted") {
         <input type="hidden" name="id"            value="<?= $_SESSION['voyage_en_cours']['id']           ?? '' ?>">
         <input type="hidden" name="titre"         value="<?= $_SESSION['voyage_en_cours']['titre']        ?? '' ?>">
         <input type="hidden" name="titre2"        value="<?= $_SESSION['voyage_en_cours']['titre2']       ?? '' ?>">
+                <input type="hidden" name="image"        value="<?= $_SESSION['voyage_en_cours']['image']       ?? '' ?>">
         <input type="hidden" name="nb_personnes"  value="<?= $_SESSION['voyage_en_cours']['nb_personnes'] ?? '' ?>">
 
         <input type="hidden" name="date_debut"    value="<?= $_SESSION['voyage_en_cours']['date_debut']  ?? '' ?>">
