@@ -49,13 +49,13 @@ if (file_exists("../json/commandes.json")) {
 <?php else: ?>
     <?php foreach ($commandes as $commande): ?>
         <div class="un-carré-info">
-            <img src="<?= htmlspecialchars($commande['image'] ?? 'https://via.placeholder.com/300x200') ?>" alt="Image du voyage">
+            <img src="<?= ($commande['image'] ?? 'https://via.placeholder.com/300x200') ?>" alt="Image du voyage">
             <div class="info-texte">
-                <h3><?= htmlspecialchars($commande['titre']) ?></h3>
+                <h3><?= ($commande['titre']) ?></h3>
                 <b>
                  
                     💶 <?= htmlspecialchars($commande['montant']) ?> € payés
-                    🧾 Transaction : <?= htmlspecialchars($commande['transaction']) ?>
+                    🧾 Transaction : <?= ($commande['transaction']) ?>
                 </b>
                 <br><br>
                 <a href="commande_payee.php?transaction=<?=$commande['transaction'] ?>" class="boutton-recherche">Voir les détails</a>
