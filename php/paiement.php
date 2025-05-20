@@ -41,6 +41,8 @@ $transport3    = $_POST['transport3']    ?? '';
 $activites1    = $_POST['activites']     ?? [];
 $activites2    = $_POST['activites2']    ?? [];
 $prix_total    = $_POST['prix_total']    ?? '';
+$image         = $_POST['image']         ?? '';
+
 
 // On peut à présent stocker en session ou vérifier ce qu'il manque :
 
@@ -48,6 +50,7 @@ $_SESSION['voyage_en_cours'] = [
   'id'            => $id,
   'titre'         => $titre1,     
   'titre2'        => $titre2,
+      'image'         => $image,
   'nb_personnes'  => $nb_personnes,
   'date_debut'    => $date_debut1,
   'date_fin'      => $date_fin1,
