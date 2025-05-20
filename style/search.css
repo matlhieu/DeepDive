@@ -102,39 +102,6 @@ bulle-destinations = Regroupe uniquement les boutons pour une meilleure */
 .boutton-recherche:hover{
 	transform:scale(1.05);
 }
-.ensemble-carré-info{
-	display:grid;
-	grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-	gap:2rem;
-	padding:3rem 5rem;
-}
-.un-carré-info{
-	background:#1C4E6B;
-	border-radius:15px;
-	overflow:hidden;
-	transition:transform 0.3s ease;
-}
-.un-carré-info:hover{
-	transform:translateY(-10px);
-    	box-shadow: 0 0 10px #00ebf7;
-	}
-.meilleure-plans{
-	text-align:center;
-	font-size:4rem;
-	}
-.un-carré-info img{
-	width:100%;
-	height:200px;
-	border-bottom:3px solid #00C1D4;
-}
-.info-texte{
-	padding:1.5rem;
-	color:white;
-}
-.stars {
-    color: yellow;
-    font-size: 20px;
-}
 
 a{
 	text-decoration:none;
