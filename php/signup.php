@@ -99,22 +99,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
            <?php if(isset($_SESSION['message'])): ?>
            <div class="message"><?php echo $_SESSION['message']; unset($_SESSION['message']); ?></div>
            <?php endif; ?>
-           <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" autocomplete="off">
+           <form action="<?php echo ($_SERVER["PHP_SELF"]); ?>" method="POST" autocomplete="off">
                <div class="form-group">
                    <label class="required" for="nom">Nom de famille:</label>
-                   <input type="text" id="nom" name="nom" required value="<?php echo isset($_POST['nom']) ? htmlspecialchars($_POST['nom']) : ''; ?>">
+                   <input type="text" id="nom" name="nom" required value="<?php echo isset($_POST['nom']) ? ($_POST['nom']) : ''; ?>">
                </div>
                <div class="form-group">
                    <label class="required" for="prenom">Prénom:</label>
-                   <input type="text" id="prenom" name="prenom" required value="<?php echo isset($_POST['prenom']) ? htmlspecialchars($_POST['prenom']) : ''; ?>">
+                   <input type="text" id="prenom" name="prenom" required value="<?php echo isset($_POST['prenom']) ? ($_POST['prenom']) : ''; ?>">
                </div>
                <div class="form-group">
                    <label class="required" for="naissance">Date de naissance:</label>
-                   <input type="date" id="naissance" name="naissance" required value="<?php echo isset($_POST['naissance']) ? htmlspecialchars($_POST['naissance']) : ''; ?>">
+                   <input type="date" id="naissance" name="naissance" required value="<?php echo isset($_POST['naissance']) ? ($_POST['naissance']) : ''; ?>">
                </div>
                <div class="form-group">
                    <label class="required" for="mail">Email:</label>
-                   <input type="email" id="mail" name="mail" required value="<?php echo isset($_POST['mail']) ? htmlspecialchars($_POST['mail']) : ''; ?>">
+                   <input type="email" id="mail" name="mail" required value="<?php echo isset($_POST['mail']) ? ($_POST['mail']) : ''; ?>">
                </div>
                <div class="form-group">
                    <label class="required" for="mdp">Mot de passe:</label>
@@ -126,7 +126,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
            </form>
 
            <?php if (!empty($error)) : ?>
-             <p style="color:red;"><?php echo htmlspecialchars($error); ?></p>
+             <p style="color:red;"><?php echo ($error); ?></p>
             <?php endif; ?>
           
            <div class="login-link">
