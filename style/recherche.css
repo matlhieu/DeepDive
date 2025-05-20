@@ -1,12 +1,24 @@
-span{
-  color:#00ebf7;
+:root{
+  --color-bg:#001f3f;
+  --color-txt: white;
+  --color-box: #1C4E6B;
+}
+
+.lightmode{
+  --color-bg:white;
+  --color-txt: black;
+    --color-box: #41c0ff;
 }
 body{
   margin:0;
   font-family:'Segoe UI',system-ui;
-  background:#001f3f;
-  color:#F0F7FA;
+  background:var(--color-bg);
+  color:var(--color-txt);
 }
+
+span{
+  color:#00ebf7;
+} 
 
 .meilleure-plans {
   margin-top: 6rem; 
@@ -19,7 +31,7 @@ body{
   padding:3rem 5rem;
 }
 .un-carré-info{
-  background:#1C4E6B;
+  background:var(--color-box);
   border-radius:15px;
   overflow:hidden;
   transition:transform 0.3s ease;
@@ -89,4 +101,10 @@ body{
   font-size: 1.25rem;      
   text-align: center;     
   color: #e74c3c;          
+}
+
+/*Pour profil v2*/
+
+.side {
+  margin-left: 5rem;
 }
