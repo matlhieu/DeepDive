@@ -47,7 +47,7 @@ if (!$commande) {
         <?= empty($commande['activites'] ) ? 'aucune' : '<ul><li>' . implode('</li><li>', array_map('htmlspecialchars',$commande['activites'] )) . '</li></ul>' ?>
       </p>
 
-      <p><strong>Transports vers la prochaine étape:</strong> <?= ($transport3) ?>
+      <p><strong>Transports vers la prochaine étape:</strong> <?= $commande['transport3'] ?>
       
       <p><strong>Etape 2 :</strong> <?= ($commande['titre2']) ?> &ndash; <?= date('d/m/Y',strtotime($commande['date_debut2'])) ?> → <?= date('d/m/Y',strtotime($commande['date_fin2'])) ?></p>
       <p><strong>Hébergements :</strong> <?= ($commande['hebergement2']) ?></p>
