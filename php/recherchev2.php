@@ -4,7 +4,7 @@ session_start();
 
 date_default_timezone_set('Europe/Paris');
 
-$contenuJson   = file_get_contents("voyagesv2.json");
+$contenuJson   = file_get_contents("../json/voyagesv2.json");
 $listeVoyages  = json_decode($contenuJson, true);
 
 $dateDepartChaine  = $_POST['date_depart'] ?? '';
