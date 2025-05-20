@@ -22,7 +22,7 @@ function getAPIKey($vendeur)
     return "zzzz";
 }
 
-// Récupération des données POST (mêmes noms que dans votre récap)
+// Récupération des données POST (mêmes noms que dans notre récap)
 $id            = $_POST['id']            ?? '';
 $titre1        = $_POST['titre']         ?? '';
 $titre2        = $_POST['titre2']        ?? '';
