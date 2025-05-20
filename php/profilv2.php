@@ -43,7 +43,6 @@ if (file_exists("../json/commandes.json")) {
     <button onclick="window.location.href='profilv2.php'">Mes réservations</button>
 </div>
 
-<div class="ensemble-carré-info">
 <?php if (empty($commandes)): ?>
     <p style="margin: 20px;">Vous n'avez encore réservé aucun voyage.</p>
 <?php else: ?>
@@ -51,10 +50,14 @@ if (file_exists("../json/commandes.json")) {
         <div class="un-carré-info">
             <img src="<?= ($commande['image'] ?? 'https://via.placeholder.com/300x200') ?>" alt="Image du voyage">
             <div class="info-texte">
-                <h3><?= ($commande['titre']) ?></h3>
+                <h3> Étape 1 : <?= ($commande['titre']) ?> <br> Étape 2 : <?= ($commande['titre2']) ?> </h3>
                 <b>
-                 
-                    💶 <?= htmlspecialchars($commande['montant']) ?> € payés
+                    <b>Voici les options du voyage :
+                        <br>
+                        <br>
+                      📅 Du <?= date('d/m/Y', $commande['date_debut']) ?> au <?= date('d/m/Y', $voyage['date_fin2']) ?><br>
+                      💶 <?= ($commande['montant']) ?> € payés pour <?= $commande['nb_personnes'] ?> personne(s)<br>
+                        <br> <br>
                     🧾 Transaction : <?= ($commande['transaction']) ?>
                 </b>
                 <br><br>
