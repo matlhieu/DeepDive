@@ -142,6 +142,7 @@ input[type="checkbox"] {
   cursor: pointer;
   display: flex;
   flex-direction: column;
+    max-width: 30rem; /* largeur max du conteneur */
 
 }
 
