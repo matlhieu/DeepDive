@@ -1,8 +1,25 @@
+:root{
+  --color-bg: #001f3f;
+  --color-txt: white;
+  --color-date: #0d1f2d;
+  --color-box: #1C4E6B;
+  --color-input: white;
+}
+
+.lightmode{
+  --color-bg: white;
+  --color-txt: black;
+  --color-date: #357fb8;
+  --color-box: #41c0ff;
+  --color-input: #d6eeff;
+
+}
+
 body {
   margin: 0;
   font-family: 'Segoe UI', system-ui;
-  background: #001f3f;
-  color: #F0F7FA;
+  background: var(--color-bg);
+  color: var(--color-txt);
 }
 
 .hero {
@@ -59,6 +76,7 @@ body {
 
 .form-section {
   margin-bottom: 2rem;
+  
 }
 
 label {
@@ -80,7 +98,7 @@ select {
   border: none;
   border-radius: 5px;
   font-size: 1rem;
-  background: rgba(255,255,255,0.9);
+  background: var(--color-input);
   color: #001f3f;
 }
 
@@ -115,12 +133,12 @@ input[type="checkbox"] {
 
 .un-carré-info {
   position: relative;
-  background: #1C4E6B;
+  background: var(--color-box);
   border-radius: 1rem;
   overflow: hidden;
   transition: transform 0.3s ease;
   text-align: center;
-  color: white;
+  color: var(--color-txt);
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -132,7 +150,7 @@ input[type="checkbox"] {
   height: 160px;
   object-fit: cover;
   border-bottom: 3px solid #00C1D4;
-  background-color: #1C4E6B; /* couleur de fond identique à la carte */
+  background-color: var(--color-box); /* couleur de fond identique à la carte */
 }
 
 .un-carré-info:hover {
@@ -186,7 +204,7 @@ input[type="checkbox"] {
   text-align: center;
   margin: 30px auto;
   max-width: 500px;
-  background-color: #0d1f2d;
+  background-color: var(--color-date);
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
@@ -197,7 +215,7 @@ input[type="checkbox"] {
   display: block;
   font-size: 1.4rem;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: var(--color-txt);
   font-weight: 600;
 }
 
@@ -250,3 +268,4 @@ input[type="checkbox"] {
     width: 100%;
   }
 }
+
