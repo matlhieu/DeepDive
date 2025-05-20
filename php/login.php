@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     	</form>
 
 		<?php if (!empty($error)) : ?>
-            <p style="color:red;"><?php echo htmlspecialchars($error); ?></p>
+            <p style="color:red;"><?php echo ($error); ?></p>
         <?php endif; ?>
 
     	<div class="login-link">
