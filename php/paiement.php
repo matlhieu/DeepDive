@@ -46,7 +46,7 @@ $prix_total    = $_POST['prix_total']    ?? '';
 
 $_SESSION['voyage_en_cours'] = [
   'id'            => $id,
-  'titre'         => $titre1,     // passe juste un seul titre si tu n’en as besoin que d’un
+  'titre'         => $titre1,     
   'titre2'        => $titre2,
   'nb_personnes'  => $nb_personnes,
   'date_debut'    => $date_debut1,
