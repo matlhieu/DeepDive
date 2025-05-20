@@ -34,7 +34,7 @@ $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
   </div>
 </section>
 <br>
-    <lo>Les options, déjà prédéfinis cochés sont les options choisies par le voyage, mais vous pouvez modifier cela.</lo>
+    <lo>Les options, déjà prédéfinis sont les options choisies par le voyage, mais vous pouvez modifier cela.</lo>
     <br><br>
 
 <!-- Formulaire deux colonnes pour les choix -->
