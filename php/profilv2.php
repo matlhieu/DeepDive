@@ -23,9 +23,6 @@ if (file_exists("../json/commandes.json")) {
     }
 }
 
-$commande['timestamp_debut'] = strtotime($commande['date_debut']);
-    $commande['timestamp_fin']   = strtotime($commande['date_fin']);
-    $commande['timestamp_fin2']  = strtotime($commande['date_fin2']);
 ?>
 
 <!DOCTYPE html>
@@ -59,6 +56,11 @@ $commande['timestamp_debut'] = strtotime($commande['date_debut']);
                     <b>Voici les options du voyage :
                         <br>
                         <br>
+                        <?php 
+                         $commande['timestamp_debut'] = strtotime($commande['date_debut']);
+                            $commande['timestamp_fin']   = strtotime($commande['date_fin']);
+                            $commande['timestamp_fin2']  = strtotime($commande['date_fin2']);
+                        ?>
                       📅 Du <?= date('d/m/Y', $commande['timestamp_debut']) ?> au <?= date('d/m/Y', $commande['timestamp_fin2']) ?><br>
                       💶 <?= ($commande['montant']) ?> € payés pour <?= $commande['nb_personnes'] ?> personne(s)<br>
                         <br> <br>
