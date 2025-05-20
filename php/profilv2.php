@@ -48,7 +48,7 @@ if (file_exists("../json/commandes.json")) {
 <?php else: ?>
     <?php foreach ($commandes as $commande): ?>
         <div class="un-carré-info">
-            <img src="<?= ($commande['image'] ?? 'https://via.placeholder.com/300x200') ?>" alt="Image du voyage">
+            <img src="<?= ($commande['image'] ?>" alt="<?= ($commande['titre']) ?>">
             <div class="info-texte">
                 <h3> Étape 1 : <?= ($commande['titre']) ?> <br> Étape 2 : <?= ($commande['titre2']) ?> </h3>
                 <b>
