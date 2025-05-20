@@ -58,7 +58,7 @@ if (!$commande) {
       </p>
 
       <p><strong>Montant total :</strong> <?= $commande['montant'] ?> €</p>
-              <p><strong>Transaction :</strong> <?= htmlspecialchars($commande['transaction']) ?></p>
+              <p><strong>Transaction :</strong> <?= ($commande['transaction']) ?></p>
               
 <div style="text-align:center; margin-bottom: 30px;">
     <a href="profilv2.php" class="boutton-recherche">🔙 Retour à mes réservations</a>
