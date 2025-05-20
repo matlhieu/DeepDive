@@ -21,8 +21,8 @@
     --footer-text: #000000;
     --font-size: 1rem;
     --link-hover-underline: underline;
-
 }
+
 html, body {
     height: 100%; 
     margin: 0; 
@@ -43,7 +43,7 @@ html, body {
     align-items: center;
 }
 
-.navibar .logo img {
+.logo img {
     width: 60px;
     height: auto;
     margin-left: 1.2rem;
@@ -115,7 +115,7 @@ html, body {
 
 .light-mode-toggle {
     margin-right:0.6rem;
-    color: var(--button-light);
+    color: currentColor;
     border: 2px solid currentColor;
     padding: 4px;
     background: transparent;
@@ -145,7 +145,8 @@ html, body {
 }
 
 .btn-account{
-    color: currentColor;  
+    color: currentColor;
+
 }
 /* Footer */
 footer {
@@ -169,9 +170,9 @@ footer {
 }
 
 .footer-main img {
-    width: 25%;
-    height: 100%;
-    padding-right: 3rem;
+    width: 10%;
+    height: auto;
+    padding-right: 0rem;
 }
 
 .footer-container {
