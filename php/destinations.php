@@ -98,7 +98,7 @@ session_start();
 					</div>
 				</div>
 				<div class="box">
-					<img src="https://www.bali.fr/wp-content/uploads/2015/04/Kuta.jpg.jpg" alt="Bali">
+					<img src="https://www.zastavki.com/pictures/originals/2014/World___Asia_Quiet_bay_on_Bali_086081_.jpg" alt="Bali">
 					<div class="content">
 					<h2>Bali en Indonésie</h2>
 					<p>Sous le soleil indonésien, Bali dévoile des fonds marins fascinants entre épaves mystérieuses et jardins coralliens chatoyants. Sur la côte est, Tulamben invite à explorer l’épave du Liberty, abritant une vie sous-marine dense : poissons-anges, murènes et nudibranches se faufilent dans ses cales. Au sud, les courants de Nusa Penida attirent les majestueuses raies manta et les poissons-lunes, tandis que les récifs de Padang Bai offrent un snorkeling accessible à tous. Encadré·e par des instructeurs certifiés, initiez-vous au baptême de plongée ou perfectionnez votre technique en bouteille, avant de vous détendre sur des plages de sable noir volcanique. Entre spiritualité balinaise et évasion marine, Bali promet une aventure inoubliable.
