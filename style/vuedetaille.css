@@ -80,12 +80,9 @@ body {
 }
 
 label {
-  margin-bottom: 2rem;
   font-weight: bold;
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin: 0;
   font-size: 1.55rem;
   font-weight: bold;
 }
