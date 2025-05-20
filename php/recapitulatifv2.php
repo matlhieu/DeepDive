@@ -20,6 +20,8 @@ $nb_personnes  = max(1, (int)($_POST['nb_personnes'] ?? 1));
 $titre = $_POST['titre'] ?? '';
 $titre2 = $_POST['titre2'] ?? '';
 
+$image = $_POST['image'] ?? '';
+
 // Colonne 1 dates
 $date_debut1   = $_POST['date_debut']  ?? $voyage['date_debut'];
 $date_fin1     = $_POST['date_fin']    ?? $voyage['date_fin'];
@@ -297,6 +299,7 @@ $prix_total = $prix_heberg1 + $prix_restau1 + $prix_activ1 + $prix_transp1
       <input type="hidden" name="id"            value="<?= $id ?>">
           <input type="hidden" name="titre"            value="<?= $voyage['titre'] ?>">
           <input type="hidden" name="titre2"            value="<?= $voyage['titre2'] ?>">
+              <input type="hidden" name="image"            value="<?= $voyage['image'] ?>">
       <input type="hidden" name="nb_personnes"   value="<?= $nb_personnes ?>">
       <input type="hidden" name="date_debut"     value="<?= $date_debut1 ?>">
       <input type="hidden" name="date_fin"       value="<?= $date_fin1 ?>">
