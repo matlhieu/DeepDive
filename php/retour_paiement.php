@@ -50,6 +50,19 @@ if (empty($erreur) && $statut === "accepted") {
         $commandes = file_exists($fichier_commandes) ? json_decode(file_get_contents($fichier_commandes), true) : [];
         $commandes[$transaction] = $commande;
         file_put_contents($fichier_commandes, json_encode($commandes, JSON_PRETTY_PRINT));
+        // ➕ Ajout : suppression du voyage dans le panier (si présent)
+if (isset($_SESSION['panier'])) {
+    foreach ($_SESSION['panier'] as $i => $item) {
+        if (
+            isset($item['id'], $_SESSION['voyage_en_cours']['id']) &&
+            $item['id'] === $_SESSION['voyage_en_cours']['id']
+        ) {
+            unset($_SESSION['panier'][$i]);
+        }
+    }
+    // Réindexation propre
+    $_SESSION['panier'] = array_values($_SESSION['panier']);
+}
     }
 }
 ?>
