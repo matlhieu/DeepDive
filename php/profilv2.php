@@ -50,14 +50,20 @@ if (file_exists("../json/commandes.json")) {
 <?php else: ?>
     <?php foreach ($commandes as $commande): ?>
         <div class="un-carré-info">
-            <img src="<?= ($commande['image'] ?? 'https://via.placeholder.com/300x200') ?>" alt="Image du voyage">
+  <img src="<?= ($commande['image']) ?>" alt="<?= ($commande['titre']) ?>">
             <div class="info-texte">
                 <h3> Étape 1 : <?= ($commande['titre']) ?> <br> Étape 2 : <?= ($commande['titre2']) ?> </h3>
-                <b>
-                    Voici les options du voyage :
-                    <br><br>
-                    📅 Du <?= date('d/m/Y', $commande['date_debut']) ?> au <?= date('d/m/Y', $commande['date_fin2']) ?><br>
-                    💶 <?= ($commande['montant']) ?> € payés pour <?= $commande['nb_personnes'] ?> personne(s)<br><br>
+ <b>Voici les options du voyage :
+                        <br>
+                        <br>
+                        <?php 
+                         $commande['timestamp_debut'] = strtotime($commande['date_debut']);
+                            $commande['timestamp_fin']   = strtotime($commande['date_fin']);
+                            $commande['timestamp_fin2']  = strtotime($commande['date_fin2']);
+                        ?>
+                      📅 Du <?= date('d/m/Y', $commande['timestamp_debut']) ?> au <?= date('d/m/Y', $commande['timestamp_fin2']) ?><br>
+                      💶 <?= ($commande['montant']) ?> € payés pour <?= $commande['nb_personnes'] ?> personne(s)<br>
+                        <br> <br>
                     🧾 Transaction : <?= ($commande['transaction']) ?>
                 </b>
                 <br><br>
