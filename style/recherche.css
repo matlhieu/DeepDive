@@ -12,7 +12,7 @@
 body{
   margin:0;
   font-family:'Segoe UI',system-ui;
-  background:var(--color-bg);
+  background:url("https://wallpapercat.com/w/full/d/3/6/17244-3840x2160-desktop-4k-ocean-background-image.jpg");;
   color:var(--color-txt);
 }
 
@@ -39,9 +39,10 @@ span{
       box-shadow: 0 0 10px #00ebf7;
   }
 .meilleure-plans{
-    margin-top: 6rem; 
+  margin-top: 6rem; 
   text-align:center;
   font-size:4rem;
+  color:white;
   }
 .un-carré-info img{
   width:100%;
