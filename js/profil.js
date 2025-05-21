@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const fields = ["nom", "prenom", "email", "naissance", "role"];
+    const fields = ["nom", "prenom", "email", "naissance"];
     const initialData = {};
     const modifiedData = {};
 
