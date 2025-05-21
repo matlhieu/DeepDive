@@ -29,7 +29,7 @@ session_start();
 			Que vous soyez un plongeur expérimenté ou un débutant curieux, nous vous offrons 
 			une expérience unique, en toute sécurité et dans le respect des écosystèmes marins.<br>
 			Nous croyons que la mer est un monde fascinant, un lieu à explorer pour découvrir 
-			sa beauté, sa diversité et ses mystères. Nos plongées vous emmèneront dans des sites 
+			sa beauté, sa diversité et ses mystères. Nos plongées, mais également bien d'autres activités tel que le parachute ascensionnel... vous emmèneront dans des sites 
 			préservés, où vous pourrez observer des créatures marines dans leur habitat naturel,
 			explorer des épaves historiques, ou simplement vous <span>émerveiller</span> devant des paysages <br>
 			sous-marins époustouflants.
@@ -37,7 +37,7 @@ session_start();
 			Nous mettons un point d'honneur à offrir un service de <span>qualité</span>. 
 			Nos guides expérimentés, passionnés et certifiés, vous accompagnent tout au long 
 			de votre aventure sous-marine, veillant à votre sécurité et à votre confort. 
-			De plus, nous utilisons un matériel de plongée de dernière génération pour garantir 
+			De plus, nous utilisons des matériels de dernière génération pour la plongée, le parachute ascensionnel et bien d'autres pour garantir 
 			une expérience optimale.
 			<br><br>		
 			Plongez avec nous, explorez le monde sous-marin comme jamais auparavant, et 
