@@ -17,7 +17,7 @@ $panier = $_SESSION['panier'] ?? [];
 
 <?php include("navbar.php"); ?>
 
-<h2 class="meilleure-plans">Vos <span>voyages</span> non encore payés</h2>
+<h2 class="meilleure-plans">Vos <span>voyages</span> pas encore payés</h2>
 
 <div class="ensemble-carré-info">
 <?php if (empty($panier)): ?>
