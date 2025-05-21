@@ -44,7 +44,7 @@
         "prenom": "Caliste",
         "naissance": "2006-08-01",
         "mail": "calistedeepdive.cy",
-        "mdp": "",
+        "mdp": "7fbe725482f4cc3ad614ae62a8b3f1746e3e53d4c0dd64dc1e79b9e0d64b7bfa",
         "role": "client",
         "bannissement": "non BANNI",
         "VIP": "non VIP"
@@ -54,7 +54,7 @@
         "prenom": "Zen",
         "naissance": "2006-01-03",
         "mail": "zen@deepdive.cy",
-        "mdp": "",
+        "mdp": "7cf0a8a7b0a9dc2c3d2d3dd7e1664aa768c18be28d28d3aa4b30455cf1b59e37",
         "role": "client",
         "bannissement": "non BANNI",
         "VIP": "non VIP"
@@ -64,9 +64,9 @@
         "prenom": "Messi",
         "naissance": "1995-08-11",
         "mail": "messi@deepdive.cy",
-        "mdp": "",
+        "mdp": "1b1dc576dbb3e91b0411e028c4b4293c08fffa588ba088c06f342128700014e3",
         "role": "client",
-        "bannissement": "non BANNI",
+        "bannissement": "BANNI",
         "VIP": "non VIP"
     }
  
