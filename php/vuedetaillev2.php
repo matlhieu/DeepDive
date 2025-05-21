@@ -71,7 +71,7 @@ $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
                     <label class="un-carré-info <?= $option['label'] == $voyage['hebergement_inclus']['label'] ? 'inclus' : '' ?>">
                         <input type="radio" name="hebergement" value="<?= $option['label'] ?>" <?= $option['label'] == $voyage['hebergement_inclus']['label'] ? 'checked' : '' ?> required>
                         <img src="<?= $option['image'] ?>" alt="<?= $option['label'] ?>">
-                        <span><?= $option['prix'] . "€ par jour pour 2 " . $option['label'] ?></span>
+                        <span><?= $option['prix'] . "€ par nuit pour 2 " . $option['label'] ?></span>
                     </label>
                 <?php endforeach; ?>
             </div>
@@ -112,13 +112,13 @@ $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
                         <img src="<?= $option['image'] ?>" alt="<?= $option['label'] ?>">
                         <?php if ($option['label'] === 'voiture de location Citroën'): ?>
                             <span>
-                                <?= ($option['prix']) ?> € 
+                                <?= ($option['prix']) ?> € par jour et
                                 pour 1 <?= ($option['label']) ?> 
                                 de 5 places
                             </span>
                         <?php else: ?>
                             <span>
-                                <?= ($option['prix']) ?> € par personne 
+                                <?= ($option['prix']) ?> € par jour et par personne 
                                 pour 1 <?= ($option['label']) ?>
                             </span>
                         <?php endif; ?>
@@ -151,7 +151,7 @@ $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
                     <label class="un-carré-info <?= $option['label2'] == $voyage['hebergement_inclus2']['label2'] ? 'inclus2' : '' ?>">
                         <input type="radio" name="hebergement2" value="<?= $option['label2'] ?>" <?= $option['label2'] == $voyage['hebergement_inclus2']['label2'] ? 'checked' : '' ?> required>
                         <img src="<?= $option['image2'] ?>" alt="<?= $option['label2'] ?>">
-                        <span><?= $option['prix2'] . "€ par jour pour 2 " . $option['label2'] ?></span>
+                        <span><?= $option['prix2'] . "€ par nuit pour 2 " . $option['label2'] ?></span>
                     </label>
                 <?php endforeach; ?>
             </div>
@@ -192,13 +192,13 @@ $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
                         <img src="<?= $option['image2'] ?>" alt="<?= $option['label2'] ?>">
                         <?php if ($option['label2'] === 'voiture de location Citroën'): ?>
                             <span>
-                                <?= ($option['prix2']) ?> € 
+                                <?= ($option['prix2']) ?> € par jour
                                 pour 1 <?= ($option['label2']) ?> 
                                 de 5 places
                             </span>
                         <?php else: ?>
                             <span>
-                                <?= ($option['prix2']) ?> € par personne 
+                                <?= ($option['prix2']) ?> € par jour et par personne 
                                 pour 1 <?= ($option['label2']) ?>
                             </span>
                         <?php endif; ?>
