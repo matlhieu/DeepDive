@@ -55,7 +55,6 @@ if (!isset($_SESSION['role'])){
         <div class="profile-field">
             <label for="role">Statut :</label>
             <span id="role"><?php echo ($_SESSION['role']); ?></span>
-            <button class="edit-btn" onclick="editField('role')">Modifier</button>
         </div>
 
         <a href="logout.php" class="logout-btn">Déconnexion</a>
