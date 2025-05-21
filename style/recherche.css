@@ -14,6 +14,10 @@ body{
   font-family:'Segoe UI',system-ui;
   background:url("https://wallpapercat.com/w/full/d/3/6/17244-3840x2160-desktop-4k-ocean-background-image.jpg");;
   color:var(--color-txt);
+	background-size:cover; /* Ajuste l'image pour couvrir toute la surface du fond */
+	background-position:center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
 }
 
 span{
@@ -82,6 +86,7 @@ span{
 .tri-bar {
   margin: 3rem ;
   text-align: center;
+  color:white;
 }
 .tri-bar label {
   font-size: 2rem;
