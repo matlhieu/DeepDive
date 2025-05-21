@@ -16,8 +16,8 @@ $panier = $_SESSION['panier'] ?? [];
 <body>
 
 <?php include("navbar.php"); ?>
-
-<h2 class="meilleure-plans">Vos <span>voyages</span> pas encore payés</h2>
+  <div class="main-container">
+<h2 class="meilleure-plans">Vos <span>voyages</span> non encore payés</h2>
 
 <div class="ensemble-carré-info">
 <?php if (empty($panier)): ?>
@@ -49,7 +49,7 @@ $panier = $_SESSION['panier'] ?? [];
   <?php endforeach; ?>
 <?php endif; ?>
 </div>
-
+  </div>
 <?php include("footer.php"); ?>
 </body>
 </html>
