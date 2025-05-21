@@ -68,6 +68,7 @@ $_SESSION['voyage_en_cours'] = [
   'prix_total'    => $prix_total
 ];
 
+$_SESSION['panier'][] = $_SESSION['voyage_en_cours'];
 
 // Préparation de la payment request
 $vendeur    = "MI-2_H";
