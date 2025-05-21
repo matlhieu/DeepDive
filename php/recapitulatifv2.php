@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (!isset($_SESSION['role']) || $_SESSION['role'] === 'ban') {
+if (!isset($_SESSION['role']) || $_SESSION['bannissment'] === 'BANNI') {
     header('Location: login.php');
     exit;
 }
