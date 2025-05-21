@@ -52,8 +52,8 @@ $destRefusees = array_diff($destinations, $destTrouvees);
     <link rel="stylesheet" href="../style/recherche.css">
 </head>
 <body>
-    <?php include("navbar.php"); ?>
-    
+       <?php include("navbar.php"); ?>
+    <div class="main-container">
     <h2 class="meilleure-plans">Les <span>meilleurs</span> plans !</h2>
 
     <?php if (!is_array($listeVoyages)): ?>
@@ -104,7 +104,7 @@ $destRefusees = array_diff($destinations, $destTrouvees);
                       💶 <?= ($voyage['prix']) ?> pour <?= $voyage['nb_personnes'] ?> personne(s)<br>
                       <span class="stars"><?= ($voyage['etoiles']) ?></span> (<?= $voyage['avis'] ?> avis)
                         <br> <br>
-                                               Vous pourrez modifier les options du voyages tels que le nombre de personnes, les activités, les hébergements... et donc le prix en cliquant sur Vue détaillée du voyage
+                        Vous pourrez modifier les options du voyages tels que le nombre de personnes, les activités, les hébergements... et donc le prix en cliquant sur Vue détaillée du voyage
                     </b>
                     <br><br>
                     <a href="vuedetaillev2.php?id=<?= $indice ?>" class="boutton-recherche">Vue détaillée du voyage</a>
@@ -116,9 +116,8 @@ $destRefusees = array_diff($destinations, $destTrouvees);
         <?php endif; ?>
 
     <?php endif; ?>
-
+         </div>
     <?php include("footer.php"); ?>
-
       <script src="../js/recherchev2.js"></script>
 </body>
 </html>
