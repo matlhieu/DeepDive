@@ -36,7 +36,7 @@ if (file_exists("../json/commandes.json")) {
 <body>
 
 <?php include("navbar.php"); ?>
-
+      <div class="main-container">
 <h2 class="meilleure-plans">Vos <span>voyages</span> déjà payés</h2>
 
 <div class="side">
@@ -44,34 +44,30 @@ if (file_exists("../json/commandes.json")) {
     <button onclick="window.location.href='profilv2.php'">Mes réservations</button>
 </div>
 
+<div class="ensemble-carré-info">
 <?php if (empty($commandes)): ?>
     <p style="margin: 20px;">Vous n'avez encore réservé aucun voyage.</p>
 <?php else: ?>
     <?php foreach ($commandes as $commande): ?>
         <div class="un-carré-info">
-            <img src="<?= ($commande['image']) ?>" alt="<?= ($commande['titre']) ?>">
+            <img src="<?= ($commande['image'] ?? 'https://via.placeholder.com/300x200') ?>" alt="Image du voyage">
             <div class="info-texte">
                 <h3> Étape 1 : <?= ($commande['titre']) ?> <br> Étape 2 : <?= ($commande['titre2']) ?> </h3>
                 <b>
-                    <b>Voici les options du voyage :
-                        <br>
-                        <br>
-                        <?php 
-                         $commande['timestamp_debut'] = strtotime($commande['date_debut']);
-                            $commande['timestamp_fin']   = strtotime($commande['date_fin']);
-                            $commande['timestamp_fin2']  = strtotime($commande['date_fin2']);
-                        ?>
-                      📅 Du <?= date('d/m/Y', $commande['timestamp_debut']) ?> au <?= date('d/m/Y', $commande['timestamp_fin2']) ?><br>
-                      💶 <?= ($commande['montant']) ?> € payés pour <?= $commande['nb_personnes'] ?> personne(s)<br>
-                        <br> <br>
+                    Voici les options du voyage :
+                    <br><br>
+                    📅 Du <?= date('d/m/Y', $commande['date_debut']) ?> au <?= date('d/m/Y', $commande['date_fin2']) ?><br>
+                    💶 <?= ($commande['montant']) ?> € payés pour <?= $commande['nb_personnes'] ?> personne(s)<br><br>
                     🧾 Transaction : <?= ($commande['transaction']) ?>
                 </b>
                 <br><br>
-                <a href="commande_payee.php?transaction=<?=$commande['transaction'] ?>" class="boutton-recherche">Voir les détails</a>
+                <a href="commande_payee.php?transaction=<?= $commande['transaction'] ?>" class="boutton-recherche">Voir les détails</a>
             </div>
         </div>
     <?php endforeach; ?>
 <?php endif; ?>
+</div> 
+
 </div>
 
 <?php include("footer.php"); ?>
