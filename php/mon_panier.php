@@ -3,6 +3,19 @@ session_start();
 date_default_timezone_set('Europe/Paris');
 
 $panier = $_SESSION['panier'] ?? [];
+
+// Supprimer les doublons à l'affichage et dans la session
+$doublons = [];
+$voyages_uniques = [];
+foreach ($panier as $voyage) {
+    $doublon = $voyage['poubelle'] ?? md5(json_encode($voyage));
+    if (!in_array($doublon, $doublons)) {
+        $doublons[] = $doublon;
+        $voyage['poubelle'] = $doublon;
+        $voyages_uniques[] = $voyage;
+    }
+}
+$_SESSION['panier'] = $voyages_uniques;
 ?>
 
 <!DOCTYPE html>
