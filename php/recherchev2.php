@@ -97,9 +97,7 @@ $destRefusees = array_diff($destinations, $destTrouvees);
                 <img src="<?= ($voyage['image']) ?>" alt="<?= ($voyage['titre']) ?>">
                 <div class="info-texte">
                     <h3> Étape 1 : <?= ($voyage['titre']) ?> <br>Étape 2 : <?= ($voyage['titre2']) ?> </h3>
-                    <b>Voici les options du voyage :
-                        <br>
-                        <br>
+                    <b>
                       📅 Du <?= date('d/m/Y', $voyage['timestamp_debut']) ?> au <?= date('d/m/Y', $voyage['timestamp_fin2']) ?><br>
                       💶 <?= ($voyage['prix']) ?> pour <?= $voyage['nb_personnes'] ?> personne(s)<br>
                       <span class="stars"><?= ($voyage['etoiles']) ?></span> (<?= $voyage['avis'] ?> avis)
