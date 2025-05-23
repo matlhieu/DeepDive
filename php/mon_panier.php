@@ -16,40 +16,74 @@ $panier = $_SESSION['panier'] ?? [];
 <body>
 
 <?php include("navbar.php"); ?>
-  <div class="main-container">
-<h2 class="meilleure-plans">Vos <span>voyages</span> non encore payés</h2>
+<div class="main-container">
+  <h2 class="meilleure-plans">Vos <span>voyages</span> non encore payés</h2>
 
-<div class="ensemble-carré-info">
-<?php if (empty($panier)): ?>
-  <p style="margin: 20px;">Votre panier est vide.</p>
-<?php else: ?>
-  <?php foreach ($panier as $index => $voyage): ?>
-    <div class="un-carré-info">
-      <img src="<?= ($voyage['image']) ?>" alt="Image du voyage">
-      <div class="info-texte">
-        <h3>Étape 1 : <?= ($voyage['titre']) ?><br>Étape 2 : <?= ($voyage['titre2']) ?></h3>
-        <b>
-          📅 Du <?= date('d/m/Y', strtotime($voyage['date_debut'])) ?> au <?= date('d/m/Y', strtotime($voyage['date_fin2'])) ?><br>
-          💶 <?= ($voyage['prix_total']) ?> € pour <?= ($voyage['nb_personnes']) ?> personne(s)
-        </b>
-        <form action="paiement.php" method="POST" style="margin-top: 1rem;">
-          <?php foreach ($voyage as $key => $value): ?>
-            <?php if (is_array($value)): ?>
-              <?php foreach ($value as $val): ?>
-                <input type="hidden" name="<?= $key ?>[]" value="<?= ($val) ?>">
-              <?php endforeach; ?>
-            <?php else: ?>
-              <input type="hidden" name="<?= $key ?>" value="<?= ($value) ?>">
-            <?php endif; ?>
-          <?php endforeach; ?>
-          <input type="submit" class="boutton-recherche" value="Payer">
-        </form>
-      </div>
+  <?php if (empty($panier)): ?>
+    <p style="margin: 20px;">Votre panier est vide.</p>
+  <?php else: ?>
+
+    <div class="tri-bar">
+      <label for="triage-selection">Triage du voyage :</label>
+      <select id="triage-selection">
+          <option value="debut_asc">Commence le plus tôt</option>
+          <option value="debut_desc">Commence le plus tard</option>
+          <option value="fin_asc">Fini le plus tôt</option>
+          <option value="fin_desc">Fini le plus tard</option>
+          <option value="prix_asc">Moins cher</option>
+          <option value="prix_desc">Plus cher</option>
+          <option value="duree_asc">Durée la plus courte</option>
+          <option value="duree_desc">Durée la plus longue</option>
+      </select>
     </div>
-  <?php endforeach; ?>
-<?php endif; ?>
+
+    <div id="resultats-box" class="ensemble-carré-info">
+      <?php foreach ($panier as $index => $voyage): ?>
+        <?php
+          $timestamp_debut = strtotime($voyage['date_debut']);
+          $timestamp_fin   = strtotime($voyage['date_fin2']);
+          $prix_num        = floatval(str_replace(['€',' '], '', $voyage['prix_total']));
+          $duree           = $timestamp_fin - $timestamp_debut;
+        ?>
+        <div class="un-carré-info"
+             data-debut="<?= $timestamp_debut ?>"
+             data-fin="<?= $timestamp_fin ?>"
+             data-prix="<?= $prix_num ?>"
+             data-duree="<?= $duree ?>">
+          <img src="<?= ($voyage['image']) ?>" alt="Image du voyage">
+          <div class="info-texte">
+            <h3>Étape 1 : <?= ($voyage['titre']) ?><br>Étape 2 : <?= ($voyage['titre2']) ?></h3>
+            <b>
+              📅 Du <?= date('d/m/Y', $timestamp_debut) ?> au <?= date('d/m/Y', $timestamp_fin) ?><br>
+              💶 <?= ($voyage['prix_total']) ?> € pour <?= ($voyage['nb_personnes']) ?> personne(s)
+            </b>
+
+            <form action="paiement.php" method="POST" style="margin-top: 1rem;">
+              <?php foreach ($voyage as $key => $value): ?>
+                <?php if (is_array($value)): ?>
+                  <?php foreach ($value as $val): ?>
+                    <input type="hidden" name="<?= ($key) ?>[]" value="<?= ($val) ?>">
+                  <?php endforeach; ?>
+                <?php else: ?>
+                  <input type="hidden" name="<?= ($key) ?>" value="<?= ($value) ?>">
+                <?php endif; ?>
+              <?php endforeach; ?>
+              <input type="submit" class="boutton-recherche" value="Payer">
+            </form>
+
+            <form action="supprimer_panier.php" method="GET">
+              <input type="hidden" name="index" value="<?= $index ?>">
+              <input type="submit" class="boutton-recherche" value="Supprimer ce voyage">
+            </form>
+          </div>
+        </div>
+      <?php endforeach; ?>
+    </div>
+
+  <?php endif; ?>
 </div>
-  </div>
+
 <?php include("footer.php"); ?>
+<script src="../js/recherchev2.js"></script>
 </body>
 </html>
