@@ -12,6 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   select.addEventListener('change', applySorting);
 
-  // Appliquer le tri immédiatement au chargement
+  // Appliquer le tri immédiatement au chargement de la page
   applySorting();
 });
