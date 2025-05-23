@@ -3,7 +3,8 @@ session_start();
 
 date_default_timezone_set('Europe/Paris');
 $voyages_json = file_get_contents("../json/voyagesv2.json");
-$voyages = json_decode($voyages_json, true);
+$voyages_all = json_decode($voyages_json, true);
+$voyages = array_slice($voyages_all, -4, null, true); 
 ?>
 <!DOCTYPE html>
 <html lang="fr-FR">
@@ -38,14 +39,13 @@ $voyages = json_decode($voyages_json, true);
 
 				<div class="box-content">
 						<?php if (is_array($voyages)): ?>
-	<?php
-	$voyages = array_slice($voyages, -4);
-	?>
-								<?php foreach ($voyages as $index => $voyage): ?>
+
+								<?php foreach ($voyages as $realIndex => $voyage): ?>
 										<div class="box">
 												<img src="<?= ($voyage['image']) ?>" alt="<?= ($voyage['titre']) ?>">
 												<div class="content">
-														<h3><?= ($voyage['titre']) ?></h3>
+													<h3> Étape 1 : <?= ($voyage['titre']) ?> <br>
+													  Étape 2 : <?= ($voyage['titre2']) ?> </h3>
 														<p>
 																📅 Du <?= date('d/m/Y', strtotime($voyage['date_debut'])) ?> au <?= date('d/m/Y', strtotime($voyage['date_fin2'])) ?><br>
 																💶 <?= ($voyage['prix']) ?> pour <?= $voyage['nb_personnes'] ?> personne(s)<br>
@@ -55,7 +55,7 @@ $voyages = json_decode($voyages_json, true);
 														</p>
 												</div>
 												<button class="btn">
-													<a href="vuedetaillev2.php?id=<?= $index ?>">Réserver</a>
+													<a href="vuedetaillev2.php?id=<?= $realIndex ?>">Réserver</a>
 												</button>
 										</div>
 								<?php endforeach; ?>
