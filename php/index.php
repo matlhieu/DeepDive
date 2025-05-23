@@ -47,7 +47,7 @@ $voyages = json_decode($voyages_json, true);
 												<div class="content">
 														<h3><?= ($voyage['titre']) ?></h3>
 														<p>
-																📅 Du <?= date('d/m/Y', strtotime($voyage['date_debut'])) ?> au <?= date('d/m/Y', strtotime($voyage['date_fin'])) ?><br>
+																📅 Du <?= date('d/m/Y', strtotime($voyage['date_debut'])) ?> au <?= date('d/m/Y', strtotime($voyage['date_fin2'])) ?><br>
 																💶 <?= ($voyage['prix']) ?> pour 1 personne<br>
 																<span class="stars"><?= ($voyage['etoiles']) ?></span> (<?= ($voyage['avis']) ?> avis)
 														</p>
