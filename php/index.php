@@ -48,8 +48,10 @@ $voyages = json_decode($voyages_json, true);
 														<h3><?= ($voyage['titre']) ?></h3>
 														<p>
 																📅 Du <?= date('d/m/Y', strtotime($voyage['date_debut'])) ?> au <?= date('d/m/Y', strtotime($voyage['date_fin2'])) ?><br>
-																💶 <?= ($voyage['prix']) ?> pour 1 personne<br>
+																💶 <?= ($voyage['prix']) ?> pour <?= $voyage['nb_personnes'] ?> personne(s)<br>
 																<span class="stars"><?= ($voyage['etoiles']) ?></span> (<?= ($voyage['avis']) ?> avis)
+															<br>
+															Vous pourrez modifier les options du voyages tels que le nombre de personnes, les activités, les hébergements... et donc le prix en cliquant sur Réserver
 														</p>
 												</div>
 												<button class="btn">
