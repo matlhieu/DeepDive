@@ -134,10 +134,6 @@
                       "prix": 10
                   }
               ],
-              "restauration_selectionnee": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-              "hebergement_selectionne": " place(s) dans un hôtel 3★",
-              "activites_selectionnees": [],
-              "transport_selectionne": "vélo(s) et trottinette(s) fournis",
 
               
               "activites_incluses2": [
@@ -256,10 +252,6 @@
                         "prix2": 10
                     }
                 ],
-                "restauration_selectionnee2": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-                "hebergement_selectionne2": " place(s) dans un hôtel 3★",
-                "activites_selectionnees2": [],
-                "transport_selectionne2": "vélo(s) et trottinette(s) fournis",
 
               "transport_inclus3": {
                   "label3": "place(s) d'avion de Air France",
@@ -281,8 +273,7 @@
                       "image3": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
                       "prix3": 50
                   }
-              ],
-              "transport_selectionne3": "place(s) d'avion de Air France"
+              ]
           },
       
         {
@@ -420,10 +411,6 @@
                       "prix": 10
                   }
               ],
-              "restauration_selectionnee": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-              "hebergement_selectionne": " place(s) dans un hôtel 3★",
-              "activites_selectionnees": [],
-              "transport_selectionne": "vélo(s) et trottinette(s) fournis",
 
 
               "activites_incluses2": [
@@ -542,10 +529,6 @@
                         "prix2": 10
                     }
                 ],
-                "restauration_selectionnee2": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-                "hebergement_selectionne2": " place(s) dans un hôtel 3★",
-                "activites_selectionnees2": [],
-                "transport_selectionne2": "vélo(s) et trottinette(s) fournis",
 
               "transport_inclus3": {
                   "label3": "place(s) d'avion de Air France",
@@ -567,8 +550,7 @@
                       "image3": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
                       "prix3": 50
                   }
-              ],
-              "transport_selectionne3": "place(s) d'avion de Air France"
+              ]
           },
       {
         "titre": "Whitsunday island",
@@ -705,10 +687,6 @@
                       "prix": 10
                   }
               ],
-              "restauration_selectionnee": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-              "hebergement_selectionne": " place(s) dans un hôtel 3★",
-              "activites_selectionnees": [],
-              "transport_selectionne": "vélo(s) et trottinette(s) fournis",
 
 
               "activites_incluses2": [
@@ -827,10 +805,6 @@
                         "prix2": 10
                     }
                 ],
-                "restauration_selectionnee2": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-                "hebergement_selectionne2": " place(s) dans un hôtel 3★",
-                "activites_selectionnees2": [],
-                "transport_selectionne2": "vélo(s) et trottinette(s) fournis",
 
               "transport_inclus3": {
                   "label3": "place(s) d'avion de Air France",
@@ -852,8 +826,7 @@
                       "image3": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
                       "prix3": 50
                   }
-              ],
-              "transport_selectionne3": "place(s) d'avion de Air France"
+              ]
           },
       {
         "titre": "Palawan",
@@ -990,10 +963,6 @@
                       "prix": 10
                   }
               ],
-              "restauration_selectionnee": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-              "hebergement_selectionne": " place(s) dans un hôtel 3★",
-              "activites_selectionnees": [],
-              "transport_selectionne": "vélo(s) et trottinette(s) fournis",
 
 
               "activites_incluses2": [
@@ -1112,10 +1081,6 @@
                         "prix2": 10
                     }
                 ],
-                "restauration_selectionnee2": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-                "hebergement_selectionne2": " place(s) dans un hôtel 3★",
-                "activites_selectionnees2": [],
-                "transport_selectionne2": "vélo(s) et trottinette(s) fournis",
 
               "transport_inclus3": {
                   "label3": "place(s) d'avion de Air France",
@@ -1137,8 +1102,7 @@
                       "image3": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
                       "prix3": 50
                   }
-              ],
-              "transport_selectionne3": "place(s) d'avion de Air France"
+              ]
           },
       {
         "titre": "Bali",
@@ -1275,10 +1239,6 @@
                       "prix": 10
                   }
               ],
-              "restauration_selectionnee": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-              "hebergement_selectionne": " place(s) dans un hôtel 3★",
-              "activites_selectionnees": [],
-              "transport_selectionne": "vélo(s) et trottinette(s) fournis",
 
 
               "activites_incluses2": [
@@ -1397,10 +1357,6 @@
                         "prix2": 10
                     }
                 ],
-                "restauration_selectionnee2": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-                "hebergement_selectionne2": " place(s) dans un hôtel 3★",
-                "activites_selectionnees2": [],
-                "transport_selectionne2": "vélo(s) et trottinette(s) fournis",
 
               "transport_inclus3": {
                   "label3": "place(s) d'avion de Air France",
@@ -1422,8 +1378,7 @@
                       "image3": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
                       "prix3": 50
                   }
-              ],
-              "transport_selectionne3": "place(s) d'avion de Air France"
+              ]
           },
       {
         "titre": "Malé Atoll",
@@ -1560,10 +1515,6 @@
                       "prix": 10
                   }
               ],
-              "restauration_selectionnee": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-              "hebergement_selectionne": " place(s) dans un hôtel 3★",
-              "activites_selectionnees": [],
-              "transport_selectionne": "vélo(s) et trottinette(s) fournis",
 
 
               "activites_incluses2": [
@@ -1682,10 +1633,6 @@
                         "prix2": 10
                     }
                 ],
-                "restauration_selectionnee2": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-                "hebergement_selectionne2": " place(s) dans un hôtel 3★",
-                "activites_selectionnees2": [],
-                "transport_selectionne2": "vélo(s) et trottinette(s) fournis",
 
               "transport_inclus3": {
                   "label3": "place(s) d'avion de Air France",
@@ -1707,8 +1654,7 @@
                       "image3": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
                       "prix3": 50
                   }
-              ],
-              "transport_selectionne3": "place(s) d'avion de Air France"
+              ]
           },
       {
         "titre": "Phuket",
@@ -1845,11 +1791,6 @@
                       "prix": 10
                   }
               ],
-              "restauration_selectionnee": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-              "hebergement_selectionne": " place(s) dans un hôtel 3★",
-              "activites_selectionnees": [],
-              "transport_selectionne": "vélo(s) et trottinette(s) fournis",
-
 
               "activites_incluses2": [
                     { "label2": "la plongée", "image2": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
@@ -1967,10 +1908,6 @@
                         "prix2": 10
                     }
                 ],
-                "restauration_selectionnee2": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-                "hebergement_selectionne2": " place(s) dans un hôtel 3★",
-                "activites_selectionnees2": [],
-                "transport_selectionne2": "vélo(s) et trottinette(s) fournis",
 
               "transport_inclus3": {
                   "label3": "place(s) d'avion de Air France",
@@ -1992,8 +1929,7 @@
                       "image3": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
                       "prix3": 50
                   }
-              ],
-              "transport_selectionne3": "place(s) d'avion de Air France"
+              ]
           },
        {
         "titre": "Îles Canaries",
@@ -2130,11 +2066,6 @@
                       "prix": 10
                   }
               ],
-              "restauration_selectionnee": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-              "hebergement_selectionne": " place(s) dans un hôtel 3★",
-              "activites_selectionnees": [],
-              "transport_selectionne": "vélo(s) et trottinette(s) fournis",
-
 
               "activites_incluses2": [
                     { "label2": "la plongée", "image2": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
@@ -2252,10 +2183,6 @@
                         "prix2": 10
                     }
                 ],
-                "restauration_selectionnee2": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-                "hebergement_selectionne2": " place(s) dans un hôtel 3★",
-                "activites_selectionnees2": [],
-                "transport_selectionne2": "vélo(s) et trottinette(s) fournis",
 
               "transport_inclus3": {
                   "label3": "place(s) d'avion de Air France",
@@ -2277,8 +2204,7 @@
                       "image3": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
                       "prix3": 50
                   }
-              ],
-              "transport_selectionne3": "place(s) d'avion de Air France"
+              ]
           },
       {
         "titre": "Zakynthos/Zante",
@@ -2415,10 +2341,6 @@
                       "prix": 10
                   }
               ],
-              "restauration_selectionnee": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-              "hebergement_selectionne": " place(s) dans un hôtel 3★",
-              "activites_selectionnees": [],
-              "transport_selectionne": "vélo(s) et trottinette(s) fournis",
 
 
               "activites_incluses2": [
@@ -2537,10 +2459,6 @@
                         "prix2": 10
                     }
                 ],
-                "restauration_selectionnee2": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-                "hebergement_selectionne2": " place(s) dans un hôtel 3★",
-                "activites_selectionnees2": [],
-                "transport_selectionne2": "vélo(s) et trottinette(s) fournis",
 
               "transport_inclus3": {
                   "label3": "place(s) d'avion de Air France",
@@ -2562,8 +2480,7 @@
                       "image3": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
                       "prix3": 50
                   }
-              ],
-              "transport_selectionne3": "place(s) d'avion de Air France"
+              ]
           },
       {
         "titre": "Cancùn",
@@ -2700,10 +2617,6 @@
                       "prix": 10
                   }
               ],
-              "restauration_selectionnee": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-              "hebergement_selectionne": " place(s) dans un hôtel 3★",
-              "activites_selectionnees": [],
-              "transport_selectionne": "vélo(s) et trottinette(s) fournis",
 
 
               "activites_incluses2": [
@@ -2822,10 +2735,6 @@
                         "prix2": 10
                     }
                 ],
-                "restauration_selectionnee2": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-                "hebergement_selectionne2": " place(s) dans un hôtel 3★",
-                "activites_selectionnees2": [],
-                "transport_selectionne2": "vélo(s) et trottinette(s) fournis",
 
               "transport_inclus3": {
                   "label3": "place(s) d'avion de Air France",
@@ -2847,8 +2756,7 @@
                       "image3": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
                       "prix3": 50
                   }
-              ],
-              "transport_selectionne3": "place(s) d'avion de Air France"
+              ]
           },
       {
         "titre": "Sicile",
@@ -2985,10 +2893,6 @@
                       "prix": 10
                   }
               ],
-              "restauration_selectionnee": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-              "hebergement_selectionne": " place(s) dans un hôtel 3★",
-              "activites_selectionnees": [],
-              "transport_selectionne": "vélo(s) et trottinette(s) fournis",
 
 
               "activites_incluses2": [
@@ -3107,10 +3011,6 @@
                         "prix2": 10
                     }
                 ],
-                "restauration_selectionnee2": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-                "hebergement_selectionne2": " place(s) dans un hôtel 3★",
-                "activites_selectionnees2": [],
-                "transport_selectionne2": "vélo(s) et trottinette(s) fournis",
 
               "transport_inclus3": {
                   "label3": "place(s) d'avion de Air France",
@@ -3132,8 +3032,7 @@
                       "image3": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
                       "prix3": 50
                   }
-              ],
-              "transport_selectionne3": "place(s) d'avion de Air France"
+              ]
           },
       {
         "titre": "Manuel Antonio",
@@ -3270,10 +3169,6 @@
                       "prix": 10
                   }
               ],
-              "restauration_selectionnee": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-              "hebergement_selectionne": " place(s) dans un hôtel 3★",
-              "activites_selectionnees": [],
-              "transport_selectionne": "vélo(s) et trottinette(s) fournis",
 
 
               "activites_incluses2": [
@@ -3392,10 +3287,6 @@
                         "prix2": 10
                     }
                 ],
-                "restauration_selectionnee2": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-                "hebergement_selectionne2": " place(s) dans un hôtel 3★",
-                "activites_selectionnees2": [],
-                "transport_selectionne2": "vélo(s) et trottinette(s) fournis",
 
               "transport_inclus3": {
                   "label3": "place(s) d'avion de Air France",
@@ -3417,8 +3308,7 @@
                       "image3": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
                       "prix3": 50
                   }
-              ],
-              "transport_selectionne3": "place(s) d'avion de Air France"
+              ]
           },
       {
         "titre": "Paihia",
@@ -3555,10 +3445,6 @@
                       "prix": 10
                   }
               ],
-              "restauration_selectionnee": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-              "hebergement_selectionne": " place(s) dans un hôtel 3★",
-              "activites_selectionnees": [],
-              "transport_selectionne": "vélo(s) et trottinette(s) fournis",
 
 
               "activites_incluses2": [
@@ -3677,10 +3563,6 @@
                         "prix2": 10
                     }
                 ],
-                "restauration_selectionnee2": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-                "hebergement_selectionne2": " place(s) dans un hôtel 3★",
-                "activites_selectionnees2": [],
-                "transport_selectionne2": "vélo(s) et trottinette(s) fournis",
 
               "transport_inclus3": {
                   "label3": "place(s) d'avion de Air France",
@@ -3702,8 +3584,7 @@
                       "image3": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
                       "prix3": 50
                   }
-              ],
-              "transport_selectionne3": "place(s) d'avion de Air France"
+              ]
           },
       {
         "titre": "Boracay",
@@ -3717,7 +3598,7 @@
           "destination": "Boracay",
           "nb_personnes": 2,
         "date_personnalisable": true,
-        "image": "https://www.agoda.com/wp-content/uploads/2024/05/boracay-philippines.jpg",
+        "image": "https://cms-artifacts.artlist.io/content/motion-array/2322438/Boats_Floating_Over_Clear_Turquoise_Water._Puka_Shell_Beach._Boracay._high_resolution_preview_2322438.jpg?Expires=2036102491312&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=r3tSRW4zlw-tdsgH~UHGCu8KWjjQKnSZoqfoE3WFgg1A~mgfWgbUbmFBwB-WJ~rDvT6G9PvbZH4XIKVMYPXziPXxPVIQowGadJk593pDm-AN1DmJ3K6a1B6Mezb8bAbOdOSg9ZztqTq4~sbuqlwx97bhpzZIBNC8cC8YWTKW7vWQoiCLYvvKUjvJQufkcH4u6IxdjvuhjMFEVCMDV5jkEwr80x14BfyXEDrgHnqss1D-4H14Frrh1xz2WtSxpMGp4ry6Nod42Nfc4edb3Ljtbz0WCjuOI2mRBoVC1VOlwGKgZ7~r-DwaGZ0Xaaz5~LhDb0nlqhRVyKYJMhGIzHNhRg__",
           "image2": "https://images.ctfassets.net/rc3dlxapnu6k/1qQOIXi9qrusc2yDz6zrO6/5555d638da84a80d8bd81c3a54d708a9/iStock-962032676.jpg?w=3840&q=50&fm=webp",
         "prix": "920€",
         "avis": 254,
@@ -3840,10 +3721,6 @@
                       "prix": 10
                   }
               ],
-              "restauration_selectionnee": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-              "hebergement_selectionne": " place(s) dans un hôtel 3★",
-              "activites_selectionnees": [],
-              "transport_selectionne": "vélo(s) et trottinette(s) fournis",
 
 
               "activites_incluses2": [
@@ -3962,10 +3839,6 @@
                         "prix2": 10
                     }
                 ],
-                "restauration_selectionnee2": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-                "hebergement_selectionne2": " place(s) dans un hôtel 3★",
-                "activites_selectionnees2": [],
-                "transport_selectionne2": "vélo(s) et trottinette(s) fournis",
 
               "transport_inclus3": {
                   "label3": "place(s) d'avion de Air France",
@@ -3987,8 +3860,7 @@
                       "image3": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
                       "prix3": 50
                   }
-              ],
-              "transport_selectionne3": "place(s) d'avion de Air France"
+              ]
           },
       {
         "titre": "Bahamas",
@@ -4125,10 +3997,6 @@
                       "prix": 10
                   }
               ],
-              "restauration_selectionnee": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-              "hebergement_selectionne": " place(s) dans un hôtel 3★",
-              "activites_selectionnees": [],
-              "transport_selectionne": "vélo(s) et trottinette(s) fournis",
 
 
               "activites_incluses2": [
@@ -4247,10 +4115,6 @@
                         "prix2": 10
                     }
                 ],
-                "restauration_selectionnee2": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-                "hebergement_selectionne2": " place(s) dans un hôtel 3★",
-                "activites_selectionnees2": [],
-                "transport_selectionne2": "vélo(s) et trottinette(s) fournis",
 
               "transport_inclus3": {
                   "label3": "place(s) d'avion de Air France",
@@ -4272,7 +4136,6 @@
                       "image3": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg",
                       "prix3": 50
                   }
-              ],
-              "transport_selectionne3": "place(s) d'avion de Air France"
+              ]
           }
         ]
