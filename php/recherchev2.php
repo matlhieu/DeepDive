@@ -87,7 +87,7 @@ $destRefusees = array_diff($destinations, $destTrouvees);
     <div id="resultats-box" class="ensemble-carré-info">
         <?php foreach ($resultats as $indice => $voyage): ?>
             <?php
-              $duree = $voyage['timestamp_fin'] - $voyage['timestamp_debut'];
+              $duree = $voyage['timestamp_fin2'] - $voyage['timestamp_debut'];
             ?>
             <div class="un-carré-info" 
                  data-debut="<?= $voyage['timestamp_debut'] ?>"
