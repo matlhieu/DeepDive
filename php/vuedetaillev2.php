@@ -53,8 +53,11 @@ foreach($voyage['transports3']    as $o) $tarifs3['transport'][$o['label3']]    
     <br><br>
 
 <!-- Formulaire deux colonnes pour les choix -->
-<form id="dualForm" action="recapitulatifv2.php" method="POST">
-  <input type="hidden" name="id" value="<?= $id ?>">
+<form id="dualForm" action="recapitulatifv2.php" method="POST"
+          data-tarifs1='<?= json_encode($tarifs1, JSON_HEX_APOS|JSON_HEX_QUOT) ?>'
+          data-tarifs2='<?= json_encode($tarifs2, JSON_HEX_APOS|JSON_HEX_QUOT) ?>'
+          data-tarifs3='<?= json_encode($tarifs3, JSON_HEX_APOS|JSON_HEX_QUOT) ?>'>
+      <input type="hidden" name="id" value="<?= $id ?>">
 
     <div class="form-section">
         <lo for="nb_personnes">Nombre de personnes pour le voyage :</lo>
