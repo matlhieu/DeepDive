@@ -1,5 +1,0 @@
-ArseneWenger;turlututu;admin
-ThierryHenry;torlototo;admin
-RobertPires;tirlititi;user
-KylianMbappe;tyrlytyty;user
-MathieuNguyen;tarlatata;user
