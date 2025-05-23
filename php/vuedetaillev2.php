@@ -4,6 +4,21 @@ date_default_timezone_set('Europe/Paris');
 $voyages = json_decode(file_get_contents("../json/voyagesv2.json"), true);
 $id      = isset($_GET['id']) ? (int)$_GET['id'] : -1;
 $voyage  = ($id >= 0 && isset($voyages[$id])) ? $voyages[$id] : null;
+// Préparer les tarifs
+$tarifs1 = ['hebergement'=>[], 'restauration'=>[], 'activites'=>[], 'transport'=>[]];
+foreach($voyage['hebergements']   as $o) $tarifs1['hebergement'][$o['label']] = $o['prix'];
+foreach($voyage['restaurations']  as $o) $tarifs1['restauration'][$o['label']] = $o['prix'];
+foreach($voyage['activites']      as $o) $tarifs1['activites'][$o['label']]    = $o['prix'];
+foreach($voyage['transports']     as $o) $tarifs1['transport'][$o['label']]     = $o['prix'];
+
+$tarifs2 = ['hebergement'=>[], 'restauration'=>[], 'activites'=>[], 'transport'=>[]];
+foreach($voyage['hebergements2']  as $o) $tarifs2['hebergement'][$o['label2']] = $o['prix2'];
+foreach($voyage['restaurations2'] as $o) $tarifs2['restauration'][$o['label2']] = $o['prix2'];
+foreach($voyage['activites2']     as $o) $tarifs2['activites'][$o['label2']]    = $o['prix2'];
+foreach($voyage['transports2']    as $o) $tarifs2['transport'][$o['label2']]     = $o['prix2'];
+
+$tarifs3 = ['transport'=>[]];
+foreach($voyage['transports3']    as $o) $tarifs3['transport'][$o['label3']]     = $o['prix3'];
 ?>
 <!DOCTYPE html>
 <html lang="fr">
