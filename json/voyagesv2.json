@@ -11,7 +11,7 @@
               "date_personnalisable": true,
               "image": "https://www.bateliersdelacotedazur.com/decouvrir/wp-content/uploads/2021/02/ACCESSIBILITE-PMR-PORQUEROLLES.jpg",
                 "image2": "https://checkyeti.imgix.net/images/optimized/boat-trips-to-calanques-national-park.jpg",
-              "prix": "925€",
+              "prix": "2520€",
               "avis": 254,
               "etoiles": "★★★★⯨",
               "date_debut_incluses" : "2025-07-07",
@@ -279,22 +279,22 @@
         {
             "titre": "Tulum",
             "titre2": "Belize",
-            "date_debut": "2025-07-08",
-            "date_fin": "2025-07-12",
-            "date_debut2": "2025-07-12",
-            "date_fin2": "2025-07-16",
-          "date_debut_incluses2": "2025-07-12",
-          "date_fin2_incluses2": "2025-07-16",
+            "date_debut": "2025-07-06",
+            "date_fin": "2025-07-15",
+            "date_debut2": "2025-07-15",
+            "date_fin2": "2025-07-18",
+          "date_debut_incluses2": "2025-07-15",
+          "date_fin2_incluses2": "2025-07-18",
               "destination": "Tulum",
               "nb_personnes": 2,
             "date_personnalisable": true,
             "image": "https://images.odigoo.com/4334066c-efe5-4536-99a3-8d4f2f09b9e4/images/posts/a-la-decouverte-de-tulum-une-destination-eco-chic/webp/meta-a-la-decouverte-de-tulum-une-destination-eco-chic-hlrz.webp",
               "image2": "https://www.anywhere.com/img-a/belize/destinations/ambergris-caye/ambergis-caye.jpg",
-            "prix": "910€",
+            "prix": "3120€",
             "avis": 254,
             "etoiles": "★★★★⯨",
-            "date_debut_incluses" : "2025-07-08",
-            "date_fin_incluses" : "2025-07-12",
+            "date_debut_incluses" : "2025-07-06",
+            "date_fin_incluses" : "2025-07-15",
             "activites_incluses": [
                 { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
                 { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
@@ -555,26 +555,25 @@
       {
         "titre": "Whitsunday island",
         "titre2": "Nouméa",
-        "date_debut": "2025-07-08",
-        "date_fin": "2025-07-12",
-        "date_debut2": "2025-07-12",
-        "date_fin2": "2025-07-16",
-        "date_debut_incluses2": "2025-07-12",
-        "date_fin2_incluses2": "2025-07-16",
+        "date_debut": "2025-07-07",
+        "date_fin": "2025-07-14",
+        "date_debut2": "2025-07-14",
+        "date_fin2": "2025-07-17",
+        "date_debut_incluses2": "2025-07-14",
+        "date_fin2_incluses2": "2025-07-17",
           "destination": "Whitsunday island",
           "nb_personnes": 2,
         "date_personnalisable": true,
         "image": "https://www.aus-visa.org/blog/wp-content/uploads/2021/07/Whitehaven-Beach.jpg",
           "image2": "https://wallpapercat.com/w/full/c/2/6/1624151-2880x1920-desktop-hd-noumea-wallpaper-photo.jpg",
-        "prix": "955€",
+        "prix": "2670€",
         "avis": 254,
         "etoiles": "★★★★⯨",
-        "date_debut_incluses" : "2025-07-08",
-        "date_fin_incluses" : "2025-07-12",
+        "date_debut_incluses" : "2025-07-07",
+        "date_fin_incluses" : "2025-07-14",
         "activites_incluses": [
             { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
-            { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
-            { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+            { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" }
         ],
         "restauration_incluse": {
             "label": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
@@ -832,25 +831,29 @@
         "titre": "Palawan",
         "titre2": "Kota Kinabalu",
         "date_debut": "2025-07-08",
-        "date_fin": "2025-07-12",
-        "date_debut2": "2025-07-12",
-        "date_fin2": "2025-07-16",
-        "date_debut_incluses2": "2025-07-12",
-        "date_fin2_incluses2": "2025-07-16",
+        "date_fin": "2025-07-13",
+        "date_debut2": "2025-07-13",
+        "date_fin2": "2025-07-19",
+        "date_debut_incluses2": "2025-07-13",
+        "date_fin2_incluses2": "2025-07-19",
           "destination": "Palawan",
           "nb_personnes": 2,
         "date_personnalisable": true,
         "image": "https://images.unsplash.com/photo-1531761535209-180857e963b9?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWwlMjBuaWRvJTJDJTIwcGhpbGlwcGluZXN8ZW58MHx8MHx8fDA%3D",
           "image2": "https://wetu.com/ImageHandler/c1920x1080/Operators/36651/kota-kinabalu-malaysia.jpg",
-        "prix": "920€",
+        "prix": "2980€",
         "avis": 254,
         "etoiles": "★★★★⯨",
         "date_debut_incluses" : "2025-07-08",
-        "date_fin_incluses" : "2025-07-12",
+        "date_fin_incluses" : "2025-07-13",
         "activites_incluses": [
             { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
             { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
-            { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+            { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" },
+              {
+                  "label": "le canoë-Kayak de nuit",
+                  "image": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc156b9732e234b60278f8bafe7ae823"
+              }
         ],
         "restauration_incluse": {
             "label": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
@@ -1107,26 +1110,36 @@
       {
         "titre": "Bali",
         "titre2": "Dili",
-        "date_debut": "2025-07-08",
+        "date_debut": "2025-07-07",
         "date_fin": "2025-07-12",
         "date_debut2": "2025-07-12",
-        "date_fin2": "2025-07-16",
+        "date_fin2": "2025-07-15",
         "date_debut_incluses2": "2025-07-12",
-        "date_fin2_incluses2": "2025-07-16",
+        "date_fin2_incluses2": "2025-07-15",
           "destination": "Bali",
           "nb_personnes": 2,
         "date_personnalisable": true,
         "image": "https://www.zastavki.com/pictures/originals/2014/World___Asia_Quiet_bay_on_Bali_086081_.jpg",
           "image2": "https://wallpapercat.com/w/full/7/d/6/1564605-2560x1704-desktop-hd-dili-east-timor-background.jpg",
-        "prix": "920€",
+        "prix": "2480€",
         "avis": 254,
         "etoiles": "★★★★⯨",
-        "date_debut_incluses" : "2025-07-08",
+        "date_debut_incluses" : "2025-07-07",
         "date_fin_incluses" : "2025-07-12",
         "activites_incluses": [
             { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
             { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
-            { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+            { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" },
+              {
+                  "label": "le parachute ascensionnel",
+                  "image": "https://images.unsplash.com/photo-1505738313577-5357ff512f16?fm=jpg&q=60&w=3000",
+                  "prix": 45
+              },
+              {
+                  "label": "le ski nautique",
+                  "image": "https://www.biscagrandslacs.com/sites/default/files/medias/images/ski-nautique-lac-sanguinet-pierre-louis-germain.jpg",
+                  "prix": 35
+              }
         ],
         "restauration_incluse": {
             "label": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
@@ -1383,22 +1396,22 @@
       {
         "titre": "Malé Atoll",
         "titre2": "Sentosa Island",
-        "date_debut": "2025-07-08",
-        "date_fin": "2025-07-12",
-        "date_debut2": "2025-07-12",
-        "date_fin2": "2025-07-16",
-        "date_debut_incluses2": "2025-07-12",
-        "date_fin2_incluses2": "2025-07-16",
+        "date_debut": "2025-07-06",
+        "date_fin": "2025-07-11",
+        "date_debut2": "2025-07-11",
+        "date_fin2": "2025-07-14",
+        "date_debut_incluses2": "2025-07-11",
+        "date_fin2_incluses2": "2025-07-14",
           "destination": "Malé Atoll",
           "nb_personnes": 2,
         "date_personnalisable": true,
         "image": "https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/article/stories/maldives/the-story-of-olhahali/hero-1/hero-1__square.png",
           "image2": "https://epicroadrides.com/wp-content/uploads/2024/08/Cycling-in-Singapore-3026.jpg",
-        "prix": "920€",
+        "prix": "2570€",
         "avis": 254,
         "etoiles": "★★★★⯨",
-        "date_debut_incluses" : "2025-07-08",
-        "date_fin_incluses" : "2025-07-12",
+        "date_debut_incluses" : "2025-07-06",
+        "date_fin_incluses" : "2025-07-11",
         "activites_incluses": [
             { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
             { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
@@ -1410,8 +1423,8 @@
             "description": "Tooir"
         },
         "hebergement_inclus": {
-            "label": " place(s) dans un hôtel 3★",
-            "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+            "label": " place(s) dans un hôtel 4★",
+              "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
         },
         "transport_inclus": {
             "label": "vélo(s) et trottinette(s) fournis",
@@ -1659,30 +1672,30 @@
       {
         "titre": "Phuket",
         "titre2": "Ngapali",
-        "date_debut": "2025-07-08",
-        "date_fin": "2025-07-12",
-        "date_debut2": "2025-07-12",
-        "date_fin2": "2025-07-16",
-        "date_debut_incluses2": "2025-07-12",
-        "date_fin2_incluses2": "2025-07-16",
+        "date_debut": "2025-07-09",
+        "date_fin": "2025-07-14",
+        "date_debut2": "2025-07-14",
+        "date_fin2": "2025-07-20",
+        "date_debut_incluses2": "2025-07-14",
+        "date_fin2_incluses2": "2025-07-20",
           "destination": "Phuket",
-          "nb_personnes": 2,
+          "nb_personnes": 1,
         "date_personnalisable": true,
         "image": "https://wallpapercat.com/w/full/6/7/c/708452-1920x1080-desktop-full-hd-phuket-background-image.jpg",
           "image2": "https://pohcdn.com/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Ngapali.jpg",
-        "prix": "920€",
+        "prix": "2130€",
         "avis": 254,
         "etoiles": "★★★★⯨",
-        "date_debut_incluses" : "2025-07-08",
-        "date_fin_incluses" : "2025-07-12",
+        "date_debut_incluses" : "2025-07-09",
+        "date_fin_incluses" : "2025-07-14",
         "activites_incluses": [
             { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
             { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
             { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
         ],
         "restauration_incluse": {
-            "label": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-            "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+              "label": "3 repas par jour dans des restaurants locaux sélectionnés avec soin",
+              "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
             "description": "Tooir"
         },
         "hebergement_inclus": {
@@ -1934,22 +1947,22 @@
        {
         "titre": "Îles Canaries",
         "titre2": "Ibiza",
-        "date_debut": "2025-07-08",
-        "date_fin": "2025-07-12",
-        "date_debut2": "2025-07-12",
-        "date_fin2": "2025-07-16",
-        "date_debut_incluses2": "2025-07-12",
-        "date_fin2_incluses2": "2025-07-16",
+        "date_debut": "2025-07-10",
+        "date_fin": "2025-07-15",
+        "date_debut2": "2025-07-15",
+        "date_fin2": "2025-07-21",
+        "date_debut_incluses2": "2025-07-15",
+        "date_fin2_incluses2": "2025-07-21",
           "destination": "Îles Canaries",
-          "nb_personnes": 2,
+          "nb_personnes": 3,
         "date_personnalisable": true,
         "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/23/55/5a/ec/caption.jpg",
           "image2": "https://click-ibiza.com/wp-content/uploads/2024/01/Beach-of-Cala-dHort.png",
-        "prix": "920€",
+        "prix": "5170€",
         "avis": 254,
         "etoiles": "★★★★⯨",
-        "date_debut_incluses" : "2025-07-08",
-        "date_fin_incluses" : "2025-07-12",
+        "date_debut_incluses" : "2025-07-10",
+        "date_fin_incluses" : "2025-07-15",
         "activites_incluses": [
             { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
             { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
@@ -1965,8 +1978,8 @@
             "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
         },
         "transport_inclus": {
-            "label": "vélo(s) et trottinette(s) fournis",
-            "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+            "label": "voiture de location Citroën",
+             "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70"
         },
         "restaurations": [
             {
@@ -2212,15 +2225,15 @@
         "date_debut": "2025-07-08",
         "date_fin": "2025-07-12",
         "date_debut2": "2025-07-12",
-        "date_fin2": "2025-07-16",
+        "date_fin2": "2025-07-18",
         "date_debut_incluses2": "2025-07-12",
-        "date_fin2_incluses2": "2025-07-16",
+        "date_fin2_incluses2": "2025-07-18",
           "destination": "Zakynthos/Zante",
-          "nb_personnes": 2,
+          "nb_personnes": 4,
         "date_personnalisable": true,
         "image": "https://lesvoyagespaschersdeleo.fr/wp-content/uploads/2017/08/navagio_bay_greece-wallpaper-1920x1080.jpg",
           "image2": "https://cdn.futura-sciences.com/sources/images/diaporama/1592-les-plus-belles-plages-du-monde/fs-535258615.jpg",
-        "prix": "920€",
+        "prix": "5540€",
         "avis": 254,
         "etoiles": "★★★★⯨",
         "date_debut_incluses" : "2025-07-08",
@@ -2240,8 +2253,8 @@
             "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
         },
         "transport_inclus": {
-            "label": "vélo(s) et trottinette(s) fournis",
-            "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+            "label": "tickets(s) de transports en commun",
+            "image": "https://www.ivecobus.com/france/-/media/IvecoBus/France/urbain/banner-GX-ok.png"
         },
         "restaurations": [
             {
@@ -2485,22 +2498,22 @@
       {
         "titre": "Cancùn",
         "titre2": "Havana",
-        "date_debut": "2025-07-08",
-        "date_fin": "2025-07-12",
-        "date_debut2": "2025-07-12",
-        "date_fin2": "2025-07-16",
-        "date_debut_incluses2": "2025-07-12",
-        "date_fin2_incluses2": "2025-07-16",
+        "date_debut": "2025-07-09",
+        "date_fin": "2025-07-14",
+        "date_debut2": "2025-07-14",
+        "date_fin2": "2025-07-20",
+        "date_debut_incluses2": "2025-07-14",
+        "date_fin2_incluses2": "2025-07-20",
           "destination": "Cancùn",
           "nb_personnes": 2,
         "date_personnalisable": true,
         "image": "https://images.alphacoders.com/542/542032.jpg",
           "image2": "https://marriott.cdn.tambourine.com/_blue-diamond-resorts/media/header-destinations-cuba-654a64882fd6c.jpg",
-        "prix": "920€",
+        "prix": "3170€",
         "avis": 254,
         "etoiles": "★★★★⯨",
-        "date_debut_incluses" : "2025-07-08",
-        "date_fin_incluses" : "2025-07-12",
+        "date_debut_incluses" : "2025-07-09",
+        "date_fin_incluses" : "2025-07-14",
         "activites_incluses": [
             { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
             { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
@@ -2512,8 +2525,8 @@
             "description": "Tooir"
         },
         "hebergement_inclus": {
-            "label": " place(s) dans un hôtel 3★",
-            "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+            "label": " place(s) dans un hôtel 4★",
+            "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
         },
         "transport_inclus": {
             "label": "vélo(s) et trottinette(s) fournis",
@@ -2761,26 +2774,34 @@
       {
         "titre": "Sicile",
         "titre2": "San Sebastian",
-        "date_debut": "2025-07-08",
-        "date_fin": "2025-07-12",
-        "date_debut2": "2025-07-12",
-        "date_fin2": "2025-07-16",
-        "date_debut_incluses2": "2025-07-12",
-        "date_fin2_incluses2": "2025-07-16",
+        "date_debut": "2025-07-10",
+        "date_fin": "2025-07-15",
+        "date_debut2": "2025-07-15",
+        "date_fin2": "2025-07-19",
+        "date_debut_incluses2": "2025-07-15",
+        "date_fin2_incluses2": "2025-07-19",
           "destination": "Sicile",
           "nb_personnes": 2,
         "date_personnalisable": true,
         "image": "https://d2p1cf6997m1ir.cloudfront.net/media/places/areas/f4/90/85/1df1/sicily.jpg",
           "image2": "https://www.intelier.com/app/uploads/sites/719/destinos-san-sebastian-hero.jpg",
-        "prix": "920€",
+        "prix": "3070€",
         "avis": 254,
         "etoiles": "★★★★⯨",
-        "date_debut_incluses" : "2025-07-08",
-        "date_fin_incluses" : "2025-07-12",
+        "date_debut_incluses" : "2025-07-10",
+        "date_fin_incluses" : "2025-07-15",
         "activites_incluses": [
             { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
             { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
-            { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
+            { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" },
+              {
+                  "label": "le canoë-Kayak de jour",
+                  "image": "https://vertentenatural.com/wp-content/uploads/2020/06/Kayak-12-1.jpg"
+              },
+              {
+                  "label": "le canoë-Kayak de nuit",
+                  "image": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_3840,q_auto/fc156b9732e234b60278f8bafe7ae823"
+              }
         ],
         "restauration_incluse": {
             "label": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
@@ -2788,12 +2809,12 @@
             "description": "Tooir"
         },
         "hebergement_inclus": {
-            "label": " place(s) dans un hôtel 3★",
-            "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+            "label": " place(s) dans un hôtel 4★",
+            "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
         },
         "transport_inclus": {
-            "label": "vélo(s) et trottinette(s) fournis",
-            "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+              "label": "voiture de location Citroën",
+              "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70"
         },
         "restaurations": [
             {
@@ -3013,8 +3034,8 @@
                 ],
 
               "transport_inclus3": {
-                  "label3": "place(s) d'avion de Air France",
-                  "image3": "https://s1.1zoom.me/b5050/475/Passenger_Airplanes_501163_1920x1080.jpg"
+                    "label3": "place(s) de Train à Grande Vitesse",
+                    "image3": "https://phototsmt.toutsurmarseille.fr/wp-content/uploads/2019/12/DSC_0434_00001.jpg"
               },
               "transports3":[
                   {
@@ -3037,22 +3058,22 @@
       {
         "titre": "Manuel Antonio",
         "titre2": "Île de Baru",
-        "date_debut": "2025-07-08",
-        "date_fin": "2025-07-12",
-        "date_debut2": "2025-07-12",
-        "date_fin2": "2025-07-16",
-        "date_debut_incluses2": "2025-07-12",
-        "date_fin2_incluses2": "2025-07-16",
+        "date_debut": "2025-07-10",
+        "date_fin": "2025-07-15",
+        "date_debut2": "2025-07-15",
+        "date_fin2": "2025-07-21",
+        "date_debut_incluses2": "2025-07-15",
+        "date_fin2_incluses2": "2025-07-21",
           "destination": "Manuel Antonio",
           "nb_personnes": 2,
         "date_personnalisable": true,
         "image": "https://d3rr2gvhjw0wwy.cloudfront.net/uploads/activity_galleries/249946/2000x2000-0-70-1d53ced4c13850255c2d45a734660e07.jpg",
           "image2": "https://www.tracedirecte.com/media/original_images/oc%C3%A9an_et_plages_de_Baru_Carthag%C3%A8ne_Colombie.jpg.1920x0_q85_format-jpg.jpg",
-        "prix": "920€",
+        "prix": "2920€",
         "avis": 254,
         "etoiles": "★★★★⯨",
-        "date_debut_incluses" : "2025-07-08",
-        "date_fin_incluses" : "2025-07-12",
+        "date_debut_incluses" : "2025-07-10",
+        "date_fin_incluses" : "2025-07-15",
         "activites_incluses": [
             { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
             { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
@@ -3313,25 +3334,37 @@
       {
         "titre": "Paihia",
         "titre2": "Sydney",
-        "date_debut": "2025-07-08",
-        "date_fin": "2025-07-12",
-        "date_debut2": "2025-07-12",
-        "date_fin2": "2025-07-16",
-        "date_debut_incluses2": "2025-07-12",
-        "date_fin2_incluses2": "2025-07-16",
+        "date_debut": "2025-07-06",
+        "date_fin": "2025-07-11",
+        "date_debut2": "2025-07-11",
+        "date_fin2": "2025-07-17",
+        "date_debut_incluses2": "2025-07-11",
+        "date_fin2_incluses2": "2025-07-17",
           "destination": "Paihia",
-          "nb_personnes": 2,
+          "nb_personnes": 4,
         "date_personnalisable": true,
         "image": "https://images.ctfassets.net/bth3mlrehms2/2I7qvlg54InHzn5giHMLVT/decc946359fb45a65c4513a18c39e620/iStock-115602713_NTCG.png",
           "image2": "https://mrwallpaper.com/images/hd/sydney-manly-beach-cm9d9slc0kh20y2k.jpg",
-        "prix": "920€",
+        "prix": "6660€",
         "avis": 254,
         "etoiles": "★★★★⯨",
-        "date_debut_incluses" : "2025-07-08",
-        "date_fin_incluses" : "2025-07-12",
+        "date_debut_incluses" : "2025-07-06",
+        "date_fin_incluses" : "2025-07-11",
         "activites_incluses": [
             { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
             { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
+              {
+                  "label": "le paddle",
+                  "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg"
+              },
+              {
+                  "label": "le parachute ascensionnel",
+                  "image": "https://images.unsplash.com/photo-1505738313577-5357ff512f16?fm=jpg&q=60&w=3000"
+              },
+              {
+                  "label": "le ski nautique",
+                  "image": "https://www.biscagrandslacs.com/sites/default/files/medias/images/ski-nautique-lac-sanguinet-pierre-louis-germain.jpg"
+              },
             { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
         ],
         "restauration_incluse": {
@@ -3340,8 +3373,8 @@
             "description": "Tooir"
         },
         "hebergement_inclus": {
-            "label": " place(s) dans un hôtel 3★",
-            "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+            "label": " place(s) dans un hôtel 4★",
+            "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
         },
         "transport_inclus": {
             "label": "vélo(s) et trottinette(s) fournis",
@@ -3590,30 +3623,29 @@
         "titre": "Boracay",
         "titre2": "Koh Koun",
         "date_debut": "2025-07-08",
-        "date_fin": "2025-07-12",
-        "date_debut2": "2025-07-12",
-        "date_fin2": "2025-07-16",
-        "date_debut_incluses2": "2025-07-12",
-        "date_fin2_incluses2": "2025-07-16",
+        "date_fin": "2025-07-14",
+        "date_debut2": "2025-07-14",
+        "date_fin2": "2025-07-21",
+        "date_debut_incluses2": "2025-07-14",
+        "date_fin2_incluses2": "2025-07-21",
           "destination": "Boracay",
           "nb_personnes": 2,
         "date_personnalisable": true,
         "image": "https://cms-artifacts.artlist.io/content/motion-array/2322438/Boats_Floating_Over_Clear_Turquoise_Water._Puka_Shell_Beach._Boracay._high_resolution_preview_2322438.jpg?Expires=2036102491312&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=r3tSRW4zlw-tdsgH~UHGCu8KWjjQKnSZoqfoE3WFgg1A~mgfWgbUbmFBwB-WJ~rDvT6G9PvbZH4XIKVMYPXziPXxPVIQowGadJk593pDm-AN1DmJ3K6a1B6Mezb8bAbOdOSg9ZztqTq4~sbuqlwx97bhpzZIBNC8cC8YWTKW7vWQoiCLYvvKUjvJQufkcH4u6IxdjvuhjMFEVCMDV5jkEwr80x14BfyXEDrgHnqss1D-4H14Frrh1xz2WtSxpMGp4ry6Nod42Nfc4edb3Ljtbz0WCjuOI2mRBoVC1VOlwGKgZ7~r-DwaGZ0Xaaz5~LhDb0nlqhRVyKYJMhGIzHNhRg__",
           "image2": "https://images.ctfassets.net/rc3dlxapnu6k/1qQOIXi9qrusc2yDz6zrO6/5555d638da84a80d8bd81c3a54d708a9/iStock-962032676.jpg?w=3840&q=50&fm=webp",
-        "prix": "920€",
+        "prix": "2120€",
         "avis": 254,
         "etoiles": "★★★★⯨",
         "date_debut_incluses" : "2025-07-08",
-        "date_fin_incluses" : "2025-07-12",
+        "date_fin_incluses" : "2025-07-14",
         "activites_incluses": [
             { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
             { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
             { "label": "le paddle", "image": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
         ],
         "restauration_incluse": {
-            "label": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-            "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
-            "description": "Tooir"
+            "label": "Aucun repas inclus totale liberté pour explorer la cuisine locale ou la votre",
+            "image": "https://static.750g.com/images/1200-630/0fa217fa9300b4fbea5919f9f7f38bdf/adobestock-430086029.jpg"
         },
         "hebergement_inclus": {
             "label": " place(s) dans un hôtel 3★",
@@ -3729,9 +3761,8 @@
                     { "label2": "le paddle", "image2": "https://www.atoutnautic.fr/wp-content/uploads/2020/04/decouverte-stand-up-paddle.jpg" }
                 ],
                 "restauration_incluse2": {
-                    "label2": "Tout les jours : petit-déjeuner à l’hôtel, sandwich local à midi, restaurant typique chaque soir",
-                    "image2": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
-                    "description2": "Tooir"
+                    "label2": "Aucun repas inclus totale liberté pour explorer la cuisine locale ou la votre",
+                    "image2": "https://static.750g.com/images/1200-630/0fa217fa9300b4fbea5919f9f7f38bdf/adobestock-430086029.jpg"
                 },
                 "hebergement_inclus2": {
                     "label2": " place(s) dans un hôtel 3★",
@@ -3865,22 +3896,22 @@
       {
         "titre": "Bahamas",
         "titre2": "Bora Bora",
-        "date_debut": "2025-07-08",
-        "date_fin": "2025-07-12",
-        "date_debut2": "2025-07-12",
-        "date_fin2": "2025-07-16",
-        "date_debut_incluses2": "2025-07-12",
-        "date_fin2_incluses2": "2025-07-16",
+        "date_debut": "2025-07-09",
+        "date_fin": "2025-07-15",
+        "date_debut2": "2025-07-15",
+        "date_fin2": "2025-07-20",
+        "date_debut_incluses2": "2025-07-15",
+        "date_fin2_incluses2": "2025-07-20",
           "destination": "Bahamas",
           "nb_personnes": 2,
         "date_personnalisable": true,
         "image": "https://www.tropicalement-votre.com/templates/img/actualites/top-10-parcs-nationaux-bahamas.jpg",
           "image2": "https://wallup.net/wp-content/uploads/2017/03/29/476459-nature-sea-Bora_Bora.jpg",
-        "prix": "920€",
+        "prix": "3240€",
         "avis": 254,
         "etoiles": "★★★★⯨",
-        "date_debut_incluses" : "2025-07-08",
-        "date_fin_incluses" : "2025-07-12",
+        "date_debut_incluses" : "2025-07-09",
+        "date_fin_incluses" : "2025-07-15",
         "activites_incluses": [
             { "label": "la plongée", "image": "https://4kwallpapers.com/images/wallpapers/scuba-diver-underwater-under-the-sea-scuba-diving-sun-rays-3840x2160-8281.jpg" },
             { "label": "le jet ski", "image": "https://t4.ftcdn.net/jpg/11/07/27/03/360_F_1107270359_VQEtzUJxgWZTgu5SLAkrAGoBjj4EDThf.jpg" },
@@ -3892,12 +3923,12 @@
             "description": "Tooir"
         },
         "hebergement_inclus": {
-            "label": " place(s) dans un hôtel 3★",
-            "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+            "label": " place(s) dans une auberge",
+            "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be"
         },
         "transport_inclus": {
-            "label": "vélo(s) et trottinette(s) fournis",
-            "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+              "label": "voiture de location Citroën",
+              "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70"
         },
         "restaurations": [
             {
@@ -4010,12 +4041,12 @@
                     "description2": "Tooir"
                 },
                 "hebergement_inclus2": {
-                    "label2": " place(s) dans un hôtel 3★",
-                    "image2": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+                    "label2": " place(s) dans une auberge",
+                    "image2": "https://images.unsplash.com/photo-1570129477492-45c003edd2be"
                 },
                 "transport_inclus2": {
-                    "label2": "vélo(s) et trottinette(s) fournis",
-                    "image2": "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+                      "label2": "voiture de location Citroën",
+                      "image2": "https://images.unsplash.com/photo-1503376780353-7e6692767b70"
                 },
                 "restaurations2": [
                     {
