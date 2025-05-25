@@ -8,7 +8,7 @@
                  echo'<p><a href="admin.php">Admin</a></p>';
               }
                ?>
-			  <p><a href="../index.php">Accueil</a></p>
+			  <p><a href="index.php">Accueil</a></p>
 			  <p><a href="destinations.php">Destinations</a></p>
 			  <p><a href="recherchev1.php">Recherche</a></p>
 			  <?php 
