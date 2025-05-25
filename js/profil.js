@@ -16,21 +16,48 @@ document.addEventListener("DOMContentLoaded", () => {
     function makeEditable(id, btn) {
         const span = document.getElementById(id);
         const currentValue = span.textContent;
-        const input = document.createElement(id === "naissance" ? "input" : "input");
-        input.type = id === "naissance" ? "date" : "text";
-        input.value = currentValue;
-        input.id = id;
+
+        const input = document.createElement("input");
         input.className = "edit-input";
+        input.id = id;
+
+        if (id === "naissance") {
+            input.type = "date";
+            input.max = new Date().toISOString().split("T")[0]; // max: aujourd'hui
+            input.value = currentValue;
+        } else {
+            input.type = "text";
+            input.value = currentValue;
+        }
 
         const parent = span.parentNode;
         parent.replaceChild(input, span);
 
-        // Création boutons Valider / Annuler
         const validateBtn = document.createElement("button");
         validateBtn.textContent = "Valider";
         validateBtn.className = "edit-btn";
+
         validateBtn.onclick = () => {
             const newValue = input.value;
+
+            if (id === "naissance") {
+                const today = new Date();
+                const birthDate = new Date(newValue);
+                const age = today.getFullYear() - birthDate.getFullYear();
+                const m = today.getMonth() - birthDate.getMonth();
+                const isTooYoung = age < 18 || (age === 18 && m < 0) || (age === 18 && m === 0 && today.getDate() < birthDate.getDate());
+
+                if (birthDate > today) {
+                    alert("La date de naissance ne peut pas être dans le futur.");
+                    return;
+                }
+
+                if (isTooYoung) {
+                    alert("Vous devez avoir au moins 18 ans.");
+                    return;
+                }
+            }
+
             const newSpan = document.createElement("span");
             newSpan.id = id;
             newSpan.textContent = newValue;
@@ -42,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (newValue !== initialData[id]) {
                 modifiedData[id] = newValue;
                 showSubmitButton();
-            }application/json
+            }
         };
 
         const cancelBtn = document.createElement("button");
@@ -77,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
         fetch("update_profil.php", {
             method: "POST",
             headers: {
-                "Content-type": "../json/utilisateurs.json"
+                "Content-type": "application/json"
             },
             body: JSON.stringify(modifiedData)
         })
@@ -90,8 +117,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 alert("Erreur : " + data.message);
             }
         })
-        
-        
         .catch(err => {
             console.error("Erreur requête :", err);
             alert("Une erreur est survenue.");
