@@ -14,7 +14,7 @@
 			  <?php 
 			  if(isset($_SESSION['prenom'])){
 			  ?>
-			  <p><a href="profil.php">Profile</a></p>
+			  <p><a href="profil.php">Profil</a></p>
 			  <?php
 			  }else{
 			  ?>
