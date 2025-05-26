@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
        'prenom' => $firstname,
        'mail' => $email,
        'mdp' => $password,
-       'datedenaissance' => $datedenaissance,
+       'naissance' => $datedenaissance,
        'role' => $role,
        'bannissement' => 'non BANNI',
        'VIP' => 'non VIP'
@@ -69,7 +69,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $_SESSION["nom"] = $userData["nom"];
     $_SESSION["prenom"] = $userData["prenom"];
     $_SESSION["mail"] = $userData["mail"];
-    $_SESSION["naissance"] = $userData["datedenaissance"];
+    $_SESSION["naissance"] = $userData["naissance"];
     $_SESSION["role"] = $userData["role"];
 
     header('Location: profil.php');
